@@ -37,6 +37,11 @@
       <artifactId>magnolia-imaging</artifactId>
       <version>3.4</version>
     </dependency>
+    <dependency>
+      <groupId>com.convertow</groupId>
+      <artifactId>convertow-templates</artifactId>
+      <version>1.0-SNAPSHOT</version>
+    </dependency>
     <!-- option ii - magnolia-community-webapp -->
     <!-- Dependencies versions are already imported by parent pom. Requires "Option A" in the parent pom. -->
     <!--
