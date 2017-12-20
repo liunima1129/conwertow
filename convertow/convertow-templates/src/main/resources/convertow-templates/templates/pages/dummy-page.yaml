@@ -1,0 +1,10 @@
+templateScript: /convertow-templates/templates/pages/dummy-page.ftl
+renderType: freemarker
+visible: true
+dialog: convertow-templates:pages/dummy-page-properties
+areas:
+  main:
+    renderType: freemarker
+    availableComponents:
+      dummy-component:
+        id: convertow-templates:components/dummy-component
