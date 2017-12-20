@@ -1,0 +1,20 @@
+dialog: convertow-templates:pages/dummy-page-properties
+class: com.convertow.definition.PageTemplateDefinition
+
+templateScript: /convertow-templates/templates/pages/main.ftl
+renderType: site
+type: home
+areas:
+  htmlHeader:
+    createAreaNode: false
+    renderType: freemarker
+    templateScript: /convertow-templates/templates/pages/areas/htmlHeader.ftl
+    type: noComponent
+  main:
+    type: list
+    availableComponents:
+      dummy-component:
+        id: convertow-templates:components/dummy-component
+  footer:
+    editable: true
+title: Home

@@ -1,0 +1,43 @@
+dialog: convertow-templates:pages/dummy-page-properties
+class: info.magnolia.module.site.templates.PrototypeTemplateDefinition
+
+templateScript: /convertow-templates/templates/pages/main.ftl
+renderType: site
+type: feature
+
+areas:
+  htmlHeader:
+    createAreaNode: false
+    renderType: freemarker
+    templateScript: /convertow-templates/templates/pages/areas/htmlHeader.ftl
+    type: noComponent
+  main:
+    type: list
+  footer:
+    editable: false
+    templateScript: /convertow-templates/templates/pages/areas/footer.ftl
+    type: noComponent
+    parameters:
+      columns: 4
+    areas:
+      footer1: &footer1
+        type: list
+        templateScript: /convertow-templates/templates/pages/areas/contentContainer.ftl
+        parameters:
+          cssClass: col-md-3
+        inheritance:
+          components: all
+          enabled: true
+        availableComponents:
+          #textImage:
+            #id: travel-demo:components/textImage
+      footer2: *footer1
+      footer3: *footer1
+      footer4: *footer1
+  navigation:
+    class: com.convertow.definition.NavigationAreaDefinition
+    createAreaNode: false
+    modelClass: com.convertow.definition.NavigationAreaModel
+    renderType: freemarker
+    templateScript: /convertow-templates/templates/pages/areas/navigation.ftl
+    type: noComponent
