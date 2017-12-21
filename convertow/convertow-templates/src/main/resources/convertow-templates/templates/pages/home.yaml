@@ -30,6 +30,8 @@ areas:
         availableComponents:
           footerTitle:
             id: convertow-templates:components/footer/footerTitle
+          richText:
+            id: convertow-templates:components/footer/richText
       footer2: *footer1
       footer3: *footer1
       footer4: *footer1

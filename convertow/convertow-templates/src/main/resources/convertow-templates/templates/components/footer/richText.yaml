@@ -1,0 +1,4 @@
+templateScript: /convertow-templates/templates/components/footer/richText.ftl
+dialog: convertow-templates:components/footer/richText
+renderType: freemarker
+title: Rich Text

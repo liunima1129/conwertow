@@ -1,0 +1,13 @@
+form:
+  tabs:
+    - name: tabMain
+      fields:
+        - name: text
+          i18n: true
+          label: Text
+          class: info.magnolia.ui.form.field.definition.RichTextFieldDefinition
+actions:
+  commit:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition
