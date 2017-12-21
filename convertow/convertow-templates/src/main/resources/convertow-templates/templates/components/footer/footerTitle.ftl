@@ -1,0 +1,1 @@
+<h3 class="footer-title">${content.title!}</h3>

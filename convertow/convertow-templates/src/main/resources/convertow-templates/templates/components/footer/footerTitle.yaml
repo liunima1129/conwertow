@@ -1,0 +1,4 @@
+templateScript: /convertow-templates/templates/components/footer/footerTitle.ftl
+dialog: convertow-templates:components/footer/footerTitle
+renderType: freemarker
+title: Footer Title

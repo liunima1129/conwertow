@@ -28,8 +28,8 @@ areas:
           components: all
           enabled: true
         availableComponents:
-          dummy-component:
-            id: convertow-templates:components/dummy-component
+          footerTitle:
+            id: convertow-templates:components/footer/footerTitle
       footer2: *footer1
       footer3: *footer1
       footer4: *footer1
