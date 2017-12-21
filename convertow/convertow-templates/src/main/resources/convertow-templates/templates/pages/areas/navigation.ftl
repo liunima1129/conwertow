@@ -1,83 +1,225 @@
-[#-------------- ASSIGNMENTS --------------]
-[#include "/convertow-templates/templates/macros/searchForm.ftl"]
-[#include "/convertow-templates/templates/macros/userLinks.ftl"]
-[#include "/convertow-templates/templates/macros/navigation.ftl"]
+<header id="header">
+    <nav class="navbar navbar-expand-lg scrolling-navbar nav-bg">
+        <div class="container">
 
-[#assign siteRoot = cmsfn.siteRoot(content)]
-[#assign homeLink = cmsfn.link(siteRoot)!"/" /]
+            <div class="navbar-header">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="mdi mdi-menu"></span>
+                    <span class="mdi mdi-menu"></span>
+                    <span class="mdi mdi-menu"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt=""></a>
+            </div>
+            <div class="collapse navbar-collapse" id="main-navbar">
+                <ul class="navbar-nav mr-auto w-100 justify-content-end">
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Home
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item active" href="index.html">Home v1</a>
+                            <a class="dropdown-item" href="index-2.html">Home v2</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Pages
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="about-us.html">About Us 1</a>
+                            <a class="dropdown-item" href="about-us2.html">About Us 2</a>
+                            <a class="dropdown-item" href="team.html">Team Members</a>
+                            <a class="dropdown-item" href="services.html">Services</a>
+                            <a class="dropdown-item" href="contact-us.html">Contact Us 1</a>
+                            <a class="dropdown-item" href="contact-us2.html">Contact Us 2</a>
+                            <a class="dropdown-item" href="404.html">404</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Elements
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="tab.html">Tabs</a>
+                            <a class="dropdown-item" href="alert.html">Alert</a>
+                            <a class="dropdown-item" href="accordion.html">Accordions</a>
+                            <a class="dropdown-item" href="pricing.html">Pricing Tables</a>
+                            <a class="dropdown-item" href="buttons.html">Buttons</a>
+                            <a class="dropdown-item" href="icons.html">Icons</a>
+                            <a class="dropdown-item" href="carousel.html">Carousel</a>
+                            <a class="dropdown-item" href="counter.html">Counter</a>
+                            <a class="dropdown-item" href="map.html">Google Map</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Portfolio
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="portfolio-2.html">Portfolio 2 columns</a>
+                            <a class="dropdown-item" href="portfolio.html">Portfolio 3 columns</a>
+                            <a class="dropdown-item" href="portfolio-single.html">Portfolio Single</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Blog
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="blog.html">Blog Page</a>
+                            <a class="dropdown-item" href="blog-single.html">Blog Single Page</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Contact Us
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="contact-us.html">Contact Us 1</a>
+                            <a class="dropdown-item" href="contact-us2.html">Contact Us 2</a>
+                        </div>
+                    </li>
+                </ul>
 
-[#assign spaceClass = "navbar-spacer" /]
-
-[#assign searchProperty = siteRoot.searchResultPage! /]
-[#if searchProperty?has_content]
-    [#assign searchResultPage = cmsfn.link(cmsfn.contentById(searchProperty)) /]
-[/#if]
-
-[#assign site = sitefn.site()!]
-[#assign theme = sitefn.theme(site)!]
-
-[#assign aboutPage=model.aboutDemoLink!]
-
-[#-------------- RENDERING --------------]
-<nav class="navbar navbar-default navbar-fixed-top " role="navigation" style="clear:both;">
-
-    <div class="container">
-    [#if aboutPage?has_content]<div id="about-link"><a href="${aboutPage}">${i18n['navigation.aboutDemo']}</a></div>[/#if]
-
-    [@userLinks model.username!"" model.logoutLink!"" model.loginPageLink!"" model.profilePageLink!"" model.registrationPageLink!"" /]
-
-    [#assign localizedLinks = cmsfn.localizedLinks()!]
-    [#if localizedLinks?has_content]
-        [#assign languages = localizedLinks?keys]
-        <div id="language-link">
-            <ul>
-            [#-- Current locale should not be linked. --]
-            [#-- Use "compress" to put "li" and "a" on one line to prevent white spaces from interfering with layout. --]
-                [#list languages as lang]
-                    [#assign current = cmsfn.isCurrentLocale(lang)]
-                    <li[#if current] class="active"[/#if]>[@compress single_line=true]
-                        [#if !current]<a href="${localizedLinks[lang]!'#'}" title="${model.getLocale(lang).getDisplayName()!lang!}">[#else]<span>[/#if]${model.getLocale(lang).getDisplayLanguage()!lang?upper_case!}[#if !current]</a>[#else]</span>[/#if]
-                    [/@compress]</li>
-                [/#list]
-            </ul>
-        </div>
-    [/#if]
-
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
-                    aria-expanded="false" aria-controls="navbar" title="${i18n['navigation.toggle']}">
-                <span class="sr-only">${i18n['navigation.toggle']}</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="${homeLink}">
-                <img src="${ctx.contextPath}/.resources/${theme.name}/img/logo-white.png" alt=""/>
-            </a>
-        </div>
-
-        <div id="navbar" class="navbar-collapse collapse">
-            <div class="navbar-right">
-            [@navigation navParentItem=siteRoot navClass="nav navbar-nav" /]
-                [#-- Only when the search result page was set should the form be displayed --]
-                [#--[#if searchResultPage?exists]
-                [@searchForm action=searchResultPage! inputName="queryStr" placeholder=i18n['search.placeholder'] /]
-                [/#if]--]
+                <div class="search-icon">
+<span class="open-search">
+<i class="mdi mdi-magnify btn btn-common"></i>
+</span>
+                </div>
+                <form role="search" class="navbar-form">
+                    <div class="container">
+                        <div class="row">
+                            <div class="form-group has-feedback">
+                                <input type="text" placeholder="Type and search ..." class="form-control">
+                                <div class="close"><i class="mdi mdi-close"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
 
             </div>
         </div>
 
-    [#assign subnavigationRootPage = navfn.ancestorPageAtLevel(content, 2)!]
-    [#if subnavigationRootPage?has_content && navfn.navItems(subnavigationRootPage)?size > 0]
-        <div id="navbar-secondary" class="navbar-collapse collapse">
-            [@navigation navParentItem=subnavigationRootPage navClass="nav navbar-nav" /]
-        </div>
+        <ul class="wpb-mobile-menu">
+            <li>
+                <a class="active" href="#">
+                    Home
+                </a>
+                <ul class="dropdown">
+                    <li>
+                        <a class="active" href="index.html">Home v1</a>
+                    </li>
+                    <li>
+                        <a href="index-2.html">Home v2</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">
+                    Pages
+                </a>
+                <ul class="dropdown">
+                    <li>
+                        <a href="about-us.html">About Us 1</a>
+                    </li>
+                    <li>
+                        <a href="about-us2.html">About Us 2</a>
+                    </li>
+                    <li>
+                        <a href="team.html">Team Members</a>
+                    </li>
+                    <li>
+                        <a href="services.html">Services</a>
+                    </li>
+                    <li>
+                        <a href="contact-us.html">Contact Us 1</a>
+                    </li>
+                    <li>
+                        <a href="contact-us2.html">Contact Us 2</a>
+                    </li>
+                    <li>
+                        <a href="404.html">404</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">
+                    Elements
+                </a>
+                <ul class="dropdown">
+                    <li>
+                        <a href="tab.html">Tabs</a>
+                    </li>
+                    <li>
+                        <a href="alert.html">Alert</a>
+                    </li>
+                    <li>
+                        <a href="accordion.html">Accordions</a>
+                    </li>
+                    <li>
+                        <a href="pricing.html">Pricing Tables</a>
+                    </li>
+                    <li>
+                        <a href="buttons.html">Buttons</a>
+                    </li>
+                    <li>
+                        <a href="icons.html">Icons</a>
+                    </li>
+                    <li>
+                        <a href="carousel.html">Carousel</a>
+                    </li>
+                    <li>
+                        <a href="counter.html">Counter</a>
+                    </li>
+                    <li>
+                        <a href="map.html">Google Map</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">
+                    Portfolio
+                </a>
+                <ul class="dropdown">
+                    <li>
+                        <a href="portfolio-2.html">Portfolio 2 columns</a>
+                    </li>
+                    <li>
+                        <a href="portfolio.html">Portfolio 3 columns</a>
+                    </li>
+                    <li>
+                        <a href="portfolio-single.html">Portfolio Single</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="about.html">
+                    Blog
+                </a>
+                <ul class="dropdown">
+                    <li>
+                        <a href="blog.html">Blog Page</a>
+                    </li>
+                    <li>
+                        <a href="blog-single.html">Blog Single Page</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">
+                    Contact Us
+                </a>
+                <ul class="dropdown">
+                    <li>
+                        <a href="contact-us.html">Contact Us 1</a>
+                    </li>
+                    <li>
+                        <a href="contact-us2.html">Contact Us 2</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
 
-        [#assign spaceClass = "navbar-spacer-children" /]
-    [/#if]
-
-    </div>
-
-</nav>
-
-<div class="${spaceClass}"></div>
+    </nav>
+</header>

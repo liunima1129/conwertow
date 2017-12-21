@@ -1,5 +1,5 @@
 [#-------------- ASSIGNMENTS --------------]
-[#assign cssClass=def.parameters.cssClass!"col-lg-12"]
+[#assign cssClass=def.parameters.cssClass!""]
 
 [#-------------- RENDERING --------------]
 <div class="${cssClass}">

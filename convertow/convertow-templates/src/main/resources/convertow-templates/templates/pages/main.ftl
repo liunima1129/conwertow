@@ -10,11 +10,20 @@
     [@cms.area name="htmlHeader" contextAttributes={"pageDef":def} /]
 </head>
 <body>
-[#--[@cms.area name="navigation"/]--]
+[@cms.area name="navigation"/]
 
 [@cms.area name="main"/]
 
 [@cms.area name="footer"/]
+
+<a href="#" class="back-to-top">
+    <div class="ripple-container"></div>
+    <i class="mdi mdi-arrow-up"></i>
+</a>
+
+<div id="preloader">
+    <div class="loader" id="loader-1"></div>
+</div>
 
 <script src="${ctx.contextPath}/.resources/convertow-templates/webresources/js/email-decode.min.js"></script>
 <script src="${ctx.contextPath}/.resources/convertow-templates/webresources/js/jquery-min.js"></script>
