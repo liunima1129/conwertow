@@ -4,22 +4,22 @@
         <div class="row">
 
             <div class="col-md-6 col-lg-3 col-xl-3 footer-contact-widget">
-                [#--[@cms.area name="footer1"/]--]
+                [@cms.area name="footer1"/]
             </div>
 
 
             <div class="col-md-6 col-lg-3 col-xl-3 recent-widget">
-                [#--[@cms.area name="footer2"/]--]
+                [@cms.area name="footer2"/]
             </div>
 
 
             <div class="col-md-6 col-lg-3 col-xl-3 link-widget">
-                [#--[@cms.area name="footer3"/]--]
+                [@cms.area name="footer3"/]
             </div>
 
 
             <div class="col-md-6 col-lg-3 col-xl-3 footer-contact">
-                [#--[@cms.area name="footer4"/]--]
+                [@cms.area name="footer4"/]
             </div>
 
         </div>

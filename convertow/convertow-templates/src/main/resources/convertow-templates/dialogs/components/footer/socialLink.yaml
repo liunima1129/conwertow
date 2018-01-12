@@ -1,0 +1,30 @@
+form:
+  tabs:
+    - name: tabMain
+      fields:
+        - !include:/convertow-templates/dialogs/generic/controls/switchable-links-field.yaml
+        - name: icon
+          class: info.magnolia.ui.form.field.definition.SelectFieldDefinition
+          label: Icon
+          options:
+            - name: facebook
+              value: facebook
+              selected: true
+              label: Facebook
+            - name: twitter
+              value: twitter
+              label: Twitter
+            - name: dribbble
+              value: dribbble
+              label: dribbble
+            - name: github-circle
+              value: github-circle
+              label: Github
+            - name: linkedin
+              value: linkedin
+              label: Linkedin
+actions:
+  commit:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition

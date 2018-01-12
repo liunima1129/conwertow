@@ -65,15 +65,16 @@ areas:
           enabled: true
       footer1: &footer1
         type: list
-        templateScript: /convertow-templates/templates/pages/areas/contentContainer.ftl
-        parameters:
-          cssClass: col-md-3
         inheritance:
           components: all
           enabled: true
         availableComponents:
-          #textImage:
-            #id: travel-demo:components/textImage
+          textImage:
+            id: convertow-templates:components/footer/footerTitle
+          richText:
+            id: convertow-templates:components/footer/richText
+          footerList:
+            id: convertow-templates:components/footer/footerList
       footer2: *footer1
       footer3: *footer1
       footer4: *footer1

@@ -1,0 +1,4 @@
+templateScript: /convertow-templates/templates/components/footer/socialLink.ftl
+dialog: convertow-templates:components/footer/socialLink
+renderType: freemarker
+title: Social Link

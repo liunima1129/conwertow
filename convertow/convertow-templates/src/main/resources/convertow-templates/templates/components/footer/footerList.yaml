@@ -1,4 +1,9 @@
 templateScript: /convertow-templates/templates/components/footer/footerList.ftl
-dialog: convertow-templates:components/footer/footerList
 renderType: freemarker
 title: Footer List
+areas:
+  footerList:
+    type: list
+    availableComponents:
+      socialLink:
+        id: convertow-templates:components/footer/socialLink
