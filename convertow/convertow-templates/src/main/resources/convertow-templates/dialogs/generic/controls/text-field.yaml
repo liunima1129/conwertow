@@ -1,0 +1,6 @@
+name: text
+class: info.magnolia.ui.form.field.definition.RichTextFieldDefinition
+i18n: true
+label: Text
+source: true
+description:

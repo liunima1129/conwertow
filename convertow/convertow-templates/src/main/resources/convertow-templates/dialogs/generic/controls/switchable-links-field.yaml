@@ -1,0 +1,62 @@
+name: linkType
+class: info.magnolia.ui.form.field.definition.SwitchableFieldDefinition
+required: true
+selectionType: select
+type: String
+i18n: false
+label: Link type
+options:
+  - name: internal
+    label: internal
+    selected: true
+    value: internal
+  - name: external
+    label: external
+    selected: false
+    value: external
+  - name: download
+    label: download
+    selected: false
+    value: download
+  - name: email
+    label: email
+    selected: false
+    value: email
+fields:
+  - name: internal
+    class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
+    targetWorkspace: website
+    appName: pages
+    identifierToPathConverter:
+      class: info.magnolia.ui.form.field.converter.BaseIdentifierToPathConverter
+    type: String
+    required: false
+    label: Select page
+    description:
+  - name: external
+    class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+    type: String
+    required: false
+    i18n: false
+    label: External link (ex. http://www.example.com)
+    description:
+  - name: download
+    class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
+    targetWorkspace: dam
+    targetTreeRootPath: /
+    appName: assets
+    identifierToPathConverter:
+      class: info.magnolia.dam.app.assets.field.translator.AssetCompositeIdKeyTranslator
+    contentPreviewDefinition:
+      contentPreviewClass: org.gm.doc.ui.fields.DocumentFilePreviewComponent
+    type: String
+    required: false
+    label: Select file
+    description:
+  - name: email
+    class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+    type: String
+    required: false
+    i18n: false
+    label: Email address (ex. test@example.com)
+    description:

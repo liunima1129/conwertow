@@ -1,0 +1,6 @@
+[#assign linkHref = item[field + 'email']!]
+[#assign linkText = item['title' + field]!item['title' + field?cap_first]!item[field + 'email']!i18n['link.label']!]
+[#if linkHref?has_content && !linkHref?contains("mailto:")]
+    [#assign linkHref = "mailto:"+linkHref]
+[/#if]
+[#assign linkTarget = ""]
