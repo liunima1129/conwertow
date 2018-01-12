@@ -7,3 +7,5 @@ areas:
     availableComponents:
       socialLink:
         id: convertow-templates:components/footer/socialLink
+      links:
+        id: convertow-templates:components/links/links

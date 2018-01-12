@@ -1,0 +1,4 @@
+templateScript: /convertow-templates/templates/components/links/links.ftl
+dialog: convertow-templates:components/links/links
+renderType: freemarker
+title: Switchable Link
