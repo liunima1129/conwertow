@@ -57,6 +57,12 @@ areas:
     parameters:
       columns: 4
     areas:
+      textBootom:
+        dialog: convertow-templates:components/footer/textBotom
+        templateScript: /convertow-templates/templates/components/footer/textBotom.ftl
+        inheritance:
+          components: all
+          enabled: true
       footer1: &footer1
         type: list
         templateScript: /convertow-templates/templates/pages/areas/contentContainer.ftl
