@@ -25,24 +25,12 @@
     <div class="loader" id="loader-1"></div>
 </div>
 
-<script src="${ctx.contextPath}/.resources/convertow-templates/webresources/js/email-decode.min.js"></script>
-<script src="${ctx.contextPath}/.resources/convertow-templates/webresources/js/jquery-min.js"></script>
-<script src="${ctx.contextPath}/.resources/convertow-templates/webresources/js/popper.min.js"></script>
-<script src="${ctx.contextPath}/.resources/convertow-templates/webresources/js/bootstrap.min.js"></script>
-<script src="${ctx.contextPath}/.resources/convertow-templates/webresources/js/color-switcher.js"></script>
-<script src="${ctx.contextPath}/.resources/convertow-templates/webresources/js/jquery.mixitup.min.js"></script>
-<script src="${ctx.contextPath}/.resources/convertow-templates/webresources/js/jquery.inview.js"></script>
-<script src="${ctx.contextPath}/.resources/convertow-templates/webresources/js/jquery.counterup.min.js"></script>
-<script src="${ctx.contextPath}/.resources/convertow-templates/webresources/js/scroll-top.js"></script>
-<script src="${ctx.contextPath}/.resources/convertow-templates/webresources/js/material.min.js"></script>
-<script src="${ctx.contextPath}/.resources/convertow-templates/webresources/js/ripples.min.js"></script>
-<script src="${ctx.contextPath}/.resources/convertow-templates/webresources/js/owl.carousel.min.js"></script>
-<script src="${ctx.contextPath}/.resources/convertow-templates/webresources/js/form-validator.min.js"></script>
-<script src="${ctx.contextPath}/.resources/convertow-templates/webresources/js/contact-form-script.min.js"></script>
-<script src="${ctx.contextPath}/.resources/convertow-templates/webresources/js/wow.js"></script>
-<script src="${ctx.contextPath}/.resources/convertow-templates/webresources/js/jquery.vide.js"></script>
-<script src="${ctx.contextPath}/.resources/convertow-templates/webresources/js/jquery.magnific-popup.min.js"></script>
-<script src="${ctx.contextPath}/.resources/convertow-templates/webresources/js/jquery.slicknav.js"></script>
-<script src="${ctx.contextPath}/.resources/convertow-templates/webresources/js/main.js"></script>
+[#if def.jsFiles??]
+    [#list def.jsFiles as jsFile]
+    <script src="${jsFile.link}"></script>
+    [/#list]
+[/#if]
+
+
 </body>
 </html>
