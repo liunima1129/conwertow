@@ -1,0 +1,12 @@
+name: image
+class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
+targetWorkspace: dam
+appName: assets
+identifierToPathConverter:
+  class: info.magnolia.dam.app.assets.field.translator.AssetCompositeIdKeyTranslator
+contentPreviewDefinition:
+  contentPreviewClass: org.gm.doc.ui.fields.DocumentFilePreviewComponent
+type: String
+required: false
+label: Image
+description:

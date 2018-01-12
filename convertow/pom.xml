@@ -10,6 +10,7 @@
   <properties>
     <magnoliaVersion>5.6</magnoliaVersion>
     <javaVersion>1.8</javaVersion>
+    <damVersion>2.3</damVersion>
   </properties>
 
   <!-- Fill the following in, so you can use the release plugin -->
@@ -57,6 +58,44 @@
         <artifactId>magnolia-imaging</artifactId>
         <version>3.4</version>
       </dependency>
+
+      <!--DAM-->
+      <dependency>
+        <groupId>info.magnolia.dam</groupId>
+        <artifactId>magnolia-dam-api</artifactId>
+        <version>${damVersion}</version>
+      </dependency>
+      <dependency>
+        <groupId>info.magnolia.dam</groupId>
+        <artifactId>magnolia-dam-app</artifactId>
+        <version>${damVersion}</version>
+      </dependency>
+      <dependency>
+        <groupId>info.magnolia.dam</groupId>
+        <artifactId>magnolia-dam-compatibility</artifactId>
+        <version>${damVersion}</version>
+      </dependency>
+      <dependency>
+        <groupId>info.magnolia.dam</groupId>
+        <artifactId>magnolia-dam-core</artifactId>
+        <version>${damVersion}</version>
+      </dependency>
+      <dependency>
+        <groupId>info.magnolia.dam</groupId>
+        <artifactId>magnolia-dam-jcr</artifactId>
+        <version>${damVersion}</version>
+      </dependency>
+      <dependency>
+        <groupId>info.magnolia.dam</groupId>
+        <artifactId>magnolia-dam-templating</artifactId>
+        <version>${damVersion}</version>
+      </dependency>
+      <dependency>
+        <groupId>info.magnolia.dam</groupId>
+        <artifactId>magnolia-dam-imaging</artifactId>
+        <version>${damVersion}</version>
+      </dependency>
+
     </dependencies>
   </dependencyManagement>
 

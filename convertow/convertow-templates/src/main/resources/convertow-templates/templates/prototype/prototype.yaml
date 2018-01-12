@@ -48,6 +48,12 @@ areas:
     renderType: freemarker
     templateScript: /convertow-templates/templates/pages/areas/htmlHeader.ftl
     type: noComponent
+  carousel:
+    enabled: false
+    availableComponents:
+      carouselImage:
+        id: convertow-templates:components/carousel/carouselImage
+    templateScript: /convertow-templates/templates/components/carousel/carousel.ftl
   main:
     type: list
   footer:

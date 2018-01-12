@@ -1,0 +1,10 @@
+name: page
+class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
+targetWorkspace: website
+appName: pages
+identifierToPathConverter:
+  class: info.magnolia.ui.form.field.converter.BaseIdentifierToPathConverter
+type: String
+required: false
+label: Page
+description:

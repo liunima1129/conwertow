@@ -10,10 +10,10 @@
     [@cms.area name="htmlHeader" contextAttributes={"pageDef":def} /]
 </head>
 <body>
+
 [@cms.area name="navigation"/]
-
+[@cms.area name="carousel"/]
 [@cms.area name="main"/]
-
 [@cms.area name="footer"/]
 
 <a href="#" class="back-to-top">
