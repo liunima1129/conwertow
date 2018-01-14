@@ -1,0 +1,3 @@
+templateScript: /convertow-templates/templates/components/content/dropzone.ftl
+renderType: freemarker
+title: Dropzone

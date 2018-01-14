@@ -9,6 +9,8 @@ areas:
     availableComponents:
       headerImage:
         id: convertow-templates:components/content/headerImage
+      dropzone:
+        id: convertow-templates:components/content/dropzone
   footer:
     editable: false
 title: Standard
