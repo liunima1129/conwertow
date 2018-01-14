@@ -12,6 +12,8 @@ areas:
     availableComponents:
       weDo:
         id: convertow-templates:components/teasers/weDo
+      team:
+        id: convertow-templates:components/content/team
   footer:
     editable: true
 title: Home

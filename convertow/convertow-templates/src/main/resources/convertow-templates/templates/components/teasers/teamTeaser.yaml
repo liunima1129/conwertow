@@ -1,0 +1,4 @@
+templateScript: /convertow-templates/templates/components/teasers/teamTeaser.ftl
+dialog: convertow-templates:components/teasers/teamTeaser
+renderType: freemarker
+title: Team Teaser

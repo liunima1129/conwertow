@@ -1,0 +1,26 @@
+form:
+  tabs:
+    - name: tabMain
+      fields:
+        - !include:/convertow-templates/dialogs/generic/controls/title-field.yaml
+          name: name
+          label: Name
+        - !include:/convertow-templates/dialogs/generic/controls/subtitle-field.yaml
+          name: role
+          label: Role
+        - !include /convertow-templates/dialogs/generic/controls/image-field.yaml
+    - name: tabMain
+      fields:
+        - !include:/convertow-templates/dialogs/generic/controls/title-field.yaml
+          name: twitterLink
+          label: Twitter Link
+        - !include:/convertow-templates/dialogs/generic/controls/title-field.yaml
+          name: facebookLink
+          label: Facebook Link
+        - !include:/convertow-templates/dialogs/generic/controls/title-field.yaml
+          name: linkedinkLink
+          label: Linkedin Link
+        - !include:/convertow-templates/dialogs/generic/controls/title-field.yaml
+          name: instagramkLink
+          label: Instagram Link
+actions: !include /convertow-templates/dialogs/generic/master/actions-block.yaml

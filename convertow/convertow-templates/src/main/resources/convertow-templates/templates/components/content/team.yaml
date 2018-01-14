@@ -1,0 +1,10 @@
+templateScript: /convertow-templates/templates/components/content/team.ftl
+renderType: freemarker
+title: Team
+areas:
+  teamTeaser:
+    type: list
+    availableComponents:
+      teamTeaser:
+        id: convertow-templates:components/teasers/teamTeaser
+
