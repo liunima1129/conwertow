@@ -1,0 +1,4 @@
+templateScript: /convertow-templates/templates/components/teasers/weDoTeaser.ftl
+dialog: convertow-templates:components/teasers/weDoTeaser
+renderType: freemarker
+title: What We Do Teaser

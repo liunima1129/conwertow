@@ -1,0 +1,44 @@
+name: materialIcon
+class: info.magnolia.ui.form.field.definition.SelectFieldDefinition
+label: Material Icon
+options:
+  - name: mdi-flask-outline
+    value: mdi-flask-outline
+    selected: true
+    label: mdi-flask-outline
+  - name: mdi-lightbulb-on-outline
+    value: mdi-lightbulb-on-outline
+    label: mdi-lightbulb-on-outline
+  - name: mdi-trending-up
+    value: mdi-trending-up
+    label: mdi-trending-up
+  - name: mdi-cellphone-link
+    value: mdi-cellphone-link
+    label: mdi-cellphone-link
+  - name: mdi-chart-line-variant
+    value: mdi-chart-line-variant
+    label: mdi-chart-line-variant
+  - name: mdi-format-line-style
+    value: mdi-format-line-style
+    label: mdi-format-line-style
+  - name: mdi-fingerprint
+    value: mdi-fingerprint
+    label: mdi-fingerprint
+  - name: mdi-comment-outline
+    value: mdi-comment-outline
+    label: mdi-comment-outline
+  - name: mdi-monitor-multiple
+    value: mdi-monitor-multiple
+    label: mdi-monitor-multiple
+  - name: mdi-code-tags
+    value: mdi-code-tags
+    label: mdi-code-tags
+  - name: mdi-check-all
+    value: mdi-check-all
+    label: mdi-check-all
+  - name: mdi-clock
+    value: mdi-clock
+    label: mdi-clock
+  - name: mdi-cisco-webex
+    value: mdi-cisco-webex
+    label: mdi-cisco-webex

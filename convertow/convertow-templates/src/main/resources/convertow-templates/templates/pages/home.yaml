@@ -10,8 +10,8 @@ areas:
   main:
     type: list
     availableComponents:
-      dummy-component:
-        id: convertow-templates:components/dummy-component
+      weDo:
+        id: convertow-templates:components/teasers/weDo
   footer:
     editable: true
 title: Home

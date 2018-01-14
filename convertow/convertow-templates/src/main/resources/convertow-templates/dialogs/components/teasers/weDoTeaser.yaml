@@ -1,0 +1,9 @@
+form:
+  tabs:
+    - name: tabMain
+      fields:
+        - !include:/convertow-templates/dialogs/generic/controls/title-field.yaml
+        - !include:/convertow-templates/dialogs/generic/controls/text-field.yaml
+        - !inclide:/convertow-templates/dialogs/generic/controls/material-icons.yaml
+
+actions: !include /convertow-templates/dialogs/generic/master/actions-block.yaml
