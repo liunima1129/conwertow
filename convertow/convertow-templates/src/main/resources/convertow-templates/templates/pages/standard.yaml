@@ -1,0 +1,14 @@
+dialog: convertow-templates:pages/standardPageProperties
+class: com.convertow.definition.PageTemplateDefinition
+renderType: site
+areas:
+  carousel:
+    enabled: false
+  main:
+    type: list
+    availableComponents:
+      headerImage:
+        id: convertow-templates:components/content/headerImage
+  footer:
+    editable: false
+title: Standard

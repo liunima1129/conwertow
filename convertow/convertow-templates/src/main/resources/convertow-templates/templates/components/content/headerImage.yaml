@@ -1,0 +1,4 @@
+templateScript: /convertow-templates/templates/components/content/headerImage.ftl
+dialog: convertow-templates:components/content/headerImage
+renderType: freemarker
+title: Header Image

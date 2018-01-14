@@ -1,4 +1,4 @@
-dialog: convertow-templates:pages/dummy-page-properties
+dialog: convertow-templates:pages/homePageProperties
 class: com.convertow.definition.PageTemplateDefinition
 
 templateScript: /convertow-templates/templates/pages/main.ftl
