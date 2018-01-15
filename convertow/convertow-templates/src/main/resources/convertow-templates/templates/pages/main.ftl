@@ -30,7 +30,80 @@
     <script src="${jsFile.link}"></script>
     [/#list]
 [/#if]
+<script src="${ctx.contextPath}/.resources/convertow-templates/webresources/js/fileupload/jquery.ui.widget.min.js"></script>
+<script src="${ctx.contextPath}/.resources/convertow-templates/webresources/js/fileupload/jquery.iframe-transport.js"></script>
+<script src="${ctx.contextPath}/.resources/convertow-templates/webresources/js/fileupload/jquery.fileupload.js"></script>
+<script>
+    var contextPath = "${ctx.contextPath!}";
+    $(document).ready(function(){
+        $('.dropify-wrapper').each(function () {
+            $(this).fileupload({
+                url: contextPath + '/fileUpload',
+                dataType: 'json',
+                limitConcurrentUploads: 1,
+                limitMultiFileUploads: 1,
+                dropZone: $(this),
+                done: function (e, data) {
 
+                },
+                add: function (e, data) {
+                    if (e.isDefaultPrevented()) {
+                        return false;
+                    }
+                    var goUpload = true;
+                    $("body").addClass("loading");
+                    var uploadFile = data.files[0];
+                    if (goUpload) {
+                        if (data.autoUpload || (data.autoUpload !== false && $(this).fileupload('option', 'autoUpload'))) {
+                            data.process().done(function () {
+                                data.submit();
+                            });
+                        }
+                    }
+                },
+                error: function (e, data) {
+                    $("body").removeClass("loading");
+                },
+                success: function (resp) {
+                    $("body").removeClass("loading");
+                    var zipLink = resp.uploadDir + resp.fileName + ".zip";
+                    $('.download-all a').attr('href', zipLink);
+                    $('.download-all a').removeClass("no-active");
+                    for(var i = 1; i < resp.pageNum; i++) {
+                        var link = resp.uploadDir + resp.fileName;
+                        link = link + "_" + i + ".jpg";
 
+                        var tr = $('<tr/>').addClass("template-upload fade in").appendTo('.files');
+
+                        var tdImage = $('<td/>').appendTo(tr);
+                        tdImage.css("width", "60%");
+                        var tdName = $('<td/>').appendTo(tr);
+                        tdName.css("width", "25%");
+                        tdName.css("padding", "3%");
+                        var tdLink = $('<td/>').appendTo(tr);
+                        tdLink.css("width", "15%");
+                        tdLink.css("text-align", "right");
+                        tdLink.css("padding", "3%");
+
+                        var img = $('<img/>').appendTo(tdImage);
+                        img.attr('src', link);
+                        img.css("width", "10%");
+
+                        var p = $('<p/>').appendTo(tdName);
+                        p.text(resp.fileName);
+
+                        $(tdLink).append("<a class='separate-file-link' target='_blank' href='" + link + "'>Open "+ i +"</a>");
+
+                        /*var div = $('<div/>').addClass("res").appendTo('.separated-files');
+                        var img = $('<img/>').appendTo(div);
+                        img.attr('src', link);
+                        img.css("width", "10%");
+                        $(div).append("<a class='separate-file-link' target='_blank' href='" + link + "'>Image "+ i +"</a><div class='clearfix h-10'></div>");*/
+                    }
+                }
+            });
+        });
+    });
+</script>
 </body>
 </html>
