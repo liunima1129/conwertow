@@ -158,5 +158,6 @@
   <modules>
     <module>convertow-webapp</module>
     <module>convertow-templates</module>
+    <module>convertow-pdf-to-jpg</module>
   </modules>
 </project>
