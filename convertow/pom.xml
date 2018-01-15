@@ -160,5 +160,7 @@
     <module>convertow-templates</module>
     <module>convertow-pdf-to-jpg</module>
     <module>convertow-pdf-to-png</module>
+    <module>convertow-png-to-jpg</module>
+    <module>convertow-jpg-to-png</module>
   </modules>
 </project>

@@ -1,0 +1,2 @@
+templateScript: /convertow-jpg-to-png/templates/components/dummy-component.ftl
+renderType: freemarker
