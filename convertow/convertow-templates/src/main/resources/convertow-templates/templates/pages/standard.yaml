@@ -11,6 +11,8 @@ areas:
         id: convertow-templates:components/content/headerImage
       dropzone:
         id: convertow-templates:components/content/dropzone
+      pdfToJpg:
+        id: convertow-pdf-to-jpg:components/pdfToJpg
   footer:
     editable: false
 title: Standard

@@ -10,7 +10,6 @@
     [@cms.area name="htmlHeader" contextAttributes={"pageDef":def} /]
 </head>
 <body>
-
 [@cms.area name="navigation"/]
 [@cms.area name="carousel"/]
 [@cms.area name="main"/]
@@ -36,6 +35,23 @@
 <script>
     var contextPath = "${ctx.contextPath!}";
     $(document).ready(function(){
+
+        $(".dropify-convert").click(function (e) {
+            $.ajax({
+                type: "GET",
+                dataType: "jsonp",
+                url: restPath + $(".userID").val() +"&name=" + $(".fileName").val(),
+                success: function(data){
+                    alert(data);
+                }
+            });
+        });
+
+        $(".dropify-clear").click(function (e) {
+            $(".dropify-wrapper").removeClass("has-preview");
+            $(".dropify-preview").css("display","none");
+        });
+
         $('.dropify-wrapper').each(function () {
             $(this).fileupload({
                 url: contextPath + '/fileUpload',
@@ -51,9 +67,31 @@
                         return false;
                     }
                     var goUpload = true;
-                    $("body").addClass("loading");
+
                     var uploadFile = data.files[0];
+                    var extension = uploadFile.name.split('.').pop();
+
+                    if( fileSupported.toLowerCase() != extension && fileSupported. toUpperCase() != extension ){
+                        goUpload = false;
+                        $(".error-extension").text(fileSupported);
+                        $(".alert-danger").css("display", "block");
+                    }
+
+                    if( extension == "jpg" || extension == "JPG" || extension == "png" || extension == "PNG" ){
+                        $(".dropify-render i.material-icons").addClass("mdi-image");
+                    }else if( extension == "pdf" || extension == "PDF"){
+                        $(".dropify-render i.material-icons").addClass("mdi-file-pdf");
+                    }
+
+
+                    $(".dropify-extension").text(extension);
+                    $(".dropify-filename-inner").text(uploadFile.name);
+
                     if (goUpload) {
+
+                        $(".fileName").val(uploadFile.name);
+                        $(".alert-danger").css("display", "none");
+
                         if (data.autoUpload || (data.autoUpload !== false && $(this).fileupload('option', 'autoUpload'))) {
                             data.process().done(function () {
                                 data.submit();
@@ -62,44 +100,12 @@
                     }
                 },
                 error: function (e, data) {
-                    $("body").removeClass("loading");
+
                 },
                 success: function (resp) {
-                    $("body").removeClass("loading");
-                    var zipLink = resp.uploadDir + resp.fileName + ".zip";
-                    $('.download-all a').attr('href', zipLink);
-                    $('.download-all a').removeClass("no-active");
-                    for(var i = 1; i < resp.pageNum; i++) {
-                        var link = resp.uploadDir + resp.fileName;
-                        link = link + "_" + i + ".jpg";
-
-                        var tr = $('<tr/>').addClass("template-upload fade in").appendTo('.files');
-
-                        var tdImage = $('<td/>').appendTo(tr);
-                        tdImage.css("width", "60%");
-                        var tdName = $('<td/>').appendTo(tr);
-                        tdName.css("width", "25%");
-                        tdName.css("padding", "3%");
-                        var tdLink = $('<td/>').appendTo(tr);
-                        tdLink.css("width", "15%");
-                        tdLink.css("text-align", "right");
-                        tdLink.css("padding", "3%");
-
-                        var img = $('<img/>').appendTo(tdImage);
-                        img.attr('src', link);
-                        img.css("width", "10%");
-
-                        var p = $('<p/>').appendTo(tdName);
-                        p.text(resp.fileName);
-
-                        $(tdLink).append("<a class='separate-file-link' target='_blank' href='" + link + "'>Open "+ i +"</a>");
-
-                        /*var div = $('<div/>').addClass("res").appendTo('.separated-files');
-                        var img = $('<img/>').appendTo(div);
-                        img.attr('src', link);
-                        img.css("width", "10%");
-                        $(div).append("<a class='separate-file-link' target='_blank' href='" + link + "'>Image "+ i +"</a><div class='clearfix h-10'></div>");*/
-                    }
+                    $(".userID").val(resp.uuid);
+                    $(".dropify-wrapper").addClass("has-preview");
+                    $(".dropify-preview").css("display","block");
                 }
             });
         });

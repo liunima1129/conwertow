@@ -1,0 +1,4 @@
+templateScript: /convertow-pdf-to-jpg/templates/components/pdfToJpg.ftl
+dialog: convertow-pdf-to-jpg:components/pdfToJpg
+renderType: freemarker
+title: PDF to JPG

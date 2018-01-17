@@ -3,6 +3,8 @@ form:
     - name: tabMain
       fields:
         - name: title
+          i18n: true
+          label: Title
           class: info.magnolia.ui.form.field.definition.TextFieldDefinition
 actions:
   commit:

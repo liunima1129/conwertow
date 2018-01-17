@@ -117,7 +117,7 @@ public class FileUploadServlet extends HttpServlet {
         }
         long endTime = System.currentTimeMillis();
 
-        System.out.println("That took " + (endTime - startTime) + " milliseconds");
+        System.out.println("That took " + (endTime - startTime) + " milliseconds for file upload");
 
         response.getWriter().write(jsonResponse.toString());
     }
@@ -188,7 +188,7 @@ public class FileUploadServlet extends HttpServlet {
                 Document uploadedFile = form.getDocument(formFieldName);
 
                 if( uploadedFile == null ){
-                    File file = new File("C:\\Users\\Miroslav\\Desktop\\LearnJava.pdf");
+                    File file = new File("C:\\Users\\Miroslav\\Desktop\\MPLS_2015.pdf");
                     uploadedFile = new Document(file, "");
                 }
                 if (null != uploadedFile) {
