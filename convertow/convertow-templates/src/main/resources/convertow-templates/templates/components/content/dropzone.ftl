@@ -1,13 +1,41 @@
 <section class="wrapper">
     <div class="container">
         <div class="row">
+
+            <div class="col-md-12">
+                <div class="alert alert-dismissible alert-danger">
+                    <button type="button" class="close" data-dismiss="alert">×</button>
+                    <h4>${i18n['file.extension.not.supported']}!</h4>
+                    <p>${i18n['file.extension.not.supported.message']}
+                        <a href="javascript:void(0)" class="alert-link">${i18n['extension.advice']} <span class="error-extension"></span> ${i18n['extension']}</a>.</p>
+                </div>
+            </div>
+
+            <div class="col-md-12">
+                <div class="alert alert-dismissible alert-success">
+                    <button type="button" class="close" data-dismiss="alert">×</button>
+                    <h4>${i18n['success']}</h4>
+                    <p>${i18n['convert.success']}
+                        <a href="javascript:void(0)" class="alert-link">${i18n['convert.success.download']}</a>.</p>
+                </div>
+            </div>
+
+            <div class="col-md-12">
+                <div class="alert alert-dismissible alert-info">
+                    <button type="button" class="close" data-dismiss="alert">×</button>
+                    <h4>${i18n['info']}</h4>
+                    <p>${i18n['info.message']}
+                        <a href="javascript:void(0)" class="alert-link">${i18n['info.convert']}</a>.</p>
+                </div>
+            </div>
+
             <div class="col-md-12">
                 <div class="dropify-wrapper">
 
                     <div class="dropify-message">
                         <i class="material-icons pulse-shrink mdi mdi-file"></i>
-                        <p>Drag and drop a file here or click</p>
-                        <p class="dropify-error">Sorry, this file is too large</p>
+                        <p>${i18n['drag.and.drop']}</p>
+                        <p class="dropify-error">${i18n['large.file']}</p>
                     </div>
                     <input type="hidden" name="userID" id="userID" class="userID" value="">
                     <input type="hidden" name="fileName" id="fileName" class="fileName" value="">
@@ -26,20 +54,15 @@
                                     <span class="file-icon"></span>
                                     <span class="dropify-filename-inner"></span>
                                 </p>
-                                <p class="dropify-infos-message">Drag and drop or click to replace</p>
+                                <p class="dropify-infos-message">${i18n['drag.and.drop.success']}</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-md-12">
-                <div class="alert alert-dismissible alert-danger">
-                    <button type="button" class="close" data-dismiss="alert">×</button>
-                    <h4>${i18n['file.extension.not.supported']}!</h4>
-                    <p>${i18n['file.extension.not.supported.message']}
-                        <a href="javascript:void(0)" class="alert-link">${i18n['extension.advice']} <span class="error-extension"></span> ${i18n['extension']}</a>.</p>
-                </div>
+            <div class="col-md-2 zip-div">
+                <a href="javascript:void(0)" class="animated4 btn btn-common btn-lg zip-archive"><i class="material-icons mdi mdi-cloud-download"></i> ${i18n['download']}<div class="ripple-container"></div></a>
             </div>
         </div>
     </div>
@@ -54,11 +77,15 @@
  * (c) 2015 - Jeremy FAGIS <jeremy@fagis.fr> (http://fagis.fr)
  * =============================================================
  */
-    .alert{
+    .alert,footer,.zip-div{
         margin-top: 1rem;
     }
-    .alert-danger{
+    .zip-archive{
         display: none;
+    }
+    .alert-danger, .alert-success, .alert-info{
+        display: none;
+        margin-bottom: 0px!important;
     }
     @font-face {
         font-family: dropify;

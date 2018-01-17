@@ -37,12 +37,23 @@
     $(document).ready(function(){
 
         $(".dropify-convert").click(function (e) {
+
+            $(".alert-danger").hide();
+            $(".alert-info").hide();
+            $(".alert-success").hide();
+            $(".zip-archive").hide();
+
             $.ajax({
                 type: "GET",
-                dataType: "jsonp",
+                dataType: "json",
                 url: restPath + $(".userID").val() +"&name=" + $(".fileName").val(),
-                success: function(data){
-                    alert(data);
+                success: function(e, data){
+                    $(".alert-success").show();
+                    $(".zip-archive").show();
+                },
+                error: function (e, data) {
+                    $(".alert-danger").hide();
+                    $(".zip-archive").hide();
                 }
             });
         });
@@ -90,7 +101,10 @@
                     if (goUpload) {
 
                         $(".fileName").val(uploadFile.name);
-                        $(".alert-danger").css("display", "none");
+                        $(".alert-danger").hide();
+                        $(".alert-info").hide();
+                        $(".alert-success").hide();
+                        $(".zip-archive").hide();
 
                         if (data.autoUpload || (data.autoUpload !== false && $(this).fileupload('option', 'autoUpload'))) {
                             data.process().done(function () {
@@ -106,6 +120,7 @@
                     $(".userID").val(resp.uuid);
                     $(".dropify-wrapper").addClass("has-preview");
                     $(".dropify-preview").css("display","block");
+                    $(".alert-info").show();
                 }
             });
         });

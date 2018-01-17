@@ -45,7 +45,8 @@ public class PdfToJpgRestEndPoint<D extends ConfiguredEndpointDefinition> extend
         long startTime = System.currentTimeMillis();
 
         String nameWithoutExtension = name.substring(0, name.lastIndexOf('.'));
-        String filePath = PATH + id + "\\" + name;
+        /*String filePath = PATH + id + "\\" + name;*/
+        String filePath = PATH + id + "\\MPLS_2015.pdf" ;
         File file = new File(filePath);
 
         PDDocument document = null;
@@ -86,7 +87,9 @@ public class PdfToJpgRestEndPoint<D extends ConfiguredEndpointDefinition> extend
 
         long endTime = System.currentTimeMillis();
         System.out.println("That took " + (endTime - startTime) + " milliseconds for converting from PDF to JPG");
-        return Response.ok().build();
+
+        String success = "{\"success\":1}";
+        return Response.ok(success).build();
     }
 
 }
