@@ -17,9 +17,10 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.QueryParam;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
-import java.io.File;
-import java.io.IOException;
+import java.io.*;
 import java.util.AbstractMap;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipOutputStream;
 
 /**
  * Created by Miroslav on 16.1.2018.
@@ -81,6 +82,49 @@ public class PdfToJpgRestEndPoint<D extends ConfiguredEndpointDefinition> extend
 
         try {
             document.close();
+        } catch (IOException e) {
+            log.error(String.valueOf(e));
+        }
+
+        File zipFile = new File(PATH + id + "\\MPLS_2015"  +".zip");
+        FileOutputStream zipFileOut = null;
+        try {
+            zipFileOut = new FileOutputStream(zipFile);
+        }catch (Exception e){
+            log.error(String.valueOf(e));
+        }
+
+        ZipOutputStream zipOutputStream = new ZipOutputStream(new BufferedOutputStream(zipFileOut));
+
+        byte []b = new byte[1024];
+        File folder = new File(PATH + id );
+
+        try {
+            //move files to zip
+            File []listFiles=folder.listFiles();
+            for(int i=0;i<listFiles.length;i++)
+            {
+                if( !listFiles[i].getName().endsWith("zip")) {
+                    b = new byte[(int) listFiles[i].length()];
+                    FileInputStream fin = new FileInputStream(listFiles[i]);
+                    zipOutputStream.putNextEntry(new ZipEntry(listFiles[i].getName()));
+                    int length;
+                    while ((length = fin.read(b, 0, 1024)) > 0) {
+                        zipOutputStream.write(b, 0, length);
+                    }
+                    zipOutputStream.closeEntry();
+                    fin.close();
+                    listFiles[i].delete();
+                }
+
+            }
+        }catch (Exception e){
+
+        }
+
+        try {
+            zipOutputStream.close();
+
         } catch (IOException e) {
             log.error(String.valueOf(e));
         }

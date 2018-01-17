@@ -39,7 +39,6 @@
         $(".dropify-convert").click(function (e) {
 
             $(".alert-danger").hide();
-            $(".alert-info").hide();
             $(".alert-success").hide();
             $(".zip-archive").hide();
 
@@ -50,8 +49,10 @@
                 success: function(e, data){
                     $(".alert-success").show();
                     $(".zip-archive").show();
+                    $(".alert-info").hide();
                 },
                 error: function (e, data) {
+                    $(".alert-info").hide();
                     $(".alert-danger").hide();
                     $(".zip-archive").hide();
                 }
