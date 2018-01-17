@@ -13,6 +13,8 @@ areas:
         id: convertow-templates:components/content/dropzone
       pdfToJpg:
         id: convertow-pdf-to-jpg:components/pdfToJpg
+      pdfToPng:
+        id: convertow-pdf-to-png:components/pdfToPng
   footer:
     editable: false
 title: Standard

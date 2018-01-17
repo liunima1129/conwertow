@@ -1,0 +1,4 @@
+templateScript: /convertow-pdf-to-png/templates/components/pdfToPng.ftl
+dialog: convertow-pdf-to-jpg:components/pdfToJpg
+renderType: freemarker
+title: PDF to PNG
