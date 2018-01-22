@@ -31,6 +31,16 @@ form:
           i18n: true
           label: Description
           rows: 5
+    - name: tabCategories
+      fields:
+        - name: category
+          class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
+          targetWorkspace: category
+          label: Select Category
+          appName: categories
+          required: true
+          identifierToPathConverter:
+            class: info.magnolia.ui.form.field.converter.BaseIdentifierToPathConverter
 
 actions: !include /convertow-templates/dialogs/generic/master/actions-block.yaml
 

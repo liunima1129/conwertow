@@ -42,6 +42,24 @@
       <artifactId>convertow-templates</artifactId>
       <version>1.0-SNAPSHOT</version>
     </dependency>
+    <!--CATEGORIZATION-->
+    <dependency>
+      <groupId>info.magnolia.categorization</groupId>
+      <artifactId>magnolia-categorization</artifactId>
+    </dependency>
+    <!--MTE-->
+    <dependency>
+      <groupId>info.magnolia.templating</groupId>
+      <artifactId>magnolia-templating-kit</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>info.magnolia.templating</groupId>
+      <artifactId>magnolia-templating-essentials-models</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>info.magnolia.templating</groupId>
+      <artifactId>magnolia-templating-essentials-imaging</artifactId>
+    </dependency>
     <!-- option ii - magnolia-community-webapp -->
     <!-- Dependencies versions are already imported by parent pom. Requires "Option A" in the parent pom. -->
     <!--
