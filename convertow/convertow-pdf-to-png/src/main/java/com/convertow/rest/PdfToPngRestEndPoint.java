@@ -42,7 +42,8 @@ public class PdfToPngRestEndPoint<D extends ConfiguredEndpointDefinition> extend
         long startTime = System.currentTimeMillis();
 
         String nameWithoutExtension = name.substring(0, name.lastIndexOf('.'));
-        String filePath = PATH + id + "\\" + name;
+        /*String filePath = PATH + id + "\\" + name;*/
+        String filePath = PATH + id + "\\MPLS_2015.pdf" ;
         File file = new File(filePath);
 
         PDDocument document = null;

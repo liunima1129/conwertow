@@ -90,11 +90,11 @@
       <artifactId>convertow-pdf-to-png</artifactId>
       <version>1.0-SNAPSHOT</version>
     </dependency>
-<!--    <dependency>
+    <dependency>
       <groupId>com.convertow</groupId>
       <artifactId>convertow-jpg-to-png</artifactId>
       <version>1.0-SNAPSHOT</version>
-    </dependency>-->
+    </dependency>
     <dependency>
       <groupId>com.convertow</groupId>
       <artifactId>convertow-png-to-jpg</artifactId>

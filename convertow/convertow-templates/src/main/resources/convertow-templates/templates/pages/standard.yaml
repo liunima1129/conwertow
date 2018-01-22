@@ -15,6 +15,8 @@ areas:
         id: convertow-pdf-to-jpg:components/pdfToJpg
       pdfToPng:
         id: convertow-pdf-to-png:components/pdfToPng
+      jpgToPng:
+        id: convertow-jpg-to-png:components/jpgToPng
   footer:
     editable: false
 title: Standard
