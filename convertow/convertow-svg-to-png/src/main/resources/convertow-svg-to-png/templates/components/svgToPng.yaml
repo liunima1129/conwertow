@@ -1,0 +1,4 @@
+templateScript: /convertow-svg-to-png/templates/components/svgToPng.ftl
+renderType: freemarker
+title: SVG to PNG
+

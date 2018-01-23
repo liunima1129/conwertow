@@ -157,6 +157,19 @@
         <artifactId>magnolia-templating-essentials-imaging</artifactId>
         <version>1.2</version>
       </dependency>
+
+      <!--BATIK TRANSCODER-->
+      <dependency>
+        <groupId>org.apache.xmlgraphics</groupId>
+        <artifactId>batik-transcoder</artifactId>
+        <version>1.9.1</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.xmlgraphics</groupId>
+        <artifactId>batik-codec</artifactId>
+        <version>1.9.1</version>
+      </dependency>
+
     </dependencies>
   </dependencyManagement>
 
@@ -223,5 +236,6 @@
     <module>convertow-pdf-to-png</module>
     <module>convertow-png-to-jpg</module>
     <module>convertow-jpg-to-png</module>
+    <module>convertow-svg-to-png</module>
   </modules>
 </project>

@@ -9,8 +9,6 @@ areas:
     availableComponents:
       headerImage:
         id: convertow-templates:components/content/headerImage
-      dropzone:
-        id: convertow-templates:components/content/dropzone
       pdfToJpg:
         id: convertow-pdf-to-jpg:components/pdfToJpg
       pdfToPng:
@@ -19,6 +17,8 @@ areas:
         id: convertow-jpg-to-png:components/jpgToPng
       pngToJpg:
         id: convertow-png-to-jpg:components/pngToJpg
+      svgToPng:
+        id: convertow-svg-to-png:components/svgToPng
   footer:
     editable: false
 title: Standard

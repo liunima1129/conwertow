@@ -89,7 +89,7 @@
                         $(".alert-danger").css("display", "block");
                     }
 
-                    if( extension == "jpg" || extension == "JPG" || extension == "png" || extension == "PNG" ){
+                    if( extension == "jpg" || extension == "JPG" || extension == "png" || extension == "PNG" || extension == "svg" || extension == "SVG"  ){
                         $(".dropify-render i.material-icons").addClass("mdi-image");
                     }else if( extension == "pdf" || extension == "PDF"){
                         $(".dropify-render i.material-icons").addClass("mdi-file-pdf");

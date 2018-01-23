@@ -60,6 +60,11 @@
       <groupId>info.magnolia.templating</groupId>
       <artifactId>magnolia-templating-essentials-imaging</artifactId>
     </dependency>
+    <!--BATIK TRANSCODER-->
+    <dependency>
+      <groupId>org.apache.xmlgraphics</groupId>
+      <artifactId>batik-transcoder</artifactId>
+    </dependency>
     <!-- option ii - magnolia-community-webapp -->
     <!-- Dependencies versions are already imported by parent pom. Requires "Option A" in the parent pom. -->
     <!--
