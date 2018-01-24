@@ -1,0 +1,4 @@
+templateScript: /convertow-svg-to-jpg/templates/components/svgToJpg.ftl
+renderType: freemarker
+title: SVG to JPG
+
