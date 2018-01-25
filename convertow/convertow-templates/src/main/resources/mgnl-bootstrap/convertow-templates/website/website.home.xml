@@ -1,0 +1,2853 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" sv:name="home">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>mgnl:page</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>da327d1d-374d-4d38-8846-814c46b7fdfc</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:comment" sv:type="String">
+    <sv:value>versions.comment.deleted</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:created" sv:type="Date">
+    <sv:value>2017-12-21T00:07:51.983+01:00</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:createdBy" sv:type="String">
+    <sv:value>superuser</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+    <sv:value>2018-01-25T23:40:48.678+01:00</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+    <sv:value>superuser</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:template" sv:type="String">
+    <sv:value>convertow-templates:pages/home</sv:value>
+  </sv:property>
+  <sv:property sv:name="title" sv:type="String">
+    <sv:value>Home</sv:value>
+  </sv:property>
+  <sv:node sv:name="main">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:area</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>d9932b4b-0f71-45d4-afed-1790491656e0</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:created" sv:type="Date">
+      <sv:value>2017-12-21T00:07:54.795+01:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:createdBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+      <sv:value>2018-01-25T23:40:48.678+01:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:node sv:name="0">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:component</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>9ee7faa9-cdf8-47f1-8132-a39575d81426</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2018-01-14T14:58:11.009+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2018-01-25T22:33:22.286+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:template" sv:type="String">
+        <sv:value>convertow-templates:components/teasers/weDo</sv:value>
+      </sv:property>
+      <sv:node sv:name="weDoTeaser">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:area</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>dd8d71df-ae3e-4ec8-80b2-9cd5928e0839</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2018-01-14T14:58:11.232+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2018-01-25T22:33:22.286+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:node sv:name="0">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:component</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>0ca7a9f4-c66a-4dec-acd7-81223650c8d6</sv:value>
+          </sv:property>
+          <sv:property sv:name="materialIcon" sv:type="String">
+            <sv:value>mdi-trending-up</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:created" sv:type="Date">
+            <sv:value>2018-01-14T14:58:55.752+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:createdBy" sv:type="String">
+            <sv:value>superuser</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+            <sv:value>2018-01-25T21:53:25.858+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+            <sv:value>superuser</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:template" sv:type="String">
+            <sv:value>convertow-templates:components/teasers/weDoTeaser</sv:value>
+          </sv:property>
+          <sv:property sv:name="text" sv:type="String">
+            <sv:value>&lt;p&gt;We use advanced mechanisms for fast conversion.&lt;/p&gt;
+</sv:value>
+          </sv:property>
+          <sv:property sv:name="text_cs" sv:type="String">
+            <sv:value>&lt;p&gt;Použ&amp;iacute;v&amp;aacute;me pokročil&amp;eacute; mechanismy pro rychlou konverzi.&lt;/p&gt;
+</sv:value>
+          </sv:property>
+          <sv:property sv:name="text_de" sv:type="String">
+            <sv:value>&lt;p&gt;Wir verwenden fortschrittliche Mechanismen f&amp;uuml;r die schnelle Konvertierung.&lt;/p&gt;
+</sv:value>
+          </sv:property>
+          <sv:property sv:name="text_es" sv:type="String">
+            <sv:value>&lt;p&gt;Usamos mecanismos avanzados para una conversi&amp;oacute;n r&amp;aacute;pida.&lt;/p&gt;
+</sv:value>
+          </sv:property>
+          <sv:property sv:name="text_fr" sv:type="String">
+            <sv:value>&lt;p&gt;Nous utilisons des m&amp;eacute;canismes avanc&amp;eacute;s pour une conversion rapide.&lt;/p&gt;
+</sv:value>
+          </sv:property>
+          <sv:property sv:name="text_in" sv:type="String">
+            <sv:value>&lt;p&gt;Kami menggunakan mekanisme lanjutan untuk konversi cepat.&lt;/p&gt;
+</sv:value>
+          </sv:property>
+          <sv:property sv:name="text_it" sv:type="String">
+            <sv:value>&lt;p&gt;Utilizziamo meccanismi avanzati per la conversione veloce.&lt;/p&gt;
+</sv:value>
+          </sv:property>
+          <sv:property sv:name="text_ja" sv:type="String">
+            <sv:value>&lt;p&gt;高速変換のために高度なメカニズムを使用しています。&lt;/p&gt;
+</sv:value>
+          </sv:property>
+          <sv:property sv:name="text_ko" sv:type="String">
+            <sv:value>&lt;p&gt;빠른 전환을 위해 고급 메커니즘을 사용합니다.&lt;/p&gt;
+</sv:value>
+          </sv:property>
+          <sv:property sv:name="text_nl" sv:type="String">
+            <sv:value>&lt;p&gt;We gebruiken geavanceerde mechanismen voor snelle conversie.&lt;/p&gt;
+</sv:value>
+          </sv:property>
+          <sv:property sv:name="text_no" sv:type="String">
+            <sv:value>&lt;p&gt;Vi bruker avanserte mekanismer for rask konvertering.&lt;/p&gt;
+</sv:value>
+          </sv:property>
+          <sv:property sv:name="text_pt" sv:type="String">
+            <sv:value>&lt;p&gt;Usamos mecanismos avan&amp;ccedil;ados para convers&amp;atilde;o r&amp;aacute;pida.&lt;/p&gt;
+</sv:value>
+          </sv:property>
+          <sv:property sv:name="text_ru" sv:type="String">
+            <sv:value>&lt;p&gt;Мы используем расширенные механизмы для быстрого преобразования.&lt;/p&gt;
+</sv:value>
+          </sv:property>
+          <sv:property sv:name="text_sv" sv:type="String">
+            <sv:value>&lt;p&gt;Vi anv&amp;auml;nder avancerade mekanismer f&amp;ouml;r snabb konvertering.&lt;/p&gt;
+</sv:value>
+          </sv:property>
+          <sv:property sv:name="title" sv:type="String">
+            <sv:value>Fast and Clean</sv:value>
+          </sv:property>
+          <sv:property sv:name="title_cs" sv:type="String">
+            <sv:value>Rychle a čistě</sv:value>
+          </sv:property>
+          <sv:property sv:name="title_de" sv:type="String">
+            <sv:value>Schnell und sauber</sv:value>
+          </sv:property>
+          <sv:property sv:name="title_es" sv:type="String">
+            <sv:value>Rápido y limpio</sv:value>
+          </sv:property>
+          <sv:property sv:name="title_fr" sv:type="String">
+            <sv:value>Rapide et propre</sv:value>
+          </sv:property>
+          <sv:property sv:name="title_in" sv:type="String">
+            <sv:value>Cepat dan Bersih</sv:value>
+          </sv:property>
+          <sv:property sv:name="title_it" sv:type="String">
+            <sv:value>Veloce e pulito</sv:value>
+          </sv:property>
+          <sv:property sv:name="title_ja" sv:type="String">
+            <sv:value>速くてきれいな</sv:value>
+          </sv:property>
+          <sv:property sv:name="title_ko" sv:type="String">
+            <sv:value>빠르고 깨끗한</sv:value>
+          </sv:property>
+          <sv:property sv:name="title_nl" sv:type="String">
+            <sv:value>Snel en schoon</sv:value>
+          </sv:property>
+          <sv:property sv:name="title_no" sv:type="String">
+            <sv:value>Rask og ren</sv:value>
+          </sv:property>
+          <sv:property sv:name="title_pt" sv:type="String">
+            <sv:value>Rápido e limpo</sv:value>
+          </sv:property>
+          <sv:property sv:name="title_ru" sv:type="String">
+            <sv:value>Быстрая и чистая</sv:value>
+          </sv:property>
+          <sv:property sv:name="title_sv" sv:type="String">
+            <sv:value>Snabbt och rent</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="00">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:component</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>77bf3889-f4e5-4544-8073-18eb6c6620ab</sv:value>
+          </sv:property>
+          <sv:property sv:name="materialIcon" sv:type="String">
+            <sv:value>mdi-cellphone-link</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:created" sv:type="Date">
+            <sv:value>2018-01-14T14:59:01.460+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:createdBy" sv:type="String">
+            <sv:value>superuser</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+            <sv:value>2018-01-25T22:03:16.343+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+            <sv:value>superuser</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:template" sv:type="String">
+            <sv:value>convertow-templates:components/teasers/weDoTeaser</sv:value>
+          </sv:property>
+          <sv:property sv:name="text" sv:type="String">
+            <sv:value>&lt;p&gt;We have implemented this tool compatible for every kind of deffice&lt;/p&gt;
+</sv:value>
+          </sv:property>
+          <sv:property sv:name="text_cs" sv:type="String">
+            <sv:value>&lt;p&gt;Implementovali jsme tento n&amp;aacute;stroj kompatibiln&amp;iacute; pro v&amp;scaron;echny typy zař&amp;iacute;zen&amp;iacute;.&lt;/p&gt;
+</sv:value>
+          </sv:property>
+          <sv:property sv:name="text_de" sv:type="String">
+            <sv:value>&lt;p&gt;Wir haben dieses Tool f&amp;uuml;r jede Art von Ger&amp;auml;t kompatibel gemacht.&lt;/p&gt;
+</sv:value>
+          </sv:property>
+          <sv:property sv:name="text_es" sv:type="String">
+            <sv:value>&lt;p&gt;Hemos implementado esta herramienta compatible para todo tipo de dispositivo.&lt;/p&gt;
+</sv:value>
+          </sv:property>
+          <sv:property sv:name="text_fr" sv:type="String">
+            <sv:value>&lt;p&gt;Nous avons impl&amp;eacute;ment&amp;eacute; cet outil compatible pour tous les types d&amp;#39;appareils.&lt;/p&gt;
+</sv:value>
+          </sv:property>
+          <sv:property sv:name="text_in" sv:type="String">
+            <sv:value>&lt;p&gt;Kami telah menerapkan alat ini untuk setiap jenis perangkat.&lt;/p&gt;
+</sv:value>
+          </sv:property>
+          <sv:property sv:name="text_it" sv:type="String">
+            <sv:value>&lt;p&gt;Abbiamo implementato questo strumento compatibile per ogni tipo di dispositivo.&lt;/p&gt;
+</sv:value>
+          </sv:property>
+          <sv:property sv:name="text_ja" sv:type="String">
+            <sv:value>&lt;p&gt;私たちは、あらゆる種類のデバイスに対応したこのツールを実装しました。&lt;/p&gt;
+</sv:value>
+          </sv:property>
+          <sv:property sv:name="text_ko" sv:type="String">
+            <sv:value>&lt;p&gt;우리는 모든 종류의 장치와 호환되는이 도구를 구현했습니다.&lt;/p&gt;
+</sv:value>
+          </sv:property>
+          <sv:property sv:name="text_nl" sv:type="String">
+            <sv:value>&lt;p&gt;We hebben deze tool compatibel gemaakt voor elk type apparaat.&lt;/p&gt;
+</sv:value>
+          </sv:property>
+          <sv:property sv:name="text_no" sv:type="String">
+            <sv:value>&lt;p&gt;Vi har implementert dette verkt&amp;oslash;yet kompatibelt for alle typer enheter.&lt;/p&gt;
+</sv:value>
+          </sv:property>
+          <sv:property sv:name="text_pt" sv:type="String">
+            <sv:value>&lt;p&gt;Implementamos essa ferramenta compat&amp;iacute;vel para todos os tipos de dispositivos.&lt;/p&gt;
+</sv:value>
+          </sv:property>
+          <sv:property sv:name="text_ru" sv:type="String">
+            <sv:value>&lt;p&gt;Мы реализовали этот инструмент, совместимый для всех типов устройств.&lt;/p&gt;
+</sv:value>
+          </sv:property>
+          <sv:property sv:name="text_sv" sv:type="String">
+            <sv:value>&lt;p&gt;Vi har implementerat det h&amp;auml;r verktyget kompatibelt f&amp;ouml;r alla typer av enheter.&lt;/p&gt;
+</sv:value>
+          </sv:property>
+          <sv:property sv:name="title" sv:type="String">
+            <sv:value>Fully Responsive</sv:value>
+          </sv:property>
+          <sv:property sv:name="title_cs" sv:type="String">
+            <sv:value>Plně reagující</sv:value>
+          </sv:property>
+          <sv:property sv:name="title_de" sv:type="String">
+            <sv:value>Vollständig reagieren</sv:value>
+          </sv:property>
+          <sv:property sv:name="title_es" sv:type="String">
+            <sv:value>Completamente receptivo</sv:value>
+          </sv:property>
+          <sv:property sv:name="title_fr" sv:type="String">
+            <sv:value>Entièrement réactif</sv:value>
+          </sv:property>
+          <sv:property sv:name="title_in" sv:type="String">
+            <sv:value>Sepenuhnya responsif</sv:value>
+          </sv:property>
+          <sv:property sv:name="title_it" sv:type="String">
+            <sv:value>Completamente reattivo</sv:value>
+          </sv:property>
+          <sv:property sv:name="title_ja" sv:type="String">
+            <sv:value>完全に反応する</sv:value>
+          </sv:property>
+          <sv:property sv:name="title_ko" sv:type="String">
+            <sv:value>완전히 반응하는</sv:value>
+          </sv:property>
+          <sv:property sv:name="title_nl" sv:type="String">
+            <sv:value>Volledig responsief</sv:value>
+          </sv:property>
+          <sv:property sv:name="title_no" sv:type="String">
+            <sv:value>Helt Responsive</sv:value>
+          </sv:property>
+          <sv:property sv:name="title_pt" sv:type="String">
+            <sv:value>Totalmente responsivo</sv:value>
+          </sv:property>
+          <sv:property sv:name="title_ru" sv:type="String">
+            <sv:value>Полностью отзывчивый</sv:value>
+          </sv:property>
+          <sv:property sv:name="title_sv" sv:type="String">
+            <sv:value>Helt Responsive</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="01">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:component</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>a3b98a23-e851-46c4-8e2f-e9afb41b785f</sv:value>
+          </sv:property>
+          <sv:property sv:name="materialIcon" sv:type="String">
+            <sv:value>mdi-lightbulb-on-outline</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:created" sv:type="Date">
+            <sv:value>2018-01-14T14:59:05.273+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:createdBy" sv:type="String">
+            <sv:value>superuser</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+            <sv:value>2018-01-25T22:13:30.736+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+            <sv:value>superuser</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:template" sv:type="String">
+            <sv:value>convertow-templates:components/teasers/weDoTeaser</sv:value>
+          </sv:property>
+          <sv:property sv:name="text" sv:type="String">
+            <sv:value>&lt;p&gt;Every day we work for implementing new free tools.&lt;/p&gt;
+</sv:value>
+          </sv:property>
+          <sv:property sv:name="text_cs" sv:type="String">
+            <sv:value>&lt;p&gt;Každ&amp;yacute; den pracujeme na implementaci nov&amp;yacute;ch bezplatn&amp;yacute;ch n&amp;aacute;strojů.&lt;/p&gt;
+</sv:value>
+          </sv:property>
+          <sv:property sv:name="text_de" sv:type="String">
+            <sv:value>&lt;p&gt;Jeden Tag arbeiten wir daran, neue kostenlose Tools zu implementieren.&lt;/p&gt;
+</sv:value>
+          </sv:property>
+          <sv:property sv:name="text_es" sv:type="String">
+            <sv:value>&lt;p&gt;Todos los d&amp;iacute;as trabajamos para implementar nuevas herramientas gratuitas.&lt;/p&gt;
+</sv:value>
+          </sv:property>
+          <sv:property sv:name="text_fr" sv:type="String">
+            <sv:value>&lt;p&gt;Chaque jour, nous travaillons &amp;agrave; la mise en &amp;oelig;uvre de nouveaux outils gratuits.&lt;/p&gt;
+</sv:value>
+          </sv:property>
+          <sv:property sv:name="text_in" sv:type="String">
+            <sv:value>&lt;p&gt;Setiap hari kami bekerja untuk menerapkan alat gratis baru.&lt;/p&gt;
+</sv:value>
+          </sv:property>
+          <sv:property sv:name="text_it" sv:type="String">
+            <sv:value>&lt;p&gt;Ogni giorno lavoriamo per implementare nuovi strumenti gratuiti.&lt;/p&gt;
+</sv:value>
+          </sv:property>
+          <sv:property sv:name="text_ja" sv:type="String">
+            <sv:value>&lt;p&gt;毎日私たちは新しい無料のツールを実装するために働いています。&lt;/p&gt;
+</sv:value>
+          </sv:property>
+          <sv:property sv:name="text_ko" sv:type="String">
+            <sv:value>&lt;p&gt;매일 새로운 무료 도구를 구현합니다.&lt;/p&gt;
+</sv:value>
+          </sv:property>
+          <sv:property sv:name="text_nl" sv:type="String">
+            <sv:value>&lt;p&gt;Elke dag werken we voor de implementatie van nieuwe gratis tools.&lt;/p&gt;
+</sv:value>
+          </sv:property>
+          <sv:property sv:name="text_no" sv:type="String">
+            <sv:value>&lt;p&gt;Hver dag jobber vi for &amp;aring; implementere nye gratis verkt&amp;oslash;y.&lt;/p&gt;
+</sv:value>
+          </sv:property>
+          <sv:property sv:name="text_pt" sv:type="String">
+            <sv:value>&lt;p&gt;Todos os dias trabalhamos para implementar novas ferramentas gratuitas.&lt;/p&gt;
+</sv:value>
+          </sv:property>
+          <sv:property sv:name="text_ru" sv:type="String">
+            <sv:value>&lt;p&gt;Каждый день мы работаем над внедрением новых бесплатных инструментов.&lt;/p&gt;
+</sv:value>
+          </sv:property>
+          <sv:property sv:name="text_sv" sv:type="String">
+            <sv:value>&lt;p&gt;Varje dag arbetar vi f&amp;ouml;r att implementera nya fria verktyg.&lt;/p&gt;
+</sv:value>
+          </sv:property>
+          <sv:property sv:name="title" sv:type="String">
+            <sv:value>New Tools</sv:value>
+          </sv:property>
+          <sv:property sv:name="title_cs" sv:type="String">
+            <sv:value>Nové nástroje</sv:value>
+          </sv:property>
+          <sv:property sv:name="title_de" sv:type="String">
+            <sv:value>Neue Werkzeuge</sv:value>
+          </sv:property>
+          <sv:property sv:name="title_es" sv:type="String">
+            <sv:value>Nuevas herramientas</sv:value>
+          </sv:property>
+          <sv:property sv:name="title_fr" sv:type="String">
+            <sv:value>Nouveaux outils</sv:value>
+          </sv:property>
+          <sv:property sv:name="title_in" sv:type="String">
+            <sv:value>Alat baru</sv:value>
+          </sv:property>
+          <sv:property sv:name="title_it" sv:type="String">
+            <sv:value>Nuovi strumenti</sv:value>
+          </sv:property>
+          <sv:property sv:name="title_ja" sv:type="String">
+            <sv:value>新しいツール</sv:value>
+          </sv:property>
+          <sv:property sv:name="title_ko" sv:type="String">
+            <sv:value>새 도구</sv:value>
+          </sv:property>
+          <sv:property sv:name="title_nl" sv:type="String">
+            <sv:value>Nieuwe hulpmiddelen</sv:value>
+          </sv:property>
+          <sv:property sv:name="title_no" sv:type="String">
+            <sv:value>Nye verktøy</sv:value>
+          </sv:property>
+          <sv:property sv:name="title_pt" sv:type="String">
+            <sv:value>Ferramentas novas</sv:value>
+          </sv:property>
+          <sv:property sv:name="title_ru" sv:type="String">
+            <sv:value>Новые инструменты</sv:value>
+          </sv:property>
+          <sv:property sv:name="title_sv" sv:type="String">
+            <sv:value>Nya verktyg</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="02">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:component</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>04cb9378-554d-4cda-bbd1-8bfebd9ef99d</sv:value>
+          </sv:property>
+          <sv:property sv:name="materialIcon" sv:type="String">
+            <sv:value>mdi-check-all</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:created" sv:type="Date">
+            <sv:value>2018-01-25T22:15:29.340+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:createdBy" sv:type="String">
+            <sv:value>superuser</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+            <sv:value>2018-01-25T22:33:22.286+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+            <sv:value>superuser</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:template" sv:type="String">
+            <sv:value>convertow-templates:components/teasers/weDoTeaser</sv:value>
+          </sv:property>
+          <sv:property sv:name="text" sv:type="String">
+            <sv:value>&lt;p&gt;We do not keep your files, we delete all files every 30 mins.&lt;/p&gt;
+</sv:value>
+          </sv:property>
+          <sv:property sv:name="text_cs" sv:type="String">
+            <sv:value>&lt;p&gt;Neudržujeme soubory, odstraňujeme v&amp;scaron;echny soubory každ&amp;yacute;ch 30 minut.&lt;/p&gt;
+</sv:value>
+          </sv:property>
+          <sv:property sv:name="text_de" sv:type="String">
+            <sv:value>&lt;p&gt;Wir behalten Ihre Dateien nicht, wir l&amp;ouml;schen alle Dateien alle 30 Minuten.&lt;/p&gt;
+</sv:value>
+          </sv:property>
+          <sv:property sv:name="text_es" sv:type="String">
+            <sv:value>&lt;p&gt;No guardamos sus archivos, eliminamos todos los archivos cada 30 minutos.&lt;/p&gt;
+</sv:value>
+          </sv:property>
+          <sv:property sv:name="text_fr" sv:type="String">
+            <sv:value>&lt;p&gt;Nous ne conservons pas vos fichiers, nous supprimons tous les fichiers toutes les 30 minutes.&lt;/p&gt;
+</sv:value>
+          </sv:property>
+          <sv:property sv:name="text_in" sv:type="String">
+            <sv:value>&lt;p&gt;Kami tidak menyimpan file Anda, kami menghapus semua file setiap 30 menit.&lt;/p&gt;
+</sv:value>
+          </sv:property>
+          <sv:property sv:name="text_it" sv:type="String">
+            <sv:value>&lt;p&gt;Non teniamo i tuoi file, cancelliamo tutti i file ogni 30 minuti.&lt;/p&gt;
+</sv:value>
+          </sv:property>
+          <sv:property sv:name="text_ja" sv:type="String">
+            <sv:value>&lt;p&gt;私たちはあなたのファイルを保持しない、私たちはすべてのファイルを30分ごとに削除します。&lt;/p&gt;
+</sv:value>
+          </sv:property>
+          <sv:property sv:name="text_ko" sv:type="String">
+            <sv:value>&lt;p&gt;우리는 귀하의 파일을 보관하지 않으며, 30 분마다 모든 파일을 삭제합니다.&lt;/p&gt;
+</sv:value>
+          </sv:property>
+          <sv:property sv:name="text_nl" sv:type="String">
+            <sv:value>&lt;p&gt;We bewaren uw bestanden niet, we verwijderen alle bestanden om de 30 minuten.&lt;/p&gt;
+</sv:value>
+          </sv:property>
+          <sv:property sv:name="text_no" sv:type="String">
+            <sv:value>&lt;p&gt;Vi beholder ikke filene dine, vi sletter alle filer hvert 30. minutt.&lt;/p&gt;
+</sv:value>
+          </sv:property>
+          <sv:property sv:name="text_pt" sv:type="String">
+            <sv:value>&lt;p&gt;N&amp;oacute;s n&amp;atilde;o mantemos seus arquivos, exclu&amp;iacute;mos todos os arquivos a cada 30 minutos.&lt;/p&gt;
+</sv:value>
+          </sv:property>
+          <sv:property sv:name="text_ru" sv:type="String">
+            <sv:value>&lt;p&gt;Мы не храним файлы, мы удаляем все файлы каждые 30 минут.&lt;/p&gt;
+</sv:value>
+          </sv:property>
+          <sv:property sv:name="text_sv" sv:type="String">
+            <sv:value>&lt;p&gt;Vi beh&amp;aring;ller inte dina filer, vi tar bort alla filer var 30: e minut.&lt;/p&gt;
+</sv:value>
+          </sv:property>
+          <sv:property sv:name="title" sv:type="String">
+            <sv:value>Security</sv:value>
+          </sv:property>
+          <sv:property sv:name="title_cs" sv:type="String">
+            <sv:value>Bezpečnostní</sv:value>
+          </sv:property>
+          <sv:property sv:name="title_de" sv:type="String">
+            <sv:value>Sicherheit</sv:value>
+          </sv:property>
+          <sv:property sv:name="title_es" sv:type="String">
+            <sv:value>Seguridad</sv:value>
+          </sv:property>
+          <sv:property sv:name="title_fr" sv:type="String">
+            <sv:value>Sécurité</sv:value>
+          </sv:property>
+          <sv:property sv:name="title_in" sv:type="String">
+            <sv:value>Keamanan</sv:value>
+          </sv:property>
+          <sv:property sv:name="title_it" sv:type="String">
+            <sv:value>Sicurezza</sv:value>
+          </sv:property>
+          <sv:property sv:name="title_ja" sv:type="String">
+            <sv:value>セキュリティ</sv:value>
+          </sv:property>
+          <sv:property sv:name="title_ko" sv:type="String">
+            <sv:value>보안</sv:value>
+          </sv:property>
+          <sv:property sv:name="title_nl" sv:type="String">
+            <sv:value>Veiligheid</sv:value>
+          </sv:property>
+          <sv:property sv:name="title_no" sv:type="String">
+            <sv:value>Sikkerhet</sv:value>
+          </sv:property>
+          <sv:property sv:name="title_pt" sv:type="String">
+            <sv:value>Segurança</sv:value>
+          </sv:property>
+          <sv:property sv:name="title_ru" sv:type="String">
+            <sv:value>Безопасность</sv:value>
+          </sv:property>
+          <sv:property sv:name="title_sv" sv:type="String">
+            <sv:value>Säkerhet</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="00">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:component</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>71feccfc-0522-429d-8cc7-844ddd5dddf7</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2018-01-14T16:40:39.804+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2018-01-25T23:16:38.634+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:template" sv:type="String">
+        <sv:value>convertow-templates:components/content/team</sv:value>
+      </sv:property>
+      <sv:node sv:name="teamTeaser">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:area</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>ab1f7188-3cee-41bf-815f-876e5f571e51</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2018-01-14T16:40:40.012+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2018-01-25T23:16:38.634+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:node sv:name="Miroslav-Pashaliski">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:component</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>3e27c019-cc83-4be1-a183-1e92ab797a02</sv:value>
+          </sv:property>
+          <sv:property sv:name="facebookLink" sv:type="String">
+            <sv:value>https://www.facebook.com/miroslav.pasaliski</sv:value>
+          </sv:property>
+          <sv:property sv:name="image" sv:type="String">
+            <sv:value>jcr:6041c158-a5d2-4fc1-8a21-02b717a8a0cf</sv:value>
+          </sv:property>
+          <sv:property sv:name="instagramkLink" sv:type="String">
+            <sv:value>https://www.instagram.com/pashaliskimiro/</sv:value>
+          </sv:property>
+          <sv:property sv:name="linkedinkLink" sv:type="String">
+            <sv:value>https://www.linkedin.com/in/miroslav-pashaliski-3613a4aa/</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:created" sv:type="Date">
+            <sv:value>2018-01-14T16:40:59.382+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:createdBy" sv:type="String">
+            <sv:value>superuser</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+            <sv:value>2018-01-25T23:16:38.634+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+            <sv:value>superuser</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:template" sv:type="String">
+            <sv:value>convertow-templates:components/teasers/teamTeaser</sv:value>
+          </sv:property>
+          <sv:property sv:name="name" sv:type="String">
+            <sv:value>Miroslav Pashaliski</sv:value>
+          </sv:property>
+          <sv:property sv:name="role" sv:type="String">
+            <sv:value>Founder</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="01">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:component</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>a82af3c0-ca97-4856-b2fa-0e6230378188</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2018-01-25T21:21:47.535+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2018-01-25T23:40:48.678+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:template" sv:type="String">
+        <sv:value>convertow-templates:components/carousel/testimonial</sv:value>
+      </sv:property>
+      <sv:node sv:name="teasers">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:area</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>835ca237-3b62-4278-846d-cdeee5ee284e</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2018-01-25T21:30:11.888+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2018-01-25T23:40:48.678+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:node sv:name="0">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:component</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>abf2a8df-348a-4751-a927-77529a49ae66</sv:value>
+          </sv:property>
+          <sv:property sv:name="image" sv:type="String">
+            <sv:value>jcr:3d3dbe1c-3156-4dcf-97e5-3ee93e8efbf2</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:created" sv:type="Date">
+            <sv:value>2018-01-25T23:30:05.870+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:createdBy" sv:type="String">
+            <sv:value>superuser</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+            <sv:value>2018-01-25T23:40:48.678+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+            <sv:value>superuser</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:template" sv:type="String">
+            <sv:value>convertow-templates:components/carousel/testimonialItem</sv:value>
+          </sv:property>
+          <sv:property sv:name="reference" sv:type="String">
+            <sv:value>Convertow is awesome, i use it every day. No limitations for use, you can convert almost  every minute. All that for free.</sv:value>
+          </sv:property>
+          <sv:property sv:name="reference_cs" sv:type="String">
+            <sv:value>Convertow je úžasné, používám ho každý den. Žádné omezení pro použití, můžete převést téměř každou minutu. To vše zdarma.</sv:value>
+          </sv:property>
+          <sv:property sv:name="reference_de" sv:type="String">
+            <sv:value>Convertow ist großartig, ich benutze es jeden Tag. Keine Einschränkungen für die Verwendung, Sie können fast jede Minute konvertieren. All das kostenlos.</sv:value>
+          </sv:property>
+          <sv:property sv:name="reference_es" sv:type="String">
+            <sv:value>Convertow es increíble, lo uso todos los días. Sin limitaciones de uso, puede convertir casi cada minuto. Todo eso gratis</sv:value>
+          </sv:property>
+          <sv:property sv:name="reference_fr" sv:type="String">
+            <sv:value>Convertow est génial, je l'utilise tous les jours. Aucune limitation d'utilisation, vous pouvez convertir presque chaque minute. Tout ça gratuitement.</sv:value>
+          </sv:property>
+          <sv:property sv:name="reference_in" sv:type="String">
+            <sv:value>Convertow is awesome, saya menggunakannya setiap hari. Tidak ada batasan untuk digunakan, Anda bisa mengonversi hampir setiap menitnya. Semua itu gratis.</sv:value>
+          </sv:property>
+          <sv:property sv:name="reference_it" sv:type="String">
+            <sv:value>Convertow è fantastico, lo uso tutti i giorni. Nessuna limitazione per l'uso, è possibile convertire quasi ogni minuto. Tutto gratis.</sv:value>
+          </sv:property>
+          <sv:property sv:name="reference_ja" sv:type="String">
+            <sv:value>Convertowは素晴らしいです、私は毎日それを使用します。 使用に制限はなく、ほぼ毎分変換できます。 すべて無料です。</sv:value>
+          </sv:property>
+          <sv:property sv:name="reference_ko" sv:type="String">
+            <sv:value>Convertow는 대단하다. 매일 사용한다. 사용상의 제한이 없으므로 거의 매 분마다 변환 할 수 있습니다. 모든 것을 무료로 제공합니다.</sv:value>
+          </sv:property>
+          <sv:property sv:name="reference_nl" sv:type="String">
+            <sv:value>Convertow is geweldig, ik gebruik het elke dag. Geen beperkingen voor gebruik, je kunt bijna elke minuut converteren. Dat alles gratis.</sv:value>
+          </sv:property>
+          <sv:property sv:name="reference_no" sv:type="String">
+            <sv:value>Convertow er kjempebra, jeg bruker den hver dag. Ingen begrensninger for bruk, du kan konvertere nesten hvert minutt. Alt det gratis.</sv:value>
+          </sv:property>
+          <sv:property sv:name="reference_pt" sv:type="String">
+            <sv:value>Convertow é incrível, uso todos os dias. Sem limitações de uso, você pode converter quase todos os minutos. Tudo isso de graça.</sv:value>
+          </sv:property>
+          <sv:property sv:name="reference_ru" sv:type="String">
+            <sv:value>Convertow потрясающий, я использую его каждый день. Нет ограничений на использование, вы можете конвертировать почти каждую минуту. Все это бесплатно.</sv:value>
+          </sv:property>
+          <sv:property sv:name="reference_sv" sv:type="String">
+            <sv:value>Convertow är fantastisk, jag använder det varje dag. Inga begränsningar för användning, du kan konvertera nästan varje minut. Allt det gratis.</sv:value>
+          </sv:property>
+          <sv:property sv:name="role" sv:type="String">
+            <sv:value>Software Developer</sv:value>
+          </sv:property>
+          <sv:property sv:name="role_cs" sv:type="String">
+            <sv:value>Vývojář softwaru</sv:value>
+          </sv:property>
+          <sv:property sv:name="role_de" sv:type="String">
+            <sv:value>Softwareentwickler</sv:value>
+          </sv:property>
+          <sv:property sv:name="role_es" sv:type="String">
+            <sv:value>Desarrollador de software</sv:value>
+          </sv:property>
+          <sv:property sv:name="role_fr" sv:type="String">
+            <sv:value>Développeur de logiciels</sv:value>
+          </sv:property>
+          <sv:property sv:name="role_in" sv:type="String">
+            <sv:value>Pengembang Perangkat Lunak</sv:value>
+          </sv:property>
+          <sv:property sv:name="role_it" sv:type="String">
+            <sv:value>Sviluppatore software</sv:value>
+          </sv:property>
+          <sv:property sv:name="role_ja" sv:type="String">
+            <sv:value>ソフトウェア開発者</sv:value>
+          </sv:property>
+          <sv:property sv:name="role_ko" sv:type="String">
+            <sv:value>소프트웨어 개발자</sv:value>
+          </sv:property>
+          <sv:property sv:name="role_nl" sv:type="String">
+            <sv:value>Software ontwikkelaar</sv:value>
+          </sv:property>
+          <sv:property sv:name="role_no" sv:type="String">
+            <sv:value>Programvareutvikler</sv:value>
+          </sv:property>
+          <sv:property sv:name="role_pt" sv:type="String">
+            <sv:value>Desenvolvedor de Software</sv:value>
+          </sv:property>
+          <sv:property sv:name="role_ru" sv:type="String">
+            <sv:value>Разработчик программного обеспечения</sv:value>
+          </sv:property>
+          <sv:property sv:name="role_sv" sv:type="String">
+            <sv:value>Software Developer</sv:value>
+          </sv:property>
+          <sv:property sv:name="userName" sv:type="String">
+            <sv:value>Antonio Simeonovski</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="footer">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:area</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>567746df-2c7c-4270-80f0-6d32f0473148</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:created" sv:type="Date">
+      <sv:value>2017-12-21T00:07:54.825+01:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:createdBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+      <sv:value>2018-01-13T00:12:25.224+01:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:node sv:name="footer1">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:area</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>4824446f-1e09-43e6-a3ae-2671c4050c2c</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2017-12-21T00:51:09.117+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2018-01-13T00:07:01.287+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:node sv:name="0">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:component</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>1d695c54-4f44-4828-9b0c-cd3a45044873</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2017-12-21T01:11:44.061+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2017-12-21T01:11:44.061+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:template" sv:type="String">
+          <sv:value>convertow-templates:components/footer/footerTitle</sv:value>
+        </sv:property>
+        <sv:property sv:name="title" sv:type="String">
+          <sv:value>ABOUT</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="00">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:component</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>c129fa2f-951d-4ed7-84f8-f9726bb6e345</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2017-12-21T01:21:01.109+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2017-12-21T01:21:01.109+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:template" sv:type="String">
+          <sv:value>convertow-templates:components/footer/richText</sv:value>
+        </sv:property>
+        <sv:property sv:name="text" sv:type="String">
+          <sv:value>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates eos minus expedita ipsum soluta voluptatem sed architecto.&lt;/p&gt;
+</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="01">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:component</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>e98c86a4-8d78-41fd-8f89-3d42e252e9d9</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2018-01-13T00:06:40.495+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2018-01-13T00:07:01.287+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:template" sv:type="String">
+          <sv:value>convertow-templates:components/footer/footerList</sv:value>
+        </sv:property>
+        <sv:node sv:name="footerList">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:area</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>d5211a08-1a51-4ae8-bf0d-18f3bf1b7155</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:created" sv:type="Date">
+            <sv:value>2018-01-13T00:06:40.680+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:createdBy" sv:type="String">
+            <sv:value>superuser</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+            <sv:value>2018-01-13T00:07:01.287+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+            <sv:value>superuser</sv:value>
+          </sv:property>
+          <sv:node sv:name="0">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:component</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>2001defa-851b-4ff7-b362-863e0116b4cb</sv:value>
+            </sv:property>
+            <sv:property sv:name="icon" sv:type="String">
+              <sv:value>github-circle</sv:value>
+            </sv:property>
+            <sv:property sv:name="linkType" sv:type="String">
+              <sv:value>external</sv:value>
+            </sv:property>
+            <sv:property sv:name="linkTypeexternal" sv:type="String">
+              <sv:value>fsafas</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:created" sv:type="Date">
+              <sv:value>2018-01-13T00:06:51.746+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:createdBy" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+              <sv:value>2018-01-13T00:07:01.287+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:template" sv:type="String">
+              <sv:value>convertow-templates:components/footer/socialLink</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="footer2">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:area</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>dc994c6b-78bd-41e4-9668-46b825e4f5d8</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2017-12-21T00:51:09.509+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2017-12-21T01:13:11.992+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:node sv:name="0">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:component</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>17091fb2-77a1-45a2-85cb-17369737c201</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2017-12-21T01:13:11.995+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2017-12-21T01:13:11.995+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:template" sv:type="String">
+          <sv:value>convertow-templates:components/footer/footerTitle</sv:value>
+        </sv:property>
+        <sv:property sv:name="title" sv:type="String">
+          <sv:value>RECENT POSTS</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="footer3">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:area</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>7845d00f-77ff-4161-92c7-94a71af16845</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2017-12-21T00:51:09.597+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2018-01-13T00:12:25.224+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:node sv:name="0">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:component</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>cfb540c4-9fcd-4e9c-abbb-aa55abfa2022</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2017-12-21T01:13:18.359+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2017-12-21T01:13:18.359+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:template" sv:type="String">
+          <sv:value>convertow-templates:components/footer/footerTitle</sv:value>
+        </sv:property>
+        <sv:property sv:name="title" sv:type="String">
+          <sv:value>QUICK LINK</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="00">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:component</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>69d738d3-0025-4f53-b46d-00bcb5eced6b</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2018-01-13T00:11:10.152+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2018-01-13T00:12:25.224+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:template" sv:type="String">
+          <sv:value>convertow-templates:components/footer/footerList</sv:value>
+        </sv:property>
+        <sv:node sv:name="footerList">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:area</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>f8b50449-2e59-49de-9007-1e1d90707a92</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:created" sv:type="Date">
+            <sv:value>2018-01-13T00:11:10.323+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:createdBy" sv:type="String">
+            <sv:value>superuser</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+            <sv:value>2018-01-13T00:12:25.224+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+            <sv:value>superuser</sv:value>
+          </sv:property>
+          <sv:node sv:name="0">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:component</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>81c617ab-a85c-4c67-8d05-fb6427200e7d</sv:value>
+            </sv:property>
+            <sv:property sv:name="linkType" sv:type="String">
+              <sv:value>internal</sv:value>
+            </sv:property>
+            <sv:property sv:name="linkTypeinternal" sv:type="String">
+              <sv:value>da327d1d-374d-4d38-8846-814c46b7fdfc</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:created" sv:type="Date">
+              <sv:value>2018-01-13T00:11:20.032+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:createdBy" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+              <sv:value>2018-01-13T00:11:20.032+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:template" sv:type="String">
+              <sv:value>convertow-templates:components/links/links</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="00">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:component</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>a95721dc-100a-454c-a7bf-3397c8d90c05</sv:value>
+            </sv:property>
+            <sv:property sv:name="linkType" sv:type="String">
+              <sv:value>internal</sv:value>
+            </sv:property>
+            <sv:property sv:name="linkTypeinternal" sv:type="String">
+              <sv:value>da327d1d-374d-4d38-8846-814c46b7fdfc</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+              <sv:value>false</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:created" sv:type="Date">
+              <sv:value>2018-01-13T00:12:25.208+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:createdBy" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+              <sv:value>2018-01-13T00:12:25.209+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+              <sv:value>2018-01-13T00:12:25.224+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:template" sv:type="String">
+              <sv:value>convertow-templates:components/links/links</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="footer4">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:area</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>05712a2d-edb3-459e-91f3-bc1df0324eef</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2017-12-21T00:51:09.904+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2017-12-21T01:13:24.396+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:node sv:name="0">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:component</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>93c339f7-f384-4709-bace-fd530b38e7a0</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2017-12-21T01:13:24.397+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2017-12-21T01:13:24.397+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:template" sv:type="String">
+          <sv:value>convertow-templates:components/footer/footerTitle</sv:value>
+        </sv:property>
+        <sv:property sv:name="title" sv:type="String">
+          <sv:value>OUR GALLERY</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="textBootom">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:area</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>f06edad1-bfee-409d-b2e7-7723589a6363</sv:value>
+      </sv:property>
+      <sv:property sv:name="footerText" sv:type="String">
+        <sv:value>sdgsdg</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2018-01-12T23:19:08.291+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2018-01-12T23:19:58.560+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="carousel">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:area</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>8439d11e-4ae9-426d-834c-8e7f34721222</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:created" sv:type="Date">
+      <sv:value>2018-01-13T00:23:52.253+01:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:createdBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+      <sv:value>2018-01-25T21:42:27.571+01:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:node sv:name="0">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:component</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>3fda8d16-6b24-45fc-a32a-12f6467c394e</sv:value>
+      </sv:property>
+      <sv:property sv:name="image" sv:type="String">
+        <sv:value>jcr:004247b0-e33a-428d-91fc-cbb0a0e65dea</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2018-01-13T00:36:12.946+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2018-01-25T21:42:27.571+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:template" sv:type="String">
+        <sv:value>convertow-templates:components/carousel/carouselImage</sv:value>
+      </sv:property>
+      <sv:property sv:name="text" sv:type="String">
+        <sv:value>&lt;p&gt;Convertow, allows you free to use more than 100 converting tools. All that implemented for 15 different languages.&lt;/p&gt;
+</sv:value>
+      </sv:property>
+      <sv:property sv:name="text_cs" sv:type="String">
+        <sv:value>&lt;p&gt;Convertow, umožňuje zdarma použ&amp;iacute;vat v&amp;iacute;ce než 100 n&amp;aacute;strojů pro konverzi. V&amp;scaron;echno je implementov&amp;aacute;no pro 15 různ&amp;yacute;ch jazyků.&lt;/p&gt;
+</sv:value>
+      </sv:property>
+      <sv:property sv:name="text_de" sv:type="String">
+        <sv:value>&lt;p&gt;Convertow, erm&amp;ouml;glicht es Ihnen, mehr als 100 Conversion-Tools zu verwenden. All das f&amp;uuml;r 15 verschiedene Sprachen implementiert.&lt;/p&gt;
+</sv:value>
+      </sv:property>
+      <sv:property sv:name="text_es" sv:type="String">
+        <sv:value>&lt;p&gt;Convertow, le permite usar m&amp;aacute;s de 100 herramientas de conversi&amp;oacute;n. Todo eso implementado para 15 idiomas diferentes.&lt;/p&gt;
+</sv:value>
+      </sv:property>
+      <sv:property sv:name="text_fr" sv:type="String">
+        <sv:value>&lt;p&gt;Convertow, vous permet d&amp;#39;utiliser plus de 100 outils de conversion. Tout cela mis en &amp;oelig;uvre pour 15 langues diff&amp;eacute;rentes.&lt;/p&gt;
+</sv:value>
+      </sv:property>
+      <sv:property sv:name="text_in" sv:type="String">
+        <sv:value>&lt;p&gt;Convertible, memungkinkan Anda bebas untuk menggunakan lebih dari 100 alat konversi. Semua itu diimplementasikan untuk 15 bahasa yang berbeda.&lt;/p&gt;
+</sv:value>
+      </sv:property>
+      <sv:property sv:name="text_it" sv:type="String">
+        <sv:value>&lt;p&gt;Convertow, ti consente di utilizzare pi&amp;ugrave; di 100 strumenti di conversione. Tutto ci&amp;ograve; che &amp;egrave; stato implementato per 15 lingue diverse.&lt;/p&gt;
+</sv:value>
+      </sv:property>
+      <sv:property sv:name="text_ja" sv:type="String">
+        <sv:value>&lt;p&gt;Convertowは、100以上の変換ツールを自由に使用できます。 15種類の言語に対応しています。&lt;/p&gt;
+</sv:value>
+      </sv:property>
+      <sv:property sv:name="text_ko" sv:type="String">
+        <sv:value>&lt;p&gt;Convertow, 100 개 이상의 변환 도구를 자유롭게 사용할 수 있습니다. 15 가지 언어로 구현 된 모든 것.&lt;/p&gt;
+</sv:value>
+      </sv:property>
+      <sv:property sv:name="text_nl" sv:type="String">
+        <sv:value>&lt;p&gt;Convertow, staat u toe om meer dan 100 conversietools te gebruiken. Dit alles ge&amp;iuml;mplementeerd voor 15 verschillende talen.&lt;/p&gt;
+</sv:value>
+      </sv:property>
+      <sv:property sv:name="text_no" sv:type="String">
+        <sv:value>&lt;p&gt;Convertow, lar deg gratis bruke mer enn 100 konverteringsverkt&amp;oslash;y. Alt som implementeres for 15 forskjellige spr&amp;aring;k.&lt;/p&gt;
+</sv:value>
+      </sv:property>
+      <sv:property sv:name="text_pt" sv:type="String">
+        <sv:value>&lt;p&gt;Convertow, permite que voc&amp;ecirc; use mais de 100 ferramentas de convers&amp;atilde;o. Tudo isso implementado para 15 idiomas diferentes.&lt;/p&gt;
+</sv:value>
+      </sv:property>
+      <sv:property sv:name="text_ru" sv:type="String">
+        <sv:value>&lt;p&gt;Convertow, позволяет вам использовать более 100 инструментов преобразования. Все это реализовано на 15 разных языках.&lt;/p&gt;
+</sv:value>
+      </sv:property>
+      <sv:property sv:name="text_sv" sv:type="String">
+        <sv:value>&lt;p&gt;Convertow, l&amp;aring;ter dig anv&amp;auml;nda mer &amp;auml;n 100 konverteringsverktyg. Allt som implementerats f&amp;ouml;r 15 olika spr&amp;aring;k.&lt;/p&gt;
+</sv:value>
+      </sv:property>
+      <sv:property sv:name="title" sv:type="String">
+        <sv:value>Convertow, your favourite free tool.</sv:value>
+      </sv:property>
+      <sv:property sv:name="title_cs" sv:type="String">
+        <sv:value>Convertow, váš oblíbený bezplatný nástroj.</sv:value>
+      </sv:property>
+      <sv:property sv:name="title_de" sv:type="String">
+        <sv:value>Convertow, dein kostenloses Lieblingswerkzeug.</sv:value>
+      </sv:property>
+      <sv:property sv:name="title_es" sv:type="String">
+        <sv:value>Convertow, tu herramienta gratuita favorita.</sv:value>
+      </sv:property>
+      <sv:property sv:name="title_fr" sv:type="String">
+        <sv:value>Convertow, votre outil gratuit préféré.</sv:value>
+      </sv:property>
+      <sv:property sv:name="title_in" sv:type="String">
+        <sv:value>Convertow, alat favorit favoritmu</sv:value>
+      </sv:property>
+      <sv:property sv:name="title_it" sv:type="String">
+        <sv:value>Convertow, il tuo strumento gratuito preferito.</sv:value>
+      </sv:property>
+      <sv:property sv:name="title_ja" sv:type="String">
+        <sv:value>Convertow、あなたの好きな無料のツール。</sv:value>
+      </sv:property>
+      <sv:property sv:name="title_ko" sv:type="String">
+        <sv:value>Convertow, 가장 좋아하는 무료 도구.</sv:value>
+      </sv:property>
+      <sv:property sv:name="title_nl" sv:type="String">
+        <sv:value>Convertow, uw favoriete gratis hulpmiddel.</sv:value>
+      </sv:property>
+      <sv:property sv:name="title_no" sv:type="String">
+        <sv:value>Konverter, ditt favorittfrie verktøy.</sv:value>
+      </sv:property>
+      <sv:property sv:name="title_pt" sv:type="String">
+        <sv:value>Convertow, sua ferramenta gratuita favorita.</sv:value>
+      </sv:property>
+      <sv:property sv:name="title_ru" sv:type="String">
+        <sv:value>Convertow, ваш любимый бесплатный инструмент.</sv:value>
+      </sv:property>
+      <sv:property sv:name="title_sv" sv:type="String">
+        <sv:value>Convertow, ditt favoritfria verktyg.</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="jpg-to-png">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:page</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>991e8c58-27e7-4e1d-a958-2947fb2cf3c8</sv:value>
+    </sv:property>
+    <sv:property sv:name="hideInNav" sv:type="Boolean">
+      <sv:value>false</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:created" sv:type="Date">
+      <sv:value>2018-01-22T23:13:25.214+01:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:createdBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+      <sv:value>2018-01-22T23:19:37.907+01:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:template" sv:type="String">
+      <sv:value>convertow-templates:pages/standard</sv:value>
+    </sv:property>
+    <sv:node sv:name="main">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:area</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>2e4fa432-7f20-4828-91b5-fea6f2fb473b</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2018-01-22T23:15:24.478+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2018-01-22T23:19:37.907+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:node sv:name="0">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:component</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>9f88748e-baf1-427d-8af7-88ccf0ad0f04</sv:value>
+        </sv:property>
+        <sv:property sv:name="image" sv:type="String">
+          <sv:value>jcr:12b4cdff-7488-4402-8fb7-bda9bc0e2a85</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2018-01-22T23:15:39.151+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2018-01-22T23:15:39.151+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:template" sv:type="String">
+          <sv:value>convertow-templates:components/content/headerImage</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="00">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:component</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>4a2b92dd-67cf-4aa5-a786-1d93105340c5</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2018-01-22T23:19:37.909+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2018-01-22T23:19:37.909+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:template" sv:type="String">
+          <sv:value>convertow-jpg-to-png:components/jpgToPng</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="footer">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:area</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>9217dd68-7ec8-4935-8f42-958a93a5f3f6</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2018-01-22T23:15:24.548+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2018-01-22T23:15:24.959+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:node sv:name="footer1">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:area</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>227bbc30-da72-4f48-a81a-3b1e73011f47</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2018-01-22T23:15:24.610+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2018-01-22T23:15:24.610+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="footer2">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:area</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>31c56231-3b4b-43e0-b926-9a73b2a787bb</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2018-01-22T23:15:24.766+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2018-01-22T23:15:24.766+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="footer3">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:area</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>246744d8-ed8e-431f-b7cc-f6dafe4f1798</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2018-01-22T23:15:24.811+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2018-01-22T23:15:24.811+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="footer4">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:area</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>fb36f465-ee32-4057-a8ab-bbb6714f6298</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2018-01-22T23:15:24.911+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2018-01-22T23:15:24.911+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="textBootom">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:area</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>a8c6d6f4-b0d2-497e-adff-0e6c780d3884</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2018-01-22T23:15:24.962+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2018-01-22T23:15:24.962+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="png-to-jpg">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:page</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>bde83a28-31b3-4b94-b9e4-26ca0d73646d</sv:value>
+    </sv:property>
+    <sv:property sv:name="hideInNav" sv:type="Boolean">
+      <sv:value>false</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:created" sv:type="Date">
+      <sv:value>2018-01-23T00:09:09.305+01:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:createdBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+      <sv:value>2018-01-23T00:10:42.908+01:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:template" sv:type="String">
+      <sv:value>convertow-templates:pages/standard</sv:value>
+    </sv:property>
+    <sv:node sv:name="main">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:area</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>566f5970-1dee-46f3-a52e-0b76aed15f6a</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2018-01-23T00:10:35.893+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2018-01-23T00:10:42.908+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:node sv:name="0">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:component</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>17aef4ba-484f-4b1a-9c98-1147022687cc</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2018-01-23T00:10:42.908+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2018-01-23T00:10:42.908+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:template" sv:type="String">
+          <sv:value>convertow-png-to-jpg:components/pngToJpg</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="footer">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:area</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>5c7bf84e-fa40-4289-b8ed-9bdc95acf394</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2018-01-23T00:10:35.983+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2018-01-23T00:10:36.308+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:node sv:name="footer1">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:area</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>d87ed108-5148-473f-af7a-1620894f2a76</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2018-01-23T00:10:36.025+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2018-01-23T00:10:36.025+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="footer2">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:area</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>d52f9718-5a96-4172-85c8-667e1474f500</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2018-01-23T00:10:36.127+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2018-01-23T00:10:36.127+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="footer3">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:area</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>50eccb96-bb49-44b5-916c-bbe5f91b9e5f</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2018-01-23T00:10:36.178+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2018-01-23T00:10:36.178+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="footer4">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:area</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>1749a474-0d71-4d84-b139-eb68d3f31477</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2018-01-23T00:10:36.265+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2018-01-23T00:10:36.265+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="textBootom">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:area</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>0ecc3a60-2964-4090-b434-2e08c6cb65ec</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2018-01-23T00:10:36.311+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2018-01-23T00:10:36.311+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="pdf-to-png">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:page</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>4af7fb7e-99d9-4c63-bff0-fe03e4e3ec38</sv:value>
+    </sv:property>
+    <sv:property sv:name="hideInNav" sv:type="Boolean">
+      <sv:value>false</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:created" sv:type="Date">
+      <sv:value>2018-01-17T01:50:44.546+01:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:createdBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+      <sv:value>2018-01-23T00:17:59.316+01:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:template" sv:type="String">
+      <sv:value>convertow-templates:pages/standard</sv:value>
+    </sv:property>
+    <sv:property sv:name="title" sv:type="String">
+      <sv:value>Convert PDF to PNG</sv:value>
+    </sv:property>
+    <sv:node sv:name="main">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:area</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>2cc41a09-43d2-42a1-851a-f7287713d0e8</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2018-01-17T02:01:31.537+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2018-01-17T02:01:46.703+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:node sv:name="0">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:component</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>f3510526-82cd-4822-bce9-aa3d7c925800</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2018-01-17T02:01:46.704+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2018-01-17T02:01:46.704+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:template" sv:type="String">
+          <sv:value>convertow-pdf-to-png:components/pdfToPng</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="footer">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:area</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>bc37fa0b-512b-42d3-838b-b50ad046b1c6</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2018-01-17T02:01:31.628+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2018-01-17T02:01:31.848+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:node sv:name="footer1">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:area</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>bfbadfac-2a57-428f-9d5c-1f861238b16b</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2018-01-17T02:01:31.672+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2018-01-17T02:01:31.672+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="footer2">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:area</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>49174b70-55cc-4217-a716-a140dad266da</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2018-01-17T02:01:31.732+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2018-01-17T02:01:31.732+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="footer3">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:area</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>ac458283-d47b-4a87-a2ec-6f44d6002be6</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2018-01-17T02:01:31.770+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2018-01-17T02:01:31.770+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="footer4">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:area</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>0778686a-f582-467a-9a97-0c1f56faba58</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2018-01-17T02:01:31.812+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2018-01-17T02:01:31.812+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="textBootom">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:area</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>d5116aff-4e8e-4aa4-9ad2-ff80e481a9af</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2018-01-17T02:01:31.851+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2018-01-17T02:01:31.851+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="pdf-to-jpg">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:page</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>9939ae9e-d686-4986-8ef5-1d2581b309c5</sv:value>
+    </sv:property>
+    <sv:property sv:name="hideInNav" sv:type="Boolean">
+      <sv:value>false</sv:value>
+    </sv:property>
+    <sv:property sv:name="keywords" sv:type="String">
+      <sv:value>convert pdf to jpg, pdf to jpg</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:comment" sv:type="String">
+      <sv:value>versions.comment.deleted</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:created" sv:type="Date">
+      <sv:value>2018-01-14T14:44:04.338+01:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:createdBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+      <sv:value>2018-01-23T00:18:00.940+01:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:template" sv:type="String">
+      <sv:value>convertow-templates:pages/standard</sv:value>
+    </sv:property>
+    <sv:property sv:name="title" sv:type="String">
+      <sv:value>Convert PDF to JPG</sv:value>
+    </sv:property>
+    <sv:node sv:name="main">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:area</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>899e8eb2-67ce-467b-b28e-3d2c781beca0</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2018-01-14T14:46:28.898+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2018-01-15T22:59:56.513+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:node sv:name="0">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:component</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>d775e7e2-de55-4ef2-9325-3c13a6e73327</sv:value>
+        </sv:property>
+        <sv:property sv:name="image" sv:type="String">
+          <sv:value>jcr:12b4cdff-7488-4402-8fb7-bda9bc0e2a85</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2018-01-14T14:46:47.807+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2018-01-14T14:46:47.807+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:template" sv:type="String">
+          <sv:value>convertow-templates:components/content/headerImage</sv:value>
+        </sv:property>
+        <sv:property sv:name="subtitle" sv:type="String">
+          <sv:value>About Us</sv:value>
+        </sv:property>
+        <sv:property sv:name="title" sv:type="String">
+          <sv:value>WHO WE ARE</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="00">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:component</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>04f8de73-f3a8-46d9-8453-d20218d504ff</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2018-01-15T22:59:56.513+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2018-01-15T22:59:56.513+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:template" sv:type="String">
+          <sv:value>convertow-pdf-to-jpg:components/pdfToJpg</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="footer">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:area</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>e664f005-1837-466c-bca5-2be3d01ee7cf</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2018-01-14T14:46:28.981+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2018-01-14T14:46:29.339+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:node sv:name="footer1">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:area</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>75453bb2-921b-4d6f-94a1-4a700d9e23e8</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2018-01-14T14:46:29.056+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2018-01-14T14:46:29.056+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="footer2">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:area</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>14ac36dd-82c3-45d4-b7c9-9fad7a604de1</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2018-01-14T14:46:29.163+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2018-01-14T14:46:29.163+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="footer3">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:area</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>bf86068f-6c63-4419-9d1e-489d2182ea67</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2018-01-14T14:46:29.210+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2018-01-14T14:46:29.210+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="footer4">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:area</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>026a9047-85e5-4e3d-aff4-1a4aa0f4e6fe</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2018-01-14T14:46:29.291+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2018-01-14T14:46:29.291+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="textBootom">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:area</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>8ae761c0-cd59-4986-a727-5304f0f17bc5</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2018-01-14T14:46:29.342+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2018-01-14T14:46:29.342+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="svg-to-png">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:page</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>816685a7-e560-4fa5-ad06-777a0447be75</sv:value>
+    </sv:property>
+    <sv:property sv:name="category" sv:type="String">
+      <sv:value>7e0e533d-c98a-4057-bba8-343c8c75b18b</sv:value>
+    </sv:property>
+    <sv:property sv:name="hideInNav" sv:type="Boolean">
+      <sv:value>false</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:created" sv:type="Date">
+      <sv:value>2018-01-23T01:27:12.476+01:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:createdBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+      <sv:value>2018-01-23T01:27:27.701+01:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:template" sv:type="String">
+      <sv:value>convertow-templates:pages/standard</sv:value>
+    </sv:property>
+    <sv:node sv:name="main">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:area</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>54cbf3e1-e747-46ca-baa6-6120c77adb49</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2018-01-23T01:27:15.218+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2018-01-23T01:27:27.701+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:node sv:name="0">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:component</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>fdfa57e1-c0f8-4ea2-bc7f-c694dce2b301</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2018-01-23T01:27:27.702+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2018-01-23T01:27:27.702+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:template" sv:type="String">
+          <sv:value>convertow-svg-to-png:components/svgToPng</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="footer">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:area</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>85e0f248-e6ab-4616-9805-02f6c92cf2c4</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2018-01-23T01:27:15.274+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2018-01-23T01:27:15.822+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:node sv:name="footer1">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:area</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>92b2b09c-f2c6-4ea0-83f8-21bf8d15cc9f</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2018-01-23T01:27:15.397+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2018-01-23T01:27:15.397+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="footer2">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:area</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>90786f5f-3e50-4e07-a5cf-04a451f22863</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2018-01-23T01:27:15.540+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2018-01-23T01:27:15.540+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="footer3">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:area</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>5da16d5f-1833-4a7f-8d6e-c06aeb595a86</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2018-01-23T01:27:15.612+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2018-01-23T01:27:15.612+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="footer4">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:area</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>ea707d92-8ced-4d74-a2ef-613793903fc7</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2018-01-23T01:27:15.746+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2018-01-23T01:27:15.746+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="textBootom">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:area</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>abceabe9-a168-4335-8890-9016781f3bf6</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2018-01-23T01:27:15.831+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2018-01-23T01:27:15.831+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="svg-to-jpg">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:page</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>14aff97f-f111-484a-b223-bc0b81f4c052</sv:value>
+    </sv:property>
+    <sv:property sv:name="category" sv:type="String">
+      <sv:value>7e0e533d-c98a-4057-bba8-343c8c75b18b</sv:value>
+    </sv:property>
+    <sv:property sv:name="hideInNav" sv:type="Boolean">
+      <sv:value>false</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:created" sv:type="Date">
+      <sv:value>2018-01-24T00:53:42.563+01:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:createdBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+      <sv:value>2018-01-24T00:55:36.948+01:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:template" sv:type="String">
+      <sv:value>convertow-templates:pages/standard</sv:value>
+    </sv:property>
+    <sv:node sv:name="main">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:area</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>a2db1412-3980-45ff-877e-b3d14409878c</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2018-01-24T00:55:30.521+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2018-01-24T00:55:36.948+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:node sv:name="0">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:component</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>48d11283-e71c-43ff-a74d-f3aab3cbb339</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2018-01-24T00:55:36.948+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2018-01-24T00:55:36.948+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:template" sv:type="String">
+          <sv:value>convertow-svg-to-jpg:components/svgToJpg</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="footer">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:area</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>7a162ca7-62d1-4cd3-9a8b-fdf25a077da3</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2018-01-24T00:55:30.639+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2018-01-24T00:55:30.931+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:node sv:name="footer1">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:area</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>55318b85-c55d-43b6-aabb-92a1bd1fec45</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2018-01-24T00:55:30.681+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2018-01-24T00:55:30.681+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="footer2">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:area</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>4d595a6c-17ed-4013-a092-22808670fd8e</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2018-01-24T00:55:30.774+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2018-01-24T00:55:30.774+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="footer3">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:area</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>871bc429-789d-4900-9de4-fb159352adfa</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2018-01-24T00:55:30.816+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2018-01-24T00:55:30.816+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="footer4">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:area</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>3684c212-61d4-4c60-b053-87d997520598</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2018-01-24T00:55:30.892+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2018-01-24T00:55:30.892+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="textBootom">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:area</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>b27807bb-a056-497d-a1da-0a20deecc62e</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2018-01-24T00:55:30.934+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2018-01-24T00:55:30.934+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="svg-to-tiff">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:page</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>b6873155-b3ae-462b-be73-f4f635374fa6</sv:value>
+    </sv:property>
+    <sv:property sv:name="category" sv:type="String">
+      <sv:value>7e0e533d-c98a-4057-bba8-343c8c75b18b</sv:value>
+    </sv:property>
+    <sv:property sv:name="hideInNav" sv:type="Boolean">
+      <sv:value>false</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:created" sv:type="Date">
+      <sv:value>2018-01-24T01:36:00.672+01:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:createdBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+      <sv:value>2018-01-24T01:36:08.804+01:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:template" sv:type="String">
+      <sv:value>convertow-templates:pages/standard</sv:value>
+    </sv:property>
+    <sv:node sv:name="main">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:area</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>ec2b3911-271a-4041-93ab-54838e40352d</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2018-01-24T01:36:03.031+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2018-01-24T01:36:08.804+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:node sv:name="0">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:component</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>eec8d63e-9c88-406c-a29a-a4bba7155653</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2018-01-24T01:36:08.805+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2018-01-24T01:36:08.805+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:template" sv:type="String">
+          <sv:value>convertow-svg-to-tiff:components/svgToTiff</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="footer">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:area</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>054aabe1-9bbb-4239-a881-a949346508c3</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2018-01-24T01:36:03.135+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2018-01-24T01:36:03.465+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:node sv:name="footer1">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:area</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>f13727fd-f5a9-41ae-a7f1-1a4853056692</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2018-01-24T01:36:03.194+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2018-01-24T01:36:03.194+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="footer2">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:area</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>a036e93b-19af-4539-825d-ec2b8f32142c</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2018-01-24T01:36:03.301+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2018-01-24T01:36:03.301+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="footer3">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:area</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>75d43a82-785d-4d20-affa-ef6006121187</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2018-01-24T01:36:03.344+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2018-01-24T01:36:03.344+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="footer4">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:area</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>6a9ebe06-a19c-4721-b5e6-a05a3cd8ded9</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2018-01-24T01:36:03.423+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2018-01-24T01:36:03.423+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="textBootom">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:area</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>15b02dfa-4394-4ad5-a4a6-e62c17966e26</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2018-01-24T01:36:03.468+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2018-01-24T01:36:03.468+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+</sv:node>
+
