@@ -78,6 +78,11 @@
       <groupId>org.apache.xmlgraphics</groupId>
       <artifactId>batik-codec</artifactId>
     </dependency>
+    <dependency>
+      <groupId>com.convertow</groupId>
+      <artifactId>convertow-core</artifactId>
+      <version>1.0-SNAPSHOT</version>
+    </dependency>
   </dependencies>
 
   <build>

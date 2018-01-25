@@ -1,5 +1,6 @@
 package com.convertow.rest;
 
+import com.convertow.functions.ConvertOwFunctions;
 import info.magnolia.rest.AbstractEndpoint;
 import info.magnolia.rest.registry.ConfiguredEndpointDefinition;
 import org.apache.batik.anim.dom.SAXSVGDocumentFactory;
@@ -32,7 +33,7 @@ import java.nio.file.Paths;
 @Path("/svgtojpg")
 public class SvgToJpgRestEndPoint<D extends ConfiguredEndpointDefinition> extends AbstractEndpoint<D> {
     private static final Logger log = LoggerFactory.getLogger(SvgToJpgRestEndPoint.class);
-
+    private final ConvertOwFunctions functions = new ConvertOwFunctions();
     /*local test*/
     private static final String PATH = "D:\\docroot\\fileUpload\\";
     /*server*/
@@ -52,59 +53,15 @@ public class SvgToJpgRestEndPoint<D extends ConfiguredEndpointDefinition> extend
         String nameWithoutExtension = name.substring(0, name.lastIndexOf('.'));
         /*String filePath = PATH + id + "\\" + name;*/
         String filePath = PATH + id + "\\" + nameWithoutExtension + ".svg" ;
-        String filePathPng = PATH + id + "\\" + nameWithoutExtension + ".jpg" ;
+        String filePathJpg = PATH + id + "\\" + nameWithoutExtension + ".jpg" ;
 
-        java.nio.file.Path path = Paths.get(filePath);
-        File t = new File(filePathPng);
-        byte[] data = Files.readAllBytes(path);
-        InputStream inputStream = new ByteArrayInputStream(data);
-        OutputStream outputStream = new FileOutputStream(filePathPng);
-        Document doc = getDocument(inputStream);
-
-        TranscoderInput input = new TranscoderInput(doc);
-        TranscoderOutput output = new TranscoderOutput(outputStream);
-
-        try {
-            Transcoder transcoder = getTranscoder("jpg", 0.7f);
-            transcoder.transcode(input, output);
-        } catch (TranscoderException e) {
-            e.printStackTrace();
-        }
+        functions.convertFromSVG(filePath, filePathJpg, "jpg");
+        functions.deleteFilesInFolder(PATH + id, "jpg");
 
         long endTime = System.currentTimeMillis();
         System.out.println("That took " + (endTime - startTime) + " milliseconds for converting from SVG to JPG");
 
         String success = "{\"success\":1}";
         return Response.ok(success).build();
-    }
-
-    private Document getDocument(InputStream inputStream) throws IOException {
-        String parser = XMLResourceDescriptor.getXMLParserClassName();
-        SAXSVGDocumentFactory f = new SAXSVGDocumentFactory(parser);
-        Document doc = f.createDocument("http://www.w3.org/2000/svg",
-                inputStream);
-        return doc;
-    }
-
-    private Transcoder getTranscoder(String transcoderType, float keyQuality) {
-        Transcoder transcoder = null;
-        if (transcoderType.equals("png")) {
-            transcoder = getPNGTranscoder();
-        } else {
-            transcoder = getJPEGTranscoder(keyQuality);
-
-        }
-        return transcoder;
-    }
-
-    private JPEGTranscoder getJPEGTranscoder(float keyQuality) {
-        JPEGTranscoder jpeg = new JPEGTranscoder();
-        jpeg.addTranscodingHint(JPEGTranscoder.KEY_QUALITY, new Float(
-                keyQuality));
-        return jpeg;
-    }
-
-    private PNGTranscoder getPNGTranscoder() {
-        return new PNGTranscoder();
     }
 }

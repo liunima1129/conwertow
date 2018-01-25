@@ -1,5 +1,6 @@
 package com.convertow.rest;
 
+import com.convertow.functions.ConvertOwFunctions;
 import info.magnolia.rest.AbstractEndpoint;
 import info.magnolia.rest.registry.ConfiguredEndpointDefinition;
 import org.apache.batik.anim.dom.SAXSVGDocumentFactory;
@@ -40,7 +41,7 @@ import java.nio.file.Paths;
 @Path("/svgtopng")
 public class SvgToPngRestEndPoint<D extends ConfiguredEndpointDefinition> extends AbstractEndpoint<D> {
     private static final Logger log = LoggerFactory.getLogger(SvgToPngRestEndPoint.class);
-
+    private final ConvertOwFunctions functions = new ConvertOwFunctions();
     /*local test*/
     private static final String PATH = "D:\\docroot\\fileUpload\\";
     /*server*/
@@ -62,22 +63,8 @@ public class SvgToPngRestEndPoint<D extends ConfiguredEndpointDefinition> extend
         String filePath = PATH + id + "\\" + nameWithoutExtension + ".svg" ;
         String filePathPng = PATH + id + "\\" + nameWithoutExtension + ".png" ;
 
-        java.nio.file.Path path = Paths.get(filePath);
-        File t = new File(filePathPng);
-        byte[] data = Files.readAllBytes(path);
-        InputStream inputStream = new ByteArrayInputStream(data);
-        OutputStream outputStream = new FileOutputStream(filePathPng);
-        Document doc = getDocument(inputStream);
-
-        TranscoderInput input = new TranscoderInput(doc);
-        TranscoderOutput output = new TranscoderOutput(outputStream);
-
-        try {
-            Transcoder transcoder = getTranscoder("png", 0.7f);
-            transcoder.transcode(input, output);
-        } catch (TranscoderException e) {
-            e.printStackTrace();
-        }
+        functions.convertFromSVG(filePath, filePathPng,"png");
+        functions.deleteFilesInFolder(PATH + id, "png");
 
         long endTime = System.currentTimeMillis();
         System.out.println("That took " + (endTime - startTime) + " milliseconds for converting from SVG to PNG");
@@ -86,32 +73,4 @@ public class SvgToPngRestEndPoint<D extends ConfiguredEndpointDefinition> extend
         return Response.ok(success).build();
     }
 
-    private Document getDocument(InputStream inputStream) throws IOException {
-        String parser = XMLResourceDescriptor.getXMLParserClassName();
-        SAXSVGDocumentFactory f = new SAXSVGDocumentFactory(parser);
-        Document doc = f.createDocument("http://www.w3.org/2000/svg",
-                inputStream);
-        return doc;
-    }
-
-    private Transcoder getTranscoder(String transcoderType, float keyQuality) {
-        Transcoder transcoder = null;
-        if (transcoderType.equals("jpeg")) {
-            transcoder = getJPEGTranscoder(keyQuality);
-        } else if (transcoderType.equals("png")) {
-            transcoder = getPNGTranscoder();
-        }
-        return transcoder;
-    }
-
-    private JPEGTranscoder getJPEGTranscoder(float keyQuality) {
-        JPEGTranscoder jpeg = new JPEGTranscoder();
-        jpeg.addTranscodingHint(JPEGTranscoder.KEY_QUALITY, new Float(
-                keyQuality));
-        return jpeg;
-    }
-
-    private PNGTranscoder getPNGTranscoder() {
-        return new PNGTranscoder();
-    }
 }

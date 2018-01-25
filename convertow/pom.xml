@@ -239,5 +239,6 @@
     <module>convertow-svg-to-png</module>
     <module>convertow-svg-to-jpg</module>
     <module>convertow-svg-to-tiff</module>
+    <module>convertow-core</module>
   </modules>
 </project>
