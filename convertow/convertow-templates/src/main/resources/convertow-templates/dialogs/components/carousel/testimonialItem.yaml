@@ -1,0 +1,16 @@
+form:
+  tabs:
+    - name: tabMain
+      fields:
+        - !include:/convertow-templates/dialogs/generic/controls/image-field.yaml
+        - !include:/convertow-templates/dialogs/generic/controls/title-field.yaml
+          name: userName
+          label: Name
+        - !include:/convertow-templates/dialogs/generic/controls/title-field.yaml
+          name: role
+          label: Role
+        - !include:/convertow-templates/dialogs/generic/controls/title-field.yaml
+          name: reference
+          label: Reference
+          rows: 4
+actions: !include /convertow-templates/dialogs/generic/master/actions-block.yaml

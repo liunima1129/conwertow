@@ -1,0 +1,4 @@
+templateScript: /convertow-svg-to-tiff/templates/components/svgToTiff.ftl
+renderType: freemarker
+title: SVG to TIFF
+

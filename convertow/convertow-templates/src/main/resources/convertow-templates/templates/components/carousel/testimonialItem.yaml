@@ -1,0 +1,4 @@
+templateScript: /convertow-templates/templates/components/carousel/testimonialItem.ftl
+renderType: freemarker
+dialog: convertow-templates:components/carousel/testimonialItem
+title: Testimonial Item

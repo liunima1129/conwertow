@@ -7,10 +7,10 @@
     <version>1.0-SNAPSHOT</version>
   </parent>
   <groupId>com.convertow</groupId>
-  <artifactId>convertow-templates</artifactId>
+  <artifactId>convertow-svg-to-tiff</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
-  <name>convertow-templates Magnolia Module</name>
+  <name>convertow-svg-to-tiff Magnolia Module</name>
   <!--
   <description>Please uncomment and fill in ...</description>
   -->
@@ -26,11 +26,6 @@
       <version>${magnoliaVersion}</version>
     </dependency>
     <dependency>
-      <groupId>info.magnolia.site</groupId>
-      <artifactId>magnolia-site-app</artifactId>
-      <version>1.0.7</version>
-    </dependency>
-    <dependency>
       <groupId>javax.servlet</groupId>
       <artifactId>servlet-api</artifactId>
       <version>2.5</version>
@@ -44,76 +39,49 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
+    <!--REST-->
     <dependency>
-      <groupId>info.magnolia.imaging</groupId>
-      <artifactId>magnolia-imaging</artifactId>
-      <version>3.4</version>
-    </dependency>
-
-    <!--DAM-->
-    <dependency>
-      <groupId>info.magnolia.dam</groupId>
-      <artifactId>magnolia-dam-api</artifactId>
+      <groupId>info.magnolia.rest</groupId>
+      <artifactId>magnolia-rest-services</artifactId>
     </dependency>
     <dependency>
-      <groupId>info.magnolia.dam</groupId>
-      <artifactId>magnolia-dam-app</artifactId>
+      <groupId>info.magnolia.rest</groupId>
+      <artifactId>magnolia-rest-integration</artifactId>
     </dependency>
     <dependency>
-      <groupId>info.magnolia.dam</groupId>
-      <artifactId>magnolia-dam-compatibility</artifactId>
+      <groupId>info.magnolia.rest</groupId>
+      <artifactId>magnolia-rest-content-delivery</artifactId>
     </dependency>
     <dependency>
-      <groupId>info.magnolia.dam</groupId>
-      <artifactId>magnolia-dam-core</artifactId>
+      <groupId>info.magnolia.rest</groupId>
+      <artifactId>magnolia-rest-tools</artifactId>
+    </dependency>
+    <!--PDF BOX-->
+    <dependency>
+      <groupId>org.apache.pdfbox</groupId>
+      <artifactId>pdfbox</artifactId>
     </dependency>
     <dependency>
-      <groupId>info.magnolia.dam</groupId>
-      <artifactId>magnolia-dam-jcr</artifactId>
+      <groupId>org.apache.pdfbox</groupId>
+      <artifactId>pdfbox-tools</artifactId>
     </dependency>
     <dependency>
-      <groupId>info.magnolia.dam</groupId>
-      <artifactId>magnolia-dam-templating</artifactId>
+      <groupId>org.apache.pdfbox</groupId>
+      <artifactId>fontbox</artifactId>
+    </dependency>
+    <!--BATIK TRANSCODER-->
+    <dependency>
+      <groupId>org.apache.xmlgraphics</groupId>
+      <artifactId>batik-transcoder</artifactId>
     </dependency>
     <dependency>
-      <groupId>info.magnolia.dam</groupId>
-      <artifactId>magnolia-dam-imaging</artifactId>
-    </dependency>
-
-    <dependency>
-      <groupId>com.convertow</groupId>
-      <artifactId>convertow-pdf-to-jpg</artifactId>
-      <version>1.0-SNAPSHOT</version>
+      <groupId>org.apache.xmlgraphics</groupId>
+      <artifactId>batik-codec</artifactId>
     </dependency>
     <dependency>
-      <groupId>com.convertow</groupId>
-      <artifactId>convertow-pdf-to-png</artifactId>
-      <version>1.0-SNAPSHOT</version>
-    </dependency>
-    <dependency>
-      <groupId>com.convertow</groupId>
-      <artifactId>convertow-jpg-to-png</artifactId>
-      <version>1.0-SNAPSHOT</version>
-    </dependency>
-    <dependency>
-      <groupId>com.convertow</groupId>
-      <artifactId>convertow-png-to-jpg</artifactId>
-      <version>1.0-SNAPSHOT</version>
-    </dependency>
-    <dependency>
-      <groupId>com.convertow</groupId>
-      <artifactId>convertow-svg-to-png</artifactId>
-      <version>1.0-SNAPSHOT</version>
-    </dependency>
-    <dependency>
-      <groupId>com.convertow</groupId>
-      <artifactId>convertow-svg-to-jpg</artifactId>
-      <version>1.0-SNAPSHOT</version>
-    </dependency>
-    <dependency>
-      <groupId>com.convertow</groupId>
-      <artifactId>convertow-svg-to-tiff</artifactId>
-      <version>1.0-SNAPSHOT</version>
+      <groupId>com.twelvemonkeys.imageio</groupId>
+      <artifactId>imageio-tiff</artifactId>
+      <version>3.3.2</version>
     </dependency>
   </dependencies>
 

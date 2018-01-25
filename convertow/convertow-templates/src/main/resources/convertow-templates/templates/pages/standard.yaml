@@ -21,6 +21,8 @@ areas:
         id: convertow-svg-to-png:components/svgToPng
       svgToJpg:
         id: convertow-svg-to-jpg:components/svgToJpg
+      svgToTiff:
+        id: convertow-svg-to-tiff:components/svgToTiff
   footer:
     editable: false
 title: Standard
