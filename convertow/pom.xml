@@ -241,5 +241,7 @@
     <module>convertow-svg-to-tiff</module>
     <module>convertow-core</module>
     <module>convertow-tiff-to-pdf</module>
+    <module>convertof-tiff-to-jpg</module>
+    <module>convertow-tiff-to-png</module>
   </modules>
 </project>

@@ -25,6 +25,10 @@ areas:
         id: convertow-svg-to-tiff:components/svgToTiff
       tiffToPdf:
         id: convertow-tiff-to-pdf:components/tiffToPdf
+      tiffToPng:
+        id: convertow-tiff-to-png:components/tiffToPng
+      tiffToJpg:
+        id: convertof-tiff-to-jpg:components/tiffToJpg
   footer:
     editable: false
 title: Standard

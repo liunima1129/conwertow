@@ -1,0 +1,3 @@
+templateScript: /convertof-tiff-to-jpg/templates/components/tiffToJpg.ftl
+renderType: freemarker
+title: TIFF to JPG
