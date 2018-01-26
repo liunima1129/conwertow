@@ -23,6 +23,8 @@ areas:
         id: convertow-svg-to-jpg:components/svgToJpg
       svgToTiff:
         id: convertow-svg-to-tiff:components/svgToTiff
+      tiffToPdf:
+        id: convertow-tiff-to-pdf:components/tiffToPdf
   footer:
     editable: false
 title: Standard
