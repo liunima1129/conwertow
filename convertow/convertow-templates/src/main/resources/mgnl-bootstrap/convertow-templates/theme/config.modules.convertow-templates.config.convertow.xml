@@ -269,6 +269,118 @@
           <sv:value>ko</sv:value>
         </sv:property>
       </sv:node>
+      <sv:node sv:name="ar">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:contentNode</sv:value>
+        </sv:property>
+        <sv:property sv:name="country" sv:type="String">
+          <sv:value />
+        </sv:property>
+        <sv:property sv:name="enabled" sv:type="Boolean">
+          <sv:value>true</sv:value>
+        </sv:property>
+        <sv:property sv:name="language" sv:type="String">
+          <sv:value>ar</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="tr">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:contentNode</sv:value>
+        </sv:property>
+        <sv:property sv:name="country" sv:type="String">
+          <sv:value />
+        </sv:property>
+        <sv:property sv:name="enabled" sv:type="Boolean">
+          <sv:value>true</sv:value>
+        </sv:property>
+        <sv:property sv:name="language" sv:type="String">
+          <sv:value>tr</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hr">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:contentNode</sv:value>
+        </sv:property>
+        <sv:property sv:name="country" sv:type="String">
+          <sv:value />
+        </sv:property>
+        <sv:property sv:name="enabled" sv:type="Boolean">
+          <sv:value>true</sv:value>
+        </sv:property>
+        <sv:property sv:name="language" sv:type="String">
+          <sv:value>hr</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="lt">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:contentNode</sv:value>
+        </sv:property>
+        <sv:property sv:name="country" sv:type="String">
+          <sv:value />
+        </sv:property>
+        <sv:property sv:name="enabled" sv:type="Boolean">
+          <sv:value>true</sv:value>
+        </sv:property>
+        <sv:property sv:name="language" sv:type="String">
+          <sv:value>lt</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="sk">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:contentNode</sv:value>
+        </sv:property>
+        <sv:property sv:name="country" sv:type="String">
+          <sv:value />
+        </sv:property>
+        <sv:property sv:name="enabled" sv:type="Boolean">
+          <sv:value>true</sv:value>
+        </sv:property>
+        <sv:property sv:name="language" sv:type="String">
+          <sv:value>sk</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="sq">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:contentNode</sv:value>
+        </sv:property>
+        <sv:property sv:name="country" sv:type="String">
+          <sv:value />
+        </sv:property>
+        <sv:property sv:name="enabled" sv:type="Boolean">
+          <sv:value>true</sv:value>
+        </sv:property>
+        <sv:property sv:name="language" sv:type="String">
+          <sv:value>sq</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="th">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:contentNode</sv:value>
+        </sv:property>
+        <sv:property sv:name="country" sv:type="String">
+          <sv:value />
+        </sv:property>
+        <sv:property sv:name="enabled" sv:type="Boolean">
+          <sv:value>true</sv:value>
+        </sv:property>
+        <sv:property sv:name="language" sv:type="String">
+          <sv:value>th</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="vi">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:contentNode</sv:value>
+        </sv:property>
+        <sv:property sv:name="country" sv:type="String">
+          <sv:value />
+        </sv:property>
+        <sv:property sv:name="enabled" sv:type="Boolean">
+          <sv:value>true</sv:value>
+        </sv:property>
+        <sv:property sv:name="language" sv:type="String">
+          <sv:value>vi</sv:value>
+        </sv:property>
+      </sv:node>
     </sv:node>
   </sv:node>
 </sv:node>
