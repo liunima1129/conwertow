@@ -5,5 +5,8 @@ form:
         - !include:/convertow-templates/dialogs/generic/controls/title-field.yaml
         - !include:/convertow-templates/dialogs/generic/controls/text-field.yaml
         - !include:/convertow-templates/dialogs/generic/controls/material-icons.yaml
-
+        - name: threeCols
+          class: info.magnolia.ui.form.field.definition.CheckboxFieldDefinition
+          label: Three Cols
+          buttonLabel: Select to make teaser in three cols
 actions: !include /convertow-templates/dialogs/generic/master/actions-block.yaml

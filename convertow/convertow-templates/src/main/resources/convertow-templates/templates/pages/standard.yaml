@@ -29,6 +29,10 @@ areas:
         id: convertow-tiff-to-png:components/tiffToPng
       tiffToJpg:
         id: convertof-tiff-to-jpg:components/tiffToJpg
+      weDo:
+        id: convertow-templates:components/teasers/weDo
+      team:
+        id: convertow-templates:components/content/team
   footer:
     editable: false
 title: Standard
