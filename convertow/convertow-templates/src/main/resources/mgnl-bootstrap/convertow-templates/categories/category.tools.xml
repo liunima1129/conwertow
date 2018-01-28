@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" sv:name="tools">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>mgnl:folder</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>9943f909-ace6-4f85-8743-5147edfca0a0</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:created" sv:type="Date">
+    <sv:value>2018-01-28T22:49:48.651+01:00</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:createdBy" sv:type="String">
+    <sv:value>superuser</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+    <sv:value>2018-01-28T22:54:53.939+01:00</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+    <sv:value>superuser</sv:value>
+  </sv:property>
+  <sv:node sv:name="toPdf">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:category</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>b774c919-1f5d-4c3c-b027-6348dcbbc1e6</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName" sv:type="String">
+      <sv:value>Convert to PDF</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_ar" sv:type="String">
+      <sv:value>تحويل إلى بدف</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_cs" sv:type="String">
+      <sv:value>Převést na PDF</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_de" sv:type="String">
+      <sv:value>In PDF konvertieren</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_es" sv:type="String">
+      <sv:value>Convertir a PDF</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_fr" sv:type="String">
+      <sv:value>Convertir en PDF</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_hr" sv:type="String">
+      <sv:value>Pretvori u PDF</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_in" sv:type="String">
+      <sv:value>Konversikan ke PDF</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_it" sv:type="String">
+      <sv:value>Converti in PDF</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_ja" sv:type="String">
+      <sv:value>PDFに変換する</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_ko" sv:type="String">
+      <sv:value>PDF로 변환</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_lt" sv:type="String">
+      <sv:value>Konvertuoti į PDF</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_nl" sv:type="String">
+      <sv:value>Converteer naar PDF</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_no" sv:type="String">
+      <sv:value>Konverter til PDF</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_pt" sv:type="String">
+      <sv:value>Converter em PDF</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_ru" sv:type="String">
+      <sv:value>Преобразование в PDF</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_sk" sv:type="String">
+      <sv:value>Previesť do formátu PDF</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_sq" sv:type="String">
+      <sv:value>Konvertimi në PDF</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_sv" sv:type="String">
+      <sv:value>Konvertera till PDF</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_th" sv:type="String">
+      <sv:value>แปลงเป็น PDF</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_tr" sv:type="String">
+      <sv:value>PDF'ye dönüştür</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_vi" sv:type="String">
+      <sv:value>Chuyển đổi sang PDF</sv:value>
+    </sv:property>
+    <sv:property sv:name="level" sv:type="String">
+      <sv:value>level-1</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:created" sv:type="Date">
+      <sv:value>2018-01-23T00:26:46.684+01:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:createdBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+      <sv:value>2018-01-28T22:54:22.475+01:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="name" sv:type="String">
+      <sv:value>toPdf</sv:value>
+    </sv:property>
+    <sv:node sv:name="relatedUUID">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:contentNode</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>058e307d-24be-461a-b22c-5ee378815b19</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2018-01-28T22:54:07.528+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2018-01-28T22:54:22.475+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="toImages">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:category</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>7e0e533d-c98a-4057-bba8-343c8c75b18b</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName" sv:type="String">
+      <sv:value>Convert To Image</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_ar" sv:type="String">
+      <sv:value>تحويل إلى صورة</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_cs" sv:type="String">
+      <sv:value>Převést na obrázek</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_de" sv:type="String">
+      <sv:value>In Bild konvertieren</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_es" sv:type="String">
+      <sv:value>Convertir a imagen</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_fr" sv:type="String">
+      <sv:value>Convertir en image</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_hr" sv:type="String">
+      <sv:value>Pretvori u sliku</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_in" sv:type="String">
+      <sv:value>Mengkonversi Untuk Gambar</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_it" sv:type="String">
+      <sv:value>Converti in immagine</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_ja" sv:type="String">
+      <sv:value>画像に変換</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_ko" sv:type="String">
+      <sv:value>이미지로 변환</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_lt" sv:type="String">
+      <sv:value>Konvertuoti į vaizdą</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_nl" sv:type="String">
+      <sv:value>Converteren naar afbeelding</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_no" sv:type="String">
+      <sv:value>Konverter til bilde</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_pt" sv:type="String">
+      <sv:value>Converter para a imagem</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_ru" sv:type="String">
+      <sv:value>Конвертировать в изображение</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_sk" sv:type="String">
+      <sv:value>Previesť na obrázok</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_sq" sv:type="String">
+      <sv:value>Konvertimi në imazh</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_sv" sv:type="String">
+      <sv:value>Konvertera till bild</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_th" sv:type="String">
+      <sv:value>แปลงเป็นรูปภาพ</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_tr" sv:type="String">
+      <sv:value>Resime Dönüştür</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_vi" sv:type="String">
+      <sv:value>Chuyển đổi sang hình ảnh</sv:value>
+    </sv:property>
+    <sv:property sv:name="level" sv:type="String">
+      <sv:value>level-1</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:created" sv:type="Date">
+      <sv:value>2018-01-23T00:26:19.901+01:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:createdBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+      <sv:value>2018-01-28T23:20:06.409+01:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="name" sv:type="String">
+      <sv:value>toImages</sv:value>
+    </sv:property>
+    <sv:node sv:name="relatedUUID">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:contentNode</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>964d25ef-83fb-4b05-a0d8-84891f07335b</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2018-01-23T00:27:00.668+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2018-01-28T22:54:34.264+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="fromPdf">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:category</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>502d9786-cf0a-4b7d-b15e-2e7ccb40f47c</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName" sv:type="String">
+      <sv:value>Convert From PDF</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_ar" sv:type="String">
+      <sv:value>تحويل من بدف</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_cs" sv:type="String">
+      <sv:value>Převést z PDF</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_de" sv:type="String">
+      <sv:value>Aus PDF konvertieren</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_es" sv:type="String">
+      <sv:value>Convertir de PDF</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_fr" sv:type="String">
+      <sv:value>Convertir du PDF</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_hr" sv:type="String">
+      <sv:value>Pretvori iz PDF-a</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_in" sv:type="String">
+      <sv:value>Konversikan Dari PDF</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_it" sv:type="String">
+      <sv:value>Converti da PDF</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_ja" sv:type="String">
+      <sv:value>PDFから変換する</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_ko" sv:type="String">
+      <sv:value>PDF에서 변환</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_lt" sv:type="String">
+      <sv:value>Konvertuoti iš PDF</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_nl" sv:type="String">
+      <sv:value>Converteren van PDF</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_no" sv:type="String">
+      <sv:value>Konverter fra PDF</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_pt" sv:type="String">
+      <sv:value>Converter de PDF</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_ru" sv:type="String">
+      <sv:value>Преобразование из PDF</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_sk" sv:type="String">
+      <sv:value>Prevod z PDF</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_sq" sv:type="String">
+      <sv:value>Convert nga PDF</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_sv" sv:type="String">
+      <sv:value>Konvertera från PDF</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_th" sv:type="String">
+      <sv:value>แปลงจาก PDF</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_tr" sv:type="String">
+      <sv:value>PDF'den Dönüştür</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_vi" sv:type="String">
+      <sv:value>Chuyển đổi từ PDF</sv:value>
+    </sv:property>
+    <sv:property sv:name="level" sv:type="String">
+      <sv:value>level-1</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:created" sv:type="Date">
+      <sv:value>2018-01-28T22:54:45.765+01:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:createdBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+      <sv:value>2018-01-28T23:23:41.836+01:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="name" sv:type="String">
+      <sv:value>fromPdf</sv:value>
+    </sv:property>
+    <sv:node sv:name="relatedUUID">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:contentNode</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>312b9f5b-4043-4619-bb58-3ee59b8db31b</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2018-01-28T23:23:41.836+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2018-01-28T23:23:41.836+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="fromImages">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:category</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>7fd66e7b-9831-4467-aef2-e0eb540366da</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName" sv:type="String">
+      <sv:value>Convert From Image</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_ar" sv:type="String">
+      <sv:value>تحويل من الصورة</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_cs" sv:type="String">
+      <sv:value>Převést z obrázku</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_de" sv:type="String">
+      <sv:value>Aus Bild konvertieren</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_es" sv:type="String">
+      <sv:value>Convertir de imagen</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_fr" sv:type="String">
+      <sv:value>Convertir de l'image</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_hr" sv:type="String">
+      <sv:value>Pretvori s slike</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_in" sv:type="String">
+      <sv:value>Konversikan Dari Gambar</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_it" sv:type="String">
+      <sv:value>Converti da immagine</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_ja" sv:type="String">
+      <sv:value>イメージから変換する</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_ko" sv:type="String">
+      <sv:value>이미지에서 변환</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_lt" sv:type="String">
+      <sv:value>Konvertuoti iš vaizdo</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_nl" sv:type="String">
+      <sv:value>Converteren van afbeelding</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_no" sv:type="String">
+      <sv:value>Konverter fra bilde</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_pt" sv:type="String">
+      <sv:value>Converter a partir da imagem</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_ru" sv:type="String">
+      <sv:value>Преобразовать из изображения</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_sk" sv:type="String">
+      <sv:value>Prevod z obrázku</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_sq" sv:type="String">
+      <sv:value>Konvertimi nga imazhi</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_sv" sv:type="String">
+      <sv:value>Konvertera från bild</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_th" sv:type="String">
+      <sv:value>แปลงจากภาพ</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_tr" sv:type="String">
+      <sv:value>Resimden Dönüştür</sv:value>
+    </sv:property>
+    <sv:property sv:name="displayName_vi" sv:type="String">
+      <sv:value>Chuyển đổi từ hình ảnh</sv:value>
+    </sv:property>
+    <sv:property sv:name="level" sv:type="String">
+      <sv:value>level-1</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:created" sv:type="Date">
+      <sv:value>2018-01-28T22:54:53.939+01:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:createdBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+      <sv:value>2018-01-28T23:26:59.718+01:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="name" sv:type="String">
+      <sv:value>fromImages</sv:value>
+    </sv:property>
+    <sv:node sv:name="relatedUUID">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:contentNode</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>b940fb79-b9bd-4acb-ad4f-1d01ed787596</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2018-01-28T23:26:59.718+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2018-01-28T23:26:59.718+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+</sv:node>
+

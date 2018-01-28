@@ -13,73 +13,20 @@
             </div>
             <div class="collapse navbar-collapse" id="main-navbar">
                 <ul class="navbar-nav mr-auto w-100 justify-content-end">
-                    <li class="nav-item dropdown active">
-                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Home
-                        </a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item active" href="index.html">Home v1</a>
-                            <a class="dropdown-item" href="index-2.html">Home v2</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Pages
-                        </a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="about-us.html">About Us 1</a>
-                            <a class="dropdown-item" href="about-us2.html">About Us 2</a>
-                            <a class="dropdown-item" href="team.html">Team Members</a>
-                            <a class="dropdown-item" href="services.html">Services</a>
-                            <a class="dropdown-item" href="contact-us.html">Contact Us 1</a>
-                            <a class="dropdown-item" href="contact-us2.html">Contact Us 2</a>
-                            <a class="dropdown-item" href="404.html">404</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Elements
-                        </a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="tab.html">Tabs</a>
-                            <a class="dropdown-item" href="alert.html">Alert</a>
-                            <a class="dropdown-item" href="accordion.html">Accordions</a>
-                            <a class="dropdown-item" href="pricing.html">Pricing Tables</a>
-                            <a class="dropdown-item" href="buttons.html">Buttons</a>
-                            <a class="dropdown-item" href="icons.html">Icons</a>
-                            <a class="dropdown-item" href="carousel.html">Carousel</a>
-                            <a class="dropdown-item" href="counter.html">Counter</a>
-                            <a class="dropdown-item" href="map.html">Google Map</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Portfolio
-                        </a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="portfolio-2.html">Portfolio 2 columns</a>
-                            <a class="dropdown-item" href="portfolio.html">Portfolio 3 columns</a>
-                            <a class="dropdown-item" href="portfolio-single.html">Portfolio Single</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Blog
-                        </a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="blog.html">Blog Page</a>
-                            <a class="dropdown-item" href="blog-single.html">Blog Single Page</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Contact Us
-                        </a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="contact-us.html">Contact Us 1</a>
-                            <a class="dropdown-item" href="contact-us2.html">Contact Us 2</a>
-                        </div>
-                    </li>
+                    [#assign node = cmsfn.nodeById("9943f909-ace6-4f85-8743-5147edfca0a0",  "category")]
+                    [#assign categories = cmsfn.children(node!, "mgnl:category")]
+                    [#list categories as category]
+                        [#assign categoryDetails = cmsfn.asContentMap(category!)!]
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                ${categoryDetails.displayName!}
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item active" href="index.html">Home v1</a>
+                                <a class="dropdown-item" href="index-2.html">Home v2</a>
+                            </div>
+                        </li>
+                    [/#list]
                 </ul>
 
                 <div class="search-icon">
