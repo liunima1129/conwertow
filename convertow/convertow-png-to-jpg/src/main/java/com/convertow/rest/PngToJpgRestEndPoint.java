@@ -1,5 +1,6 @@
 package com.convertow.rest;
 
+import com.convertow.interfaces.ConvertowFunctionsInterface;
 import info.magnolia.rest.AbstractEndpoint;
 import info.magnolia.rest.registry.ConfiguredEndpointDefinition;
 import org.slf4j.Logger;
@@ -23,11 +24,8 @@ import java.io.FileOutputStream;
  * Created by Miroslav on 23.1.2018.
  */
 @Path("/pngtojpg")
-public class PngToJpgRestEndPoint<D extends ConfiguredEndpointDefinition> extends AbstractEndpoint<D> {
+public class PngToJpgRestEndPoint<D extends ConfiguredEndpointDefinition> extends AbstractEndpoint<D> implements ConvertowFunctionsInterface {
     private static final Logger log = LoggerFactory.getLogger(PngToJpgRestEndPoint.class);
-    /*local test*/
-    private static final String PATH = "D:\\docroot\\fileUpload\\";
-    /*server*/
 
     @Inject
     public PngToJpgRestEndPoint(final D endpointDefinition) {

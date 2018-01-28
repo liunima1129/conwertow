@@ -1,6 +1,7 @@
 package com.convertow.rest;
 
 import com.convertow.functions.ConvertOwFunctions;
+import com.convertow.interfaces.ConvertowFunctionsInterface;
 import com.itextpdf.text.BadElementException;
 import info.magnolia.rest.AbstractEndpoint;
 import info.magnolia.rest.registry.ConfiguredEndpointDefinition;
@@ -21,12 +22,8 @@ import java.io.IOException;
  * Created by Miroslav on 26.1.2018.
  */
 @Path("/tifftojpg")
-public class TiffToJpgRestEndPoint<D extends ConfiguredEndpointDefinition> extends AbstractEndpoint<D> {
+public class TiffToJpgRestEndPoint<D extends ConfiguredEndpointDefinition> extends AbstractEndpoint<D> implements ConvertowFunctionsInterface {
     private static final Logger log = LoggerFactory.getLogger(TiffToJpgRestEndPoint.class);
-    private final ConvertOwFunctions functions = new ConvertOwFunctions();
-    /*local test*/
-    private static final String PATH = "D:\\docroot\\fileUpload\\";
-    /*server*/
 
     @Inject
     public TiffToJpgRestEndPoint(final D endpointDefinition) {

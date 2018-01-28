@@ -1,5 +1,6 @@
 package com.convertow.rest;
 
+import com.convertow.interfaces.ConvertowFunctionsInterface;
 import com.convertow.rest.multithreading.PdfToJpgMultithreading;
 import info.magnolia.rest.AbstractEndpoint;
 import info.magnolia.rest.registry.ConfiguredEndpointDefinition;
@@ -26,13 +27,9 @@ import java.util.zip.ZipOutputStream;
  * Created by Miroslav on 16.1.2018.
  */
 @Path("/pdftojpg")
-public class PdfToJpgRestEndPoint<D extends ConfiguredEndpointDefinition> extends AbstractEndpoint<D> {
+public class PdfToJpgRestEndPoint<D extends ConfiguredEndpointDefinition> extends AbstractEndpoint<D> implements ConvertowFunctionsInterface{
 
     private static final Logger log = LoggerFactory.getLogger(PdfToJpgRestEndPoint.class);
-    /*local test*/
-    private static final String PATH = "D:\\docroot\\fileUpload\\";
-    /*server*/
-
     @Inject
     public PdfToJpgRestEndPoint(final D endpointDefinition) {
         super(endpointDefinition);

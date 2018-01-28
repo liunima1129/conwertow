@@ -1,5 +1,6 @@
 package com.convertow.rest;
 
+import com.convertow.interfaces.ConvertowFunctionsInterface;
 import com.itextpdf.text.*;
 import com.twelvemonkeys.imageio.plugins.tiff.TIFFImageReaderSpi;
 import com.twelvemonkeys.imageio.plugins.tiff.TIFFImageWriterSpi;
@@ -36,11 +37,8 @@ import com.sun.media.jai.codec.TIFFDecodeParam;
  * Created by Miroslav on 26.1.2018.
  */
 @Path("/tifftopdf")
-public class TiffToPdfRestEndPoint<D extends ConfiguredEndpointDefinition> extends AbstractEndpoint<D> {
+public class TiffToPdfRestEndPoint<D extends ConfiguredEndpointDefinition> extends AbstractEndpoint<D> implements ConvertowFunctionsInterface {
     private static final Logger log = LoggerFactory.getLogger(TiffToPdfRestEndPoint.class);
-    /*local test*/
-    private static final String PATH = "D:\\docroot\\fileUpload\\";
-    /*server*/
 
     @Inject
     public TiffToPdfRestEndPoint(final D endpointDefinition) {

@@ -1,6 +1,7 @@
 package com.convertow.rest;
 
 import com.convertow.functions.ConvertOwFunctions;
+import com.convertow.interfaces.ConvertowFunctionsInterface;
 import com.itextpdf.text.BadElementException;
 import info.magnolia.rest.AbstractEndpoint;
 import info.magnolia.rest.registry.ConfiguredEndpointDefinition;
@@ -30,12 +31,8 @@ import java.util.Iterator;
  * Created by Miroslav on 26.1.2018.
  */
 @Path("/tifftopng")
-public class TiffToPngRestEndPoint<D extends ConfiguredEndpointDefinition> extends AbstractEndpoint<D> {
-    private final ConvertOwFunctions functions = new ConvertOwFunctions();
+public class TiffToPngRestEndPoint<D extends ConfiguredEndpointDefinition> extends AbstractEndpoint<D> implements ConvertowFunctionsInterface{
     private static final Logger log = LoggerFactory.getLogger(TiffToPngRestEndPoint.class);
-    /*local test*/
-    private static final String PATH = "D:\\docroot\\fileUpload\\";
-    /*server*/
 
     @Inject
     public TiffToPngRestEndPoint(final D endpointDefinition) {

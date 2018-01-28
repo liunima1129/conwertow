@@ -1,5 +1,6 @@
 package com.convertow.rest;
 
+import com.convertow.interfaces.ConvertowFunctionsInterface;
 import info.magnolia.rest.AbstractEndpoint;
 import info.magnolia.rest.registry.ConfiguredEndpointDefinition;
 import org.apache.pdfbox.pdmodel.PDDocument;
@@ -22,12 +23,8 @@ import java.io.IOException;
  * Created by Miroslav on 16.1.2018.
  */
 @Path("/pdftopng")
-public class PdfToPngRestEndPoint<D extends ConfiguredEndpointDefinition> extends AbstractEndpoint<D> {
-
+public class PdfToPngRestEndPoint<D extends ConfiguredEndpointDefinition> extends AbstractEndpoint<D> implements ConvertowFunctionsInterface{
     private static final Logger log = LoggerFactory.getLogger(PdfToPngRestEndPoint.class);
-    /*local test*/
-    private static final String PATH = "D:\\docroot\\fileUpload\\";
-    /*server*/
 
     @Inject
     public PdfToPngRestEndPoint(final D endpointDefinition) {

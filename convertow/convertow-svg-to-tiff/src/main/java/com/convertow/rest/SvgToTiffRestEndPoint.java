@@ -1,6 +1,7 @@
 package com.convertow.rest;
 
 import com.convertow.functions.ConvertOwFunctions;
+import com.convertow.interfaces.ConvertowFunctionsInterface;
 import info.magnolia.rest.AbstractEndpoint;
 import info.magnolia.rest.registry.ConfiguredEndpointDefinition;
 import org.apache.batik.anim.dom.SAXSVGDocumentFactory;
@@ -33,12 +34,8 @@ import java.nio.file.Paths;
  * Created by Miroslav on 24.1.2018.
  */
 @Path("/svgtotiff")
-public class SvgToTiffRestEndPoint<D extends ConfiguredEndpointDefinition> extends AbstractEndpoint<D> {
+public class SvgToTiffRestEndPoint<D extends ConfiguredEndpointDefinition> extends AbstractEndpoint<D> implements ConvertowFunctionsInterface {
     private static final Logger log = LoggerFactory.getLogger(SvgToTiffRestEndPoint.class);
-    private final ConvertOwFunctions functions = new ConvertOwFunctions();
-    /*local test*/
-    private static final String PATH = "D:\\docroot\\fileUpload\\";
-    /*server*/
 
     @Inject
     public SvgToTiffRestEndPoint(final D endpointDefinition) {
