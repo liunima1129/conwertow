@@ -9021,7 +9021,7 @@
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-      <sv:value>2018-01-30T21:38:16.641+01:00</sv:value>
+      <sv:value>2018-01-30T22:54:35.786+01:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
       <sv:value>superuser</sv:value>
@@ -9241,7 +9241,7 @@
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-        <sv:value>2018-01-30T21:38:16.641+01:00</sv:value>
+        <sv:value>2018-01-30T22:54:35.786+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
         <sv:value>superuser</sv:value>
@@ -10304,8 +10304,145 @@
     <sv:property sv:name="category" sv:type="String">
       <sv:value>7e0e533d-c98a-4057-bba8-343c8c75b18b</sv:value>
     </sv:property>
+    <sv:property sv:name="description" sv:type="String">
+      <sv:value>Use this simple tool and free convert your svg images to tiff images. No limitations, you can use it as many times as you need.</sv:value>
+    </sv:property>
+    <sv:property sv:name="description_ar" sv:type="String">
+      <sv:value>استخدام هذه الأداة بسيطة وتحويل الصور سفغ مجانا إلى صور تيف. لا قيود، يمكنك استخدامه عدة مرات كما تحتاج.</sv:value>
+    </sv:property>
+    <sv:property sv:name="description_cs" sv:type="String">
+      <sv:value>Použijte tento jednoduchý nástroj a bezplatně převádějte své snímky do formátu TIFF. Žádné omezení, můžete použít tolikrát, kolik potřebujete.</sv:value>
+    </sv:property>
+    <sv:property sv:name="description_de" sv:type="String">
+      <sv:value>Verwenden Sie dieses einfache Tool und konvertieren Sie Ihre Svg-Bilder kostenlos in TIFF-Bilder. Keine Einschränkungen, Sie können es beliebig oft verwenden.</sv:value>
+    </sv:property>
+    <sv:property sv:name="description_es" sv:type="String">
+      <sv:value>Utilice esta herramienta simple y convierta sus imágenes svg a imágenes tiff. Sin limitaciones, puede usarlo tantas veces como lo necesite.</sv:value>
+    </sv:property>
+    <sv:property sv:name="description_fr" sv:type="String">
+      <sv:value>Utilisez cet outil simple et convertissez gratuitement vos images svg en images tiff. Pas de limitations, vous pouvez l'utiliser autant de fois que vous le souhaitez.</sv:value>
+    </sv:property>
+    <sv:property sv:name="description_hr" sv:type="String">
+      <sv:value>Koristite ovaj jednostavan alat i besplatno pretvoriti svoje svg slike na TIFF slike. Nema ograničenja, možete ga koristiti onoliko puta koliko vam je potrebno.</sv:value>
+    </sv:property>
+    <sv:property sv:name="description_in" sv:type="String">
+      <sv:value>Gunakan alat sederhana ini dan bebas ubah gambar svg Anda menjadi gambar tiffg. Tidak ada batasan, Anda bisa menggunakannya sebanyak yang Anda butuhkan.</sv:value>
+    </sv:property>
+    <sv:property sv:name="description_it" sv:type="String">
+      <sv:value>Usa questo semplice strumento e converti le tue immagini svg in immagini tiff. Nessuna limitazione, puoi usarla tutte le volte che ti servono.</sv:value>
+    </sv:property>
+    <sv:property sv:name="description_ja" sv:type="String">
+      <sv:value>このシンプルなツールを使って、あなたのsvgイメージをtiffイメージに自由に変換してください。 制限はなく、必要な回数だけ使用することができます。</sv:value>
+    </sv:property>
+    <sv:property sv:name="description_ko" sv:type="String">
+      <sv:value>이 간단한 도구를 사용하여 무료 svg 이미지를 tiff 이미지로 변환하십시오. 제한이 없기 때문에 필요한만큼 여러 번 사용할 수 있습니다.</sv:value>
+    </sv:property>
+    <sv:property sv:name="description_lt" sv:type="String">
+      <sv:value>Naudokite šį paprastą įrankį ir nemokamai konvertuokite savo svg atvaizdus į tiff vaizdus. Jokių apribojimų galite naudoti tiek kartų, kiek reikia.</sv:value>
+    </sv:property>
+    <sv:property sv:name="description_nl" sv:type="String">
+      <sv:value>Gebruik deze eenvoudige tool en converteer uw svg-afbeeldingen gratis naar tiff-afbeeldingen. Geen beperkingen, je kunt het zo vaak gebruiken als je nodig hebt.</sv:value>
+    </sv:property>
+    <sv:property sv:name="description_no" sv:type="String">
+      <sv:value>Bruk dette enkle verktøyet og konverter gratis svg-bilder til tiff-bilder. Ingen begrensninger, du kan bruke den så mange ganger du trenger.</sv:value>
+    </sv:property>
+    <sv:property sv:name="description_pt" sv:type="String">
+      <sv:value>Use esta ferramenta simples e converta suas imagens svg para imagens tiff. Sem limitações, você pode usá-lo quantas vezes você precisar.</sv:value>
+    </sv:property>
+    <sv:property sv:name="description_ru" sv:type="String">
+      <sv:value>Используйте этот простой инструмент и бесплатно конвертируйте изображения svg в tiff-изображения. Нет ограничений, вы можете использовать его столько раз, сколько вам нужно.</sv:value>
+    </sv:property>
+    <sv:property sv:name="description_sk" sv:type="String">
+      <sv:value>Použite tento jednoduchý nástroj a zadarmo previesť svoje svg obrázky na tiff obrázky. Žiadne obmedzenia, môžete ho použiť toľkokrát, koľko potrebujete.</sv:value>
+    </sv:property>
+    <sv:property sv:name="description_sq" sv:type="String">
+      <sv:value>Përdorni këtë mjet të thjeshtë dhe i konvertojnë imazhet tuaja të SVG në imazhe tifoze. Pa kufizime, mund ta përdorni sa herë që keni nevojë.</sv:value>
+    </sv:property>
+    <sv:property sv:name="description_sv" sv:type="String">
+      <sv:value>Använd det här enkla verktyget och konvertera gratis dina SVG-bilder till TIFF-bilder. Inga begränsningar, du kan använda den så många gånger du behöver.</sv:value>
+    </sv:property>
+    <sv:property sv:name="description_th" sv:type="String">
+      <sv:value>ใช้เครื่องมือนี้ง่ายๆและฟรีแปลงภาพ svg ของคุณเพื่อ tiff ภาพ ไม่มีข้อ จำกัด คุณสามารถใช้งานได้หลายครั้งเท่าที่คุณต้องการ</sv:value>
+    </sv:property>
+    <sv:property sv:name="description_tr" sv:type="String">
+      <sv:value>Bu basit aracı kullanın ve svg resimlerinizi tiff resimlerine dönüştürmek için ücretsiz yapın. Sınırlama yoktur, bunu istediğiniz kadar kullanabilirsin.</sv:value>
+    </sv:property>
+    <sv:property sv:name="description_vi" sv:type="String">
+      <sv:value>Sử dụng công cụ này đơn giản và miễn phí chuyển đổi hình ảnh SVG của bạn để hình ảnh TIFF. Không có giới hạn, bạn có thể sử dụng nó nhiều lần như bạn cần.</sv:value>
+    </sv:property>
     <sv:property sv:name="hideInNav" sv:type="Boolean">
       <sv:value>false</sv:value>
+    </sv:property>
+    <sv:property sv:name="keywords" sv:type="String">
+      <sv:value>convert svg to tiff, svg to tiff</sv:value>
+    </sv:property>
+    <sv:property sv:name="keywords_ar" sv:type="String">
+      <sv:value>تحويل سفغ إلى تيف، سفغ إلى تيف</sv:value>
+    </sv:property>
+    <sv:property sv:name="keywords_cs" sv:type="String">
+      <sv:value>převést svg na tiff, svg do tiff</sv:value>
+    </sv:property>
+    <sv:property sv:name="keywords_de" sv:type="String">
+      <sv:value>Konvertieren von Svg zu Tiff, Svg zu Tiff
+</sv:value>
+    </sv:property>
+    <sv:property sv:name="keywords_es" sv:type="String">
+      <sv:value>convertir svg a tiff, svg a tiff
+</sv:value>
+    </sv:property>
+    <sv:property sv:name="keywords_fr" sv:type="String">
+      <sv:value>convertir svg en tiff, svg en tiff</sv:value>
+    </sv:property>
+    <sv:property sv:name="keywords_hr" sv:type="String">
+      <sv:value>pretvoriti svg u TIFF, svg na TIFF</sv:value>
+    </sv:property>
+    <sv:property sv:name="keywords_in" sv:type="String">
+      <sv:value>ubah svg menjadi tiff, svg to tiff</sv:value>
+    </sv:property>
+    <sv:property sv:name="keywords_it" sv:type="String">
+      <sv:value>convertire svg in tiff, svg in tiff</sv:value>
+    </sv:property>
+    <sv:property sv:name="keywords_ja" sv:type="String">
+      <sv:value>svgをtiffに変換し、svgをtiffに変換する</sv:value>
+    </sv:property>
+    <sv:property sv:name="keywords_ko" sv:type="String">
+      <sv:value>svg에서 tiff로, svg에서 tiff로 변환
+</sv:value>
+    </sv:property>
+    <sv:property sv:name="keywords_lt" sv:type="String">
+      <sv:value>konvertuoti svg į tiff, svg į tiff</sv:value>
+    </sv:property>
+    <sv:property sv:name="keywords_nl" sv:type="String">
+      <sv:value>converteren svg naar tiff, svg naar tiff
+</sv:value>
+    </sv:property>
+    <sv:property sv:name="keywords_no" sv:type="String">
+      <sv:value>konvertere svg til tiff, svg til tiff</sv:value>
+    </sv:property>
+    <sv:property sv:name="keywords_pt" sv:type="String">
+      <sv:value>converter svg para tiff, svg para tiff</sv:value>
+    </sv:property>
+    <sv:property sv:name="keywords_ru" sv:type="String">
+      <sv:value>конвертировать svg в tiff, svg в tiff</sv:value>
+    </sv:property>
+    <sv:property sv:name="keywords_sk" sv:type="String">
+      <sv:value>konvertovať do TIFF, SVG do TIFF</sv:value>
+    </sv:property>
+    <sv:property sv:name="keywords_sq" sv:type="String">
+      <sv:value>convert svg te tiff, svg te tiff</sv:value>
+    </sv:property>
+    <sv:property sv:name="keywords_sv" sv:type="String">
+      <sv:value>konvertera svg till tiff, svg till tiff</sv:value>
+    </sv:property>
+    <sv:property sv:name="keywords_th" sv:type="String">
+      <sv:value>แปลง svg เพื่อ tiff, svg to tiff
+</sv:value>
+    </sv:property>
+    <sv:property sv:name="keywords_tr" sv:type="String">
+      <sv:value>svg'yi tiff'ye, svg'yi tiff'e dönüştür</sv:value>
+    </sv:property>
+    <sv:property sv:name="keywords_vi" sv:type="String">
+      <sv:value>chuyển đổi svg để tiff, svg để tiff</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:created" sv:type="Date">
       <sv:value>2018-01-24T01:36:00.672+01:00</sv:value>
@@ -10314,13 +10451,211 @@
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-      <sv:value>2018-01-24T01:36:08.804+01:00</sv:value>
+      <sv:value>2018-01-30T23:27:46.605+01:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:template" sv:type="String">
       <sv:value>convertow-templates:pages/standard</sv:value>
+    </sv:property>
+    <sv:property sv:name="navigationTitle" sv:type="String">
+      <sv:value>SVG to TIFF</sv:value>
+    </sv:property>
+    <sv:property sv:name="navigationTitle_ar" sv:type="String">
+      <sv:value>سفغ إلى تيف</sv:value>
+    </sv:property>
+    <sv:property sv:name="navigationTitle_cs" sv:type="String">
+      <sv:value>SVG na TIFF</sv:value>
+    </sv:property>
+    <sv:property sv:name="navigationTitle_de" sv:type="String">
+      <sv:value>SVG zu TIFF</sv:value>
+    </sv:property>
+    <sv:property sv:name="navigationTitle_es" sv:type="String">
+      <sv:value>SVG a TIFF</sv:value>
+    </sv:property>
+    <sv:property sv:name="navigationTitle_fr" sv:type="String">
+      <sv:value>SVG à TIFF</sv:value>
+    </sv:property>
+    <sv:property sv:name="navigationTitle_hr" sv:type="String">
+      <sv:value>SVG u TIFF</sv:value>
+    </sv:property>
+    <sv:property sv:name="navigationTitle_in" sv:type="String">
+      <sv:value>SVG ke TIFF</sv:value>
+    </sv:property>
+    <sv:property sv:name="navigationTitle_it" sv:type="String">
+      <sv:value>Da SVG a TIFF</sv:value>
+    </sv:property>
+    <sv:property sv:name="navigationTitle_ja" sv:type="String">
+      <sv:value>SVGからTIFFへ</sv:value>
+    </sv:property>
+    <sv:property sv:name="navigationTitle_ko" sv:type="String">
+      <sv:value>SVG에서 TIFF로</sv:value>
+    </sv:property>
+    <sv:property sv:name="navigationTitle_lt" sv:type="String">
+      <sv:value>SVG į TIFF</sv:value>
+    </sv:property>
+    <sv:property sv:name="navigationTitle_nl" sv:type="String">
+      <sv:value>SVG naar TIFF</sv:value>
+    </sv:property>
+    <sv:property sv:name="navigationTitle_no" sv:type="String">
+      <sv:value>SVG til TIFF</sv:value>
+    </sv:property>
+    <sv:property sv:name="navigationTitle_pt" sv:type="String">
+      <sv:value>SVG para TIFF</sv:value>
+    </sv:property>
+    <sv:property sv:name="navigationTitle_ru" sv:type="String">
+      <sv:value>SVG для TIFF</sv:value>
+    </sv:property>
+    <sv:property sv:name="navigationTitle_sk" sv:type="String">
+      <sv:value>SVG do formátu TIFF</sv:value>
+    </sv:property>
+    <sv:property sv:name="navigationTitle_sq" sv:type="String">
+      <sv:value>SVG në TIFF</sv:value>
+    </sv:property>
+    <sv:property sv:name="navigationTitle_sv" sv:type="String">
+      <sv:value>SVG till TIFF</sv:value>
+    </sv:property>
+    <sv:property sv:name="navigationTitle_th" sv:type="String">
+      <sv:value>SVG ถึง TIFF</sv:value>
+    </sv:property>
+    <sv:property sv:name="navigationTitle_tr" sv:type="String">
+      <sv:value>SVG - TIFF</sv:value>
+    </sv:property>
+    <sv:property sv:name="navigationTitle_vi" sv:type="String">
+      <sv:value>SVG sang TIFF</sv:value>
+    </sv:property>
+    <sv:property sv:name="title" sv:type="String">
+      <sv:value>Free convert your SVG images to TIFF images online. </sv:value>
+    </sv:property>
+    <sv:property sv:name="title_ar" sv:type="String">
+      <sv:value>مجانا تحويل صور سفغ إلى تيف الصور على الانترنت.</sv:value>
+    </sv:property>
+    <sv:property sv:name="title_cs" sv:type="String">
+      <sv:value>Volně převádět SVG obrázky na obrázky TIFF online.</sv:value>
+    </sv:property>
+    <sv:property sv:name="title_de" sv:type="String">
+      <sv:value>Konvertieren Sie Ihre SVG-Bilder kostenlos in TIFF-Bilder.</sv:value>
+    </sv:property>
+    <sv:property sv:name="title_es" sv:type="String">
+      <sv:value>Convierta gratis sus imágenes SVG a imágenes TIFF en línea.</sv:value>
+    </sv:property>
+    <sv:property sv:name="title_fr" sv:type="String">
+      <sv:value>Convertissez gratuitement vos images SVG en images TIFF en ligne.</sv:value>
+    </sv:property>
+    <sv:property sv:name="title_hr" sv:type="String">
+      <sv:value>Slobodno pretvorite SVG slike u TIFF slike online.</sv:value>
+    </sv:property>
+    <sv:property sv:name="title_in" sv:type="String">
+      <sv:value>Gratis convert gambar SVG Anda ke gambar TIFF secara online.</sv:value>
+    </sv:property>
+    <sv:property sv:name="title_it" sv:type="String">
+      <sv:value>Converti le tue immagini SVG in immagini TIFF online.</sv:value>
+    </sv:property>
+    <sv:property sv:name="title_ja" sv:type="String">
+      <sv:value>あなたのSVGイメージをTIFFイメージに自由にオンラインで自由に変換してください。</sv:value>
+    </sv:property>
+    <sv:property sv:name="title_ko" sv:type="String">
+      <sv:value>SVG 이미지를 온라인으로 TIFF 이미지로 무료로 변환하십시오.</sv:value>
+    </sv:property>
+    <sv:property sv:name="title_lt" sv:type="String">
+      <sv:value>Nemokama konvertuoti SVG vaizdus į TIFF vaizdus internete.</sv:value>
+    </sv:property>
+    <sv:property sv:name="title_nl" sv:type="String">
+      <sv:value>Gratis uw SVG-afbeeldingen gratis converteren naar TIFF-afbeeldingen online.</sv:value>
+    </sv:property>
+    <sv:property sv:name="title_no" sv:type="String">
+      <sv:value>Gratis konvertere SVG-bilder til TIFF-bilder på nettet.</sv:value>
+    </sv:property>
+    <sv:property sv:name="title_pt" sv:type="String">
+      <sv:value>Livre converter suas imagens SVG para imagens TIFF online.</sv:value>
+    </sv:property>
+    <sv:property sv:name="title_ru" sv:type="String">
+      <sv:value>Бесплатный конвертировать ваши изображения SVG в изображения TIFF онлайн.</sv:value>
+    </sv:property>
+    <sv:property sv:name="title_sk" sv:type="String">
+      <sv:value>Voľný prevod SVG obrázkov na obrázky TIFF online.</sv:value>
+    </sv:property>
+    <sv:property sv:name="title_sq" sv:type="String">
+      <sv:value>Falas konvertoni imazhet tuaja SVG në imazhe TIFF në internet.</sv:value>
+    </sv:property>
+    <sv:property sv:name="title_sv" sv:type="String">
+      <sv:value>Gratis konvertera dina SVG-bilder till TIFF-bilder på nätet.</sv:value>
+    </sv:property>
+    <sv:property sv:name="title_th" sv:type="String">
+      <sv:value>แปลงภาพ SVG ของคุณให้เป็นรูปแบบ TIFF แบบออนไลน์</sv:value>
+    </sv:property>
+    <sv:property sv:name="title_tr" sv:type="String">
+      <sv:value>SVG görüntülerinizi çevrimiçi TIFF görüntülerine dönüştürme.</sv:value>
+    </sv:property>
+    <sv:property sv:name="title_vi" sv:type="String">
+      <sv:value>Miễn phí chuyển đổi hình ảnh SVG của bạn thành hình ảnh TIFF trực tuyến.</sv:value>
+    </sv:property>
+    <sv:property sv:name="windowTitle" sv:type="String">
+      <sv:value>SVG to TIFF</sv:value>
+    </sv:property>
+    <sv:property sv:name="windowTitle_ar" sv:type="String">
+      <sv:value>سفغ إلى تيف</sv:value>
+    </sv:property>
+    <sv:property sv:name="windowTitle_cs" sv:type="String">
+      <sv:value>SVG na TIFF</sv:value>
+    </sv:property>
+    <sv:property sv:name="windowTitle_de" sv:type="String">
+      <sv:value>SVG zu TIFF</sv:value>
+    </sv:property>
+    <sv:property sv:name="windowTitle_es" sv:type="String">
+      <sv:value>SVG a TIFF</sv:value>
+    </sv:property>
+    <sv:property sv:name="windowTitle_fr" sv:type="String">
+      <sv:value>SVG à TIFF</sv:value>
+    </sv:property>
+    <sv:property sv:name="windowTitle_hr" sv:type="String">
+      <sv:value>SVG u TIFF</sv:value>
+    </sv:property>
+    <sv:property sv:name="windowTitle_in" sv:type="String">
+      <sv:value>SVG ke TIFF</sv:value>
+    </sv:property>
+    <sv:property sv:name="windowTitle_it" sv:type="String">
+      <sv:value>Da SVG a TIFF</sv:value>
+    </sv:property>
+    <sv:property sv:name="windowTitle_ja" sv:type="String">
+      <sv:value>SVGからTIFFへ</sv:value>
+    </sv:property>
+    <sv:property sv:name="windowTitle_ko" sv:type="String">
+      <sv:value>SVG에서 TIFF로</sv:value>
+    </sv:property>
+    <sv:property sv:name="windowTitle_lt" sv:type="String">
+      <sv:value>SVG į TIFF</sv:value>
+    </sv:property>
+    <sv:property sv:name="windowTitle_nl" sv:type="String">
+      <sv:value>SVG naar TIFF</sv:value>
+    </sv:property>
+    <sv:property sv:name="windowTitle_no" sv:type="String">
+      <sv:value>SVG til TIFF</sv:value>
+    </sv:property>
+    <sv:property sv:name="windowTitle_pt" sv:type="String">
+      <sv:value>SVG para TIFF</sv:value>
+    </sv:property>
+    <sv:property sv:name="windowTitle_ru" sv:type="String">
+      <sv:value>SVG для TIFF</sv:value>
+    </sv:property>
+    <sv:property sv:name="windowTitle_sk" sv:type="String">
+      <sv:value>SVG do formátu TIFF</sv:value>
+    </sv:property>
+    <sv:property sv:name="windowTitle_sq" sv:type="String">
+      <sv:value>SVG në TIFF</sv:value>
+    </sv:property>
+    <sv:property sv:name="windowTitle_sv" sv:type="String">
+      <sv:value>SVG till TIFF</sv:value>
+    </sv:property>
+    <sv:property sv:name="windowTitle_th" sv:type="String">
+      <sv:value>SVG ถึง TIFF</sv:value>
+    </sv:property>
+    <sv:property sv:name="windowTitle_tr" sv:type="String">
+      <sv:value>SVG - TIFF</sv:value>
+    </sv:property>
+    <sv:property sv:name="windowTitle_vi" sv:type="String">
+      <sv:value>SVG sang TIFF</sv:value>
     </sv:property>
     <sv:node sv:name="main">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -10336,11 +10671,169 @@
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-        <sv:value>2018-01-24T01:36:08.804+01:00</sv:value>
+        <sv:value>2018-01-30T23:07:20.790+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
         <sv:value>superuser</sv:value>
       </sv:property>
+      <sv:node sv:name="00">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:component</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>ecde1d39-dca1-4227-8f6b-75ced09caee9</sv:value>
+        </sv:property>
+        <sv:property sv:name="image" sv:type="String">
+          <sv:value>jcr:12b4cdff-7488-4402-8fb7-bda9bc0e2a85</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2018-01-30T23:06:59.388+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2018-01-30T23:07:20.790+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:template" sv:type="String">
+          <sv:value>convertow-templates:components/content/headerImage</sv:value>
+        </sv:property>
+        <sv:property sv:name="subtitle" sv:type="String">
+          <sv:value>Convert SVG to TIFF</sv:value>
+        </sv:property>
+        <sv:property sv:name="subtitle_ar" sv:type="String">
+          <sv:value>تحويل سفغ إلى تيف</sv:value>
+        </sv:property>
+        <sv:property sv:name="subtitle_cs" sv:type="String">
+          <sv:value>Převést SVG na TIFF</sv:value>
+        </sv:property>
+        <sv:property sv:name="subtitle_de" sv:type="String">
+          <sv:value>SVG in TIFF konvertieren</sv:value>
+        </sv:property>
+        <sv:property sv:name="subtitle_es" sv:type="String">
+          <sv:value>Convierte SVG a TIFF</sv:value>
+        </sv:property>
+        <sv:property sv:name="subtitle_fr" sv:type="String">
+          <sv:value>Convertir SVG en TIFF</sv:value>
+        </sv:property>
+        <sv:property sv:name="subtitle_hr" sv:type="String">
+          <sv:value>Pretvori SVG u TIFF</sv:value>
+        </sv:property>
+        <sv:property sv:name="subtitle_in" sv:type="String">
+          <sv:value>Mengkonversi SVG ke TIFF</sv:value>
+        </sv:property>
+        <sv:property sv:name="subtitle_it" sv:type="String">
+          <sv:value>Converti SVG in TIFF</sv:value>
+        </sv:property>
+        <sv:property sv:name="subtitle_ja" sv:type="String">
+          <sv:value>SVGをTIFFに変換する</sv:value>
+        </sv:property>
+        <sv:property sv:name="subtitle_ko" sv:type="String">
+          <sv:value>SVG를 TIFF로 변환</sv:value>
+        </sv:property>
+        <sv:property sv:name="subtitle_lt" sv:type="String">
+          <sv:value>Konvertuoti SVG į TIFF</sv:value>
+        </sv:property>
+        <sv:property sv:name="subtitle_nl" sv:type="String">
+          <sv:value>SVG converteren naar TIFF</sv:value>
+        </sv:property>
+        <sv:property sv:name="subtitle_no" sv:type="String">
+          <sv:value>Konverter SVG til TIFF</sv:value>
+        </sv:property>
+        <sv:property sv:name="subtitle_pt" sv:type="String">
+          <sv:value>Converta SVG para TIFF</sv:value>
+        </sv:property>
+        <sv:property sv:name="subtitle_ru" sv:type="String">
+          <sv:value>Преобразование SVG в TIFF</sv:value>
+        </sv:property>
+        <sv:property sv:name="subtitle_sk" sv:type="String">
+          <sv:value>Prevod SVG na TIFF</sv:value>
+        </sv:property>
+        <sv:property sv:name="subtitle_sq" sv:type="String">
+          <sv:value>Convert SVG në TIFF</sv:value>
+        </sv:property>
+        <sv:property sv:name="subtitle_sv" sv:type="String">
+          <sv:value>Konvertera SVG till TIFF</sv:value>
+        </sv:property>
+        <sv:property sv:name="subtitle_th" sv:type="String">
+          <sv:value>แปลง SVG เป็น TIFF</sv:value>
+        </sv:property>
+        <sv:property sv:name="subtitle_tr" sv:type="String">
+          <sv:value>SVG'yı TIFF birimine dönüştür</sv:value>
+        </sv:property>
+        <sv:property sv:name="subtitle_vi" sv:type="String">
+          <sv:value>Chuyển đổi SVG sang TIFF</sv:value>
+        </sv:property>
+        <sv:property sv:name="title" sv:type="String">
+          <sv:value>SVG to TIFF</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_ar" sv:type="String">
+          <sv:value>سفغ إلى تيف</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_cs" sv:type="String">
+          <sv:value>SVG na TIFF</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_de" sv:type="String">
+          <sv:value>SVG zu TIFF</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_es" sv:type="String">
+          <sv:value>SVG a TIFF</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_fr" sv:type="String">
+          <sv:value>SVG à TIFF</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_hr" sv:type="String">
+          <sv:value>SVG u TIFF</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_in" sv:type="String">
+          <sv:value>SVG ke TIFF</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_it" sv:type="String">
+          <sv:value>Da SVG a TIFF</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_ja" sv:type="String">
+          <sv:value>SVGからTIFFへ</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_ko" sv:type="String">
+          <sv:value>SVG에서 TIFF로</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_lt" sv:type="String">
+          <sv:value>SVG į TIFF</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_nl" sv:type="String">
+          <sv:value>SVG naar TIFF</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_no" sv:type="String">
+          <sv:value>SVG til TIFF</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_pt" sv:type="String">
+          <sv:value>SVG para TIFF</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_ru" sv:type="String">
+          <sv:value>SVG для TIFF</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_sk" sv:type="String">
+          <sv:value>SVG do formátu TIFF</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_sq" sv:type="String">
+          <sv:value>SVG në TIFF</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_sv" sv:type="String">
+          <sv:value>SVG till TIFF</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_th" sv:type="String">
+          <sv:value>SVG ถึง TIFF</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_tr" sv:type="String">
+          <sv:value>SVG - TIFF</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_vi" sv:type="String">
+          <sv:value>SVG sang TIFF</sv:value>
+        </sv:property>
+      </sv:node>
       <sv:node sv:name="0">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>mgnl:component</sv:value>
@@ -10363,6 +10856,751 @@
         <sv:property sv:name="mgnl:template" sv:type="String">
           <sv:value>convertow-svg-to-tiff:components/svgToTiff</sv:value>
         </sv:property>
+      </sv:node>
+      <sv:node sv:name="05">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:component</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>724406a1-7d34-4814-897f-d3d1b15baccc</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+          <sv:value>false</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2018-01-30T22:53:45.447+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+          <sv:value>2018-01-30T22:53:45.448+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2018-01-30T23:00:47.956+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:template" sv:type="String">
+          <sv:value>convertow-templates:components/teasers/weDo</sv:value>
+        </sv:property>
+        <sv:node sv:name="weDoTeaser">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:area</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>d91c3df5-c16b-49b1-859f-8ce146b51938</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+            <sv:value>false</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:created" sv:type="Date">
+            <sv:value>2018-01-30T22:53:45.447+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:createdBy" sv:type="String">
+            <sv:value>superuser</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+            <sv:value>2018-01-30T22:53:45.448+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
+            <sv:value>superuser</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+            <sv:value>2018-01-30T23:00:47.956+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+            <sv:value>superuser</sv:value>
+          </sv:property>
+          <sv:node sv:name="0">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:component</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>7f3618ff-e29a-49b1-8be4-cb85ea2543cd</sv:value>
+            </sv:property>
+            <sv:property sv:name="materialIcon" sv:type="String">
+              <sv:value>mdi-lightbulb-on-outline</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+              <sv:value>false</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:created" sv:type="Date">
+              <sv:value>2018-01-30T22:53:45.447+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:createdBy" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+              <sv:value>2018-01-30T22:53:45.448+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+              <sv:value>2018-01-30T23:00:47.956+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:template" sv:type="String">
+              <sv:value>convertow-templates:components/teasers/weDoTeaser</sv:value>
+            </sv:property>
+            <sv:property sv:name="text" sv:type="String">
+              <sv:value>&lt;p&gt;Drag and drop your PDF file you want to convert. Once you receive message that file is uploaded you can click &amp;quot;Convert&amp;quot; button to start with conversion. At the end by pressing &amp;quot;Download&amp;quot; button you will get your results&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_ar" sv:type="String">
+              <sv:value>&lt;p&gt;سحب وإسقاط ملف بدف الذي تريد تحويله. بمجرد تلقي الرسالة التي يتم تحميلها الملف يمكنك النقر فوق &amp;quot;تحويل&amp;quot; زر لبدء مع التحويل. في النهاية عن طريق الضغط على زر &amp;quot;تحميل&amp;quot; سوف تحصل على النتائج الخاصة بك&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_cs" sv:type="String">
+              <sv:value>&lt;p&gt;Přet&amp;aacute;hněte soubor PDF, kter&amp;yacute; chcete přev&amp;eacute;st. Jakmile obdrž&amp;iacute;te zpr&amp;aacute;vu o nahr&amp;aacute;n&amp;iacute; souboru, můžete kliknut&amp;iacute;m na tlač&amp;iacute;tko &amp;quot;Přev&amp;eacute;st&amp;quot; zač&amp;iacute;t konverzi. Nakonec stisknut&amp;iacute;m tlač&amp;iacute;tka &amp;quot;St&amp;aacute;hnout&amp;quot; z&amp;iacute;sk&amp;aacute;te sv&amp;eacute; v&amp;yacute;sledky&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_de" sv:type="String">
+              <sv:value>&lt;p&gt;Ziehen Sie Ihre PDF-Datei, die Sie konvertieren m&amp;ouml;chten, per Drag &amp;amp; Drop. Sobald Sie die Nachricht erhalten, dass die Datei hochgeladen wurde, k&amp;ouml;nnen Sie auf &amp;quot;Konvertieren&amp;quot; klicken, um mit der Konvertierung zu beginnen. Am Ende durch Dr&amp;uuml;cken der Schaltfl&amp;auml;che &amp;quot;Download&amp;quot; erhalten Sie Ihre Ergebnisse&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_es" sv:type="String">
+              <sv:value>&lt;p&gt;Arrastre y suelte su archivo PDF que desea convertir. Una vez que reciba el mensaje de que el archivo est&amp;aacute; cargado, puede hacer clic en el bot&amp;oacute;n &amp;quot;Convertir&amp;quot; para comenzar con la conversi&amp;oacute;n. Al final, al presionar el bot&amp;oacute;n &amp;quot;Descargar&amp;quot; obtendr&amp;aacute;s los resultados&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_fr" sv:type="String">
+              <sv:value>&lt;p&gt;Glissez et d&amp;eacute;posez votre fichier PDF que vous souhaitez convertir. Une fois que vous recevez le message que le fichier est t&amp;eacute;l&amp;eacute;charg&amp;eacute;, vous pouvez cliquer sur le bouton &amp;quot;Convertir&amp;quot; pour commencer la conversion. &amp;Agrave; la fin en appuyant sur le bouton &amp;quot;T&amp;eacute;l&amp;eacute;charger&amp;quot;, vous obtiendrez vos r&amp;eacute;sultats&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_hr" sv:type="String">
+              <sv:value>&lt;p&gt;Povucite i ispustite PDF datoteku koju želite pretvoriti. Kada primite poruku da je datoteka prenesena, možete kliknuti gumb &amp;quot;Pretvori&amp;quot; da biste započeli s konverzijom. Na kraju pritiskom gumba &amp;quot;Preuzimanje&amp;quot; dobit ćete rezultate&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_in" sv:type="String">
+              <sv:value>&lt;p&gt;Seret dan lepaskan file PDF yang ingin Anda ubah. Setelah Anda menerima pesan bahwa file diunggah, Anda bisa mengklik tombol &amp;quot;Convert&amp;quot; untuk memulai dengan konversi. Pada akhirnya dengan menekan tombol &amp;quot;Download&amp;quot; Anda akan mendapatkan hasilnya&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_it" sv:type="String">
+              <sv:value>&lt;p&gt;Trascina e rilascia il file PDF che desideri convertire. Una volta ricevuto il messaggio che il file &amp;egrave; stato caricato, puoi fare clic sul pulsante &amp;quot;Converti&amp;quot; per iniziare con la conversione. Alla fine, premendo il pulsante &amp;quot;Download&amp;quot; otterrai i risultati&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_ja" sv:type="String">
+              <sv:value>&lt;p&gt;変換したいPDFファイルをドラッグアンドドロップします。 ファイルがアップロードされたというメッセージを受け取ったら、「変換」ボタンをクリックして変換を開始できます。 最後に「ダウンロード」ボタンを押すと結果が表示されます&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_ko" sv:type="String">
+              <sv:value>&lt;p&gt;변환하려는 PDF 파일을 드래그 앤 드롭하십시오. 파일이 업로드되었다는 메시지를 받으면 &amp;quot;변환&amp;quot;버튼을 클릭하여 변환으로 시작할 수 있습니다. 끝에 &amp;quot;다운로드&amp;quot;버튼을 누르면 결과를 얻을 것입니다&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_lt" sv:type="String">
+              <sv:value>&lt;p&gt;Nuvilkite PDF failą, kurį norite konvertuoti. Gavęs prane&amp;scaron;imą, kad failas yra įkeltas, galite spustelėti mygtuką &amp;quot;Konvertuoti&amp;quot;, kad būtų pradėtas konversija. Paspaudę mygtuką &amp;quot;Atsisiųsti&amp;quot;, jūs gausite savo rezultatus&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_nl" sv:type="String">
+              <sv:value>&lt;p&gt;Versleep je PDF-bestand dat je wilt converteren. Zodra u het bericht ontvangt dat het bestand is ge&amp;uuml;pload, kunt u klikken op de knop &amp;#39;Converteren&amp;#39; om te beginnen met de conversie. Aan het einde door op de knop &amp;quot;Download&amp;quot; te klikken, krijgt u uw resultaten&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_no" sv:type="String">
+              <sv:value>&lt;p&gt;Dra og slipp din PDF-fil du vil konvertere. N&amp;aring;r du mottar melding om at filen er lastet opp, kan du klikke p&amp;aring; &amp;quot;Konverter&amp;quot; -knappen for &amp;aring; starte med konvertering. P&amp;aring; slutten ved &amp;aring; trykke p&amp;aring; &amp;quot;Last ned&amp;quot; -knappen f&amp;aring;r du resultatene dine&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_pt" sv:type="String">
+              <sv:value>&lt;p&gt;Arraste e solte seu arquivo PDF que deseja converter. Uma vez que voc&amp;ecirc; recebe a mensagem, o arquivo &amp;eacute; carregado, voc&amp;ecirc; pode clicar no bot&amp;atilde;o &amp;quot;Converter&amp;quot; para come&amp;ccedil;ar com a convers&amp;atilde;o. No final, pressionando o bot&amp;atilde;o &amp;quot;Download&amp;quot; voc&amp;ecirc; receber&amp;aacute; seus resultados&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_ru" sv:type="String">
+              <sv:value>&lt;p&gt;Перетащите файл PDF, который вы хотите преобразовать. Как только вы получите сообщение о том, что файл загружен, вы можете нажать кнопку &amp;laquo;Конвертировать&amp;raquo;, чтобы начать с преобразования. В конце, нажав кнопку &amp;laquo;Загрузить&amp;raquo;, вы получите свои результаты&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_sk" sv:type="String">
+              <sv:value>&lt;p&gt;Pretiahnite a presuňte s&amp;uacute;bor PDF, ktor&amp;yacute; chcete previesť. Akon&amp;aacute;hle dostanete spr&amp;aacute;vu, že je s&amp;uacute;bor nahrat&amp;yacute;, m&amp;ocirc;žete klikn&amp;uacute;ť na tlačidlo &amp;quot;Previesť&amp;quot; a začať konverziou. Na konci stlačen&amp;iacute;m tlačidla &amp;quot;Stiahnuť&amp;quot; z&amp;iacute;skate svoje v&amp;yacute;sledky&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_sq" sv:type="String">
+              <sv:value>&lt;p&gt;Zvarrisni dhe hiqni skedarin tuaj PDF q&amp;euml; doni t&amp;euml; konvertohet. Pasi t&amp;euml; keni marr&amp;euml; mesazhin q&amp;euml; skedari &amp;euml;sht&amp;euml; i ngarkuar ju mund t&amp;euml; klikoni butonin &amp;quot;Convert&amp;quot; p&amp;euml;r t&amp;euml; filluar me konvertimin. N&amp;euml; fund duke shtypur butonin &amp;quot;Download&amp;quot; ju do t&amp;euml; merrni rezultatet tuaja&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_sv" sv:type="String">
+              <sv:value>&lt;p&gt;Dra och sl&amp;auml;pp din PDF-fil som du vill konvertera. N&amp;auml;r du har f&amp;aring;tt ett meddelande om att filen har laddats upp kan du klicka p&amp;aring; knappen &amp;quot;Konvertera&amp;quot; f&amp;ouml;r att b&amp;ouml;rja med konvertering. I slutet genom att trycka p&amp;aring; &amp;quot;Download&amp;quot; knappen f&amp;aring;r du dina resultat&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_th" sv:type="String">
+              <sv:value>&lt;p&gt;ลากและวางไฟล์ PDF ที่คุณต้องการแปลง เมื่อได้รับข้อความว่าอัปโหลดไฟล์แล้วคุณสามารถคลิกปุ่ม &amp;quot;แปลง&amp;quot; เพื่อเริ่มต้นการแปลง ในตอนท้ายโดยการกดปุ่ม &amp;quot;Download&amp;quot; คุณจะได้ผลลัพธ์&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_tr" sv:type="String">
+              <sv:value>&lt;p&gt;S&amp;uuml;r&amp;uuml;kleyip PDF dosyanızı d&amp;ouml;n&amp;uuml;şt&amp;uuml;rmek istediğinizde bırakın. Dosyanın y&amp;uuml;klendiğine dair bir mesaj aldıktan sonra, d&amp;ouml;n&amp;uuml;ş&amp;uuml;mle başlamak i&amp;ccedil;in &amp;quot;D&amp;ouml;n&amp;uuml;şt&amp;uuml;r&amp;quot; d&amp;uuml;ğmesini tıklayabilirsiniz. Sonunda &amp;quot;İndir&amp;quot; d&amp;uuml;ğmesine basarak sonu&amp;ccedil;larınızı alacaksınız.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_vi" sv:type="String">
+              <sv:value>&lt;p&gt;K&amp;eacute;o v&amp;agrave; thả tệp PDF bạn muốn chuyển đổi. Một khi bạn nhận được th&amp;ocirc;ng b&amp;aacute;o rằng tập tin được tải l&amp;ecirc;n, bạn c&amp;oacute; thể nhấp v&amp;agrave;o n&amp;uacute;t &amp;quot;Chuyển đổi&amp;quot; để bắt đầu chuyển đổi. Cuối c&amp;ugrave;ng bằng c&amp;aacute;ch nhấn n&amp;uacute;t &amp;quot;Download&amp;quot;, bạn sẽ nhận được kết quả&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="threeCols" sv:type="Boolean">
+              <sv:value>true</sv:value>
+            </sv:property>
+            <sv:property sv:name="title" sv:type="String">
+              <sv:value>How to convert SVG to TIFF </sv:value>
+            </sv:property>
+            <sv:property sv:name="title_ar" sv:type="String">
+              <sv:value>كيفية تحويل سفغ إلى تيف</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_cs" sv:type="String">
+              <sv:value>Jak převést SVG do formátu TIFF</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_de" sv:type="String">
+              <sv:value>Wie konvertiert man SVG nach TIFF</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_es" sv:type="String">
+              <sv:value>Cómo convertir SVG a TIFF</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_fr" sv:type="String">
+              <sv:value>Comment convertir SVG en TIFF</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_hr" sv:type="String">
+              <sv:value>Kako pretvoriti SVG u TIFF</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_in" sv:type="String">
+              <sv:value>Bagaimana mengkonversi SVG ke TIFF</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_it" sv:type="String">
+              <sv:value>Come convertire SVG in TIFF</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_ja" sv:type="String">
+              <sv:value>SVGをTIFFに変換する方法</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_ko" sv:type="String">
+              <sv:value>SVG를 TIFF로 변환하는 방법</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_lt" sv:type="String">
+              <sv:value>Kaip konvertuoti SVG į TIFF</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_nl" sv:type="String">
+              <sv:value>SVG converteren naar TIFF</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_no" sv:type="String">
+              <sv:value>Hvordan konvertere SVG til TIFF</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_pt" sv:type="String">
+              <sv:value>Como converter SVG em TIFF</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_ru" sv:type="String">
+              <sv:value>Как преобразовать SVG в TIFF</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_sk" sv:type="String">
+              <sv:value>Ako previesť SVG do formátu TIFF</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_sq" sv:type="String">
+              <sv:value>Si të konvertohet SVG në TIFF</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_sv" sv:type="String">
+              <sv:value>Hur konverterar SVG till TIFF</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_th" sv:type="String">
+              <sv:value>วิธีแปลง SVG เป็น TIFF</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_tr" sv:type="String">
+              <sv:value>Nasıl SVG için TIFF dönüştüğünde için</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_vi" sv:type="String">
+              <sv:value>Làm thế nào để chuyển đổi SVG sang TIFF</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="00">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:component</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>4cba28cc-55ea-4b27-96ce-60df4027383f</sv:value>
+            </sv:property>
+            <sv:property sv:name="materialIcon" sv:type="String">
+              <sv:value>mdi-fingerprint</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+              <sv:value>false</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:created" sv:type="Date">
+              <sv:value>2018-01-30T22:53:45.447+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:createdBy" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+              <sv:value>2018-01-30T22:53:45.448+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+              <sv:value>2018-01-30T22:53:45.447+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:template" sv:type="String">
+              <sv:value>convertow-templates:components/teasers/weDoTeaser</sv:value>
+            </sv:property>
+            <sv:property sv:name="text" sv:type="String">
+              <sv:value>&lt;p&gt;We guarantee 100% security and privacy on your files. We do not share files with anyone. Files which has been uploaded automatically are deleted every 30 minutes.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_ar" sv:type="String">
+              <sv:value>&lt;p&gt;ونحن نضمن 100٪ الأمن والخصوصية على الملفات الخاصة بك. نحن لا نشارك الملفات مع أي شخص. يتم حذف الملفات التي تم تحميلها تلقائيا كل 30 دقيقة.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_cs" sv:type="String">
+              <sv:value>&lt;p&gt;Zaručujeme 100% zabezpečen&amp;iacute; a soukrom&amp;iacute; va&amp;scaron;ich souborů. Soubory s nik&amp;yacute;m nesd&amp;iacute;l&amp;iacute;me. Soubory, kter&amp;eacute; byly nahr&amp;aacute;ny automaticky, jsou vymaz&amp;aacute;ny každ&amp;yacute;ch 30 minut.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_de" sv:type="String">
+              <sv:value>&lt;p&gt;Wir garantieren 100% Sicherheit und Datenschutz f&amp;uuml;r Ihre Dateien. Wir teilen keine Dateien mit irgendjemandem. Dateien, die automatisch hochgeladen wurden, werden alle 30 Minuten gel&amp;ouml;scht.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_es" sv:type="String">
+              <sv:value>&lt;p&gt;Garantizamos el 100% de seguridad y privacidad en sus archivos. No compartimos archivos con nadie. Los archivos que se cargaron autom&amp;aacute;ticamente se eliminan cada 30 minutos.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_fr" sv:type="String">
+              <sv:value>&lt;p&gt;Nous garantissons 100% de s&amp;eacute;curit&amp;eacute; et de confidentialit&amp;eacute; sur vos fichiers. Nous ne partageons aucun fichier avec quelqu&amp;#39;un. Les fichiers qui ont &amp;eacute;t&amp;eacute; t&amp;eacute;l&amp;eacute;charg&amp;eacute;s automatiquement sont supprim&amp;eacute;s toutes les 30 minutes.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_hr" sv:type="String">
+              <sv:value>&lt;p&gt;Jamčimo 100% sigurnosti i privatnosti na datotekama. Ne dijelimo datoteke s nikim. Automatski prenesene datoteke bri&amp;scaron;u se svakih 30 minuta.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_in" sv:type="String">
+              <sv:value>&lt;p&gt;Kami menjamin keamanan 100% dan privasi pada file Anda. Kami tidak berbagi file dengan siapa pun. File yang telah diunggah secara otomatis akan dihapus setiap 30 menit.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_it" sv:type="String">
+              <sv:value>&lt;p&gt;Garantiamo sicurezza e privacy al 100% sui tuoi file. Non condividiamo file con nessuno. I file che sono stati caricati automaticamente vengono cancellati ogni 30 minuti.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_ja" sv:type="String">
+              <sv:value>&lt;p&gt;私たちはあなたのファイルに100％のセキュリティとプライバシーを保証します。 私たちは誰とでもファイルを共有しません。 自動的にアップロードされたファイルは30分ごとに削除されます。&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_ko" sv:type="String">
+              <sv:value>&lt;p&gt;우리는 귀하의 파일에 대해 100 % 보안 및 개인 정보를 보장합니다. 우리는 누구와도 파일을 공유하지 않습니다. 자동으로 업로드 된 파일은 30 분마다 삭제됩니다.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_lt" sv:type="String">
+              <sv:value>&lt;p&gt;Mes garantuojame 100% saugumą ir privatumą jūsų bylose. Mes nesidalijame failais niekam. Failai, kurie buvo įkelti automati&amp;scaron;kai, i&amp;scaron;trinami kas 30 minučių.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_nl" sv:type="String">
+              <sv:value>&lt;p&gt;We garanderen 100% beveiliging en privacy op uw bestanden. We delen geen bestanden met iemand. Bestanden die automatisch zijn ge&amp;uuml;pload, worden elke 30 minuten verwijderd.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_no" sv:type="String">
+              <sv:value>&lt;p&gt;Vi garanterer 100% sikkerhet og personvern p&amp;aring; filene dine. Vi deler ikke filer med noen. Filer som er lastet opp automatisk, slettes hvert 30. minutt.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_pt" sv:type="String">
+              <sv:value>&lt;p&gt;N&amp;oacute;s garantimos 100% de seguran&amp;ccedil;a e privacidade em seus arquivos. N&amp;oacute;s n&amp;atilde;o compartilhamos arquivos com ningu&amp;eacute;m. Os arquivos que foram carregados automaticamente s&amp;atilde;o exclu&amp;iacute;dos a cada 30 minutos.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_ru" sv:type="String">
+              <sv:value>&lt;p&gt;Мы гарантируем 100% безопасность и конфиденциальность ваших файлов. Мы ни с кем не обмениваемся файлами. Файлы, которые были загружены автоматически, удаляются каждые 30 минут.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_sk" sv:type="String">
+              <sv:value>&lt;p&gt;Zaručujeme 100% bezpečnosť a ochranu va&amp;scaron;ich s&amp;uacute;borov. S nami nie s&amp;uacute; zdieľan&amp;eacute; s&amp;uacute;bory. S&amp;uacute;bory, ktor&amp;eacute; boli odovzdan&amp;eacute; automaticky, sa odstr&amp;aacute;nia každ&amp;yacute;ch 30 min&amp;uacute;t.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_sq" sv:type="String">
+              <sv:value>&lt;p&gt;Ne garantojm&amp;euml; 100% t&amp;euml; siguris&amp;euml; dhe privat&amp;euml;sis&amp;euml; n&amp;euml; skedar&amp;euml;t tuaj. Ne nuk i ndajm&amp;euml; skedar&amp;euml;t me ask&amp;euml;nd. Dosjet t&amp;euml; cilat jan&amp;euml; ngarkuar automatikisht fshihen &amp;ccedil;do 30 minuta.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_sv" sv:type="String">
+              <sv:value>&lt;p&gt;Vi garanterar 100% s&amp;auml;kerhet och integritet p&amp;aring; dina filer. Vi delar inte filer med n&amp;aring;gon. Filer som har laddats upp automatiskt raderas var 30: e minut.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_th" sv:type="String">
+              <sv:value>&lt;p&gt;เรารับประกันความปลอดภัย 100% และความเป็นส่วนตัวในไฟล์ของคุณ เราไม่แชร์ไฟล์กับใคร ไฟล์ที่ถูกอัปโหลดโดยอัตโนมัติจะถูกลบทุกๆ 30 นาที&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_tr" sv:type="String">
+              <sv:value>&lt;p&gt;Dosyalarınızda% 100 g&amp;uuml;venlik ve gizlilik garanti ederiz. Dosyaları kimseyle paylaşmıyoruz. Otomatik olarak y&amp;uuml;klenen dosyalar her 30 dakikada bir silinir.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_vi" sv:type="String">
+              <sv:value>&lt;p&gt;Ch&amp;uacute;ng t&amp;ocirc;i đảm bảo 100% an ninh v&amp;agrave; ri&amp;ecirc;ng tư tr&amp;ecirc;n c&amp;aacute;c tệp của bạn. Ch&amp;uacute;ng t&amp;ocirc;i kh&amp;ocirc;ng chia sẻ tệp với bất kỳ ai. C&amp;aacute;c tệp đ&amp;atilde; được tải l&amp;ecirc;n tự động sẽ bị x&amp;oacute;a sau mỗi 30 ph&amp;uacute;t.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="threeCols" sv:type="Boolean">
+              <sv:value>true</sv:value>
+            </sv:property>
+            <sv:property sv:name="title" sv:type="String">
+              <sv:value>We keep your files in privacy</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_ar" sv:type="String">
+              <sv:value>نحن نحافظ على الملفات الخاصة بك في الخصوصية</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_cs" sv:type="String">
+              <sv:value>Vaše soubory uchováváme v soukromí</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_de" sv:type="String">
+              <sv:value>Wir bewahren Ihre Dateien in Privatsphäre</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_es" sv:type="String">
+              <sv:value>Mantenemos tus archivos en privacidad</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_fr" sv:type="String">
+              <sv:value>Nous gardons vos fichiers en toute confidentialité</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_hr" sv:type="String">
+              <sv:value>Vaše datoteke čuvamo u privatnosti</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_in" sv:type="String">
+              <sv:value>Kami menyimpan file Anda dalam privasi</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_it" sv:type="String">
+              <sv:value>Manteniamo i tuoi file nella privacy</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_ja" sv:type="String">
+              <sv:value>私たちはあなたのファイルをプライバシーに保ちます</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_ko" sv:type="String">
+              <sv:value>우리는 귀하의 파일을 개인 정보로 보호합니다.</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_lt" sv:type="String">
+              <sv:value>Mes saugome jūsų failus privatumo</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_nl" sv:type="String">
+              <sv:value>We bewaren uw bestanden in privacy</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_no" sv:type="String">
+              <sv:value>Vi beholder filene dine i personvern</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_pt" sv:type="String">
+              <sv:value>Nós mantemos seus arquivos em privacidade</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_ru" sv:type="String">
+              <sv:value>Мы сохраняем ваши файлы в конфиденциальности</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_sk" sv:type="String">
+              <sv:value>Vaše súbory uchovávame v súkromí</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_sq" sv:type="String">
+              <sv:value>Ne mbajmë skedarët tuaj në fshehtësi</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_sv" sv:type="String">
+              <sv:value>Vi behåller dina filer i sekretess</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_th" sv:type="String">
+              <sv:value>เราเก็บไฟล์ของคุณอย่างเป็นส่วนตัว</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_tr" sv:type="String">
+              <sv:value>Dosyalarınızı gizlilik içinde tutuyoruz</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_vi" sv:type="String">
+              <sv:value>Chúng tôi giữ riêng tư tệp của bạn</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="01">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:component</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>815e4b10-294f-4472-a647-00d06b77eb45</sv:value>
+            </sv:property>
+            <sv:property sv:name="materialIcon" sv:type="String">
+              <sv:value>mdi-trending-up</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+              <sv:value>false</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:created" sv:type="Date">
+              <sv:value>2018-01-30T22:53:45.447+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:createdBy" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+              <sv:value>2018-01-30T22:53:45.449+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+              <sv:value>2018-01-30T22:53:45.447+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:template" sv:type="String">
+              <sv:value>convertow-templates:components/teasers/weDoTeaser</sv:value>
+            </sv:property>
+            <sv:property sv:name="text" sv:type="String">
+              <sv:value>&lt;p&gt;We didn&amp;#39;t make any restrictions about how many times you have used this or any other tool on this website. You can use it as many times as you need.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_ar" sv:type="String">
+              <sv:value>&lt;p&gt;لم نضع أي قيود حول عدد المرات التي كنت قد استخدمت هذا أو أي أداة أخرى على هذا الموقع. يمكنك استخدامه عدة مرات كما تحتاج.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_cs" sv:type="String">
+              <sv:value>&lt;p&gt;Neudělali jsme ž&amp;aacute;dn&amp;eacute; omezen&amp;iacute;, kolikr&amp;aacute;t jste na tomto webu použili tento nebo jin&amp;yacute; n&amp;aacute;stroj. Můžete jej použ&amp;iacute;vat tolikr&amp;aacute;t, kolik potřebujete.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_de" sv:type="String">
+              <sv:value>&lt;p&gt;Wir haben keine Einschr&amp;auml;nkungen dahingehend gemacht, wie oft Sie dieses oder ein anderes Tool auf dieser Website verwendet haben. Sie k&amp;ouml;nnen es so oft verwenden wie Sie m&amp;ouml;chten.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_es" sv:type="String">
+              <sv:value>&lt;p&gt;No hicimos ninguna restricci&amp;oacute;n sobre cu&amp;aacute;ntas veces ha usado esta o cualquier otra herramienta en este sitio web. Puedes usarlo tantas veces como necesites.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_fr" sv:type="String">
+              <sv:value>&lt;p&gt;Nous n&amp;#39;avons fait aucune restriction sur le nombre de fois que vous avez utilis&amp;eacute; cet outil ou tout autre outil sur ce site. Vous pouvez l&amp;#39;utiliser autant de fois que n&amp;eacute;cessaire.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_hr" sv:type="String">
+              <sv:value>&lt;p&gt;Nismo napravili nikakva ograničenja koliko ste puta koristili ovaj ili bilo koji drugi alat na ovoj web stranici. Možete ga koristiti onoliko puta koliko vam treba.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_in" sv:type="String">
+              <sv:value>&lt;p&gt;Kami tidak membuat batasan berapa kali Anda menggunakan alat ini atau alat lainnya di situs ini. Anda bisa menggunakannya sebanyak yang Anda butuhkan.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_it" sv:type="String">
+              <sv:value>&lt;p&gt;Non abbiamo introdotto restrizioni sul numero di volte in cui hai utilizzato questo o altri strumenti su questo sito web. Puoi usarlo tutte le volte che ti servono.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_ja" sv:type="String">
+              <sv:value>&lt;p&gt;このウェブサイトでこのツールやその他のツールを何回使用したかについては、何の制限も受けませんでした。 必要なだけ何度でも使用できます。&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_ko" sv:type="String">
+              <sv:value>&lt;p&gt;이 웹 사이트에서이 툴이나 다른 툴을 몇 번이나 사용했는지에 대해서는 아무런 제한을 두지 않았습니다. 필요한만큼 여러 번 사용할 수 있습니다.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_lt" sv:type="String">
+              <sv:value>&lt;p&gt;Nebuvo jokių apribojimų dėl to, kiek kartų jūs naudojate &amp;scaron;į ar bet kurį kitą įrankį &amp;scaron;ioje svetainėje. Galite jį naudoti tiek kartų, kiek reikia.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_nl" sv:type="String">
+              <sv:value>&lt;p&gt;We hebben geen beperkingen opgelegd over hoe vaak u deze of een andere tool op deze website hebt gebruikt. Je kunt het zo vaak gebruiken als je nodig hebt.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_no" sv:type="String">
+              <sv:value>&lt;p&gt;Vi gjorde ingen restriksjoner p&amp;aring; hvor mange ganger du har brukt dette eller andre verkt&amp;oslash;y p&amp;aring; denne nettsiden. Du kan bruke den s&amp;aring; mange ganger du trenger.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_pt" sv:type="String">
+              <sv:value>&lt;p&gt;N&amp;oacute;s n&amp;atilde;o fizemos nenhuma restri&amp;ccedil;&amp;atilde;o sobre quantas vezes voc&amp;ecirc; usou isso ou qualquer outra ferramenta neste site. Voc&amp;ecirc; pode us&amp;aacute;-lo quantas vezes voc&amp;ecirc; precisa.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_ru" sv:type="String">
+              <sv:value>&lt;p&gt;Мы не делали никаких ограничений относительно того, сколько раз вы использовали этот или любой другой инструмент на этом веб-сайте. Вы можете использовать его столько раз, сколько вам нужно.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_sk" sv:type="String">
+              <sv:value>&lt;p&gt;Neustanovili sme žiadne obmedzenia t&amp;yacute;kaj&amp;uacute;ce sa toho, koľkokr&amp;aacute;t ste na tomto webe použ&amp;iacute;vali tento alebo in&amp;yacute; n&amp;aacute;stroj. M&amp;ocirc;žete ho použiť toľkokr&amp;aacute;t, koľko potrebujete.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_sq" sv:type="String">
+              <sv:value>&lt;p&gt;Ne nuk b&amp;euml;m&amp;euml; asnj&amp;euml; kufizim p&amp;euml;r sa her&amp;euml; keni p&amp;euml;rdorur k&amp;euml;t&amp;euml; ose ndonj&amp;euml; mjet tjet&amp;euml;r n&amp;euml; k&amp;euml;t&amp;euml; faqe interneti. Ju mund ta p&amp;euml;rdorni at&amp;euml; sa her&amp;euml; q&amp;euml; keni nevoj&amp;euml;.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_sv" sv:type="String">
+              <sv:value>&lt;p&gt;Vi gjorde inga begr&amp;auml;nsningar om hur m&amp;aring;nga g&amp;aring;nger du har anv&amp;auml;nt detta eller n&amp;aring;got annat verktyg p&amp;aring; denna webbplats. Du kan anv&amp;auml;nda den s&amp;aring; m&amp;aring;nga g&amp;aring;nger som du beh&amp;ouml;ver.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_th" sv:type="String">
+              <sv:value>&lt;p&gt;เราไม่ได้กำหนดข้อ จำกัด เกี่ยวกับจำนวนครั้งที่คุณใช้เครื่องมือนี้หรือเครื่องมืออื่นใดในเว็บไซต์นี้ คุณสามารถใช้งานได้หลายครั้งเท่าที่คุณต้องการ&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_tr" sv:type="String">
+              <sv:value>&lt;p&gt;Bu web sitesinde bu veya başka herhangi bir aracı ka&amp;ccedil; kere kullandığınızı kısıtlamadık. İstediğiniz kadar kullanabilirsiniz.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_vi" sv:type="String">
+              <sv:value>&lt;p&gt;Ch&amp;uacute;ng t&amp;ocirc;i đ&amp;atilde; kh&amp;ocirc;ng thực hiện bất kỳ hạn chế n&amp;agrave;o về việc bạn đ&amp;atilde; sử dụng c&amp;ocirc;ng cụ n&amp;agrave;y hoặc bất kỳ c&amp;ocirc;ng cụ n&amp;agrave;o kh&amp;aacute;c tr&amp;ecirc;n trang web n&amp;agrave;y bao nhi&amp;ecirc;u lần. Bạn c&amp;oacute; thể sử dụng n&amp;oacute; nhiều lần như bạn cần.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="threeCols" sv:type="Boolean">
+              <sv:value>true</sv:value>
+            </sv:property>
+            <sv:property sv:name="title" sv:type="String">
+              <sv:value>Reusable converter</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_ar" sv:type="String">
+              <sv:value>محول قابل لإعادة الاستخدام</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_cs" sv:type="String">
+              <sv:value>Opakovaně použitelný konvertor</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_de" sv:type="String">
+              <sv:value>Wiederverwendbarer Konverter</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_es" sv:type="String">
+              <sv:value>Convertidor reutilizable</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_fr" sv:type="String">
+              <sv:value>Convertisseur réutilisable</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_hr" sv:type="String">
+              <sv:value>Ponovno upotrebljivi pretvarač</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_in" sv:type="String">
+              <sv:value>Konverter dapat digunakan kembali</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_it" sv:type="String">
+              <sv:value>Convertitore riutilizzabile</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_ja" sv:type="String">
+              <sv:value>再利用可能なコンバータ</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_ko" sv:type="String">
+              <sv:value>재사용 가능한 변환기</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_lt" sv:type="String">
+              <sv:value>Daugkartinio naudojimo konverteris</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_nl" sv:type="String">
+              <sv:value>Herbruikbare converter</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_no" sv:type="String">
+              <sv:value>Gjenbrukbar omformer</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_pt" sv:type="String">
+              <sv:value>Conversor reutilizável</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_ru" sv:type="String">
+              <sv:value>Многоразовый конвертер</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_sk" sv:type="String">
+              <sv:value>Opätovne použiteľný prevodník</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_sq" sv:type="String">
+              <sv:value>Konvertues i ripërdorshëm</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_sv" sv:type="String">
+              <sv:value>Återanvändbar omvandlare</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_th" sv:type="String">
+              <sv:value>ตัวแปลงแบบใช้ซ้ำได้</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_tr" sv:type="String">
+              <sv:value>Tekrar kullanılabilir dönüştürücü</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_vi" sv:type="String">
+              <sv:value>Bộ chuyển đổi có thể tái sử dụng</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="06">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:component</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>78f86914-6dc4-44b5-a99b-d32b8af6d786</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+          <sv:value>false</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2018-01-30T22:53:47.884+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+          <sv:value>2018-01-30T22:53:47.884+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2018-01-30T22:54:35.786+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:template" sv:type="String">
+          <sv:value>convertow-templates:components/content/team</sv:value>
+        </sv:property>
+        <sv:node sv:name="teamTeaser">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:area</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>f5ceaf91-ff6f-4f91-85f5-90c1f4bb74e7</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+            <sv:value>false</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:created" sv:type="Date">
+            <sv:value>2018-01-30T22:53:47.884+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:createdBy" sv:type="String">
+            <sv:value>superuser</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+            <sv:value>2018-01-30T22:53:47.884+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
+            <sv:value>superuser</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+            <sv:value>2018-01-30T22:53:47.884+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+            <sv:value>superuser</sv:value>
+          </sv:property>
+          <sv:node sv:name="Miroslav-Pashaliski">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:component</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>ccc59a27-9e6e-4aba-a009-0e3a225e7174</sv:value>
+            </sv:property>
+            <sv:property sv:name="facebookLink" sv:type="String">
+              <sv:value>https://www.facebook.com/miroslav.pasaliski</sv:value>
+            </sv:property>
+            <sv:property sv:name="image" sv:type="String">
+              <sv:value>jcr:6041c158-a5d2-4fc1-8a21-02b717a8a0cf</sv:value>
+            </sv:property>
+            <sv:property sv:name="instagramkLink" sv:type="String">
+              <sv:value>https://www.instagram.com/pashaliskimiro/</sv:value>
+            </sv:property>
+            <sv:property sv:name="linkedinkLink" sv:type="String">
+              <sv:value>https://www.linkedin.com/in/miroslav-pashaliski-3613a4aa/</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+              <sv:value>false</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:created" sv:type="Date">
+              <sv:value>2018-01-30T22:53:47.884+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:createdBy" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+              <sv:value>2018-01-30T22:53:47.885+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+              <sv:value>2018-01-30T22:53:47.884+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:template" sv:type="String">
+              <sv:value>convertow-templates:components/teasers/teamTeaser</sv:value>
+            </sv:property>
+            <sv:property sv:name="name" sv:type="String">
+              <sv:value>Miroslav Pashaliski</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
       </sv:node>
     </sv:node>
     <sv:node sv:name="footer">
