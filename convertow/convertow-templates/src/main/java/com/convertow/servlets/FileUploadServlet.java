@@ -188,7 +188,7 @@ public class FileUploadServlet extends HttpServlet {
                 Document uploadedFile = form.getDocument(formFieldName);
 
                 if( uploadedFile == null ){
-                    File file = new File("C:\\Users\\Miroslav\\Downloads\\icon-github.tiff");
+                    File file = new File("C:\\Users\\Miroslav\\Downloads\\APLIKACIJA_ZA_STUDENTSKI_DOM.pdf");
                     uploadedFile = new Document(file, "");
                 }
                 if (null != uploadedFile) {

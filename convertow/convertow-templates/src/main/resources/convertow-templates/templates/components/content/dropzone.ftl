@@ -7,6 +7,10 @@
             </div>
 
             <div class="col-md-12">
+                [#include "/convertow-templates/templates/components/includes/errorPasswordProtect.ftl"]
+            </div>
+
+            <div class="col-md-12">
                 [#include "/convertow-templates/templates/components/includes/alertSuccess.ftl"]
             </div>
 

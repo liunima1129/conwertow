@@ -37,26 +37,61 @@
     $(document).ready(function(){
 
         $(".dropify-convert").click(function (e) {
+            e.preventDefault();
 
-            $(".alert-danger").hide();
-            $(".alert-success").hide();
-            $(".zip-archive").hide();
+            var canGo = true;
+            var url = restPath + $(".userID").val() +"&name=" + $(".fileName").val();
 
-            $.ajax({
-                type: "GET",
-                dataType: "json",
-                url: restPath + $(".userID").val() +"&name=" + $(".fileName").val(),
-                success: function(e, data){
-                    $(".alert-success").show();
-                    $(".zip-archive").show();
-                    $(".alert-info").hide();
-                },
-                error: function (e, data) {
-                    $(".alert-info").hide();
+            if( $("#protectPDF").length > 0 ){
+                console.log( "Validation start" );
+                var password = $("#password").val();
+                var retypepassword = $("#retypepassword").val();
+
+                if( password != retypepassword ){
+                    canGo = false;
+                    console.log("Validation error");
                     $(".alert-danger").hide();
+                    $(".alert-success").hide();
+                    $(".zip-archive").hide();
+                    $(".alert-info").hide();
+                    $(".pdf-protect-error").show();
+                }else{
+                    console.log("Validation success");
+                    $(".pdf-protect-error").hide();
+                    $(".alert-danger").hide();
+                    $(".alert-success").hide();
                     $(".zip-archive").hide();
                 }
-            });
+
+                url = restPath + $(".userID").val() +"&name=" + $(".fileName").val() +"&password=" + password;
+            }
+
+            if ( canGo ){
+                $(".alert-danger").hide();
+                $(".alert-success").hide();
+                $(".zip-archive").hide();
+
+                $.ajax({
+                    type: "GET",
+                    dataType: "json",
+                    url: url,
+                    success: function(e, data){
+                        $(".alert-success").show();
+                        $(".zip-archive").show();
+                        $(".alert-info").hide();
+
+                        console.log("Success");
+                        $(".protect-form").hide();
+                    },
+                    error: function (e, data) {
+                        $(".alert-info").hide();
+                        $(".alert-danger").hide();
+                        $(".zip-archive").hide();
+
+                        console.log("Error");
+                    }
+                });
+            }
         });
 
         $(".dropify-clear").click(function (e) {
@@ -122,6 +157,11 @@
                     $(".dropify-wrapper").addClass("has-preview");
                     $(".dropify-preview").css("display","block");
                     $(".alert-info").show();
+
+                    if( $("#protectPDF").length > 0 ) {
+                        $(".pdf-protect-error").hide();
+                        $(".protect-form").show();
+                    }
                 }
             });
         });

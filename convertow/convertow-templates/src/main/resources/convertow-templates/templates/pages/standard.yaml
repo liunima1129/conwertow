@@ -33,6 +33,8 @@ areas:
         id: convertow-templates:components/teasers/weDo
       team:
         id: convertow-templates:components/content/team
+      protectPdf:
+        id: convertow-protect-pdf:components/protectPdf
   footer:
     editable: false
 title: Standard

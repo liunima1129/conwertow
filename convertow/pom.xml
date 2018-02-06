@@ -169,7 +169,13 @@
         <artifactId>batik-codec</artifactId>
         <version>1.9.1</version>
       </dependency>
-
+      <!--ITEXT-->
+      <!-- https://mvnrepository.com/artifact/com.lowagie/itext -->
+      <dependency>
+        <groupId>com.lowagie</groupId>
+        <artifactId>itext</artifactId>
+        <version>2.1.7</version>
+      </dependency>
     </dependencies>
   </dependencyManagement>
 
@@ -243,5 +249,6 @@
     <module>convertow-tiff-to-pdf</module>
     <module>convertow-tiff-to-jpg</module>
     <module>convertow-tiff-to-png</module>
+    <module>convertow-protect-pdf</module>
   </modules>
 </project>
