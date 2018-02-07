@@ -42,10 +42,13 @@
             var canGo = true;
             var url = restPath + $(".userID").val() +"&name=" + $(".fileName").val();
 
+            var password = $("#password").val();
+            var retypepassword = $("#retypepassword").val();
+
+            url = restPath + $(".userID").val() +"&name=" + $(".fileName").val() +"&password=" + password;
+
             if( $("#protectPDF").length > 0 ){
                 console.log( "Validation start" );
-                var password = $("#password").val();
-                var retypepassword = $("#retypepassword").val();
 
                 if( password != retypepassword ){
                     canGo = false;
@@ -62,8 +65,6 @@
                     $(".alert-success").hide();
                     $(".zip-archive").hide();
                 }
-
-                url = restPath + $(".userID").val() +"&name=" + $(".fileName").val() +"&password=" + password;
             }
 
             if ( canGo ){
@@ -79,16 +80,24 @@
                         $(".alert-success").show();
                         $(".zip-archive").show();
                         $(".alert-info").hide();
-
-                        console.log("Success");
                         $(".protect-form").hide();
+
+                        var error = e.error;
+
+                        if ( error === 1 ){
+                            console.log("Handle strong protected file!");
+                            //hide success info and download button
+                            //unprotect tool
+                            $(".alert-success").hide();
+                            $(".zip-archive").hide();
+                            $(".error-unlock-pdf").show();
+                            $(".protect-form").show();
+                        }
                     },
-                    error: function (e, data) {
+                    error: function (e) {
                         $(".alert-info").hide();
                         $(".alert-danger").hide();
                         $(".zip-archive").hide();
-
-                        console.log("Error");
                     }
                 });
             }
@@ -157,6 +166,7 @@
                     $(".dropify-wrapper").addClass("has-preview");
                     $(".dropify-preview").css("display","block");
                     $(".alert-info").show();
+                    $(".error-unlock-pdf").hide();
 
                     if( $("#protectPDF").length > 0 ) {
                         $(".pdf-protect-error").hide();

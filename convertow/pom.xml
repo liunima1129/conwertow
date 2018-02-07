@@ -176,6 +176,18 @@
         <artifactId>itext</artifactId>
         <version>2.1.7</version>
       </dependency>
+      <!-- https://mvnrepository.com/artifact/com.itextpdf/itextpdf -->
+      <dependency>
+        <groupId>com.itextpdf</groupId>
+        <artifactId>itextpdf</artifactId>
+        <version>5.5.7</version>
+      </dependency>
+      <!-- https://mvnrepository.com/artifact/com.itextpdf/kernel -->
+      <dependency>
+        <groupId>com.itextpdf</groupId>
+        <artifactId>kernel</artifactId>
+        <version>7.0.0</version>
+      </dependency>
     </dependencies>
   </dependencyManagement>
 
@@ -250,5 +262,6 @@
     <module>convertow-tiff-to-jpg</module>
     <module>convertow-tiff-to-png</module>
     <module>convertow-protect-pdf</module>
+    <module>convertow-unlock-pdf</module>
   </modules>
 </project>
