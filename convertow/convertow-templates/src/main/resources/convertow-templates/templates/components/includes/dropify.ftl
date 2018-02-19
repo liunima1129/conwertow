@@ -7,7 +7,7 @@
     </div>
     <input type="hidden" name="userID" id="userID" class="userID" value="">
     <input type="hidden" name="fileName" id="fileName" class="fileName" value="">
-    <input type="file" id="input-file-max-fs" class="dropify" data-max-file-size="2M">
+    <input type="file" name="files" id="input-file-max-fs" class="dropify" data-max-file-size="2M">
     <button type="button" class="dropify-clear">${i18n['remove.label']}</button>
     <button type="button" class="dropify-convert">${i18n['convert.label']}</button>
 
