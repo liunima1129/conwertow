@@ -1,6 +1,8 @@
 package com.convertow.rest;
 
+import com.convertow.ConvertOwCore;
 import com.convertow.interfaces.ConvertowFunctionsInterface;
+import info.magnolia.objectfactory.Components;
 import info.magnolia.rest.AbstractEndpoint;
 import info.magnolia.rest.registry.ConfiguredEndpointDefinition;
 import org.slf4j.Logger;
@@ -24,9 +26,10 @@ import java.io.FileOutputStream;
  * Created by Miroslav on 23.1.2018.
  */
 @Path("/pngtojpg")
-public class PngToJpgRestEndPoint<D extends ConfiguredEndpointDefinition> extends AbstractEndpoint<D> implements ConvertowFunctionsInterface {
+public class PngToJpgRestEndPoint<D extends ConfiguredEndpointDefinition> extends AbstractEndpoint<D>{
     private static final Logger log = LoggerFactory.getLogger(PngToJpgRestEndPoint.class);
-
+    String PATH = Components.getComponent(ConvertOwCore.class).getPath();
+    String DELIMITER = Components.getComponent(ConvertOwCore.class).getFileDelimiter();
     @Inject
     public PngToJpgRestEndPoint(final D endpointDefinition) {
         super(endpointDefinition);
@@ -40,9 +43,9 @@ public class PngToJpgRestEndPoint<D extends ConfiguredEndpointDefinition> extend
         long startTime = System.currentTimeMillis();
 
         String nameWithoutExtension = name.substring(0, name.lastIndexOf('.'));
-        /*String filePath = PATH + id + "\\" + name;*/
-        String filePath = PATH + id + "\\" + nameWithoutExtension + ".png" ;
-        String filePathPng = PATH + id + "\\" + nameWithoutExtension + ".jpg" ;
+
+        String filePath = PATH + id + DELIMITER + nameWithoutExtension + ".png" ;
+        String filePathPng = PATH + id + DELIMITER + nameWithoutExtension + ".jpg" ;
 
         FileInputStream inputStream = null;
         FileOutputStream outputStream = null;
@@ -57,7 +60,7 @@ public class PngToJpgRestEndPoint<D extends ConfiguredEndpointDefinition> extend
             outputStream.close();
             inputStream.close();
         }catch (Exception e){
-
+            log.error("Can't convert PNG to JPG " + e);
         }
 
         File folder = new File(PATH + id );

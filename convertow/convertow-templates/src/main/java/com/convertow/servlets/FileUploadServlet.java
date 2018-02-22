@@ -1,10 +1,12 @@
 package com.convertow.servlets;
 
+import com.convertow.ConvertOwCore;
 import com.vaadin.server.UploadException;
 import info.magnolia.cms.beans.runtime.Document;
 import info.magnolia.cms.beans.runtime.MultipartForm;
 import info.magnolia.cms.filters.MultipartRequestWrapper;
 import info.magnolia.context.MgnlContext;
+import info.magnolia.objectfactory.Components;
 import net.sf.json.JSONObject;
 import org.apache.commons.fileupload.FileUploadException;
 import org.apache.commons.fileupload.servlet.ServletFileUpload;
@@ -31,17 +33,14 @@ public class FileUploadServlet extends HttpServlet {
 
     private static final String CONTEXT_PATH_PLACEHOLDER = "${contextPath}";
 
-    /*private static final String DEFAULT_UPLOAD_DIR = "/docroot/fileUpload";*/
-    private static final String DEFAULT_UPLOAD_DIR = "D:\\docroot\\fileUpload";
+    /*private static final String DEFAULT_UPLOAD_DIR = "/opt/tomcat/webapps/ROOT/docroot/";*/
+    private static final String DEFAULT_UPLOAD_DIR = Components.getComponent(ConvertOwCore.class).getPath();
 
     private static final String SERVLET_INIT_PARAM_FORM_FIELD_NAME = "formFieldName";
 
     private static final String DEFAULT_FORM_FIELD_NAME = "files";
 
     final FastDateFormat fdf = FastDateFormat.getInstance("DDD, dd MMM yyyy HH:mm:ss");
-
-    /*private static final String DOWNLOAD_PATH = "/opt/tomcat/webapps/ROOT/docroot/";*/
-    private static final String DOWNLOAD_PATH = "D:\\docroot\\fileUpload";
 
     private static final Logger log = LoggerFactory.getLogger(FileUploadServlet.class);
     private Boolean errors = false;
@@ -187,10 +186,10 @@ public class FileUploadServlet extends HttpServlet {
             if (null != form) {
                 Document uploadedFile = form.getDocument(formFieldName);
 
-                if( uploadedFile == null ){
-                    File file = new File("C:\\Users\\Miroslav\\Downloads\\APLIKACIJA_ZA_STUDENTSKI_DOMProtected.pdf");
+                /*if( uploadedFile == null ){
+                    File file = new File("C:\\Users\\Miroslav\\Downloads\\MiroslavPashaliskiProfile.pdf");
                     uploadedFile = new Document(file, "");
-                }
+                }*/
                 if (null != uploadedFile) {
 
                     // String fileName = MagnoliaValidationUtils.getSafeMgnlName(uploadedFile.getFile().getName());

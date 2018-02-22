@@ -1,6 +1,8 @@
 package com.convertow.rest;
 
+import com.convertow.ConvertOwCore;
 import com.convertow.interfaces.ConvertowFunctionsInterface;
+import info.magnolia.objectfactory.Components;
 import info.magnolia.rest.AbstractEndpoint;
 import info.magnolia.rest.registry.ConfiguredEndpointDefinition;
 
@@ -27,7 +29,10 @@ import java.util.zip.ZipOutputStream;
  * Created by Miroslav on 22.1.2018.
  */
 @Path("/jpgtopng")
-public class JpgToPngRestEndPoint<D extends ConfiguredEndpointDefinition> extends AbstractEndpoint<D> implements ConvertowFunctionsInterface{
+public class JpgToPngRestEndPoint<D extends ConfiguredEndpointDefinition> extends AbstractEndpoint<D>{
+
+    String PATH = Components.getComponent(ConvertOwCore.class).getPath();
+    String DELIMITER = Components.getComponent(ConvertOwCore.class).getFileDelimiter();
 
     private static final Logger log = LoggerFactory.getLogger(JpgToPngRestEndPoint.class);
 
@@ -44,9 +49,9 @@ public class JpgToPngRestEndPoint<D extends ConfiguredEndpointDefinition> extend
         long startTime = System.currentTimeMillis();
 
         String nameWithoutExtension = name.substring(0, name.lastIndexOf('.'));
-        /*String filePath = PATH + id + "\\" + name;*/
-        String filePath = PATH + id + "\\01-Voved_Intro_to_QoS17.jpg" ;
-        String filePathPng = PATH + id + "\\01-Voved_Intro_to_QoS17.png" ;
+
+        String filePath = PATH + id + DELIMITER + nameWithoutExtension + ".jpg" ;
+        String filePathPng = PATH + id + DELIMITER + nameWithoutExtension + ".png" ;
 
         FileInputStream inputStream = null;
         FileOutputStream outputStream = null;

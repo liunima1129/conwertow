@@ -1,8 +1,10 @@
 package com.convertow.rest;
 
+import com.convertow.ConvertOwCore;
 import com.convertow.functions.ConvertOwFunctions;
 import com.convertow.interfaces.ConvertowFunctionsInterface;
 import com.itextpdf.text.BadElementException;
+import info.magnolia.objectfactory.Components;
 import info.magnolia.rest.AbstractEndpoint;
 import info.magnolia.rest.registry.ConfiguredEndpointDefinition;
 import org.slf4j.Logger;
@@ -33,7 +35,8 @@ import java.util.Iterator;
 @Path("/tifftopng")
 public class TiffToPngRestEndPoint<D extends ConfiguredEndpointDefinition> extends AbstractEndpoint<D> implements ConvertowFunctionsInterface{
     private static final Logger log = LoggerFactory.getLogger(TiffToPngRestEndPoint.class);
-
+    String PATH = Components.getComponent(ConvertOwCore.class).getPath();
+    String DELIMITER = Components.getComponent(ConvertOwCore.class).getFileDelimiter();
     @Inject
     public TiffToPngRestEndPoint(final D endpointDefinition) {
         super(endpointDefinition);
@@ -47,11 +50,11 @@ public class TiffToPngRestEndPoint<D extends ConfiguredEndpointDefinition> exten
         long startTime = System.currentTimeMillis();
 
         String nameWithoutExtension = name.substring(0, name.lastIndexOf('.'));
-        /*String filePath = PATH + id + "\\" + name;*/
-        String filePath = PATH + id + "\\" + nameWithoutExtension + ".tiff" ;
+
+        String filePath = PATH + id + DELIMITER + nameWithoutExtension + ".tiff" ;
 
         try {
-            functions.convertFromTiffToImage(filePath, PATH + id + "\\" + nameWithoutExtension , ".png");
+            functions.convertFromTiffToImage(filePath, PATH + id + DELIMITER + nameWithoutExtension , ".png");
         } catch (BadElementException e) {
             log.error("Can't convert TIFF to Image");
         }

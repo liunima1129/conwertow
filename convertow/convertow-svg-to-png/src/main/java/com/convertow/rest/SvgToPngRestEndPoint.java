@@ -1,7 +1,9 @@
 package com.convertow.rest;
 
+import com.convertow.ConvertOwCore;
 import com.convertow.functions.ConvertOwFunctions;
 import com.convertow.interfaces.ConvertowFunctionsInterface;
+import info.magnolia.objectfactory.Components;
 import info.magnolia.rest.AbstractEndpoint;
 import info.magnolia.rest.registry.ConfiguredEndpointDefinition;
 import org.apache.batik.anim.dom.SAXSVGDocumentFactory;
@@ -42,7 +44,8 @@ import java.nio.file.Paths;
 @Path("/svgtopng")
 public class SvgToPngRestEndPoint<D extends ConfiguredEndpointDefinition> extends AbstractEndpoint<D> implements ConvertowFunctionsInterface {
     private static final Logger log = LoggerFactory.getLogger(SvgToPngRestEndPoint.class);
-
+    String PATH = Components.getComponent(ConvertOwCore.class).getPath();
+    String DELIMITER = Components.getComponent(ConvertOwCore.class).getFileDelimiter();
     @Inject
     public SvgToPngRestEndPoint(final D endpointDefinition) {
         super(endpointDefinition);
@@ -56,9 +59,9 @@ public class SvgToPngRestEndPoint<D extends ConfiguredEndpointDefinition> extend
         long startTime = System.currentTimeMillis();
 
         String nameWithoutExtension = name.substring(0, name.lastIndexOf('.'));
-        /*String filePath = PATH + id + "\\" + name;*/
-        String filePath = PATH + id + "\\" + nameWithoutExtension + ".svg" ;
-        String filePathPng = PATH + id + "\\" + nameWithoutExtension + ".png" ;
+
+        String filePath = PATH + id + DELIMITER + nameWithoutExtension + ".svg" ;
+        String filePathPng = PATH + id + DELIMITER + nameWithoutExtension + ".png" ;
 
         functions.convertFromSVG(filePath, filePathPng,"png");
         functions.deleteFilesInFolder(PATH + id, "png");

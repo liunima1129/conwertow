@@ -111,6 +111,12 @@
       <type>war</type>
     </dependency>
     -->
+    <!-- https://mvnrepository.com/artifact/net.sf.saxon/saxon-dom -->
+    <dependency>
+      <groupId>net.sf.saxon</groupId>
+      <artifactId>saxon-dom</artifactId>
+      <version>8.7</version>
+    </dependency>
 
   </dependencies>
 

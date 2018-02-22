@@ -45,7 +45,7 @@
             var password = $("#password").val();
             var retypepassword = $("#retypepassword").val();
 
-            url = restPath + $(".userID").val() +"&name=" + $(".fileName").val() +"&password=" + password;
+            /*url = restPath + $(".userID").val() +"&name=" + $(".fileName").val() +"&password=" + password;*/
 
             if( $("#protectPDF").length > 0 ){
                 console.log( "Validation start" );
@@ -116,7 +116,7 @@
                 limitMultiFileUploads: 1,
                 dropZone: $(this),
                 done: function (e, data) {
-
+                    console.log("Done file upload");
                 },
                 add: function (e, data) {
                     if (e.isDefaultPrevented()) {
@@ -159,9 +159,10 @@
                     }
                 },
                 error: function (e, data) {
-
+                    console.log("Error file upload");
                 },
                 success: function (resp) {
+                    console.log("Success file upload");
                     $(".userID").val(resp.uuid);
                     $(".dropify-wrapper").addClass("has-preview");
                     $(".dropify-preview").css("display","block");

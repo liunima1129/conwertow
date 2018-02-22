@@ -1,6 +1,8 @@
 package com.convertow.rest;
 
+import com.convertow.ConvertOwCore;
 import com.convertow.interfaces.ConvertowFunctionsInterface;
+import info.magnolia.objectfactory.Components;
 import info.magnolia.rest.AbstractEndpoint;
 import info.magnolia.rest.registry.ConfiguredEndpointDefinition;
 import org.apache.pdfbox.pdmodel.PDDocument;
@@ -16,16 +18,18 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.QueryParam;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
-import java.io.File;
-import java.io.IOException;
+import java.io.*;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipOutputStream;
 
 /**
  * Created by Miroslav on 16.1.2018.
  */
 @Path("/pdftopng")
-public class PdfToPngRestEndPoint<D extends ConfiguredEndpointDefinition> extends AbstractEndpoint<D> implements ConvertowFunctionsInterface{
+public class PdfToPngRestEndPoint<D extends ConfiguredEndpointDefinition> extends AbstractEndpoint<D>{
     private static final Logger log = LoggerFactory.getLogger(PdfToPngRestEndPoint.class);
-
+    String PATH = Components.getComponent(ConvertOwCore.class).getPath();
+    String DELIMITER = Components.getComponent(ConvertOwCore.class).getFileDelimiter();
     @Inject
     public PdfToPngRestEndPoint(final D endpointDefinition) {
         super(endpointDefinition);
@@ -39,8 +43,7 @@ public class PdfToPngRestEndPoint<D extends ConfiguredEndpointDefinition> extend
         long startTime = System.currentTimeMillis();
 
         String nameWithoutExtension = name.substring(0, name.lastIndexOf('.'));
-        /*String filePath = PATH + id + "\\" + name;*/
-        String filePath = PATH + id + "\\MPLS_2015.pdf" ;
+        String filePath = PATH + id + DELIMITER + nameWithoutExtension + ".pdf" ;
         File file = new File(filePath);
 
         PDDocument document = null;
@@ -51,7 +54,7 @@ public class PdfToPngRestEndPoint<D extends ConfiguredEndpointDefinition> extend
         }
         // render the pages
         String numPages = String.valueOf(document.getPages().getCount());
-        String filePrefix = PATH + "\\" + id + "\\" + nameWithoutExtension;
+        String filePrefix = PATH + DELIMITER + id + DELIMITER + nameWithoutExtension;
 
         String [] args_2 =  new String[9];
         String pdfPath = file.getAbsolutePath();
@@ -75,6 +78,49 @@ public class PdfToPngRestEndPoint<D extends ConfiguredEndpointDefinition> extend
 
         try {
             document.close();
+        } catch (IOException e) {
+            log.error(String.valueOf(e));
+        }
+
+        File zipFile = new File(PATH + id + DELIMITER + nameWithoutExtension  +".zip");
+        FileOutputStream zipFileOut = null;
+        try {
+            zipFileOut = new FileOutputStream(zipFile);
+        }catch (Exception e){
+            log.error(String.valueOf(e));
+        }
+
+        ZipOutputStream zipOutputStream = new ZipOutputStream(new BufferedOutputStream(zipFileOut));
+
+        byte []b = new byte[1024];
+        File folder = new File(PATH + id );
+
+        try {
+            //move files to zip
+            File []listFiles=folder.listFiles();
+            for(int i=0;i<listFiles.length;i++)
+            {
+                if( !listFiles[i].getName().endsWith("zip")) {
+                    b = new byte[(int) listFiles[i].length()];
+                    FileInputStream fin = new FileInputStream(listFiles[i]);
+                    zipOutputStream.putNextEntry(new ZipEntry(listFiles[i].getName()));
+                    int length;
+                    while ((length = fin.read(b, 0, 1024)) > 0) {
+                        zipOutputStream.write(b, 0, length);
+                    }
+                    zipOutputStream.closeEntry();
+                    fin.close();
+                    listFiles[i].delete();
+                }
+
+            }
+        }catch (Exception e){
+            log.error(String.valueOf(e));
+        }
+
+        try {
+            zipOutputStream.close();
+
         } catch (IOException e) {
             log.error(String.valueOf(e));
         }

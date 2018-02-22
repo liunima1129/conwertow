@@ -1,11 +1,13 @@
 package com.convertow.rest;
 
+import com.convertow.ConvertOwCore;
 import com.convertow.interfaces.ConvertowFunctionsInterface;
 import com.convertow.models.ITextOverideModel;
 import com.itextpdf.text.BadElementException;
 import com.itextpdf.text.DocumentException;
 import com.itextpdf.text.pdf.PdfReader;
 import com.itextpdf.text.pdf.PdfStamper;
+import info.magnolia.objectfactory.Components;
 import info.magnolia.rest.AbstractEndpoint;
 import info.magnolia.rest.registry.ConfiguredEndpointDefinition;
 import org.apache.commons.lang3.StringUtils;
@@ -31,7 +33,8 @@ import java.io.IOException;
 public class UnlockPDFRestEndPoint<D extends ConfiguredEndpointDefinition> extends AbstractEndpoint<D> implements ConvertowFunctionsInterface{
     private static final Logger log = LoggerFactory.getLogger(UnlockPDFRestEndPoint.class);
     private static final ITextOverideModel model = new ITextOverideModel();
-
+    String PATH = Components.getComponent(ConvertOwCore.class).getPath();
+    String DELIMITER = Components.getComponent(ConvertOwCore.class).getFileDelimiter();
     @Inject
     public UnlockPDFRestEndPoint(final D endpointDefinition) {
         super(endpointDefinition);
@@ -45,8 +48,8 @@ public class UnlockPDFRestEndPoint<D extends ConfiguredEndpointDefinition> exten
         long startTime = System.currentTimeMillis();
 
         String nameWithoutExtension = name.substring(0, name.lastIndexOf('.'));
-        String filePath = PATH + id + "\\" + nameWithoutExtension + ".pdf" ;
-        String filePathDecrypt = PATH + id + "\\" + nameWithoutExtension + "Decrypt.pdf" ;
+        String filePath = PATH + id + DELIMITER + nameWithoutExtension + ".pdf" ;
+        String filePathDecrypt = PATH + id + DELIMITER + nameWithoutExtension + "Decrypt.pdf" ;
 
         if ( password == null || !StringUtils.isNoneBlank(password) || !StringUtils.isNoneEmpty(password)){
             try {

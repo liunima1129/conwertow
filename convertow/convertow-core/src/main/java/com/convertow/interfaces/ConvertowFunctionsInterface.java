@@ -7,7 +7,4 @@ import com.convertow.functions.ConvertOwFunctions;
  */
 public interface ConvertowFunctionsInterface {
     public ConvertOwFunctions functions = new ConvertOwFunctions();
-    /*local test*/
-    public String PATH = "D:\\docroot\\fileUpload\\";
-    /*server*/
 }

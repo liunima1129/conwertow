@@ -1,7 +1,9 @@
 package com.convertow.rest;
 
+import com.convertow.ConvertOwCore;
 import com.convertow.interfaces.ConvertowFunctionsInterface;
 import com.convertow.rest.multithreading.PdfToJpgMultithreading;
+import info.magnolia.objectfactory.Components;
 import info.magnolia.rest.AbstractEndpoint;
 import info.magnolia.rest.registry.ConfiguredEndpointDefinition;
 import org.apache.pdfbox.pdmodel.PDDocument;
@@ -27,7 +29,9 @@ import java.util.zip.ZipOutputStream;
  * Created by Miroslav on 16.1.2018.
  */
 @Path("/pdftojpg")
-public class PdfToJpgRestEndPoint<D extends ConfiguredEndpointDefinition> extends AbstractEndpoint<D> implements ConvertowFunctionsInterface{
+public class PdfToJpgRestEndPoint<D extends ConfiguredEndpointDefinition> extends AbstractEndpoint<D>{
+    String PATH = Components.getComponent(ConvertOwCore.class).getPath();
+    String DELIMITER = Components.getComponent(ConvertOwCore.class).getFileDelimiter();
 
     private static final Logger log = LoggerFactory.getLogger(PdfToJpgRestEndPoint.class);
     @Inject
@@ -43,8 +47,8 @@ public class PdfToJpgRestEndPoint<D extends ConfiguredEndpointDefinition> extend
         long startTime = System.currentTimeMillis();
 
         String nameWithoutExtension = name.substring(0, name.lastIndexOf('.'));
-        /*String filePath = PATH + id + "\\" + name;*/
-        String filePath = PATH + id + "\\MPLS_2015.pdf" ;
+
+        String filePath = PATH + id + DELIMITER + nameWithoutExtension + ".pdf" ;
         File file = new File(filePath);
 
         PDDocument document = null;
@@ -55,7 +59,7 @@ public class PdfToJpgRestEndPoint<D extends ConfiguredEndpointDefinition> extend
         }
         // render the pages
         String numPages = String.valueOf(document.getPages().getCount());
-        String filePrefix = PATH + "\\" + id + "\\" + nameWithoutExtension;
+        String filePrefix = PATH + DELIMITER + id + DELIMITER + nameWithoutExtension;
 
         String [] args_2 =  new String[9];
         String pdfPath = file.getAbsolutePath();
@@ -83,7 +87,7 @@ public class PdfToJpgRestEndPoint<D extends ConfiguredEndpointDefinition> extend
             log.error(String.valueOf(e));
         }
 
-        File zipFile = new File(PATH + id + "\\MPLS_2015"  +".zip");
+        File zipFile = new File(PATH + id + DELIMITER + nameWithoutExtension  +".zip");
         FileOutputStream zipFileOut = null;
         try {
             zipFileOut = new FileOutputStream(zipFile);
@@ -116,7 +120,7 @@ public class PdfToJpgRestEndPoint<D extends ConfiguredEndpointDefinition> extend
 
             }
         }catch (Exception e){
-
+            log.error(String.valueOf(e));
         }
 
         try {

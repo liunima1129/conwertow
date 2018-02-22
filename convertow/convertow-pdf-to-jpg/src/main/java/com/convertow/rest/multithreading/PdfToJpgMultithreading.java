@@ -1,6 +1,8 @@
 package com.convertow.rest.multithreading;
 
+import com.convertow.ConvertOwCore;
 import com.convertow.rest.PdfToJpgRestEndPoint;
+import info.magnolia.objectfactory.Components;
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.tools.PDFToImage;
 import org.slf4j.Logger;
@@ -14,9 +16,9 @@ import java.io.IOException;
  */
 public class PdfToJpgMultithreading implements Runnable {
     private static final Logger log = LoggerFactory.getLogger(PdfToJpgRestEndPoint.class);
-    /*local test*/
-    private static final String PATH = "D:\\docroot\\fileUpload\\";
-    /*server*/
+
+    private static final String PATH = Components.getComponent(ConvertOwCore.class).getPath();
+    String DELIMITER = Components.getComponent(ConvertOwCore.class).getFileDelimiter();
 
     private String id;
     private String name;
@@ -30,7 +32,7 @@ public class PdfToJpgMultithreading implements Runnable {
         long startTime = System.currentTimeMillis();
 
         String nameWithoutExtension = name.substring(0, name.lastIndexOf('.'));
-        String filePath = PATH + id + "\\" + name;
+        String filePath = PATH + id + DELIMITER + name;
         File file = new File(filePath);
 
         PDDocument document = null;
@@ -41,7 +43,7 @@ public class PdfToJpgMultithreading implements Runnable {
         }
         // render the pages
         String numPages = String.valueOf(document.getPages().getCount());
-        String filePrefix = PATH + "\\" + id + "\\" + nameWithoutExtension;
+        String filePrefix = PATH + DELIMITER + id + DELIMITER + nameWithoutExtension;
 
         String [] args_2 =  new String[9];
         String pdfPath = file.getAbsolutePath();

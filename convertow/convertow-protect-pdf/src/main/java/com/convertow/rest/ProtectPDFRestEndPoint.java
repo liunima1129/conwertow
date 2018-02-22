@@ -1,10 +1,12 @@
 package com.convertow.rest;
 
+import com.convertow.ConvertOwCore;
 import com.convertow.interfaces.ConvertowFunctionsInterface;
 import com.itextpdf.text.pdf.PdfWriter;
 import com.lowagie.text.DocumentException;
 import com.lowagie.text.pdf.PdfReader;
 import com.lowagie.text.pdf.PdfStamper;
+import info.magnolia.objectfactory.Components;
 import info.magnolia.rest.AbstractEndpoint;
 import info.magnolia.rest.registry.ConfiguredEndpointDefinition;
 import org.slf4j.Logger;
@@ -28,7 +30,8 @@ import java.io.IOException;
 @Path("/protectpdf")
 public class ProtectPDFRestEndPoint <D extends ConfiguredEndpointDefinition> extends AbstractEndpoint<D> implements ConvertowFunctionsInterface{
     private static final Logger log = LoggerFactory.getLogger(ProtectPDFRestEndPoint.class);
-
+    String PATH = Components.getComponent(ConvertOwCore.class).getPath();
+    String DELIMITER = Components.getComponent(ConvertOwCore.class).getFileDelimiter();
     @Inject
     public ProtectPDFRestEndPoint(final D endpointDefinition) {
         super(endpointDefinition);
@@ -42,8 +45,8 @@ public class ProtectPDFRestEndPoint <D extends ConfiguredEndpointDefinition> ext
         long startTime = System.currentTimeMillis();
 
         String nameWithoutExtension = name.substring(0, name.lastIndexOf('.'));
-        String filePath = PATH + id + "\\" + nameWithoutExtension + ".pdf" ;
-        String filePathProtected = PATH + id + "\\" + nameWithoutExtension + "Protected.pdf" ;
+        String filePath = PATH + id + DELIMITER + nameWithoutExtension + ".pdf" ;
+        String filePathProtected = PATH + id + DELIMITER + nameWithoutExtension + "Protected.pdf" ;
         try {
             encryptPdf(filePath, filePathProtected, password);
         } catch (IOException e) {

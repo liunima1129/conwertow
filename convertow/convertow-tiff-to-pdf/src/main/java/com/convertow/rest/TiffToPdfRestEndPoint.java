@@ -1,9 +1,11 @@
 package com.convertow.rest;
 
+import com.convertow.ConvertOwCore;
 import com.convertow.interfaces.ConvertowFunctionsInterface;
 import com.itextpdf.text.*;
 import com.twelvemonkeys.imageio.plugins.tiff.TIFFImageReaderSpi;
 import com.twelvemonkeys.imageio.plugins.tiff.TIFFImageWriterSpi;
+import info.magnolia.objectfactory.Components;
 import info.magnolia.rest.AbstractEndpoint;
 import info.magnolia.rest.registry.ConfiguredEndpointDefinition;
 import org.slf4j.Logger;
@@ -39,7 +41,8 @@ import com.sun.media.jai.codec.TIFFDecodeParam;
 @Path("/tifftopdf")
 public class TiffToPdfRestEndPoint<D extends ConfiguredEndpointDefinition> extends AbstractEndpoint<D> implements ConvertowFunctionsInterface {
     private static final Logger log = LoggerFactory.getLogger(TiffToPdfRestEndPoint.class);
-
+    String PATH = Components.getComponent(ConvertOwCore.class).getPath();
+    String DELIMITER = Components.getComponent(ConvertOwCore.class).getFileDelimiter();
     @Inject
     public TiffToPdfRestEndPoint(final D endpointDefinition) {
         super(endpointDefinition);
@@ -53,9 +56,12 @@ public class TiffToPdfRestEndPoint<D extends ConfiguredEndpointDefinition> exten
         long startTime = System.currentTimeMillis();
 
         String nameWithoutExtension = name.substring(0, name.lastIndexOf('.'));
-        /*String filePath = PATH + id + "\\" + name;*/
-        String filePath = PATH + id + "\\" + nameWithoutExtension + ".tiff" ;
-        String filePathPdf = PATH + id + "\\" + nameWithoutExtension + ".pdf" ;
+
+        String filePath = PATH + id + DELIMITER + nameWithoutExtension + ".tiff" ;
+        String filePathPdf = PATH + id + DELIMITER + nameWithoutExtension + ".pdf" ;
+
+        log.debug("Tiff file path -> " + filePath);
+        log.debug("PDF file path -> "+ filePathPdf);
 
         Document document = new Document();
         FileOutputStream fos = new FileOutputStream(filePathPdf);
