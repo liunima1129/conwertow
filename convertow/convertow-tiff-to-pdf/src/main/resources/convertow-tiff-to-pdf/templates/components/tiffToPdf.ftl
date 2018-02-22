@@ -5,5 +5,8 @@
 <script>
     var fileSupported = "tiff";
     var restPath = "${restPath!}";
+    var zipFile = false;
+    var singleFile = true;
+    var resultExtension = ".pdf";
 </script>
 

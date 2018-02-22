@@ -127,7 +127,9 @@ public class PdfToPngRestEndPoint<D extends ConfiguredEndpointDefinition> extend
 
         long endTime = System.currentTimeMillis();
         System.out.println("That took " + (endTime - startTime) + " milliseconds for converting from PDF to PNG");
-        return Response.ok().build();
+
+        String success = "{\"success\":1}";
+        return Response.ok(success).build();
     }
 
 }

@@ -5,4 +5,7 @@
 <script>
     var fileSupported = "pdf";
     var restPath = "${restPath!}";
+    var zipFile = true;
+    var singleFile = false;
+    var resultExtension = ".zip";
 </script>

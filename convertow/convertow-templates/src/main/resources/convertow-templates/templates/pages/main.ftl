@@ -34,6 +34,7 @@
 <script src="${ctx.contextPath}/.resources/convertow-templates/webresources/js/fileupload/jquery.fileupload.js"></script>
 <script>
     var contextPath = "${ctx.contextPath!}";
+    var fileName;
     $(document).ready(function(){
 
         $(".dropify-convert").click(function (e) {
@@ -77,6 +78,23 @@
                     dataType: "json",
                     url: url,
                     success: function(e, data){
+                        if ( singleFile && !zipFile){
+                            $(".info-zip-link").hide();
+                            var name = $("#fileName").val();
+                            var userId = $("#userID").val();
+                            var output = name.substr(0, name.lastIndexOf('.')) || name;
+                            var res = "/docroot/" + userId + "/" + output + resultExtension;
+                            $(".file-link").attr("href", res);
+                        }
+                        if( !singleFile && zipFile ){
+                            $(".info-zip-link").show();
+                            var name = $("#fileName").val();
+                            var userId = $("#userID").val();
+                            var output = name.substr(0, name.lastIndexOf('.')) || name;
+                            var res = "/docroot/" + userId + "/" + output + resultExtension;
+                            $(".file-link").attr("href", res);
+                            $(".info-zip-link").attr("href", res);
+                        }
                         $(".alert-success").show();
                         $(".zip-archive").show();
                         $(".alert-info").hide();

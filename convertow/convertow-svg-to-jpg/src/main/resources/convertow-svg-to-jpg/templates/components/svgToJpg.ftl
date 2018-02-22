@@ -5,4 +5,7 @@
 <script>
     var fileSupported = "svg";
     var restPath = "${restPath!}";
+    var zipFile = false;
+    var singleFile = true;
+    var resultExtension = ".jpg";
 </script>
