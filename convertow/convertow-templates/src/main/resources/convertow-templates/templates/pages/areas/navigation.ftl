@@ -14,7 +14,11 @@
             <div class="collapse navbar-collapse" id="main-navbar">
                 <ul class="navbar-nav mr-auto w-100 justify-content-end">
                     [#assign node = cmsfn.nodeById("9943f909-ace6-4f85-8743-5147edfca0a0",  "category")]
-                    [#assign categories = cmsfn.children(node!, "mgnl:category")]
+                    [#assign pageNode = cmsfn.nodeById("da327d1d-374d-4d38-8846-814c46b7fdfc", "website")]
+                    [#assign wrappedNode = corefn.getI18nWrapper(node!)]
+                    [#assign wrappedPageNode = corefn.getI18nWrapper(pageNode!)]
+                    [#assign categories = cmsfn.children(wrappedNode!, "mgnl:category")]
+                    [#assign pages = cmsfn.children(wrappedPageNode!, "mgnl:page")]
                     [#list categories as category]
                         [#assign categoryDetails = cmsfn.asContentMap(category!)!]
                         <li class="nav-item dropdown">
@@ -22,8 +26,14 @@
                                 ${categoryDetails.displayName!}
                             </a>
                             <div class="dropdown-menu">
-                                <a class="dropdown-item active" href="index.html">Home v1</a>
-                                <a class="dropdown-item" href="index-2.html">Home v2</a>
+                                [#list pages as page]
+                                    [#assign pageDetails = cmsfn.asContentMap(page!)!]
+                                    [#if pageDetails.categories?has_content]
+                                        [#if pageDetails.categories?seq_contains(categoryDetails.@uuid)]
+                                            <a class="dropdown-item" href="${cmsfn.link(page!)}">${pageDetails.navigationTitle!}</a>
+                                        [/#if]
+                                    [/#if]
+                                [/#list]
                             </div>
                         </li>
                     [/#list]
@@ -49,123 +59,28 @@
         </div>
 
         <ul class="wpb-mobile-menu">
-            <li>
-                <a class="active" href="#">
-                    Home
-                </a>
-                <ul class="dropdown">
-                    <li>
-                        <a class="active" href="index.html">Home v1</a>
-                    </li>
-                    <li>
-                        <a href="index-2.html">Home v2</a>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <a href="#">
-                    Pages
-                </a>
-                <ul class="dropdown">
-                    <li>
-                        <a href="about-us.html">About Us 1</a>
-                    </li>
-                    <li>
-                        <a href="about-us2.html">About Us 2</a>
-                    </li>
-                    <li>
-                        <a href="team.html">Team Members</a>
-                    </li>
-                    <li>
-                        <a href="services.html">Services</a>
-                    </li>
-                    <li>
-                        <a href="contact-us.html">Contact Us 1</a>
-                    </li>
-                    <li>
-                        <a href="contact-us2.html">Contact Us 2</a>
-                    </li>
-                    <li>
-                        <a href="404.html">404</a>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <a href="#">
-                    Elements
-                </a>
-                <ul class="dropdown">
-                    <li>
-                        <a href="tab.html">Tabs</a>
-                    </li>
-                    <li>
-                        <a href="alert.html">Alert</a>
-                    </li>
-                    <li>
-                        <a href="accordion.html">Accordions</a>
-                    </li>
-                    <li>
-                        <a href="pricing.html">Pricing Tables</a>
-                    </li>
-                    <li>
-                        <a href="buttons.html">Buttons</a>
-                    </li>
-                    <li>
-                        <a href="icons.html">Icons</a>
-                    </li>
-                    <li>
-                        <a href="carousel.html">Carousel</a>
-                    </li>
-                    <li>
-                        <a href="counter.html">Counter</a>
-                    </li>
-                    <li>
-                        <a href="map.html">Google Map</a>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <a href="#">
-                    Portfolio
-                </a>
-                <ul class="dropdown">
-                    <li>
-                        <a href="portfolio-2.html">Portfolio 2 columns</a>
-                    </li>
-                    <li>
-                        <a href="portfolio.html">Portfolio 3 columns</a>
-                    </li>
-                    <li>
-                        <a href="portfolio-single.html">Portfolio Single</a>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <a href="about.html">
-                    Blog
-                </a>
-                <ul class="dropdown">
-                    <li>
-                        <a href="blog.html">Blog Page</a>
-                    </li>
-                    <li>
-                        <a href="blog-single.html">Blog Single Page</a>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <a href="#">
-                    Contact Us
-                </a>
-                <ul class="dropdown">
-                    <li>
-                        <a href="contact-us.html">Contact Us 1</a>
-                    </li>
-                    <li>
-                        <a href="contact-us2.html">Contact Us 2</a>
-                    </li>
-                </ul>
-            </li>
+
+            [#list categories as category]
+                [#assign categoryDetails = cmsfn.asContentMap(category!)!]
+                <li>
+                    <a class="active" href="#">
+                    ${categoryDetails.displayName!}
+                    </a>
+                    <ul class="dropdown">
+                        [#list pages as page]
+                            [#assign pageDetails = cmsfn.asContentMap(page!)!]
+                            [#if pageDetails.categories?has_content]
+                                [#if pageDetails.categories?seq_contains(categoryDetails.@uuid)]
+                                    <li>
+                                        <a class="active" href="${cmsfn.link(page!)}">${pageDetails.navigationTitle!}</a>
+                                    </li>
+                                [/#if]
+                            [/#if]
+                        [/#list]
+                    </ul>
+                </li>
+            [/#list]
+
         </ul>
 
     </nav>

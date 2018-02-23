@@ -7,7 +7,14 @@
   <class>com.convertow.ConvertOwTemplates</class>
   <versionHandler>com.convertow.setup.ConvertOwTemplatesVersionHandler</versionHandler>
   <version>${project.version}</version>
-
+  <components>
+    <id>main</id>
+    <component>
+      <type>com.convertow.functions.ConvertOwFunctions</type>
+      <implementation>com.convertow.functions.ConvertOwFunctions</implementation>
+      <scope>singleton</scope>
+    </component>
+  </components>
   <dependencies>
     <dependency>
       <name>core</name>

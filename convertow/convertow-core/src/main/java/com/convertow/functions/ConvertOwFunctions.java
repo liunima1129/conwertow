@@ -8,6 +8,8 @@ import com.sun.media.jai.codec.ImageDecoder;
 import com.sun.media.jai.codec.TIFFDecodeParam;
 import com.twelvemonkeys.imageio.plugins.tiff.TIFFImageReaderSpi;
 import com.twelvemonkeys.imageio.plugins.tiff.TIFFImageWriterSpi;
+import info.magnolia.jcr.util.NodeUtil;
+import info.magnolia.jcr.wrapper.I18nNodeWrapper;
 import org.apache.batik.anim.dom.SAXSVGDocumentFactory;
 import org.apache.batik.transcoder.Transcoder;
 import org.apache.batik.transcoder.TranscoderException;
@@ -17,6 +19,7 @@ import org.apache.batik.transcoder.image.JPEGTranscoder;
 import org.apache.batik.transcoder.image.PNGTranscoder;
 import org.apache.batik.util.XMLResourceDescriptor;
 import org.w3c.dom.Document;
+import javax.jcr.Node;
 
 import javax.imageio.IIOImage;
 import javax.imageio.ImageIO;
@@ -26,6 +29,7 @@ import javax.imageio.spi.IIORegistry;
 import javax.imageio.stream.ImageInputStream;
 import javax.imageio.stream.ImageOutputStream;
 import javax.inject.Inject;
+import javax.jcr.RepositoryException;
 import java.awt.image.BufferedImage;
 import java.io.*;
 import java.nio.file.Files;
@@ -178,4 +182,17 @@ public class ConvertOwFunctions {
         }
 
     }
+
+    public Node  getI18nWrapper(Node node) {
+        if (node != null) {
+            try {
+                node = NodeUtil.unwrap(node);
+            } catch (final RepositoryException e) {
+
+            }
+            return new I18nNodeWrapper(node);
+        }
+        return null;
+    }
+
 }

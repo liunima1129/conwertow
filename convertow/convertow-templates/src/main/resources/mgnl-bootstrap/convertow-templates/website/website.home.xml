@@ -22,7 +22,7 @@
     <sv:value>superuser</sv:value>
   </sv:property>
   <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-    <sv:value>2018-01-28T22:49:25.990+01:00</sv:value>
+    <sv:value>2018-02-23T00:18:45.595+01:00</sv:value>
   </sv:property>
   <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
     <sv:value>superuser</sv:value>
@@ -43,7 +43,6 @@
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>mgnl:area</sv:value>
     </sv:property>
-    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>d9932b4b-0f71-45d4-afed-1790491656e0</sv:value>
     </sv:property>
@@ -63,7 +62,6 @@
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>mgnl:component</sv:value>
       </sv:property>
-      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>9ee7faa9-cdf8-47f1-8132-a39575d81426</sv:value>
       </sv:property>
@@ -86,7 +84,6 @@
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>mgnl:area</sv:value>
         </sv:property>
-        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>dd8d71df-ae3e-4ec8-80b2-9cd5928e0839</sv:value>
         </sv:property>
@@ -106,7 +103,6 @@
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>mgnl:component</sv:value>
           </sv:property>
-          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>0ca7a9f4-c66a-4dec-acd7-81223650c8d6</sv:value>
           </sv:property>
@@ -287,7 +283,6 @@
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>mgnl:component</sv:value>
           </sv:property>
-          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>77bf3889-f4e5-4544-8073-18eb6c6620ab</sv:value>
           </sv:property>
@@ -468,7 +463,6 @@
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>mgnl:component</sv:value>
           </sv:property>
-          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>a3b98a23-e851-46c4-8e2f-e9afb41b785f</sv:value>
           </sv:property>
@@ -831,7 +825,6 @@
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>mgnl:component</sv:value>
       </sv:property>
-      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>71feccfc-0522-429d-8cc7-844ddd5dddf7</sv:value>
       </sv:property>
@@ -854,7 +847,6 @@
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>mgnl:area</sv:value>
         </sv:property>
-        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>ab1f7188-3cee-41bf-815f-876e5f571e51</sv:value>
         </sv:property>
@@ -874,7 +866,6 @@
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>mgnl:component</sv:value>
           </sv:property>
-          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>3e27c019-cc83-4be1-a183-1e92ab797a02</sv:value>
           </sv:property>
@@ -1126,7 +1117,6 @@
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>mgnl:area</sv:value>
     </sv:property>
-    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>567746df-2c7c-4270-80f0-6d32f0473148</sv:value>
     </sv:property>
@@ -1137,7 +1127,7 @@
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-      <sv:value>2018-01-13T00:12:25.224+01:00</sv:value>
+      <sv:value>2018-02-23T00:18:45.595+01:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
       <sv:value>superuser</sv:value>
@@ -1146,7 +1136,6 @@
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>mgnl:area</sv:value>
       </sv:property>
-      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>4824446f-1e09-43e6-a3ae-2671c4050c2c</sv:value>
       </sv:property>
@@ -1157,7 +1146,7 @@
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-        <sv:value>2018-01-13T00:07:01.287+01:00</sv:value>
+        <sv:value>2018-02-23T00:17:39.327+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
         <sv:value>superuser</sv:value>
@@ -1166,7 +1155,6 @@
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>mgnl:component</sv:value>
         </sv:property>
-        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>1d695c54-4f44-4828-9b0c-cd3a45044873</sv:value>
         </sv:property>
@@ -1177,7 +1165,7 @@
           <sv:value>superuser</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-          <sv:value>2017-12-21T01:11:44.061+01:00</sv:value>
+          <sv:value>2018-02-23T00:11:17.105+01:00</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
           <sv:value>superuser</sv:value>
@@ -1188,12 +1176,74 @@
         <sv:property sv:name="title" sv:type="String">
           <sv:value>ABOUT</sv:value>
         </sv:property>
+        <sv:property sv:name="title_ar" sv:type="String">
+          <sv:value>حول</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_cs" sv:type="String">
+          <sv:value>O</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_de" sv:type="String">
+          <sv:value>ÜBER</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_es" sv:type="String">
+          <sv:value>ACERCA DE</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_fr" sv:type="String">
+          <sv:value>SUR</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_hr" sv:type="String">
+          <sv:value>OKO</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_in" sv:type="String">
+          <sv:value>TENTANG</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_it" sv:type="String">
+          <sv:value>DI</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_ja" sv:type="String">
+          <sv:value>約</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_ko" sv:type="String">
+          <sv:value>약</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_lt" sv:type="String">
+          <sv:value>APIE</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_nl" sv:type="String">
+          <sv:value>OVER</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_no" sv:type="String">
+          <sv:value>HANDLE OM</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_pt" sv:type="String">
+          <sv:value>SOBRE</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_ru" sv:type="String">
+          <sv:value>ОКОЛО</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_sk" sv:type="String">
+          <sv:value>O</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_sq" sv:type="String">
+          <sv:value>RRETH</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_sv" sv:type="String">
+          <sv:value>HANDLA OM</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_th" sv:type="String">
+          <sv:value>เกี่ยวกับ</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_tr" sv:type="String">
+          <sv:value>HAKKINDA</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_vi" sv:type="String">
+          <sv:value>TRONG KHOẢNG</sv:value>
+        </sv:property>
       </sv:node>
       <sv:node sv:name="00">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>mgnl:component</sv:value>
         </sv:property>
-        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>c129fa2f-951d-4ed7-84f8-f9726bb6e345</sv:value>
         </sv:property>
@@ -1204,7 +1254,7 @@
           <sv:value>superuser</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-          <sv:value>2017-12-21T01:21:01.109+01:00</sv:value>
+          <sv:value>2018-02-23T00:16:37.795+01:00</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
           <sv:value>superuser</sv:value>
@@ -1213,7 +1263,91 @@
           <sv:value>convertow-templates:components/footer/richText</sv:value>
         </sv:property>
         <sv:property sv:name="text" sv:type="String">
-          <sv:value>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates eos minus expedita ipsum soluta voluptatem sed architecto.&lt;/p&gt;
+          <sv:value>&lt;p&gt;ConvertOw is tool made with love for peoples on internet for free use.&lt;/p&gt;
+</sv:value>
+        </sv:property>
+        <sv:property sv:name="text_ar" sv:type="String">
+          <sv:value>&lt;p&gt;كونفيرتو هو أداة مصنوعة مع الحب للشعوب على الإنترنت للاستخدام المجاني.&lt;/p&gt;
+</sv:value>
+        </sv:property>
+        <sv:property sv:name="text_cs" sv:type="String">
+          <sv:value>&lt;p&gt;ConvertOw je n&amp;aacute;stroj s l&amp;aacute;skou pro lidi na internetu pro voln&amp;eacute; použit&amp;iacute;.&lt;/p&gt;
+</sv:value>
+        </sv:property>
+        <sv:property sv:name="text_de" sv:type="String">
+          <sv:value>&lt;p&gt;ConverOw ist ein Werkzeug, das mit Liebe f&amp;uuml;r Menschen im Internet zur freien Verwendung gemacht wird.&lt;/p&gt;
+</sv:value>
+        </sv:property>
+        <sv:property sv:name="text_es" sv:type="String">
+          <sv:value>&lt;p&gt;ConvertOw es una herramienta hecha con amor para las personas en internet de uso gratuito.&lt;/p&gt;
+</sv:value>
+        </sv:property>
+        <sv:property sv:name="text_fr" sv:type="String">
+          <sv:value>&lt;p&gt;ConvertOw est un outil fait avec amour pour les gens sur internet pour une utilisation gratuite.&lt;/p&gt;
+</sv:value>
+        </sv:property>
+        <sv:property sv:name="text_hr" sv:type="String">
+          <sv:value>&lt;p&gt;ConvertOw je alat izrađen od ljubavi prema narodu na internetu za besplatnu upotrebu.&lt;/p&gt;
+</sv:value>
+        </sv:property>
+        <sv:property sv:name="text_in" sv:type="String">
+          <sv:value>&lt;p&gt;ConvertOw adalah alat yang dibuat dengan cinta untuk orang-orang di internet untuk penggunaan gratis.&lt;/p&gt;
+</sv:value>
+        </sv:property>
+        <sv:property sv:name="text_it" sv:type="String">
+          <sv:value>&lt;p&gt;ConvertOw &amp;egrave; uno strumento realizzato con amore per i popoli su Internet gratuitamente.&lt;/p&gt;
+</sv:value>
+        </sv:property>
+        <sv:property sv:name="text_ja" sv:type="String">
+          <sv:value>&lt;p&gt;ConvertOwは無料でインターネット上の人々に愛をもって作られたツールです。&lt;/p&gt;
+</sv:value>
+        </sv:property>
+        <sv:property sv:name="text_ko" sv:type="String">
+          <sv:value>&lt;p&gt;ConvertOw는 무료로 인터넷에있는 사람들을위한 사랑으로 만든 도구입니다.&lt;/p&gt;
+</sv:value>
+        </sv:property>
+        <sv:property sv:name="text_lt" sv:type="String">
+          <sv:value>&lt;p&gt;&amp;quot;ConvertOw&amp;quot; yra įrankis, pagamintas su meilės žmonėmis internete nemokamai.&lt;/p&gt;
+</sv:value>
+        </sv:property>
+        <sv:property sv:name="text_nl" sv:type="String">
+          <sv:value>&lt;p&gt;ConvertOw is tool gemaakt met liefde voor mensen op internet voor gratis gebruik.&lt;/p&gt;
+</sv:value>
+        </sv:property>
+        <sv:property sv:name="text_no" sv:type="String">
+          <sv:value>&lt;p&gt;ConvertOw er verkt&amp;oslash;y laget av kj&amp;aelig;rlighet for folk p&amp;aring; internett for fri bruk.&lt;/p&gt;
+</sv:value>
+        </sv:property>
+        <sv:property sv:name="text_pt" sv:type="String">
+          <sv:value>&lt;p&gt;ConvertOw &amp;eacute; uma ferramenta feita com amor para pessoas na internet para uso gratuito.&lt;/p&gt;
+</sv:value>
+        </sv:property>
+        <sv:property sv:name="text_ru" sv:type="String">
+          <sv:value>&lt;p&gt;ConvertOw - инструмент, сделанный с любовью к людям в Интернете для бесплатного использования.&lt;/p&gt;
+</sv:value>
+        </sv:property>
+        <sv:property sv:name="text_sk" sv:type="String">
+          <sv:value>&lt;p&gt;ConvertOw je n&amp;aacute;stroj s l&amp;aacute;skou k ľuďom na internete na bezplatn&amp;eacute; použitie.&lt;/p&gt;
+</sv:value>
+        </sv:property>
+        <sv:property sv:name="text_sq" sv:type="String">
+          <sv:value>&lt;p&gt;ConvertOw &amp;euml;sht&amp;euml; mjet i b&amp;euml;r&amp;euml; me dashuri p&amp;euml;r popujt n&amp;euml; internet p&amp;euml;r p&amp;euml;rdorim t&amp;euml; lir&amp;euml;.&lt;/p&gt;
+</sv:value>
+        </sv:property>
+        <sv:property sv:name="text_sv" sv:type="String">
+          <sv:value>&lt;p&gt;ConvertOw &amp;auml;r verktyg med k&amp;auml;rlek till folk p&amp;aring; internet f&amp;ouml;r fri anv&amp;auml;ndning.&lt;/p&gt;
+</sv:value>
+        </sv:property>
+        <sv:property sv:name="text_th" sv:type="String">
+          <sv:value>&lt;p&gt;ConvertOw เป็นเครื่องมือที่ทำขึ้นด้วยความรักสำหรับผู้คนบนอินเทอร์เน็ตเพื่อการใช้งานฟรี&lt;/p&gt;
+</sv:value>
+        </sv:property>
+        <sv:property sv:name="text_tr" sv:type="String">
+          <sv:value>&lt;p&gt;ConvertOw &amp;uuml;cretsiz kullanım i&amp;ccedil;in internette insanlar i&amp;ccedil;in sevgi ile yapılan bir ara&amp;ccedil;tır.&lt;/p&gt;
+</sv:value>
+        </sv:property>
+        <sv:property sv:name="text_vi" sv:type="String">
+          <sv:value>&lt;p&gt;ConvertOw l&amp;agrave; c&amp;ocirc;ng cụ được thực hiện với t&amp;igrave;nh y&amp;ecirc;u d&amp;agrave;nh cho người tr&amp;ecirc;n internet để sử dụng miễn ph&amp;iacute;.&lt;/p&gt;
 </sv:value>
         </sv:property>
       </sv:node>
@@ -1221,7 +1355,6 @@
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>mgnl:component</sv:value>
         </sv:property>
-        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>e98c86a4-8d78-41fd-8f89-3d42e252e9d9</sv:value>
         </sv:property>
@@ -1232,7 +1365,7 @@
           <sv:value>superuser</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-          <sv:value>2018-01-13T00:07:01.287+01:00</sv:value>
+          <sv:value>2018-02-23T00:17:39.327+01:00</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
           <sv:value>superuser</sv:value>
@@ -1244,7 +1377,6 @@
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>mgnl:area</sv:value>
           </sv:property>
-          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>d5211a08-1a51-4ae8-bf0d-18f3bf1b7155</sv:value>
           </sv:property>
@@ -1255,44 +1387,11 @@
             <sv:value>superuser</sv:value>
           </sv:property>
           <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-            <sv:value>2018-01-13T00:07:01.287+01:00</sv:value>
+            <sv:value>2018-02-23T00:17:39.327+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
             <sv:value>superuser</sv:value>
           </sv:property>
-          <sv:node sv:name="0">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-              <sv:value>mgnl:component</sv:value>
-            </sv:property>
-            <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
-            <sv:property sv:name="jcr:uuid" sv:type="String">
-              <sv:value>2001defa-851b-4ff7-b362-863e0116b4cb</sv:value>
-            </sv:property>
-            <sv:property sv:name="icon" sv:type="String">
-              <sv:value>github-circle</sv:value>
-            </sv:property>
-            <sv:property sv:name="linkType" sv:type="String">
-              <sv:value>external</sv:value>
-            </sv:property>
-            <sv:property sv:name="linkTypeexternal" sv:type="String">
-              <sv:value>fsafas</sv:value>
-            </sv:property>
-            <sv:property sv:name="mgnl:created" sv:type="Date">
-              <sv:value>2018-01-13T00:06:51.746+01:00</sv:value>
-            </sv:property>
-            <sv:property sv:name="mgnl:createdBy" sv:type="String">
-              <sv:value>superuser</sv:value>
-            </sv:property>
-            <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-              <sv:value>2018-01-13T00:07:01.287+01:00</sv:value>
-            </sv:property>
-            <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
-              <sv:value>superuser</sv:value>
-            </sv:property>
-            <sv:property sv:name="mgnl:template" sv:type="String">
-              <sv:value>convertow-templates:components/footer/socialLink</sv:value>
-            </sv:property>
-          </sv:node>
         </sv:node>
       </sv:node>
     </sv:node>
@@ -1300,7 +1399,6 @@
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>mgnl:area</sv:value>
       </sv:property>
-      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>dc994c6b-78bd-41e4-9668-46b825e4f5d8</sv:value>
       </sv:property>
@@ -1311,7 +1409,7 @@
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-        <sv:value>2017-12-21T01:13:11.992+01:00</sv:value>
+        <sv:value>2018-02-23T00:17:04.633+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
         <sv:value>superuser</sv:value>
@@ -1320,7 +1418,6 @@
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>mgnl:component</sv:value>
         </sv:property>
-        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>17091fb2-77a1-45a2-85cb-17369737c201</sv:value>
         </sv:property>
@@ -1331,7 +1428,7 @@
           <sv:value>superuser</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-          <sv:value>2017-12-21T01:13:11.995+01:00</sv:value>
+          <sv:value>2018-02-23T00:17:04.633+01:00</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
           <sv:value>superuser</sv:value>
@@ -1339,16 +1436,12 @@
         <sv:property sv:name="mgnl:template" sv:type="String">
           <sv:value>convertow-templates:components/footer/footerTitle</sv:value>
         </sv:property>
-        <sv:property sv:name="title" sv:type="String">
-          <sv:value>RECENT POSTS</sv:value>
-        </sv:property>
       </sv:node>
     </sv:node>
     <sv:node sv:name="footer3">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>mgnl:area</sv:value>
       </sv:property>
-      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>7845d00f-77ff-4161-92c7-94a71af16845</sv:value>
       </sv:property>
@@ -1359,7 +1452,7 @@
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-        <sv:value>2018-01-13T00:12:25.224+01:00</sv:value>
+        <sv:value>2018-02-23T00:18:45.595+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
         <sv:value>superuser</sv:value>
@@ -1368,7 +1461,6 @@
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>mgnl:component</sv:value>
         </sv:property>
-        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>cfb540c4-9fcd-4e9c-abbb-aa55abfa2022</sv:value>
         </sv:property>
@@ -1379,7 +1471,7 @@
           <sv:value>superuser</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-          <sv:value>2017-12-21T01:13:18.359+01:00</sv:value>
+          <sv:value>2018-02-23T00:18:36.188+01:00</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
           <sv:value>superuser</sv:value>
@@ -1387,15 +1479,11 @@
         <sv:property sv:name="mgnl:template" sv:type="String">
           <sv:value>convertow-templates:components/footer/footerTitle</sv:value>
         </sv:property>
-        <sv:property sv:name="title" sv:type="String">
-          <sv:value>QUICK LINK</sv:value>
-        </sv:property>
       </sv:node>
       <sv:node sv:name="00">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>mgnl:component</sv:value>
         </sv:property>
-        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>69d738d3-0025-4f53-b46d-00bcb5eced6b</sv:value>
         </sv:property>
@@ -1406,7 +1494,7 @@
           <sv:value>superuser</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-          <sv:value>2018-01-13T00:12:25.224+01:00</sv:value>
+          <sv:value>2018-02-23T00:18:45.595+01:00</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
           <sv:value>superuser</sv:value>
@@ -1418,7 +1506,6 @@
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>mgnl:area</sv:value>
           </sv:property>
-          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>f8b50449-2e59-49de-9007-1e1d90707a92</sv:value>
           </sv:property>
@@ -1429,80 +1516,11 @@
             <sv:value>superuser</sv:value>
           </sv:property>
           <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-            <sv:value>2018-01-13T00:12:25.224+01:00</sv:value>
+            <sv:value>2018-02-23T00:18:45.595+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
             <sv:value>superuser</sv:value>
           </sv:property>
-          <sv:node sv:name="0">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-              <sv:value>mgnl:component</sv:value>
-            </sv:property>
-            <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
-            <sv:property sv:name="jcr:uuid" sv:type="String">
-              <sv:value>81c617ab-a85c-4c67-8d05-fb6427200e7d</sv:value>
-            </sv:property>
-            <sv:property sv:name="linkType" sv:type="String">
-              <sv:value>internal</sv:value>
-            </sv:property>
-            <sv:property sv:name="linkTypeinternal" sv:type="String">
-              <sv:value>da327d1d-374d-4d38-8846-814c46b7fdfc</sv:value>
-            </sv:property>
-            <sv:property sv:name="mgnl:created" sv:type="Date">
-              <sv:value>2018-01-13T00:11:20.032+01:00</sv:value>
-            </sv:property>
-            <sv:property sv:name="mgnl:createdBy" sv:type="String">
-              <sv:value>superuser</sv:value>
-            </sv:property>
-            <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-              <sv:value>2018-01-13T00:11:20.032+01:00</sv:value>
-            </sv:property>
-            <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
-              <sv:value>superuser</sv:value>
-            </sv:property>
-            <sv:property sv:name="mgnl:template" sv:type="String">
-              <sv:value>convertow-templates:components/links/links</sv:value>
-            </sv:property>
-          </sv:node>
-          <sv:node sv:name="00">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-              <sv:value>mgnl:component</sv:value>
-            </sv:property>
-            <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
-            <sv:property sv:name="jcr:uuid" sv:type="String">
-              <sv:value>a95721dc-100a-454c-a7bf-3397c8d90c05</sv:value>
-            </sv:property>
-            <sv:property sv:name="linkType" sv:type="String">
-              <sv:value>internal</sv:value>
-            </sv:property>
-            <sv:property sv:name="linkTypeinternal" sv:type="String">
-              <sv:value>da327d1d-374d-4d38-8846-814c46b7fdfc</sv:value>
-            </sv:property>
-            <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
-              <sv:value>false</sv:value>
-            </sv:property>
-            <sv:property sv:name="mgnl:created" sv:type="Date">
-              <sv:value>2018-01-13T00:12:25.208+01:00</sv:value>
-            </sv:property>
-            <sv:property sv:name="mgnl:createdBy" sv:type="String">
-              <sv:value>superuser</sv:value>
-            </sv:property>
-            <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
-              <sv:value>2018-01-13T00:12:25.209+01:00</sv:value>
-            </sv:property>
-            <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
-              <sv:value>superuser</sv:value>
-            </sv:property>
-            <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-              <sv:value>2018-01-13T00:12:25.224+01:00</sv:value>
-            </sv:property>
-            <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
-              <sv:value>superuser</sv:value>
-            </sv:property>
-            <sv:property sv:name="mgnl:template" sv:type="String">
-              <sv:value>convertow-templates:components/links/links</sv:value>
-            </sv:property>
-          </sv:node>
         </sv:node>
       </sv:node>
     </sv:node>
@@ -1510,7 +1528,6 @@
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>mgnl:area</sv:value>
       </sv:property>
-      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>05712a2d-edb3-459e-91f3-bc1df0324eef</sv:value>
       </sv:property>
@@ -1521,7 +1538,7 @@
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-        <sv:value>2017-12-21T01:13:24.396+01:00</sv:value>
+        <sv:value>2018-02-23T00:17:52.929+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
         <sv:value>superuser</sv:value>
@@ -1530,7 +1547,6 @@
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>mgnl:component</sv:value>
         </sv:property>
-        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>93c339f7-f384-4709-bace-fd530b38e7a0</sv:value>
         </sv:property>
@@ -1541,7 +1557,7 @@
           <sv:value>superuser</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-          <sv:value>2017-12-21T01:13:24.397+01:00</sv:value>
+          <sv:value>2018-02-23T00:17:52.929+01:00</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
           <sv:value>superuser</sv:value>
@@ -1549,21 +1565,80 @@
         <sv:property sv:name="mgnl:template" sv:type="String">
           <sv:value>convertow-templates:components/footer/footerTitle</sv:value>
         </sv:property>
-        <sv:property sv:name="title" sv:type="String">
-          <sv:value>OUR GALLERY</sv:value>
-        </sv:property>
       </sv:node>
     </sv:node>
     <sv:node sv:name="textBootom">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>mgnl:area</sv:value>
       </sv:property>
-      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>f06edad1-bfee-409d-b2e7-7723589a6363</sv:value>
       </sv:property>
       <sv:property sv:name="footerText" sv:type="String">
-        <sv:value>sdgsdg</sv:value>
+        <sv:value>Free tool made with</sv:value>
+      </sv:property>
+      <sv:property sv:name="footerText_ar" sv:type="String">
+        <sv:value>أداة مجانية مصنوعة مع</sv:value>
+      </sv:property>
+      <sv:property sv:name="footerText_cs" sv:type="String">
+        <sv:value>Volný nástroj vyrobený s</sv:value>
+      </sv:property>
+      <sv:property sv:name="footerText_de" sv:type="String">
+        <sv:value>Freies Werkzeug mit gemacht</sv:value>
+      </sv:property>
+      <sv:property sv:name="footerText_es" sv:type="String">
+        <sv:value>Herramienta gratuita hecha con</sv:value>
+      </sv:property>
+      <sv:property sv:name="footerText_fr" sv:type="String">
+        <sv:value>Outil gratuit fait avec</sv:value>
+      </sv:property>
+      <sv:property sv:name="footerText_hr" sv:type="String">
+        <sv:value>Besplatni alat izrađen sa</sv:value>
+      </sv:property>
+      <sv:property sv:name="footerText_in" sv:type="String">
+        <sv:value>Alat gratis dibuat dengan</sv:value>
+      </sv:property>
+      <sv:property sv:name="footerText_it" sv:type="String">
+        <sv:value>Strumento gratuito realizzato con</sv:value>
+      </sv:property>
+      <sv:property sv:name="footerText_ja" sv:type="String">
+        <sv:value>で作られた無料ツール</sv:value>
+      </sv:property>
+      <sv:property sv:name="footerText_ko" sv:type="String">
+        <sv:value>만든 무료 도구</sv:value>
+      </sv:property>
+      <sv:property sv:name="footerText_lt" sv:type="String">
+        <sv:value>Nemokamas įrankis, sukurtas su</sv:value>
+      </sv:property>
+      <sv:property sv:name="footerText_nl" sv:type="String">
+        <sv:value>Gratis tool gemaakt met</sv:value>
+      </sv:property>
+      <sv:property sv:name="footerText_no" sv:type="String">
+        <sv:value>Gratis verktøy laget med</sv:value>
+      </sv:property>
+      <sv:property sv:name="footerText_pt" sv:type="String">
+        <sv:value>Ferramenta gratuita feita com</sv:value>
+      </sv:property>
+      <sv:property sv:name="footerText_ru" sv:type="String">
+        <sv:value>Бесплатный инструмент, сделанный с</sv:value>
+      </sv:property>
+      <sv:property sv:name="footerText_sk" sv:type="String">
+        <sv:value>Voľný nástroj vyrobený s</sv:value>
+      </sv:property>
+      <sv:property sv:name="footerText_sq" sv:type="String">
+        <sv:value>Pa pagesë mjet bërë me</sv:value>
+      </sv:property>
+      <sv:property sv:name="footerText_sv" sv:type="String">
+        <sv:value>Gratis verktyg tillverkat med</sv:value>
+      </sv:property>
+      <sv:property sv:name="footerText_th" sv:type="String">
+        <sv:value>เครื่องมือฟรีที่ทำด้วย</sv:value>
+      </sv:property>
+      <sv:property sv:name="footerText_tr" sv:type="String">
+        <sv:value>Ile yapılan ücretsiz araç</sv:value>
+      </sv:property>
+      <sv:property sv:name="footerText_vi" sv:type="String">
+        <sv:value>Công cụ miễn phí được làm bằng</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:created" sv:type="Date">
         <sv:value>2018-01-12T23:19:08.291+01:00</sv:value>
@@ -1572,7 +1647,7 @@
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-        <sv:value>2018-01-12T23:19:58.560+01:00</sv:value>
+        <sv:value>2018-02-23T00:07:41.600+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
         <sv:value>superuser</sv:value>
@@ -1583,7 +1658,6 @@
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>mgnl:area</sv:value>
     </sv:property>
-    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>8439d11e-4ae9-426d-834c-8e7f34721222</sv:value>
     </sv:property>
@@ -1603,7 +1677,6 @@
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>mgnl:component</sv:value>
       </sv:property>
-      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>3fda8d16-6b24-45fc-a32a-12f6467c394e</sv:value>
       </sv:property>
@@ -1788,6 +1861,10 @@
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>991e8c58-27e7-4e1d-a958-2947fb2cf3c8</sv:value>
     </sv:property>
+    <sv:property sv:name="categories" sv:type="String" sv:multiple="true">
+      <sv:value>7e0e533d-c98a-4057-bba8-343c8c75b18b</sv:value>
+      <sv:value>7fd66e7b-9831-4467-aef2-e0eb540366da</sv:value>
+    </sv:property>
     <sv:property sv:name="category" sv:type="String">
       <sv:value>7e0e533d-c98a-4057-bba8-343c8c75b18b</sv:value>
     </sv:property>
@@ -1933,7 +2010,7 @@
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-      <sv:value>2018-01-30T00:08:40.245+01:00</sv:value>
+      <sv:value>2018-02-23T01:09:25.761+01:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
       <sv:value>superuser</sv:value>
@@ -3213,6 +3290,10 @@
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>bde83a28-31b3-4b94-b9e4-26ca0d73646d</sv:value>
     </sv:property>
+    <sv:property sv:name="categories" sv:type="String" sv:multiple="true">
+      <sv:value>7e0e533d-c98a-4057-bba8-343c8c75b18b</sv:value>
+      <sv:value>7fd66e7b-9831-4467-aef2-e0eb540366da</sv:value>
+    </sv:property>
     <sv:property sv:name="category" sv:type="String">
       <sv:value>7e0e533d-c98a-4057-bba8-343c8c75b18b</sv:value>
     </sv:property>
@@ -3362,7 +3443,7 @@
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-      <sv:value>2018-01-30T00:16:20.994+01:00</sv:value>
+      <sv:value>2018-02-23T01:09:43.154+01:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
       <sv:value>superuser</sv:value>
@@ -4642,6 +4723,10 @@
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>4af7fb7e-99d9-4c63-bff0-fe03e4e3ec38</sv:value>
     </sv:property>
+    <sv:property sv:name="categories" sv:type="String" sv:multiple="true">
+      <sv:value>502d9786-cf0a-4b7d-b15e-2e7ccb40f47c</sv:value>
+      <sv:value>7e0e533d-c98a-4057-bba8-343c8c75b18b</sv:value>
+    </sv:property>
     <sv:property sv:name="category" sv:type="String">
       <sv:value>7e0e533d-c98a-4057-bba8-343c8c75b18b</sv:value>
     </sv:property>
@@ -4794,7 +4879,7 @@
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-      <sv:value>2018-01-30T00:34:56.186+01:00</sv:value>
+      <sv:value>2018-02-23T01:10:08.589+01:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
       <sv:value>superuser</sv:value>
@@ -6074,6 +6159,10 @@
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>9939ae9e-d686-4986-8ef5-1d2581b309c5</sv:value>
     </sv:property>
+    <sv:property sv:name="categories" sv:type="String" sv:multiple="true">
+      <sv:value>502d9786-cf0a-4b7d-b15e-2e7ccb40f47c</sv:value>
+      <sv:value>7e0e533d-c98a-4057-bba8-343c8c75b18b</sv:value>
+    </sv:property>
     <sv:property sv:name="category" sv:type="String">
       <sv:value>7e0e533d-c98a-4057-bba8-343c8c75b18b</sv:value>
     </sv:property>
@@ -6227,7 +6316,7 @@
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-      <sv:value>2018-01-30T21:34:03.500+01:00</sv:value>
+      <sv:value>2018-02-23T01:10:24.657+01:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
       <sv:value>superuser</sv:value>
@@ -6437,7 +6526,6 @@
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>mgnl:area</sv:value>
       </sv:property>
-      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>899e8eb2-67ce-467b-b28e-3d2c781beca0</sv:value>
       </sv:property>
@@ -6457,7 +6545,6 @@
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>mgnl:component</sv:value>
         </sv:property>
-        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>d775e7e2-de55-4ef2-9325-3c13a6e73327</sv:value>
         </sv:property>
@@ -6616,7 +6703,6 @@
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>mgnl:component</sv:value>
         </sv:property>
-        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>04f8de73-f3a8-46d9-8453-d20218d504ff</sv:value>
         </sv:property>
@@ -7314,7 +7400,6 @@
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>mgnl:area</sv:value>
       </sv:property>
-      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>e664f005-1837-466c-bca5-2be3d01ee7cf</sv:value>
       </sv:property>
@@ -7334,7 +7419,6 @@
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>mgnl:area</sv:value>
         </sv:property>
-        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>75453bb2-921b-4d6f-94a1-4a700d9e23e8</sv:value>
         </sv:property>
@@ -7355,7 +7439,6 @@
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>mgnl:area</sv:value>
         </sv:property>
-        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>14ac36dd-82c3-45d4-b7c9-9fad7a604de1</sv:value>
         </sv:property>
@@ -7376,7 +7459,6 @@
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>mgnl:area</sv:value>
         </sv:property>
-        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>bf86068f-6c63-4419-9d1e-489d2182ea67</sv:value>
         </sv:property>
@@ -7397,7 +7479,6 @@
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>mgnl:area</sv:value>
         </sv:property>
-        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>026a9047-85e5-4e3d-aff4-1a4aa0f4e6fe</sv:value>
         </sv:property>
@@ -7418,7 +7499,6 @@
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>mgnl:area</sv:value>
         </sv:property>
-        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true" />
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>8ae761c0-cd59-4986-a727-5304f0f17bc5</sv:value>
         </sv:property>
@@ -7443,6 +7523,10 @@
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>816685a7-e560-4fa5-ad06-777a0447be75</sv:value>
+    </sv:property>
+    <sv:property sv:name="categories" sv:type="String" sv:multiple="true">
+      <sv:value>7e0e533d-c98a-4057-bba8-343c8c75b18b</sv:value>
+      <sv:value>7fd66e7b-9831-4467-aef2-e0eb540366da</sv:value>
     </sv:property>
     <sv:property sv:name="category" sv:type="String">
       <sv:value>7e0e533d-c98a-4057-bba8-343c8c75b18b</sv:value>
@@ -7592,7 +7676,7 @@
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-      <sv:value>2018-01-30T00:38:55.792+01:00</sv:value>
+      <sv:value>2018-02-23T01:10:42.145+01:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
       <sv:value>superuser</sv:value>
@@ -8872,6 +8956,10 @@
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>14aff97f-f111-484a-b223-bc0b81f4c052</sv:value>
     </sv:property>
+    <sv:property sv:name="categories" sv:type="String" sv:multiple="true">
+      <sv:value>7e0e533d-c98a-4057-bba8-343c8c75b18b</sv:value>
+      <sv:value>7fd66e7b-9831-4467-aef2-e0eb540366da</sv:value>
+    </sv:property>
     <sv:property sv:name="category" sv:type="String">
       <sv:value>7e0e533d-c98a-4057-bba8-343c8c75b18b</sv:value>
     </sv:property>
@@ -9021,7 +9109,7 @@
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-      <sv:value>2018-01-30T22:54:35.786+01:00</sv:value>
+      <sv:value>2018-02-23T01:11:00.240+01:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
       <sv:value>superuser</sv:value>
@@ -10301,6 +10389,10 @@
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>b6873155-b3ae-462b-be73-f4f635374fa6</sv:value>
     </sv:property>
+    <sv:property sv:name="categories" sv:type="String" sv:multiple="true">
+      <sv:value>7e0e533d-c98a-4057-bba8-343c8c75b18b</sv:value>
+      <sv:value>7fd66e7b-9831-4467-aef2-e0eb540366da</sv:value>
+    </sv:property>
     <sv:property sv:name="category" sv:type="String">
       <sv:value>7e0e533d-c98a-4057-bba8-343c8c75b18b</sv:value>
     </sv:property>
@@ -10451,7 +10543,7 @@
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-      <sv:value>2018-01-30T23:48:59.633+01:00</sv:value>
+      <sv:value>2018-02-23T01:11:16.383+01:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
       <sv:value>superuser</sv:value>
@@ -11731,6 +11823,10 @@
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>8a40ec59-840f-48d1-a8ea-7473313655eb</sv:value>
     </sv:property>
+    <sv:property sv:name="categories" sv:type="String" sv:multiple="true">
+      <sv:value>7fd66e7b-9831-4467-aef2-e0eb540366da</sv:value>
+      <sv:value>b774c919-1f5d-4c3c-b027-6348dcbbc1e6</sv:value>
+    </sv:property>
     <sv:property sv:name="category" sv:type="String">
       <sv:value>b774c919-1f5d-4c3c-b027-6348dcbbc1e6</sv:value>
     </sv:property>
@@ -11879,7 +11975,7 @@
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-      <sv:value>2018-01-31T00:12:45.267+01:00</sv:value>
+      <sv:value>2018-02-23T01:11:33.615+01:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
       <sv:value>superuser</sv:value>
@@ -13150,6 +13246,10 @@
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>b8aee6a7-5bc4-4fec-8422-463809dc5b05</sv:value>
     </sv:property>
+    <sv:property sv:name="categories" sv:type="String" sv:multiple="true">
+      <sv:value>7e0e533d-c98a-4057-bba8-343c8c75b18b</sv:value>
+      <sv:value>7fd66e7b-9831-4467-aef2-e0eb540366da</sv:value>
+    </sv:property>
     <sv:property sv:name="category" sv:type="String">
       <sv:value>7e0e533d-c98a-4057-bba8-343c8c75b18b</sv:value>
     </sv:property>
@@ -13301,7 +13401,7 @@
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-      <sv:value>2018-01-31T00:42:47.806+01:00</sv:value>
+      <sv:value>2018-02-23T01:11:52.273+01:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
       <sv:value>superuser</sv:value>
@@ -14581,6 +14681,10 @@
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>27d9c885-7929-481f-8601-a1dc91d1fc95</sv:value>
     </sv:property>
+    <sv:property sv:name="categories" sv:type="String" sv:multiple="true">
+      <sv:value>7e0e533d-c98a-4057-bba8-343c8c75b18b</sv:value>
+      <sv:value>7fd66e7b-9831-4467-aef2-e0eb540366da</sv:value>
+    </sv:property>
     <sv:property sv:name="category" sv:type="String">
       <sv:value>7e0e533d-c98a-4057-bba8-343c8c75b18b</sv:value>
     </sv:property>
@@ -14733,7 +14837,7 @@
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-      <sv:value>2018-01-31T00:46:54.803+01:00</sv:value>
+      <sv:value>2018-02-23T01:12:02.574+01:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
       <sv:value>superuser</sv:value>
