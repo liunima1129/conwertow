@@ -233,7 +233,11 @@
         <artifactId>saxon-dom</artifactId>
         <version>8.7</version>
       </dependency>
-
+      <dependency>
+        <groupId>org.tuckey</groupId>
+        <artifactId>urlrewritefilter</artifactId>
+        <version>4.0.3</version>
+      </dependency>
     </dependencies>
   </dependencyManagement>
 
