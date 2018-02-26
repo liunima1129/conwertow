@@ -3,6 +3,7 @@
 
 [#if item[field + 'internal']?has_content]
     [#assign contentPage = cmsfn.nodeById(item[field + 'internal']!"")!""]
+    [#assign contentPage = corefn.getI18nWrapper(contentPage!)]
     [#if contentPage?has_content]
     [#--[#if !cmsfn.asJCRNode(contentPage).hasProperty("mgnl:deleted")]--]
         [#assign linkHref = cmsfn.link(contentPage)!]
@@ -15,6 +16,9 @@
 
         [#if !title?has_content]
             [#assign title = contentDetails.title!]
+        [/#if]
+        [#if !navigationTitle?has_content]
+            [#assign navigationTitle = contentDetails.navigationTitle!]
         [/#if]
         [#if !abstract?has_content]
             [#assign abstract = contentDetails.abstractList!]

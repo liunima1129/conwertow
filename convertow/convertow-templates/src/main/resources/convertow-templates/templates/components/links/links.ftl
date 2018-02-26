@@ -3,5 +3,5 @@
 [@assignLinkParameters content "linkType"/]
 
 <li>
-    <a href="${linkHref!"#"}">${title!}</a>
+    <a href="${linkHref!"#"}">${navigationTitle!title!}</a>
 </li>

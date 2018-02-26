@@ -22,7 +22,7 @@
     <sv:value>superuser</sv:value>
   </sv:property>
   <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-    <sv:value>2018-02-23T00:18:45.595+01:00</sv:value>
+    <sv:value>2018-02-26T22:50:14.963+01:00</sv:value>
   </sv:property>
   <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
     <sv:value>superuser</sv:value>
@@ -1127,7 +1127,7 @@
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-      <sv:value>2018-02-23T00:18:45.595+01:00</sv:value>
+      <sv:value>2018-02-26T22:50:14.963+01:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
       <sv:value>superuser</sv:value>
@@ -1409,7 +1409,7 @@
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-        <sv:value>2018-02-23T00:17:04.633+01:00</sv:value>
+        <sv:value>2018-02-26T22:40:55.809+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
         <sv:value>superuser</sv:value>
@@ -1428,7 +1428,7 @@
           <sv:value>superuser</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-          <sv:value>2018-02-23T00:17:04.633+01:00</sv:value>
+          <sv:value>2018-02-26T22:40:55.809+01:00</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
           <sv:value>superuser</sv:value>
@@ -1436,6 +1436,173 @@
         <sv:property sv:name="mgnl:template" sv:type="String">
           <sv:value>convertow-templates:components/footer/footerTitle</sv:value>
         </sv:property>
+        <sv:property sv:name="title" sv:type="String">
+          <sv:value>FROM PDF</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_ar" sv:type="String">
+          <sv:value>من بدف</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_cs" sv:type="String">
+          <sv:value>Z PDF</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_de" sv:type="String">
+          <sv:value>VON PDF</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_es" sv:type="String">
+          <sv:value>DESDE PDF</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_fr" sv:type="String">
+          <sv:value>FROM PDF</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_hr" sv:type="String">
+          <sv:value>Iz PDF-a</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_in" sv:type="String">
+          <sv:value>DARI PDF</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_it" sv:type="String">
+          <sv:value>DA PDF</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_ja" sv:type="String">
+          <sv:value>ポータブルドキュメントから</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_ko" sv:type="String">
+          <sv:value>휴대용 문서에서</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_lt" sv:type="String">
+          <sv:value>PDF formatu</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_nl" sv:type="String">
+          <sv:value>VANUIT PDF</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_no" sv:type="String">
+          <sv:value>FRA PDF</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_pt" sv:type="String">
+          <sv:value>DE PDF</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_ru" sv:type="String">
+          <sv:value>ОТ PDF</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_sk" sv:type="String">
+          <sv:value>Z PDF</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_sq" sv:type="String">
+          <sv:value>NGA PDF</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_sv" sv:type="String">
+          <sv:value>FRÅN PDF</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_th" sv:type="String">
+          <sv:value>จากเอกสารพกพา</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_tr" sv:type="String">
+          <sv:value>PDF'den</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_vi" sv:type="String">
+          <sv:value>T FROM PDF</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="00">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:component</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>41d7fba1-dce2-4687-a7ba-3414d52c8a24</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2018-02-26T22:24:56.787+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2018-02-26T22:26:26.450+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:template" sv:type="String">
+          <sv:value>convertow-templates:components/footer/footerList</sv:value>
+        </sv:property>
+        <sv:node sv:name="footerList">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:area</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>08f97676-ba2f-4abc-894d-c0a2b5f879f7</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:created" sv:type="Date">
+            <sv:value>2018-02-26T22:24:57.272+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:createdBy" sv:type="String">
+            <sv:value>superuser</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+            <sv:value>2018-02-26T22:26:26.450+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+            <sv:value>superuser</sv:value>
+          </sv:property>
+          <sv:node sv:name="0">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:component</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>fccaff60-0693-48cb-8cbe-df0af93ee675</sv:value>
+            </sv:property>
+            <sv:property sv:name="linkType" sv:type="String">
+              <sv:value>internal</sv:value>
+            </sv:property>
+            <sv:property sv:name="linkTypeinternal" sv:type="String">
+              <sv:value>4af7fb7e-99d9-4c63-bff0-fe03e4e3ec38</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:created" sv:type="Date">
+              <sv:value>2018-02-26T22:25:11.588+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:createdBy" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+              <sv:value>2018-02-26T22:25:58.763+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:template" sv:type="String">
+              <sv:value>convertow-templates:components/links/links</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="00">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:component</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>f13c9bbb-6604-4c14-82a4-342abf468444</sv:value>
+            </sv:property>
+            <sv:property sv:name="linkType" sv:type="String">
+              <sv:value>internal</sv:value>
+            </sv:property>
+            <sv:property sv:name="linkTypeinternal" sv:type="String">
+              <sv:value>9939ae9e-d686-4986-8ef5-1d2581b309c5</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:created" sv:type="Date">
+              <sv:value>2018-02-26T22:26:26.451+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:createdBy" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+              <sv:value>2018-02-26T22:26:26.451+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:template" sv:type="String">
+              <sv:value>convertow-templates:components/links/links</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
       </sv:node>
     </sv:node>
     <sv:node sv:name="footer3">
@@ -1452,7 +1619,7 @@
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-        <sv:value>2018-02-23T00:18:45.595+01:00</sv:value>
+        <sv:value>2018-02-26T22:46:22.547+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
         <sv:value>superuser</sv:value>
@@ -1471,13 +1638,79 @@
           <sv:value>superuser</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-          <sv:value>2018-02-23T00:18:36.188+01:00</sv:value>
+          <sv:value>2018-02-26T22:46:22.547+01:00</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
           <sv:value>superuser</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:template" sv:type="String">
           <sv:value>convertow-templates:components/footer/footerTitle</sv:value>
+        </sv:property>
+        <sv:property sv:name="title" sv:type="String">
+          <sv:value>FROM IMAGES</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_ar" sv:type="String">
+          <sv:value>من الصور</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_cs" sv:type="String">
+          <sv:value>z obrázků</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_de" sv:type="String">
+          <sv:value>von Bildern</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_es" sv:type="String">
+          <sv:value>de imágenes</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_fr" sv:type="String">
+          <sv:value>à partir d'images</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_hr" sv:type="String">
+          <sv:value>od slika</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_in" sv:type="String">
+          <sv:value>dari gambar</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_it" sv:type="String">
+          <sv:value>dalle immagini</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_ja" sv:type="String">
+          <sv:value>画像から</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_ko" sv:type="String">
+          <sv:value>이미지에서</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_lt" sv:type="String">
+          <sv:value>iš vaizdų</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_nl" sv:type="String">
+          <sv:value>van afbeeldingen</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_no" sv:type="String">
+          <sv:value>fra bilder</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_pt" sv:type="String">
+          <sv:value>a partir de imagens</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_ru" sv:type="String">
+          <sv:value>из изображений</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_sk" sv:type="String">
+          <sv:value>z obrázkov</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_sq" sv:type="String">
+          <sv:value>nga imazhet</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_sv" sv:type="String">
+          <sv:value>från bilder</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_th" sv:type="String">
+          <sv:value>จากภาพ</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_tr" sv:type="String">
+          <sv:value>resimlerden</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_vi" sv:type="String">
+          <sv:value>từ hình ảnh</sv:value>
         </sv:property>
       </sv:node>
       <sv:node sv:name="00">
@@ -1494,7 +1727,7 @@
           <sv:value>superuser</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-          <sv:value>2018-02-23T00:18:45.595+01:00</sv:value>
+          <sv:value>2018-02-26T22:31:57.308+01:00</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
           <sv:value>superuser</sv:value>
@@ -1516,11 +1749,185 @@
             <sv:value>superuser</sv:value>
           </sv:property>
           <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-            <sv:value>2018-02-23T00:18:45.595+01:00</sv:value>
+            <sv:value>2018-02-26T22:31:57.308+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
             <sv:value>superuser</sv:value>
           </sv:property>
+          <sv:node sv:name="0">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:component</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>b11c3dd6-f6ab-4341-900f-5fc09f4c1368</sv:value>
+            </sv:property>
+            <sv:property sv:name="linkType" sv:type="String">
+              <sv:value>internal</sv:value>
+            </sv:property>
+            <sv:property sv:name="linkTypeinternal" sv:type="String">
+              <sv:value>991e8c58-27e7-4e1d-a958-2947fb2cf3c8</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:created" sv:type="Date">
+              <sv:value>2018-02-26T22:30:49.471+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:createdBy" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+              <sv:value>2018-02-26T22:30:49.471+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:template" sv:type="String">
+              <sv:value>convertow-templates:components/links/links</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="00">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:component</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>3ce22c34-66d1-435b-8f70-2f7b00556f49</sv:value>
+            </sv:property>
+            <sv:property sv:name="linkType" sv:type="String">
+              <sv:value>internal</sv:value>
+            </sv:property>
+            <sv:property sv:name="linkTypeinternal" sv:type="String">
+              <sv:value>bde83a28-31b3-4b94-b9e4-26ca0d73646d</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:created" sv:type="Date">
+              <sv:value>2018-02-26T22:31:00.301+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:createdBy" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+              <sv:value>2018-02-26T22:31:00.301+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:template" sv:type="String">
+              <sv:value>convertow-templates:components/links/links</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="01">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:component</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>e0b26aac-4a99-4a51-accc-66c81452e5cd</sv:value>
+            </sv:property>
+            <sv:property sv:name="linkType" sv:type="String">
+              <sv:value>internal</sv:value>
+            </sv:property>
+            <sv:property sv:name="linkTypeinternal" sv:type="String">
+              <sv:value>816685a7-e560-4fa5-ad06-777a0447be75</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:created" sv:type="Date">
+              <sv:value>2018-02-26T22:31:21.184+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:createdBy" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+              <sv:value>2018-02-26T22:31:21.184+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:template" sv:type="String">
+              <sv:value>convertow-templates:components/links/links</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="02">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:component</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>74c10242-3d24-4e81-8315-511495d21ec8</sv:value>
+            </sv:property>
+            <sv:property sv:name="linkType" sv:type="String">
+              <sv:value>internal</sv:value>
+            </sv:property>
+            <sv:property sv:name="linkTypeinternal" sv:type="String">
+              <sv:value>14aff97f-f111-484a-b223-bc0b81f4c052</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:created" sv:type="Date">
+              <sv:value>2018-02-26T22:31:31.904+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:createdBy" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+              <sv:value>2018-02-26T22:31:31.904+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:template" sv:type="String">
+              <sv:value>convertow-templates:components/links/links</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="03">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:component</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>4c6e5d1c-ccb3-47b0-a6bb-d4938febf661</sv:value>
+            </sv:property>
+            <sv:property sv:name="linkType" sv:type="String">
+              <sv:value>internal</sv:value>
+            </sv:property>
+            <sv:property sv:name="linkTypeinternal" sv:type="String">
+              <sv:value>8a40ec59-840f-48d1-a8ea-7473313655eb</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:created" sv:type="Date">
+              <sv:value>2018-02-26T22:31:42.958+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:createdBy" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+              <sv:value>2018-02-26T22:31:42.958+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:template" sv:type="String">
+              <sv:value>convertow-templates:components/links/links</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="04">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:component</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>5283f10a-4c17-4057-9918-2f09c9558cc7</sv:value>
+            </sv:property>
+            <sv:property sv:name="linkType" sv:type="String">
+              <sv:value>internal</sv:value>
+            </sv:property>
+            <sv:property sv:name="linkTypeinternal" sv:type="String">
+              <sv:value>27d9c885-7929-481f-8601-a1dc91d1fc95</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:created" sv:type="Date">
+              <sv:value>2018-02-26T22:31:49.062+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:createdBy" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+              <sv:value>2018-02-26T22:31:57.308+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:template" sv:type="String">
+              <sv:value>convertow-templates:components/links/links</sv:value>
+            </sv:property>
+          </sv:node>
         </sv:node>
       </sv:node>
     </sv:node>
@@ -1538,7 +1945,7 @@
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-        <sv:value>2018-02-23T00:17:52.929+01:00</sv:value>
+        <sv:value>2018-02-26T22:50:14.963+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
         <sv:value>superuser</sv:value>
@@ -1557,7 +1964,7 @@
           <sv:value>superuser</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-          <sv:value>2018-02-23T00:17:52.929+01:00</sv:value>
+          <sv:value>2018-02-26T22:50:14.963+01:00</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
           <sv:value>superuser</sv:value>
@@ -1565,6 +1972,260 @@
         <sv:property sv:name="mgnl:template" sv:type="String">
           <sv:value>convertow-templates:components/footer/footerTitle</sv:value>
         </sv:property>
+        <sv:property sv:name="title" sv:type="String">
+          <sv:value>TO IMAGES</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_ar" sv:type="String">
+          <sv:value>إلى الصور</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_cs" sv:type="String">
+          <sv:value>na obrázky</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_de" sv:type="String">
+          <sv:value>zu Bildern</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_es" sv:type="String">
+          <sv:value>a las imágenes</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_fr" sv:type="String">
+          <sv:value>aux images</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_hr" sv:type="String">
+          <sv:value>na slike</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_in" sv:type="String">
+          <sv:value>untuk gambar</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_it" sv:type="String">
+          <sv:value>alle immagini</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_ja" sv:type="String">
+          <sv:value>画像へ</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_ko" sv:type="String">
+          <sv:value>이미지</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_lt" sv:type="String">
+          <sv:value>vaizdams</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_nl" sv:type="String">
+          <sv:value>naar afbeeldingen</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_no" sv:type="String">
+          <sv:value>til bilder</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_pt" sv:type="String">
+          <sv:value>para imagens</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_ru" sv:type="String">
+          <sv:value>к изображениям</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_sk" sv:type="String">
+          <sv:value>na obrázky</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_sq" sv:type="String">
+          <sv:value>për imazhe</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_sv" sv:type="String">
+          <sv:value>till bilder</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_th" sv:type="String">
+          <sv:value>ไปยังรูปภาพ</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_tr" sv:type="String">
+          <sv:value>resimlere</sv:value>
+        </sv:property>
+        <sv:property sv:name="title_vi" sv:type="String">
+          <sv:value>cho hình ảnh</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="00">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:component</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>8517dca9-d3aa-4dd3-ba39-a85f90f1d0a7</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2018-02-26T22:35:52.907+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2018-02-26T22:37:12.843+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:template" sv:type="String">
+          <sv:value>convertow-templates:components/footer/footerList</sv:value>
+        </sv:property>
+        <sv:node sv:name="footerList">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:area</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>b6b176f6-0499-4bb3-812e-212f29c14897</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:created" sv:type="Date">
+            <sv:value>2018-02-26T22:35:53.370+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:createdBy" sv:type="String">
+            <sv:value>superuser</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+            <sv:value>2018-02-26T22:37:12.843+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+            <sv:value>superuser</sv:value>
+          </sv:property>
+          <sv:node sv:name="0">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:component</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>2c2e139b-2e0a-41e8-a7a6-a39e72cd23fd</sv:value>
+            </sv:property>
+            <sv:property sv:name="linkType" sv:type="String">
+              <sv:value>internal</sv:value>
+            </sv:property>
+            <sv:property sv:name="linkTypeinternal" sv:type="String">
+              <sv:value>991e8c58-27e7-4e1d-a958-2947fb2cf3c8</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:created" sv:type="Date">
+              <sv:value>2018-02-26T22:36:03.262+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:createdBy" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+              <sv:value>2018-02-26T22:36:03.262+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:template" sv:type="String">
+              <sv:value>convertow-templates:components/links/links</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="00">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:component</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>cf8f06cf-049d-48f8-94a4-cd7d282e0459</sv:value>
+            </sv:property>
+            <sv:property sv:name="linkType" sv:type="String">
+              <sv:value>internal</sv:value>
+            </sv:property>
+            <sv:property sv:name="linkTypeinternal" sv:type="String">
+              <sv:value>bde83a28-31b3-4b94-b9e4-26ca0d73646d</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:created" sv:type="Date">
+              <sv:value>2018-02-26T22:36:12.996+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:createdBy" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+              <sv:value>2018-02-26T22:36:12.996+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:template" sv:type="String">
+              <sv:value>convertow-templates:components/links/links</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="01">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:component</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>3991a65e-819c-4007-a618-d4c7eed98c94</sv:value>
+            </sv:property>
+            <sv:property sv:name="linkType" sv:type="String">
+              <sv:value>internal</sv:value>
+            </sv:property>
+            <sv:property sv:name="linkTypeinternal" sv:type="String">
+              <sv:value>9939ae9e-d686-4986-8ef5-1d2581b309c5</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:created" sv:type="Date">
+              <sv:value>2018-02-26T22:36:22.248+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:createdBy" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+              <sv:value>2018-02-26T22:36:22.248+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:template" sv:type="String">
+              <sv:value>convertow-templates:components/links/links</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="02">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:component</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>7b680969-e8bf-4be8-86d8-d4f2957a3c42</sv:value>
+            </sv:property>
+            <sv:property sv:name="linkType" sv:type="String">
+              <sv:value>internal</sv:value>
+            </sv:property>
+            <sv:property sv:name="linkTypeinternal" sv:type="String">
+              <sv:value>b8aee6a7-5bc4-4fec-8422-463809dc5b05</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:created" sv:type="Date">
+              <sv:value>2018-02-26T22:36:45.273+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:createdBy" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+              <sv:value>2018-02-26T22:36:45.273+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:template" sv:type="String">
+              <sv:value>convertow-templates:components/links/links</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="03">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:component</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>db4bf3f3-0c35-424a-a7ed-e10806b36677</sv:value>
+            </sv:property>
+            <sv:property sv:name="linkType" sv:type="String">
+              <sv:value>internal</sv:value>
+            </sv:property>
+            <sv:property sv:name="linkTypeinternal" sv:type="String">
+              <sv:value>27d9c885-7929-481f-8601-a1dc91d1fc95</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:created" sv:type="Date">
+              <sv:value>2018-02-26T22:37:05.090+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:createdBy" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+              <sv:value>2018-02-26T22:37:12.843+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:template" sv:type="String">
+              <sv:value>convertow-templates:components/links/links</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
       </sv:node>
     </sv:node>
     <sv:node sv:name="textBootom">
@@ -14837,7 +15498,7 @@
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-      <sv:value>2018-02-23T01:12:02.574+01:00</sv:value>
+      <sv:value>2018-02-26T22:51:38.329+01:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
       <sv:value>superuser</sv:value>
@@ -15057,7 +15718,7 @@
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-        <sv:value>2018-01-31T00:46:54.803+01:00</sv:value>
+        <sv:value>2018-02-26T22:51:38.329+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
         <sv:value>superuser</sv:value>
@@ -16103,6 +16764,1311 @@
         </sv:property>
         <sv:property sv:name="mgnl:lastModified" sv:type="Date">
           <sv:value>2018-01-26T23:39:07.356+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="protect-pdf">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:page</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>8f74c8cd-aebd-40cc-9cbd-2c6bbca72c38</sv:value>
+    </sv:property>
+    <sv:property sv:name="categories" sv:type="String" sv:multiple="true">
+      <sv:value>502d9786-cf0a-4b7d-b15e-2e7ccb40f47c</sv:value>
+      <sv:value>b774c919-1f5d-4c3c-b027-6348dcbbc1e6</sv:value>
+    </sv:property>
+    <sv:property sv:name="description" sv:type="String">
+      <sv:value>Use this simple tool to protect your pdf file with strong password encryption. No limitations, you can use it as many times as you need.</sv:value>
+    </sv:property>
+    <sv:property sv:name="description_ar" sv:type="String">
+      <sv:value>استخدام هذه الأداة البسيطة لحماية ملف بدف الخاص بك مع تشفير كلمة مرور قوية. لا قيود، يمكنك استخدامه عدة مرات كما تحتاج.</sv:value>
+    </sv:property>
+    <sv:property sv:name="description_cs" sv:type="String">
+      <sv:value>Použijte tento jednoduchý nástroj k ochraně souboru PDF se silným šifrováním hesla. Žádné omezení, můžete použít tolikrát, kolik potřebujete.</sv:value>
+    </sv:property>
+    <sv:property sv:name="description_de" sv:type="String">
+      <sv:value>Verwenden Sie dieses einfache Tool, um Ihre PDF-Datei mit einer starken Passwort-Verschlüsselung zu schützen. Keine Einschränkungen, Sie können es beliebig oft verwenden.</sv:value>
+    </sv:property>
+    <sv:property sv:name="description_es" sv:type="String">
+      <sv:value>Utilice esta sencilla herramienta para proteger su archivo pdf con una encriptación segura de contraseñas. Sin limitaciones, puede usarlo tantas veces como lo necesite.</sv:value>
+    </sv:property>
+    <sv:property sv:name="description_fr" sv:type="String">
+      <sv:value>Utilisez cet outil simple pour protéger votre fichier pdf avec un cryptage fort de mot de passe. Pas de limitations, vous pouvez l'utiliser autant de fois que vous le souhaitez.</sv:value>
+    </sv:property>
+    <sv:property sv:name="description_hr" sv:type="String">
+      <sv:value>Koristite ovaj jednostavan alat kako biste zaštitili pdf datoteku s jakom lozinkom šifriranje. Nema ograničenja, možete ga koristiti onoliko puta koliko vam je potrebno.</sv:value>
+    </sv:property>
+    <sv:property sv:name="description_in" sv:type="String">
+      <sv:value>Gunakan alat sederhana ini untuk melindungi file pdf Anda dengan enkripsi kata kunci yang kuat. Tidak ada batasan, Anda bisa menggunakannya sebanyak yang Anda butuhkan.</sv:value>
+    </sv:property>
+    <sv:property sv:name="description_it" sv:type="String">
+      <sv:value>Usa questo semplice strumento per proteggere il tuo file pdf con una forte crittografia della password. Nessuna limitazione, puoi usarla tutte le volte che ti servono.</sv:value>
+    </sv:property>
+    <sv:property sv:name="description_ja" sv:type="String">
+      <sv:value>このシンプルなツールを使用して、強力なパスワード暗号化を使用してPDFファイルを保護します。 制限はなく、必要な回数だけ使用することができます。</sv:value>
+    </sv:property>
+    <sv:property sv:name="description_ko" sv:type="String">
+      <sv:value>이 간단한 도구를 사용하여 강력한 암호 암호화로 PDF 파일을 보호하십시오. 제한이 없기 때문에 필요한만큼 여러 번 사용할 수 있습니다.</sv:value>
+    </sv:property>
+    <sv:property sv:name="description_lt" sv:type="String">
+      <sv:value>Naudokite šį paprastą įrankį, kad apsaugotumėte savo pdf failą naudodami saugų slaptažodžio šifravimą. Jokių apribojimų galite naudoti tiek kartų, kiek reikia.</sv:value>
+    </sv:property>
+    <sv:property sv:name="description_nl" sv:type="String">
+      <sv:value>Gebruik deze eenvoudige tool om uw pdf-bestand te beschermen met krachtige wachtwoordencryptie. Geen beperkingen, je kunt het zo vaak gebruiken als je nodig hebt.</sv:value>
+    </sv:property>
+    <sv:property sv:name="description_no" sv:type="String">
+      <sv:value>Bruk dette enkle verktøyet for å beskytte pdf-filen din med sterk kodekryptering. Ingen begrensninger, du kan bruke den så mange ganger du trenger.</sv:value>
+    </sv:property>
+    <sv:property sv:name="description_pt" sv:type="String">
+      <sv:value>Use esta ferramenta simples para proteger seu arquivo pdf com criptografia de senha forte. Sem limitações, você pode usá-lo quantas vezes você precisar.</sv:value>
+    </sv:property>
+    <sv:property sv:name="description_ru" sv:type="String">
+      <sv:value>Используйте этот простой инструмент для защиты вашего pdf-файла с помощью надежного шифрования паролей. Нет ограничений, вы можете использовать его столько раз, сколько вам нужно.</sv:value>
+    </sv:property>
+    <sv:property sv:name="description_sk" sv:type="String">
+      <sv:value>Použite tento jednoduchý nástroj na ochranu vášho súboru PDF so silným šifrovaním hesla. Žiadne obmedzenia, môžete ho použiť toľkokrát, koľko potrebujete.</sv:value>
+    </sv:property>
+    <sv:property sv:name="description_sq" sv:type="String">
+      <sv:value>Përdorni këtë mjet të thjeshtë për të mbrojtur skedarin tuaj pdf me encryption password të fortë. Pa kufizime, mund ta përdorni sa herë që keni nevojë.</sv:value>
+    </sv:property>
+    <sv:property sv:name="description_sv" sv:type="String">
+      <sv:value>Använd det här enkla verktyget för att skydda din pdf-fil med stark lösenordskryptering. Inga begränsningar, du kan använda den så många gånger du behöver.</sv:value>
+    </sv:property>
+    <sv:property sv:name="description_th" sv:type="String">
+      <sv:value>ใช้เครื่องมือง่ายๆในการปกป้องไฟล์ pdf ของคุณด้วยการเข้ารหัสรหัสผ่านที่แข็งแกร่ง ไม่มีข้อ จำกัด คุณสามารถใช้งานได้หลายครั้งเท่าที่คุณต้องการ</sv:value>
+    </sv:property>
+    <sv:property sv:name="description_tr" sv:type="String">
+      <sv:value>Güçlü şifre şifrelemesi ile pdf dosyanızı korumak için bu basit aracı kullanın. Sınırlama yoktur, bunu istediğiniz kadar kullanabilirsin.</sv:value>
+    </sv:property>
+    <sv:property sv:name="description_vi" sv:type="String">
+      <sv:value>Sử dụng công cụ đơn giản này để bảo vệ tập tin pdf bằng mật mã hóa mạnh. Không có giới hạn, bạn có thể sử dụng nó nhiều lần như bạn cần.</sv:value>
+    </sv:property>
+    <sv:property sv:name="hideInNav" sv:type="Boolean">
+      <sv:value>false</sv:value>
+    </sv:property>
+    <sv:property sv:name="keywords" sv:type="String">
+      <sv:value>protect pdf</sv:value>
+    </sv:property>
+    <sv:property sv:name="keywords_ar" sv:type="String">
+      <sv:value>حماية قوات الدفاع الشعبي
+</sv:value>
+    </sv:property>
+    <sv:property sv:name="keywords_cs" sv:type="String">
+      <sv:value>chránit pdf</sv:value>
+    </sv:property>
+    <sv:property sv:name="keywords_de" sv:type="String">
+      <sv:value>PDF schützen</sv:value>
+    </sv:property>
+    <sv:property sv:name="keywords_es" sv:type="String">
+      <sv:value>proteger pdf</sv:value>
+    </sv:property>
+    <sv:property sv:name="keywords_fr" sv:type="String">
+      <sv:value>protéger pdf</sv:value>
+    </sv:property>
+    <sv:property sv:name="keywords_hr" sv:type="String">
+      <sv:value>zaštitite pdf
+</sv:value>
+    </sv:property>
+    <sv:property sv:name="keywords_in" sv:type="String">
+      <sv:value>melindungi pdf</sv:value>
+    </sv:property>
+    <sv:property sv:name="keywords_it" sv:type="String">
+      <sv:value>proteggere pdf</sv:value>
+    </sv:property>
+    <sv:property sv:name="keywords_ja" sv:type="String">
+      <sv:value>pdfを保護する
+</sv:value>
+    </sv:property>
+    <sv:property sv:name="keywords_ko" sv:type="String">
+      <sv:value>pdf를 보호하십시오</sv:value>
+    </sv:property>
+    <sv:property sv:name="keywords_lt" sv:type="String">
+      <sv:value>apsaugoti pdf</sv:value>
+    </sv:property>
+    <sv:property sv:name="keywords_nl" sv:type="String">
+      <sv:value>bescherm pdf</sv:value>
+    </sv:property>
+    <sv:property sv:name="keywords_no" sv:type="String">
+      <sv:value>beskytte pdf
+</sv:value>
+    </sv:property>
+    <sv:property sv:name="keywords_pt" sv:type="String">
+      <sv:value>proteger pdf</sv:value>
+    </sv:property>
+    <sv:property sv:name="keywords_ru" sv:type="String">
+      <sv:value>защищать pdf</sv:value>
+    </sv:property>
+    <sv:property sv:name="keywords_sk" sv:type="String">
+      <sv:value>chrániť pdf</sv:value>
+    </sv:property>
+    <sv:property sv:name="keywords_sq" sv:type="String">
+      <sv:value>mbroj pdf</sv:value>
+    </sv:property>
+    <sv:property sv:name="keywords_sv" sv:type="String">
+      <sv:value>skydda pdf</sv:value>
+    </sv:property>
+    <sv:property sv:name="keywords_th" sv:type="String">
+      <sv:value>ป้องกันไฟล์ PDF</sv:value>
+    </sv:property>
+    <sv:property sv:name="keywords_tr" sv:type="String">
+      <sv:value>pdf'yi korumak</sv:value>
+    </sv:property>
+    <sv:property sv:name="keywords_vi" sv:type="String">
+      <sv:value>bảo vệ pdf
+</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:created" sv:type="Date">
+      <sv:value>2018-02-23T01:26:48.279+01:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:createdBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+      <sv:value>2018-02-26T22:56:48.579+01:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:template" sv:type="String">
+      <sv:value>convertow-templates:pages/standard</sv:value>
+    </sv:property>
+    <sv:property sv:name="navigationTitle" sv:type="String">
+      <sv:value>Protect PDF</sv:value>
+    </sv:property>
+    <sv:property sv:name="navigationTitle_ar" sv:type="String">
+      <sv:value>حماية بدف</sv:value>
+    </sv:property>
+    <sv:property sv:name="navigationTitle_cs" sv:type="String">
+      <sv:value>Chraňte PDF</sv:value>
+    </sv:property>
+    <sv:property sv:name="navigationTitle_de" sv:type="String">
+      <sv:value>PDF schützen</sv:value>
+    </sv:property>
+    <sv:property sv:name="navigationTitle_es" sv:type="String">
+      <sv:value>Proteger PDF</sv:value>
+    </sv:property>
+    <sv:property sv:name="navigationTitle_fr" sv:type="String">
+      <sv:value>Protéger PDF</sv:value>
+    </sv:property>
+    <sv:property sv:name="navigationTitle_hr" sv:type="String">
+      <sv:value>Zaštitite PDF</sv:value>
+    </sv:property>
+    <sv:property sv:name="navigationTitle_in" sv:type="String">
+      <sv:value>Lindungi PDF</sv:value>
+    </sv:property>
+    <sv:property sv:name="navigationTitle_it" sv:type="String">
+      <sv:value>Proteggi il PDF</sv:value>
+    </sv:property>
+    <sv:property sv:name="navigationTitle_ja" sv:type="String">
+      <sv:value>ポータブルドキュメントを保護する</sv:value>
+    </sv:property>
+    <sv:property sv:name="navigationTitle_ko" sv:type="String">
+      <sv:value>휴대용 문서 보호</sv:value>
+    </sv:property>
+    <sv:property sv:name="navigationTitle_lt" sv:type="String">
+      <sv:value>Apsaugokite PDF</sv:value>
+    </sv:property>
+    <sv:property sv:name="navigationTitle_nl" sv:type="String">
+      <sv:value>Bescherm PDF</sv:value>
+    </sv:property>
+    <sv:property sv:name="navigationTitle_no" sv:type="String">
+      <sv:value>Beskytt PDF</sv:value>
+    </sv:property>
+    <sv:property sv:name="navigationTitle_pt" sv:type="String">
+      <sv:value>Proteja o PDF</sv:value>
+    </sv:property>
+    <sv:property sv:name="navigationTitle_ru" sv:type="String">
+      <sv:value>Защитить PDF</sv:value>
+    </sv:property>
+    <sv:property sv:name="navigationTitle_sk" sv:type="String">
+      <sv:value>Chráňte PDF</sv:value>
+    </sv:property>
+    <sv:property sv:name="navigationTitle_sq" sv:type="String">
+      <sv:value>Mbroni PDF</sv:value>
+    </sv:property>
+    <sv:property sv:name="navigationTitle_sv" sv:type="String">
+      <sv:value>Skydda PDF</sv:value>
+    </sv:property>
+    <sv:property sv:name="navigationTitle_th" sv:type="String">
+      <sv:value>ป้องกันเอกสารแบบพกพา</sv:value>
+    </sv:property>
+    <sv:property sv:name="navigationTitle_tr" sv:type="String">
+      <sv:value>PDF'yi Koruyun</sv:value>
+    </sv:property>
+    <sv:property sv:name="navigationTitle_vi" sv:type="String">
+      <sv:value>Bảo vệ tài liệu di động</sv:value>
+    </sv:property>
+    <sv:property sv:name="title" sv:type="String">
+      <sv:value>Free protect your pdf with strong password encryption online.</sv:value>
+    </sv:property>
+    <sv:property sv:name="title_ar" sv:type="String">
+      <sv:value>مجانا حماية قوات الدفاع الشعبي مع تشفير كلمة مرور قوية على الانترنت.</sv:value>
+    </sv:property>
+    <sv:property sv:name="title_cs" sv:type="String">
+      <sv:value>Zdarma chránit svůj pdf se silným šifrováním hesla online.</sv:value>
+    </sv:property>
+    <sv:property sv:name="title_de" sv:type="String">
+      <sv:value>Schützen Sie Ihr PDF mit starker Passwort-Verschlüsselung online.</sv:value>
+    </sv:property>
+    <sv:property sv:name="title_es" sv:type="String">
+      <sv:value>Proteja su pdf de forma gratuita con encriptación segura de contraseñas en línea.</sv:value>
+    </sv:property>
+    <sv:property sv:name="title_fr" sv:type="String">
+      <sv:value>Protégez gratuitement votre pdf avec un cryptage de mot de passe fort en ligne.</sv:value>
+    </sv:property>
+    <sv:property sv:name="title_hr" sv:type="String">
+      <sv:value>Besplatno zaštitite svoj pdf sa snažnim šifriranjem lozinki online.</sv:value>
+    </sv:property>
+    <sv:property sv:name="title_in" sv:type="String">
+      <sv:value>Bebaskan melindungi pdf Anda dengan enkripsi sandi yang kuat secara online.</sv:value>
+    </sv:property>
+    <sv:property sv:name="title_it" sv:type="String">
+      <sv:value>Proteggi gratuitamente il tuo pdf con una forte crittografia della password online.</sv:value>
+    </sv:property>
+    <sv:property sv:name="title_ja" sv:type="String">
+      <sv:value>オンラインで強力なパスワード暗号化を使ってあなたのpdfを無料で保護してください。</sv:value>
+    </sv:property>
+    <sv:property sv:name="title_ko" sv:type="String">
+      <sv:value>온라인으로 강력한 암호를 암호화하여 pdf를 무료로 보호하십시오.</sv:value>
+    </sv:property>
+    <sv:property sv:name="title_lt" sv:type="String">
+      <sv:value>Nemokama apsaugoti savo PDF su stipriu slaptažodžio šifravimu internete.</sv:value>
+    </sv:property>
+    <sv:property sv:name="title_nl" sv:type="String">
+      <sv:value>Bescherm uw pdf gratis met krachtige wachtwoordcodering online.</sv:value>
+    </sv:property>
+    <sv:property sv:name="title_no" sv:type="String">
+      <sv:value>Fribeskytt din pdf med sterkt passordkryptering online.</sv:value>
+    </sv:property>
+    <sv:property sv:name="title_pt" sv:type="String">
+      <sv:value>Proteja seu pdf gratuitamente com criptografia de senha forte online.</sv:value>
+    </sv:property>
+    <sv:property sv:name="title_ru" sv:type="String">
+      <sv:value>Бесплатно защитите свой pdf-файл с надежным шифрованием паролей в Интернете.</sv:value>
+    </sv:property>
+    <sv:property sv:name="title_sk" sv:type="String">
+      <sv:value>Bezplatne chráňte svoje PDF pomocou silného šifrovania hesla online.</sv:value>
+    </sv:property>
+    <sv:property sv:name="title_sq" sv:type="String">
+      <sv:value>Pa pagesë mbrojtur pdf tuaj me fjalëkalim të fortë encryption online.</sv:value>
+    </sv:property>
+    <sv:property sv:name="title_sv" sv:type="String">
+      <sv:value>Fri skydda din pdf med stark lösenordskryptering online.</sv:value>
+    </sv:property>
+    <sv:property sv:name="title_th" sv:type="String">
+      <sv:value>ฟรีปกป้องเอกสารแบบพกพาของคุณด้วยการเข้ารหัสลับรหัสผ่านแบบออนไลน์</sv:value>
+    </sv:property>
+    <sv:property sv:name="title_tr" sv:type="String">
+      <sv:value>Ücretsiz güçlü şifre şifreleme online pdf koruyun.</sv:value>
+    </sv:property>
+    <sv:property sv:name="title_vi" sv:type="String">
+      <sv:value>Miễn phí bảo vệ tài liệu di động của bạn với mật mã mạnh mẽ trực tuyến.</sv:value>
+    </sv:property>
+    <sv:property sv:name="windowTitle" sv:type="String">
+      <sv:value>Protect PDF</sv:value>
+    </sv:property>
+    <sv:property sv:name="windowTitle_ar" sv:type="String">
+      <sv:value>حماية بدف</sv:value>
+    </sv:property>
+    <sv:property sv:name="windowTitle_cs" sv:type="String">
+      <sv:value>Chraňte PDF</sv:value>
+    </sv:property>
+    <sv:property sv:name="windowTitle_de" sv:type="String">
+      <sv:value>PDF schützen</sv:value>
+    </sv:property>
+    <sv:property sv:name="windowTitle_es" sv:type="String">
+      <sv:value>Proteger PDF</sv:value>
+    </sv:property>
+    <sv:property sv:name="windowTitle_fr" sv:type="String">
+      <sv:value>Protéger PDF</sv:value>
+    </sv:property>
+    <sv:property sv:name="windowTitle_hr" sv:type="String">
+      <sv:value>Zaštitite PDF</sv:value>
+    </sv:property>
+    <sv:property sv:name="windowTitle_in" sv:type="String">
+      <sv:value>Lindungi PDF</sv:value>
+    </sv:property>
+    <sv:property sv:name="windowTitle_it" sv:type="String">
+      <sv:value>Proteggi il PDF</sv:value>
+    </sv:property>
+    <sv:property sv:name="windowTitle_ja" sv:type="String">
+      <sv:value>ポータブルドキュメントを保護する</sv:value>
+    </sv:property>
+    <sv:property sv:name="windowTitle_ko" sv:type="String">
+      <sv:value>휴대용 문서 보호</sv:value>
+    </sv:property>
+    <sv:property sv:name="windowTitle_lt" sv:type="String">
+      <sv:value>Apsaugokite PDF</sv:value>
+    </sv:property>
+    <sv:property sv:name="windowTitle_nl" sv:type="String">
+      <sv:value>Bescherm PDF</sv:value>
+    </sv:property>
+    <sv:property sv:name="windowTitle_no" sv:type="String">
+      <sv:value>Beskytt PDF</sv:value>
+    </sv:property>
+    <sv:property sv:name="windowTitle_pt" sv:type="String">
+      <sv:value>Proteja o PDF</sv:value>
+    </sv:property>
+    <sv:property sv:name="windowTitle_ru" sv:type="String">
+      <sv:value>Защитить PDF</sv:value>
+    </sv:property>
+    <sv:property sv:name="windowTitle_sk" sv:type="String">
+      <sv:value>Chráňte PDF</sv:value>
+    </sv:property>
+    <sv:property sv:name="windowTitle_sq" sv:type="String">
+      <sv:value>Mbroni PDF</sv:value>
+    </sv:property>
+    <sv:property sv:name="windowTitle_sv" sv:type="String">
+      <sv:value>Skydda PDF</sv:value>
+    </sv:property>
+    <sv:property sv:name="windowTitle_th" sv:type="String">
+      <sv:value>ป้องกันเอกสารแบบพกพา</sv:value>
+    </sv:property>
+    <sv:property sv:name="windowTitle_tr" sv:type="String">
+      <sv:value>PDF'yi Koruyun</sv:value>
+    </sv:property>
+    <sv:property sv:name="windowTitle_vi" sv:type="String">
+      <sv:value>Bảo vệ tài liệu di động</sv:value>
+    </sv:property>
+    <sv:node sv:name="main">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:area</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>3511b6c4-e1ce-4978-88fc-c575d41301f6</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2018-02-23T01:26:53.111+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2018-02-26T22:56:48.579+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:node sv:name="0">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:component</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>77f549a0-935a-4128-bd5c-e917ca28ff38</sv:value>
+        </sv:property>
+        <sv:property sv:name="image" sv:type="String">
+          <sv:value>jcr:12b4cdff-7488-4402-8fb7-bda9bc0e2a85</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2018-02-23T01:38:55.035+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2018-02-23T01:39:08.228+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:template" sv:type="String">
+          <sv:value>convertow-templates:components/content/headerImage</sv:value>
+        </sv:property>
+        <sv:property sv:name="subtitle" sv:type="String">
+          <sv:value>Protect PDF</sv:value>
+        </sv:property>
+        <sv:property sv:name="title" sv:type="String">
+          <sv:value>Protect PDF with password</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="00">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:component</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>7d839faa-32e1-427a-95e4-8b44a283ea91</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2018-02-23T01:39:15.029+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2018-02-23T01:39:15.029+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:template" sv:type="String">
+          <sv:value>convertow-protect-pdf:components/protectPdf</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="013">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:component</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>3df39268-3912-494a-a627-01c3df162ba3</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+          <sv:value>false</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2018-02-26T22:51:04.310+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+          <sv:value>2018-02-26T22:51:04.311+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2018-02-26T22:56:48.579+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:template" sv:type="String">
+          <sv:value>convertow-templates:components/teasers/weDo</sv:value>
+        </sv:property>
+        <sv:node sv:name="weDoTeaser">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:area</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>d0c1a0a0-ae49-41a6-bd7e-949c3b1f98d3</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+            <sv:value>false</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:created" sv:type="Date">
+            <sv:value>2018-02-26T22:51:04.310+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:createdBy" sv:type="String">
+            <sv:value>superuser</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+            <sv:value>2018-02-26T22:51:04.312+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
+            <sv:value>superuser</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+            <sv:value>2018-02-26T22:56:48.579+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+            <sv:value>superuser</sv:value>
+          </sv:property>
+          <sv:node sv:name="0">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:component</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>45195e2a-c5b8-4c7d-b6af-bfb40a83ec45</sv:value>
+            </sv:property>
+            <sv:property sv:name="materialIcon" sv:type="String">
+              <sv:value>mdi-lightbulb-on-outline</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+              <sv:value>false</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:created" sv:type="Date">
+              <sv:value>2018-02-26T22:51:04.310+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:createdBy" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+              <sv:value>2018-02-26T22:51:04.312+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+              <sv:value>2018-02-26T22:56:48.579+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:template" sv:type="String">
+              <sv:value>convertow-templates:components/teasers/weDoTeaser</sv:value>
+            </sv:property>
+            <sv:property sv:name="text" sv:type="String">
+              <sv:value>&lt;p&gt;Drag and drop your PDF file you want to convert. Once you receive message that file is uploaded you can click &amp;quot;Convert&amp;quot; button to start with conversion. At the end by pressing &amp;quot;Download&amp;quot; button you will get your results&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_ar" sv:type="String">
+              <sv:value>&lt;p&gt;سحب وإسقاط ملف بدف الذي تريد تحويله. بمجرد تلقي الرسالة التي يتم تحميلها الملف يمكنك النقر فوق &amp;quot;تحويل&amp;quot; زر لبدء مع التحويل. في النهاية عن طريق الضغط على زر &amp;quot;تحميل&amp;quot; سوف تحصل على النتائج الخاصة بك&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_cs" sv:type="String">
+              <sv:value>&lt;p&gt;Přet&amp;aacute;hněte soubor PDF, kter&amp;yacute; chcete přev&amp;eacute;st. Jakmile obdrž&amp;iacute;te zpr&amp;aacute;vu o nahr&amp;aacute;n&amp;iacute; souboru, můžete kliknut&amp;iacute;m na tlač&amp;iacute;tko &amp;quot;Přev&amp;eacute;st&amp;quot; zač&amp;iacute;t konverzi. Nakonec stisknut&amp;iacute;m tlač&amp;iacute;tka &amp;quot;St&amp;aacute;hnout&amp;quot; z&amp;iacute;sk&amp;aacute;te sv&amp;eacute; v&amp;yacute;sledky&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_de" sv:type="String">
+              <sv:value>&lt;p&gt;Ziehen Sie Ihre PDF-Datei, die Sie konvertieren m&amp;ouml;chten, per Drag &amp;amp; Drop. Sobald Sie die Nachricht erhalten, dass die Datei hochgeladen wurde, k&amp;ouml;nnen Sie auf &amp;quot;Konvertieren&amp;quot; klicken, um mit der Konvertierung zu beginnen. Am Ende durch Dr&amp;uuml;cken der Schaltfl&amp;auml;che &amp;quot;Download&amp;quot; erhalten Sie Ihre Ergebnisse&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_es" sv:type="String">
+              <sv:value>&lt;p&gt;Arrastre y suelte su archivo PDF que desea convertir. Una vez que reciba el mensaje de que el archivo est&amp;aacute; cargado, puede hacer clic en el bot&amp;oacute;n &amp;quot;Convertir&amp;quot; para comenzar con la conversi&amp;oacute;n. Al final, al presionar el bot&amp;oacute;n &amp;quot;Descargar&amp;quot; obtendr&amp;aacute;s los resultados&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_fr" sv:type="String">
+              <sv:value>&lt;p&gt;Glissez et d&amp;eacute;posez votre fichier PDF que vous souhaitez convertir. Une fois que vous recevez le message que le fichier est t&amp;eacute;l&amp;eacute;charg&amp;eacute;, vous pouvez cliquer sur le bouton &amp;quot;Convertir&amp;quot; pour commencer la conversion. &amp;Agrave; la fin en appuyant sur le bouton &amp;quot;T&amp;eacute;l&amp;eacute;charger&amp;quot;, vous obtiendrez vos r&amp;eacute;sultats&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_hr" sv:type="String">
+              <sv:value>&lt;p&gt;Povucite i ispustite PDF datoteku koju želite pretvoriti. Kada primite poruku da je datoteka prenesena, možete kliknuti gumb &amp;quot;Pretvori&amp;quot; da biste započeli s konverzijom. Na kraju pritiskom gumba &amp;quot;Preuzimanje&amp;quot; dobit ćete rezultate&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_in" sv:type="String">
+              <sv:value>&lt;p&gt;Seret dan lepaskan file PDF yang ingin Anda ubah. Setelah Anda menerima pesan bahwa file diunggah, Anda bisa mengklik tombol &amp;quot;Convert&amp;quot; untuk memulai dengan konversi. Pada akhirnya dengan menekan tombol &amp;quot;Download&amp;quot; Anda akan mendapatkan hasilnya&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_it" sv:type="String">
+              <sv:value>&lt;p&gt;Trascina e rilascia il file PDF che desideri convertire. Una volta ricevuto il messaggio che il file &amp;egrave; stato caricato, puoi fare clic sul pulsante &amp;quot;Converti&amp;quot; per iniziare con la conversione. Alla fine, premendo il pulsante &amp;quot;Download&amp;quot; otterrai i risultati&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_ja" sv:type="String">
+              <sv:value>&lt;p&gt;変換したいPDFファイルをドラッグアンドドロップします。 ファイルがアップロードされたというメッセージを受け取ったら、「変換」ボタンをクリックして変換を開始できます。 最後に「ダウンロード」ボタンを押すと結果が表示されます&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_ko" sv:type="String">
+              <sv:value>&lt;p&gt;변환하려는 PDF 파일을 드래그 앤 드롭하십시오. 파일이 업로드되었다는 메시지를 받으면 &amp;quot;변환&amp;quot;버튼을 클릭하여 변환으로 시작할 수 있습니다. 끝에 &amp;quot;다운로드&amp;quot;버튼을 누르면 결과를 얻을 것입니다&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_lt" sv:type="String">
+              <sv:value>&lt;p&gt;Nuvilkite PDF failą, kurį norite konvertuoti. Gavęs prane&amp;scaron;imą, kad failas yra įkeltas, galite spustelėti mygtuką &amp;quot;Konvertuoti&amp;quot;, kad būtų pradėtas konversija. Paspaudę mygtuką &amp;quot;Atsisiųsti&amp;quot;, jūs gausite savo rezultatus&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_nl" sv:type="String">
+              <sv:value>&lt;p&gt;Versleep je PDF-bestand dat je wilt converteren. Zodra u het bericht ontvangt dat het bestand is ge&amp;uuml;pload, kunt u klikken op de knop &amp;#39;Converteren&amp;#39; om te beginnen met de conversie. Aan het einde door op de knop &amp;quot;Download&amp;quot; te klikken, krijgt u uw resultaten&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_no" sv:type="String">
+              <sv:value>&lt;p&gt;Dra og slipp din PDF-fil du vil konvertere. N&amp;aring;r du mottar melding om at filen er lastet opp, kan du klikke p&amp;aring; &amp;quot;Konverter&amp;quot; -knappen for &amp;aring; starte med konvertering. P&amp;aring; slutten ved &amp;aring; trykke p&amp;aring; &amp;quot;Last ned&amp;quot; -knappen f&amp;aring;r du resultatene dine&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_pt" sv:type="String">
+              <sv:value>&lt;p&gt;Arraste e solte seu arquivo PDF que deseja converter. Uma vez que voc&amp;ecirc; recebe a mensagem, o arquivo &amp;eacute; carregado, voc&amp;ecirc; pode clicar no bot&amp;atilde;o &amp;quot;Converter&amp;quot; para come&amp;ccedil;ar com a convers&amp;atilde;o. No final, pressionando o bot&amp;atilde;o &amp;quot;Download&amp;quot; voc&amp;ecirc; receber&amp;aacute; seus resultados&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_ru" sv:type="String">
+              <sv:value>&lt;p&gt;Перетащите файл PDF, который вы хотите преобразовать. Как только вы получите сообщение о том, что файл загружен, вы можете нажать кнопку &amp;laquo;Конвертировать&amp;raquo;, чтобы начать с преобразования. В конце, нажав кнопку &amp;laquo;Загрузить&amp;raquo;, вы получите свои результаты&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_sk" sv:type="String">
+              <sv:value>&lt;p&gt;Pretiahnite a presuňte s&amp;uacute;bor PDF, ktor&amp;yacute; chcete previesť. Akon&amp;aacute;hle dostanete spr&amp;aacute;vu, že je s&amp;uacute;bor nahrat&amp;yacute;, m&amp;ocirc;žete klikn&amp;uacute;ť na tlačidlo &amp;quot;Previesť&amp;quot; a začať konverziou. Na konci stlačen&amp;iacute;m tlačidla &amp;quot;Stiahnuť&amp;quot; z&amp;iacute;skate svoje v&amp;yacute;sledky&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_sq" sv:type="String">
+              <sv:value>&lt;p&gt;Zvarrisni dhe hiqni skedarin tuaj PDF q&amp;euml; doni t&amp;euml; konvertohet. Pasi t&amp;euml; keni marr&amp;euml; mesazhin q&amp;euml; skedari &amp;euml;sht&amp;euml; i ngarkuar ju mund t&amp;euml; klikoni butonin &amp;quot;Convert&amp;quot; p&amp;euml;r t&amp;euml; filluar me konvertimin. N&amp;euml; fund duke shtypur butonin &amp;quot;Download&amp;quot; ju do t&amp;euml; merrni rezultatet tuaja&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_sv" sv:type="String">
+              <sv:value>&lt;p&gt;Dra och sl&amp;auml;pp din PDF-fil som du vill konvertera. N&amp;auml;r du har f&amp;aring;tt ett meddelande om att filen har laddats upp kan du klicka p&amp;aring; knappen &amp;quot;Konvertera&amp;quot; f&amp;ouml;r att b&amp;ouml;rja med konvertering. I slutet genom att trycka p&amp;aring; &amp;quot;Download&amp;quot; knappen f&amp;aring;r du dina resultat&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_th" sv:type="String">
+              <sv:value>&lt;p&gt;ลากและวางไฟล์ PDF ที่คุณต้องการแปลง เมื่อได้รับข้อความว่าอัปโหลดไฟล์แล้วคุณสามารถคลิกปุ่ม &amp;quot;แปลง&amp;quot; เพื่อเริ่มต้นการแปลง ในตอนท้ายโดยการกดปุ่ม &amp;quot;Download&amp;quot; คุณจะได้ผลลัพธ์&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_tr" sv:type="String">
+              <sv:value>&lt;p&gt;S&amp;uuml;r&amp;uuml;kleyip PDF dosyanızı d&amp;ouml;n&amp;uuml;şt&amp;uuml;rmek istediğinizde bırakın. Dosyanın y&amp;uuml;klendiğine dair bir mesaj aldıktan sonra, d&amp;ouml;n&amp;uuml;ş&amp;uuml;mle başlamak i&amp;ccedil;in &amp;quot;D&amp;ouml;n&amp;uuml;şt&amp;uuml;r&amp;quot; d&amp;uuml;ğmesini tıklayabilirsiniz. Sonunda &amp;quot;İndir&amp;quot; d&amp;uuml;ğmesine basarak sonu&amp;ccedil;larınızı alacaksınız.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_vi" sv:type="String">
+              <sv:value>&lt;p&gt;K&amp;eacute;o v&amp;agrave; thả tệp PDF bạn muốn chuyển đổi. Một khi bạn nhận được th&amp;ocirc;ng b&amp;aacute;o rằng tập tin được tải l&amp;ecirc;n, bạn c&amp;oacute; thể nhấp v&amp;agrave;o n&amp;uacute;t &amp;quot;Chuyển đổi&amp;quot; để bắt đầu chuyển đổi. Cuối c&amp;ugrave;ng bằng c&amp;aacute;ch nhấn n&amp;uacute;t &amp;quot;Download&amp;quot;, bạn sẽ nhận được kết quả&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="threeCols" sv:type="Boolean">
+              <sv:value>true</sv:value>
+            </sv:property>
+            <sv:property sv:name="title" sv:type="String">
+              <sv:value>How to Protect your PDF file</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_ar" sv:type="String">
+              <sv:value>كيفية حماية ملف بدف الخاص بك</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_cs" sv:type="String">
+              <sv:value>Jak chránit soubor PDF</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_de" sv:type="String">
+              <sv:value>So schützen Sie Ihre PDF-Datei</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_es" sv:type="String">
+              <sv:value>Kumaha Nangtayungan file PDF Anjeun</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_fr" sv:type="String">
+              <sv:value>Comment protéger votre fichier PDF</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_hr" sv:type="String">
+              <sv:value>Kako zaštititi PDF datoteku</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_in" sv:type="String">
+              <sv:value>Cara Melindungi file PDF anda</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_it" sv:type="String">
+              <sv:value>Come proteggere il tuo file PDF</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_ja" sv:type="String">
+              <sv:value>あなたのポータブルドキュメントファイルを保護する方法</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_ko" sv:type="String">
+              <sv:value>휴대용 문서 파일을 보호하는 방법</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_lt" sv:type="String">
+              <sv:value>Kaip apsaugoti PDF failą</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_nl" sv:type="String">
+              <sv:value>Hoe uw PDF-bestand te beschermen</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_no" sv:type="String">
+              <sv:value>Slik beskytter du PDF-filen</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_pt" sv:type="String">
+              <sv:value>Como proteger seu arquivo PDF</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_ru" sv:type="String">
+              <sv:value>Как защитить файл PDF</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_sk" sv:type="String">
+              <sv:value>Ako chrániť súbor PDF</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_sq" sv:type="String">
+              <sv:value>Si të mbroni skedarin tuaj PDF</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_sv" sv:type="String">
+              <sv:value>Så här skyddar du din PDF-fil</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_th" sv:type="String">
+              <sv:value>วิธีการป้องกันไฟล์เอกสารแบบพกพาของคุณ</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_tr" sv:type="String">
+              <sv:value>PDF dosyanızı koruma</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_vi" sv:type="String">
+              <sv:value>Cách bảo vệ tệp tin di động của bạn</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="00">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:component</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>8254334d-318d-4dca-8fbf-dff468df9d92</sv:value>
+            </sv:property>
+            <sv:property sv:name="materialIcon" sv:type="String">
+              <sv:value>mdi-fingerprint</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+              <sv:value>false</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:created" sv:type="Date">
+              <sv:value>2018-02-26T22:51:04.310+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:createdBy" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+              <sv:value>2018-02-26T22:51:04.312+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+              <sv:value>2018-02-26T22:51:04.310+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:template" sv:type="String">
+              <sv:value>convertow-templates:components/teasers/weDoTeaser</sv:value>
+            </sv:property>
+            <sv:property sv:name="text" sv:type="String">
+              <sv:value>&lt;p&gt;We guarantee 100% security and privacy on your files. We do not share files with anyone. Files which has been uploaded automatically are deleted every 30 minutes.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_ar" sv:type="String">
+              <sv:value>&lt;p&gt;ونحن نضمن 100٪ الأمن والخصوصية على الملفات الخاصة بك. نحن لا نشارك الملفات مع أي شخص. يتم حذف الملفات التي تم تحميلها تلقائيا كل 30 دقيقة.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_cs" sv:type="String">
+              <sv:value>&lt;p&gt;Zaručujeme 100% zabezpečen&amp;iacute; a soukrom&amp;iacute; va&amp;scaron;ich souborů. Soubory s nik&amp;yacute;m nesd&amp;iacute;l&amp;iacute;me. Soubory, kter&amp;eacute; byly nahr&amp;aacute;ny automaticky, jsou vymaz&amp;aacute;ny každ&amp;yacute;ch 30 minut.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_de" sv:type="String">
+              <sv:value>&lt;p&gt;Wir garantieren 100% Sicherheit und Datenschutz f&amp;uuml;r Ihre Dateien. Wir teilen keine Dateien mit irgendjemandem. Dateien, die automatisch hochgeladen wurden, werden alle 30 Minuten gel&amp;ouml;scht.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_es" sv:type="String">
+              <sv:value>&lt;p&gt;Garantizamos el 100% de seguridad y privacidad en sus archivos. No compartimos archivos con nadie. Los archivos que se cargaron autom&amp;aacute;ticamente se eliminan cada 30 minutos.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_fr" sv:type="String">
+              <sv:value>&lt;p&gt;Nous garantissons 100% de s&amp;eacute;curit&amp;eacute; et de confidentialit&amp;eacute; sur vos fichiers. Nous ne partageons aucun fichier avec quelqu&amp;#39;un. Les fichiers qui ont &amp;eacute;t&amp;eacute; t&amp;eacute;l&amp;eacute;charg&amp;eacute;s automatiquement sont supprim&amp;eacute;s toutes les 30 minutes.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_hr" sv:type="String">
+              <sv:value>&lt;p&gt;Jamčimo 100% sigurnosti i privatnosti na datotekama. Ne dijelimo datoteke s nikim. Automatski prenesene datoteke bri&amp;scaron;u se svakih 30 minuta.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_in" sv:type="String">
+              <sv:value>&lt;p&gt;Kami menjamin keamanan 100% dan privasi pada file Anda. Kami tidak berbagi file dengan siapa pun. File yang telah diunggah secara otomatis akan dihapus setiap 30 menit.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_it" sv:type="String">
+              <sv:value>&lt;p&gt;Garantiamo sicurezza e privacy al 100% sui tuoi file. Non condividiamo file con nessuno. I file che sono stati caricati automaticamente vengono cancellati ogni 30 minuti.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_ja" sv:type="String">
+              <sv:value>&lt;p&gt;私たちはあなたのファイルに100％のセキュリティとプライバシーを保証します。 私たちは誰とでもファイルを共有しません。 自動的にアップロードされたファイルは30分ごとに削除されます。&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_ko" sv:type="String">
+              <sv:value>&lt;p&gt;우리는 귀하의 파일에 대해 100 % 보안 및 개인 정보를 보장합니다. 우리는 누구와도 파일을 공유하지 않습니다. 자동으로 업로드 된 파일은 30 분마다 삭제됩니다.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_lt" sv:type="String">
+              <sv:value>&lt;p&gt;Mes garantuojame 100% saugumą ir privatumą jūsų bylose. Mes nesidalijame failais niekam. Failai, kurie buvo įkelti automati&amp;scaron;kai, i&amp;scaron;trinami kas 30 minučių.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_nl" sv:type="String">
+              <sv:value>&lt;p&gt;We garanderen 100% beveiliging en privacy op uw bestanden. We delen geen bestanden met iemand. Bestanden die automatisch zijn ge&amp;uuml;pload, worden elke 30 minuten verwijderd.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_no" sv:type="String">
+              <sv:value>&lt;p&gt;Vi garanterer 100% sikkerhet og personvern p&amp;aring; filene dine. Vi deler ikke filer med noen. Filer som er lastet opp automatisk, slettes hvert 30. minutt.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_pt" sv:type="String">
+              <sv:value>&lt;p&gt;N&amp;oacute;s garantimos 100% de seguran&amp;ccedil;a e privacidade em seus arquivos. N&amp;oacute;s n&amp;atilde;o compartilhamos arquivos com ningu&amp;eacute;m. Os arquivos que foram carregados automaticamente s&amp;atilde;o exclu&amp;iacute;dos a cada 30 minutos.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_ru" sv:type="String">
+              <sv:value>&lt;p&gt;Мы гарантируем 100% безопасность и конфиденциальность ваших файлов. Мы ни с кем не обмениваемся файлами. Файлы, которые были загружены автоматически, удаляются каждые 30 минут.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_sk" sv:type="String">
+              <sv:value>&lt;p&gt;Zaručujeme 100% bezpečnosť a ochranu va&amp;scaron;ich s&amp;uacute;borov. S nami nie s&amp;uacute; zdieľan&amp;eacute; s&amp;uacute;bory. S&amp;uacute;bory, ktor&amp;eacute; boli odovzdan&amp;eacute; automaticky, sa odstr&amp;aacute;nia každ&amp;yacute;ch 30 min&amp;uacute;t.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_sq" sv:type="String">
+              <sv:value>&lt;p&gt;Ne garantojm&amp;euml; 100% t&amp;euml; siguris&amp;euml; dhe privat&amp;euml;sis&amp;euml; n&amp;euml; skedar&amp;euml;t tuaj. Ne nuk i ndajm&amp;euml; skedar&amp;euml;t me ask&amp;euml;nd. Dosjet t&amp;euml; cilat jan&amp;euml; ngarkuar automatikisht fshihen &amp;ccedil;do 30 minuta.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_sv" sv:type="String">
+              <sv:value>&lt;p&gt;Vi garanterar 100% s&amp;auml;kerhet och integritet p&amp;aring; dina filer. Vi delar inte filer med n&amp;aring;gon. Filer som har laddats upp automatiskt raderas var 30: e minut.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_th" sv:type="String">
+              <sv:value>&lt;p&gt;เรารับประกันความปลอดภัย 100% และความเป็นส่วนตัวในไฟล์ของคุณ เราไม่แชร์ไฟล์กับใคร ไฟล์ที่ถูกอัปโหลดโดยอัตโนมัติจะถูกลบทุกๆ 30 นาที&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_tr" sv:type="String">
+              <sv:value>&lt;p&gt;Dosyalarınızda% 100 g&amp;uuml;venlik ve gizlilik garanti ederiz. Dosyaları kimseyle paylaşmıyoruz. Otomatik olarak y&amp;uuml;klenen dosyalar her 30 dakikada bir silinir.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_vi" sv:type="String">
+              <sv:value>&lt;p&gt;Ch&amp;uacute;ng t&amp;ocirc;i đảm bảo 100% an ninh v&amp;agrave; ri&amp;ecirc;ng tư tr&amp;ecirc;n c&amp;aacute;c tệp của bạn. Ch&amp;uacute;ng t&amp;ocirc;i kh&amp;ocirc;ng chia sẻ tệp với bất kỳ ai. C&amp;aacute;c tệp đ&amp;atilde; được tải l&amp;ecirc;n tự động sẽ bị x&amp;oacute;a sau mỗi 30 ph&amp;uacute;t.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="threeCols" sv:type="Boolean">
+              <sv:value>true</sv:value>
+            </sv:property>
+            <sv:property sv:name="title" sv:type="String">
+              <sv:value>We keep your files in privacy</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_ar" sv:type="String">
+              <sv:value>نحن نحافظ على الملفات الخاصة بك في الخصوصية</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_cs" sv:type="String">
+              <sv:value>Vaše soubory uchováváme v soukromí</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_de" sv:type="String">
+              <sv:value>Wir bewahren Ihre Dateien in Privatsphäre</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_es" sv:type="String">
+              <sv:value>Mantenemos tus archivos en privacidad</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_fr" sv:type="String">
+              <sv:value>Nous gardons vos fichiers en toute confidentialité</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_hr" sv:type="String">
+              <sv:value>Vaše datoteke čuvamo u privatnosti</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_in" sv:type="String">
+              <sv:value>Kami menyimpan file Anda dalam privasi</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_it" sv:type="String">
+              <sv:value>Manteniamo i tuoi file nella privacy</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_ja" sv:type="String">
+              <sv:value>私たちはあなたのファイルをプライバシーに保ちます</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_ko" sv:type="String">
+              <sv:value>우리는 귀하의 파일을 개인 정보로 보호합니다.</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_lt" sv:type="String">
+              <sv:value>Mes saugome jūsų failus privatumo</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_nl" sv:type="String">
+              <sv:value>We bewaren uw bestanden in privacy</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_no" sv:type="String">
+              <sv:value>Vi beholder filene dine i personvern</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_pt" sv:type="String">
+              <sv:value>Nós mantemos seus arquivos em privacidade</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_ru" sv:type="String">
+              <sv:value>Мы сохраняем ваши файлы в конфиденциальности</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_sk" sv:type="String">
+              <sv:value>Vaše súbory uchovávame v súkromí</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_sq" sv:type="String">
+              <sv:value>Ne mbajmë skedarët tuaj në fshehtësi</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_sv" sv:type="String">
+              <sv:value>Vi behåller dina filer i sekretess</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_th" sv:type="String">
+              <sv:value>เราเก็บไฟล์ของคุณอย่างเป็นส่วนตัว</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_tr" sv:type="String">
+              <sv:value>Dosyalarınızı gizlilik içinde tutuyoruz</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_vi" sv:type="String">
+              <sv:value>Chúng tôi giữ riêng tư tệp của bạn</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="01">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:component</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>dd86f21e-6e32-4daa-98d9-32d8e6a483fc</sv:value>
+            </sv:property>
+            <sv:property sv:name="materialIcon" sv:type="String">
+              <sv:value>mdi-trending-up</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+              <sv:value>false</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:created" sv:type="Date">
+              <sv:value>2018-02-26T22:51:04.310+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:createdBy" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+              <sv:value>2018-02-26T22:51:04.312+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+              <sv:value>2018-02-26T22:51:04.310+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:template" sv:type="String">
+              <sv:value>convertow-templates:components/teasers/weDoTeaser</sv:value>
+            </sv:property>
+            <sv:property sv:name="text" sv:type="String">
+              <sv:value>&lt;p&gt;We didn&amp;#39;t make any restrictions about how many times you have used this or any other tool on this website. You can use it as many times as you need.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_ar" sv:type="String">
+              <sv:value>&lt;p&gt;لم نضع أي قيود حول عدد المرات التي كنت قد استخدمت هذا أو أي أداة أخرى على هذا الموقع. يمكنك استخدامه عدة مرات كما تحتاج.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_cs" sv:type="String">
+              <sv:value>&lt;p&gt;Neudělali jsme ž&amp;aacute;dn&amp;eacute; omezen&amp;iacute;, kolikr&amp;aacute;t jste na tomto webu použili tento nebo jin&amp;yacute; n&amp;aacute;stroj. Můžete jej použ&amp;iacute;vat tolikr&amp;aacute;t, kolik potřebujete.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_de" sv:type="String">
+              <sv:value>&lt;p&gt;Wir haben keine Einschr&amp;auml;nkungen dahingehend gemacht, wie oft Sie dieses oder ein anderes Tool auf dieser Website verwendet haben. Sie k&amp;ouml;nnen es so oft verwenden wie Sie m&amp;ouml;chten.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_es" sv:type="String">
+              <sv:value>&lt;p&gt;No hicimos ninguna restricci&amp;oacute;n sobre cu&amp;aacute;ntas veces ha usado esta o cualquier otra herramienta en este sitio web. Puedes usarlo tantas veces como necesites.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_fr" sv:type="String">
+              <sv:value>&lt;p&gt;Nous n&amp;#39;avons fait aucune restriction sur le nombre de fois que vous avez utilis&amp;eacute; cet outil ou tout autre outil sur ce site. Vous pouvez l&amp;#39;utiliser autant de fois que n&amp;eacute;cessaire.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_hr" sv:type="String">
+              <sv:value>&lt;p&gt;Nismo napravili nikakva ograničenja koliko ste puta koristili ovaj ili bilo koji drugi alat na ovoj web stranici. Možete ga koristiti onoliko puta koliko vam treba.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_in" sv:type="String">
+              <sv:value>&lt;p&gt;Kami tidak membuat batasan berapa kali Anda menggunakan alat ini atau alat lainnya di situs ini. Anda bisa menggunakannya sebanyak yang Anda butuhkan.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_it" sv:type="String">
+              <sv:value>&lt;p&gt;Non abbiamo introdotto restrizioni sul numero di volte in cui hai utilizzato questo o altri strumenti su questo sito web. Puoi usarlo tutte le volte che ti servono.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_ja" sv:type="String">
+              <sv:value>&lt;p&gt;このウェブサイトでこのツールやその他のツールを何回使用したかについては、何の制限も受けませんでした。 必要なだけ何度でも使用できます。&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_ko" sv:type="String">
+              <sv:value>&lt;p&gt;이 웹 사이트에서이 툴이나 다른 툴을 몇 번이나 사용했는지에 대해서는 아무런 제한을 두지 않았습니다. 필요한만큼 여러 번 사용할 수 있습니다.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_lt" sv:type="String">
+              <sv:value>&lt;p&gt;Nebuvo jokių apribojimų dėl to, kiek kartų jūs naudojate &amp;scaron;į ar bet kurį kitą įrankį &amp;scaron;ioje svetainėje. Galite jį naudoti tiek kartų, kiek reikia.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_nl" sv:type="String">
+              <sv:value>&lt;p&gt;We hebben geen beperkingen opgelegd over hoe vaak u deze of een andere tool op deze website hebt gebruikt. Je kunt het zo vaak gebruiken als je nodig hebt.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_no" sv:type="String">
+              <sv:value>&lt;p&gt;Vi gjorde ingen restriksjoner p&amp;aring; hvor mange ganger du har brukt dette eller andre verkt&amp;oslash;y p&amp;aring; denne nettsiden. Du kan bruke den s&amp;aring; mange ganger du trenger.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_pt" sv:type="String">
+              <sv:value>&lt;p&gt;N&amp;oacute;s n&amp;atilde;o fizemos nenhuma restri&amp;ccedil;&amp;atilde;o sobre quantas vezes voc&amp;ecirc; usou isso ou qualquer outra ferramenta neste site. Voc&amp;ecirc; pode us&amp;aacute;-lo quantas vezes voc&amp;ecirc; precisa.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_ru" sv:type="String">
+              <sv:value>&lt;p&gt;Мы не делали никаких ограничений относительно того, сколько раз вы использовали этот или любой другой инструмент на этом веб-сайте. Вы можете использовать его столько раз, сколько вам нужно.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_sk" sv:type="String">
+              <sv:value>&lt;p&gt;Neustanovili sme žiadne obmedzenia t&amp;yacute;kaj&amp;uacute;ce sa toho, koľkokr&amp;aacute;t ste na tomto webe použ&amp;iacute;vali tento alebo in&amp;yacute; n&amp;aacute;stroj. M&amp;ocirc;žete ho použiť toľkokr&amp;aacute;t, koľko potrebujete.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_sq" sv:type="String">
+              <sv:value>&lt;p&gt;Ne nuk b&amp;euml;m&amp;euml; asnj&amp;euml; kufizim p&amp;euml;r sa her&amp;euml; keni p&amp;euml;rdorur k&amp;euml;t&amp;euml; ose ndonj&amp;euml; mjet tjet&amp;euml;r n&amp;euml; k&amp;euml;t&amp;euml; faqe interneti. Ju mund ta p&amp;euml;rdorni at&amp;euml; sa her&amp;euml; q&amp;euml; keni nevoj&amp;euml;.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_sv" sv:type="String">
+              <sv:value>&lt;p&gt;Vi gjorde inga begr&amp;auml;nsningar om hur m&amp;aring;nga g&amp;aring;nger du har anv&amp;auml;nt detta eller n&amp;aring;got annat verktyg p&amp;aring; denna webbplats. Du kan anv&amp;auml;nda den s&amp;aring; m&amp;aring;nga g&amp;aring;nger som du beh&amp;ouml;ver.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_th" sv:type="String">
+              <sv:value>&lt;p&gt;เราไม่ได้กำหนดข้อ จำกัด เกี่ยวกับจำนวนครั้งที่คุณใช้เครื่องมือนี้หรือเครื่องมืออื่นใดในเว็บไซต์นี้ คุณสามารถใช้งานได้หลายครั้งเท่าที่คุณต้องการ&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_tr" sv:type="String">
+              <sv:value>&lt;p&gt;Bu web sitesinde bu veya başka herhangi bir aracı ka&amp;ccedil; kere kullandığınızı kısıtlamadık. İstediğiniz kadar kullanabilirsiniz.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="text_vi" sv:type="String">
+              <sv:value>&lt;p&gt;Ch&amp;uacute;ng t&amp;ocirc;i đ&amp;atilde; kh&amp;ocirc;ng thực hiện bất kỳ hạn chế n&amp;agrave;o về việc bạn đ&amp;atilde; sử dụng c&amp;ocirc;ng cụ n&amp;agrave;y hoặc bất kỳ c&amp;ocirc;ng cụ n&amp;agrave;o kh&amp;aacute;c tr&amp;ecirc;n trang web n&amp;agrave;y bao nhi&amp;ecirc;u lần. Bạn c&amp;oacute; thể sử dụng n&amp;oacute; nhiều lần như bạn cần.&lt;/p&gt;
+</sv:value>
+            </sv:property>
+            <sv:property sv:name="threeCols" sv:type="Boolean">
+              <sv:value>true</sv:value>
+            </sv:property>
+            <sv:property sv:name="title" sv:type="String">
+              <sv:value>Reusable converter</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_ar" sv:type="String">
+              <sv:value>محول قابل لإعادة الاستخدام</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_cs" sv:type="String">
+              <sv:value>Opakovaně použitelný konvertor</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_de" sv:type="String">
+              <sv:value>Wiederverwendbarer Konverter</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_es" sv:type="String">
+              <sv:value>Convertidor reutilizable</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_fr" sv:type="String">
+              <sv:value>Convertisseur réutilisable</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_hr" sv:type="String">
+              <sv:value>Ponovno upotrebljivi pretvarač</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_in" sv:type="String">
+              <sv:value>Konverter dapat digunakan kembali</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_it" sv:type="String">
+              <sv:value>Convertitore riutilizzabile</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_ja" sv:type="String">
+              <sv:value>再利用可能なコンバータ</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_ko" sv:type="String">
+              <sv:value>재사용 가능한 변환기</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_lt" sv:type="String">
+              <sv:value>Daugkartinio naudojimo konverteris</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_nl" sv:type="String">
+              <sv:value>Herbruikbare converter</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_no" sv:type="String">
+              <sv:value>Gjenbrukbar omformer</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_pt" sv:type="String">
+              <sv:value>Conversor reutilizável</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_ru" sv:type="String">
+              <sv:value>Многоразовый конвертер</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_sk" sv:type="String">
+              <sv:value>Opätovne použiteľný prevodník</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_sq" sv:type="String">
+              <sv:value>Konvertues i ripërdorshëm</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_sv" sv:type="String">
+              <sv:value>Återanvändbar omvandlare</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_th" sv:type="String">
+              <sv:value>ตัวแปลงแบบใช้ซ้ำได้</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_tr" sv:type="String">
+              <sv:value>Tekrar kullanılabilir dönüştürücü</sv:value>
+            </sv:property>
+            <sv:property sv:name="title_vi" sv:type="String">
+              <sv:value>Bộ chuyển đổi có thể tái sử dụng</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="014">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:component</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>96909f48-cd58-4840-a6c9-90292192c66c</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+          <sv:value>false</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2018-02-26T22:51:07.135+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+          <sv:value>2018-02-26T22:51:07.135+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2018-02-26T22:51:38.329+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:template" sv:type="String">
+          <sv:value>convertow-templates:components/content/team</sv:value>
+        </sv:property>
+        <sv:node sv:name="teamTeaser">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:area</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>d4ce7cc6-436d-428d-9dcd-ec447811e9d4</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+            <sv:value>false</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:created" sv:type="Date">
+            <sv:value>2018-02-26T22:51:07.135+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:createdBy" sv:type="String">
+            <sv:value>superuser</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+            <sv:value>2018-02-26T22:51:07.135+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
+            <sv:value>superuser</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+            <sv:value>2018-02-26T22:51:07.135+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+            <sv:value>superuser</sv:value>
+          </sv:property>
+          <sv:node sv:name="Miroslav-Pashaliski">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:component</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>adde66b7-a300-4bd9-9969-2513adab4b3c</sv:value>
+            </sv:property>
+            <sv:property sv:name="facebookLink" sv:type="String">
+              <sv:value>https://www.facebook.com/miroslav.pasaliski</sv:value>
+            </sv:property>
+            <sv:property sv:name="image" sv:type="String">
+              <sv:value>jcr:6041c158-a5d2-4fc1-8a21-02b717a8a0cf</sv:value>
+            </sv:property>
+            <sv:property sv:name="instagramkLink" sv:type="String">
+              <sv:value>https://www.instagram.com/pashaliskimiro/</sv:value>
+            </sv:property>
+            <sv:property sv:name="linkedinkLink" sv:type="String">
+              <sv:value>https://www.linkedin.com/in/miroslav-pashaliski-3613a4aa/</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+              <sv:value>false</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:created" sv:type="Date">
+              <sv:value>2018-02-26T22:51:07.135+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:createdBy" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+              <sv:value>2018-02-26T22:51:07.136+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+              <sv:value>2018-02-26T22:51:07.135+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:template" sv:type="String">
+              <sv:value>convertow-templates:components/teasers/teamTeaser</sv:value>
+            </sv:property>
+            <sv:property sv:name="name" sv:type="String">
+              <sv:value>Miroslav Pashaliski</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="footer">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:area</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>07f013a8-39df-4c9b-8242-78de8b65ea20</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2018-02-23T01:26:53.197+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2018-02-23T01:26:53.612+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:node sv:name="footer1">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:area</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>8d6e8ee8-2807-4dd0-8e41-4cd96b18ef0b</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2018-02-23T01:26:53.296+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2018-02-23T01:26:53.296+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="footer2">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:area</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>bca8ded3-284a-474a-b2d5-3f760d1712a1</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2018-02-23T01:26:53.412+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2018-02-23T01:26:53.412+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="footer3">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:area</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>dd43c577-e0e4-4881-a673-bac8c3bb324e</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2018-02-23T01:26:53.492+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2018-02-23T01:26:53.492+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="footer4">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:area</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>c1719b74-7400-4c1c-a359-6841abec08ca</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2018-02-23T01:26:53.562+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2018-02-23T01:26:53.562+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="textBootom">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:area</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>56cb7dbc-7567-4b12-8d0e-35550d207b66</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2018-02-23T01:26:53.614+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2018-02-23T01:26:53.614+01:00</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
           <sv:value>superuser</sv:value>
