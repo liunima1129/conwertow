@@ -3,7 +3,7 @@
         <div class="row">
 
             <div class="col-md-12 wow animated fadeInLeft" data-wow-delay=".2s">
-                <h1 class="section-title">${i18n['our.team']}</h1>
+                <h2 class="section-title">${i18n['our.team']}</h2>
             </div>
         </div>
         <div class="row">
