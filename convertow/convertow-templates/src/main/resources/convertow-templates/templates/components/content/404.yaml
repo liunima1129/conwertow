@@ -1,0 +1,4 @@
+templateScript: /convertow-templates/templates/components/content/404.ftl
+dialog: convertow-templates:components/content/404
+renderType: freemarker
+title: 404

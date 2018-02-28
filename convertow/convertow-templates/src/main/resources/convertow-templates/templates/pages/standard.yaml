@@ -37,6 +37,8 @@ areas:
         id: convertow-protect-pdf:components/protectPdf
       unlockPdf:
         id: convertow-unlock-pdf:components/unlockPdf
+      notFound:
+        id: convertow-templates:components/content/404
   footer:
     editable: false
 title: Standard
