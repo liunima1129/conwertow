@@ -122,6 +122,13 @@
       <artifactId>urlrewritefilter</artifactId>
       <version>4.0.3</version>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/com.samaxes.filter/cachefilter -->
+    <!--CACHE FILTER-->
+    <dependency>
+      <groupId>com.samaxes.filter</groupId>
+      <artifactId>cachefilter</artifactId>
+      <version>2.0</version>
+    </dependency>
   </dependencies>
 
   <build>
