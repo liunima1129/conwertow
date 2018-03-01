@@ -5,7 +5,7 @@
 [#assign pageDef = ctx.pageDef!]
 
 [#-------------- RENDERING --------------]
-<title>${content.windowTitle!content.title!}</title>
+<title>${content.title!content.windowTitle!}</title>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="description" content="${content.description!""}" />
