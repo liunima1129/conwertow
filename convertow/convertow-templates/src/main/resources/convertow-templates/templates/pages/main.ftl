@@ -66,6 +66,7 @@
                     $(".alert-success").hide();
                     $(".zip-archive").hide();
                 }
+                url = restPath + $(".userID").val() +"&name=" + $(".fileName").val() +"&password=" + password;
             }
 
             if ( canGo ){

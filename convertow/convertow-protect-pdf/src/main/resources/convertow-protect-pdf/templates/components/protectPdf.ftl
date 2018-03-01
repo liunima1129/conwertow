@@ -34,4 +34,7 @@
 <script>
     var fileSupported = "pdf";
     var restPath = "${restPath!}";
+    var zipFile = false;
+    var singleFile = true;
+    var resultExtension = "Protected.pdf";
 </script>
