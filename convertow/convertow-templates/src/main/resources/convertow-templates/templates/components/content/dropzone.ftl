@@ -19,7 +19,7 @@
             </div>
 
             <div class="col-md-2 zip-div">
-                <a href="javascript:void(0)" class="animated4 btn btn-common btn-lg zip-archive file-link"><i class="material-icons mdi mdi-cloud-download"></i> ${i18n['download']}<div class="ripple-container"></div></a>
+                <a href="javascript:void(0)" target="_blank"  download="" class="animated4 btn btn-common btn-lg zip-archive file-link"><i class="material-icons mdi mdi-cloud-download"></i> ${i18n['download']}<div class="ripple-container"></div></a>
             </div>
         </div>
     </div>
