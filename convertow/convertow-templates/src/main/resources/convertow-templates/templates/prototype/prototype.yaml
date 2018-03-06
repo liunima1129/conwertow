@@ -6,41 +6,7 @@ renderType: site
 type: feature
 
 jsFiles:
-  - link: /convertow-templates/webresources/js/email-decode.min.js
-    addFingerPrint: true
-  - link: /convertow-templates/webresources/js/jquery-min.js
-    addFingerPrint: true
-  - link: /convertow-templates/webresources/js/popper.min.js
-    addFingerPrint: true
-  - link: /convertow-templates/webresources/js/bootstrap.min.js
-    addFingerPrint: true
-  - link: /convertow-templates/webresources/js/color-switcher.js
-    addFingerPrint: true
-  - link: /convertow-templates/webresources/js/jquery.mixitup.min.js
-    addFingerPrint: true
-  - link: /convertow-templates/webresources/js/jquery.inview.js
-    addFingerPrint: true
-  - link: /convertow-templates/webresources/js/jquery.counterup.min.js
-    addFingerPrint: true
-  - link: /convertow-templates/webresources/js/scroll-top.js
-    addFingerPrint: true
-  - link: /convertow-templates/webresources/js/material.min.js
-    addFingerPrint: true
-  - link: /convertow-templates/webresources/js/ripples.min.js
-    addFingerPrint: true
-  - link: /convertow-templates/webresources/js/owl.carousel.min.js
-    addFingerPrint: true
-  - link: /convertow-templates/webresources/js/form-validator.min.js
-    addFingerPrint: true
-  - link: /convertow-templates/webresources/js/contact-form-script.min.js
-    addFingerPrint: true
-  - link: /convertow-templates/webresources/js/wow.js
-    addFingerPrint: true
-  - link: /convertow-templates/webresources/js/jquery.magnific-popup.min.js
-    addFingerPrint: true
-  - link: /convertow-templates/webresources/js/jquery.slicknav.js
-    addFingerPrint: true
-  - link: /convertow-templates/webresources/js/main.js
+  - link: /convertow-templates/webresources/global/build/js/main.js
     addFingerPrint: true
 areas:
   htmlHeader:

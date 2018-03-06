@@ -29,13 +29,14 @@
     <script src="${jsFile.link}"></script>
     [/#list]
 [/#if]
-<script src="${ctx.contextPath}/.resources/convertow-templates/webresources/js/fileupload/jquery.ui.widget.min.js"></script>
-<script src="${ctx.contextPath}/.resources/convertow-templates/webresources/js/fileupload/jquery.iframe-transport.js"></script>
-<script src="${ctx.contextPath}/.resources/convertow-templates/webresources/js/fileupload/jquery.fileupload.js"></script>
 <script>
     var contextPath = "${ctx.contextPath!}";
     var fileName;
     $(document).ready(function(){
+
+        $(function() {
+            $('.lazy').lazy();
+        });
 
         $(".dropify-convert").click(function (e) {
             e.preventDefault();

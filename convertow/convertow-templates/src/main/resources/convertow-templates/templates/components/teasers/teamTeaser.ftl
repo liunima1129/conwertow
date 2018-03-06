@@ -2,7 +2,8 @@
 
 <div class="col-md-6 col-lg-3 col-xl-3 wow animated fadeInUp" data-wow-delay=".3s">
     <div class="single-team-widget">
-        <img src="${image!}" class="img-fluid" alt="${content.name!}">
+        [#--<img src="${image!}" class="img-fluid" alt="${content.name!}">--]
+        <img class="lazy img-fluid" data-src="${image!}" alt="${content.name!}"/>
         <div class="team-member-info">
             <h2 class="subtitle">${content.name!}</h2>
             <p>${i18n['team.role']}</p>

@@ -5,7 +5,8 @@
 [#assign link = cmsfn.link("website", linkId)!/]
 
 <div class="carousel-item [#if ctx.index == "0"]active[/#if]">
-    <img class="d-block w-100" src="${image!}" alt="${content.title!}">
+    [#--<img class="d-block w-100" src="${image!}" alt="${content.title!}">--]
+    <img class="lazy d-block w-100" data-src="${image!}" alt="${content.name!}"/>
     <div class="carousel-caption d-md-block">
         [#if content.title?has_content]
             <h1 class="animated wow fadeInDown hero-heading" data-wow-delay=".6s">${content.title!}</h1>

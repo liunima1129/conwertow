@@ -172,7 +172,7 @@ public class ConvertOwFunctions {
                         System.out.println("Page: " + (i + 1));
                         // Set the RGB values for converted image (jpg)
                         //To image
-                        String s = pathWithName +i+ extension;
+                        String s = pathWithName + extension;
                         ImageIO.write(img2, "jpg", new File(s));
                     }
                 }
