@@ -145,6 +145,11 @@
       <artifactId>convertow-rotate-pdf</artifactId>
       <version>1.0-SNAPSHOT</version>
     </dependency>
+    <dependency>
+      <groupId>com.convertow</groupId>
+      <artifactId>convertow-png-to-pdf</artifactId>
+      <version>1.0-SNAPSHOT</version>
+    </dependency>
   </dependencies>
 
   <build>

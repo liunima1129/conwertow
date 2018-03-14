@@ -1,0 +1,3 @@
+templateScript: /convertow-png-to-pdf/templates/components/pngToPdf.ftl
+renderType: freemarker
+title: PNG to PDF

@@ -41,6 +41,8 @@ areas:
         id: convertow-templates:components/content/404
       rotatePdf:
         id: convertow-rotate-pdf:components/rotatePdf
+      pngToPdf:
+        id: convertow-png-to-pdf:components/pngToPdf
   footer:
     editable: false
 title: Standard
