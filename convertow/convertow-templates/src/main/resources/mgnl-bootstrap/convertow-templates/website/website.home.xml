@@ -2671,7 +2671,7 @@
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-      <sv:value>2018-02-23T01:09:25.761+01:00</sv:value>
+      <sv:value>2018-03-07T05:05:51.685-05:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
       <sv:value>superuser</sv:value>
@@ -2891,7 +2891,7 @@
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-        <sv:value>2018-01-30T00:08:40.245+01:00</sv:value>
+        <sv:value>2018-03-07T05:05:51.685-05:00</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
         <sv:value>superuser</sv:value>
@@ -3100,7 +3100,7 @@
           <sv:value>superuser</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-          <sv:value>2018-01-30T00:08:40.245+01:00</sv:value>
+          <sv:value>2018-03-07T05:05:51.685-05:00</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
           <sv:value>superuser</sv:value>
@@ -3131,7 +3131,7 @@
             <sv:value>superuser</sv:value>
           </sv:property>
           <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-            <sv:value>2018-01-30T00:08:40.245+01:00</sv:value>
+            <sv:value>2018-03-07T05:05:51.685-05:00</sv:value>
           </sv:property>
           <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
             <sv:value>superuser</sv:value>
@@ -3354,7 +3354,7 @@
               <sv:value>superuser</sv:value>
             </sv:property>
             <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-              <sv:value>2018-01-29T23:34:47.180+01:00</sv:value>
+              <sv:value>2018-03-07T04:50:17.110-05:00</sv:value>
             </sv:property>
             <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
               <sv:value>superuser</sv:value>
@@ -3363,161 +3363,161 @@
               <sv:value>convertow-templates:components/teasers/weDoTeaser</sv:value>
             </sv:property>
             <sv:property sv:name="text" sv:type="String">
-              <sv:value>&lt;p&gt;We guarantee 100% security and privacy on your files. We do not share files with anyone. Files which has been uploaded automatically are deleted every 30 minutes.&lt;/p&gt;
+              <sv:value>&lt;p&gt;This free JPG to PNG converter is totally safe and do not share your files with third part systems. All files are deleted every 30 mins. Also you are allowed to delete files after conversion.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_ar" sv:type="String">
-              <sv:value>&lt;p&gt;ونحن نضمن 100٪ الأمن والخصوصية على الملفات الخاصة بك. نحن لا نشارك الملفات مع أي شخص. يتم حذف الملفات التي تم تحميلها تلقائيا كل 30 دقيقة.&lt;/p&gt;
+              <sv:value>&lt;p&gt;هذا جبغ مجانا لتحويل ينغ آمنة تماما ولا تشترك الملفات الخاصة بك مع أنظمة الجزء الثالث. يتم حذف جميع الملفات كل 30 دقيقة. كما يسمح لك بحذف الملفات بعد التحويل.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_cs" sv:type="String">
-              <sv:value>&lt;p&gt;Zaručujeme 100% zabezpečen&amp;iacute; a soukrom&amp;iacute; va&amp;scaron;ich souborů. Soubory s nik&amp;yacute;m nesd&amp;iacute;l&amp;iacute;me. Soubory, kter&amp;eacute; byly nahr&amp;aacute;ny automaticky, jsou vymaz&amp;aacute;ny každ&amp;yacute;ch 30 minut.&lt;/p&gt;
+              <sv:value>&lt;p&gt;Tento bezplatn&amp;yacute; převodn&amp;iacute;k typu JPG to PNG je zcela bezpečn&amp;yacute; a nesd&amp;iacute;l&amp;iacute;te sv&amp;eacute; soubory se syst&amp;eacute;my třet&amp;iacute;ch č&amp;aacute;st&amp;iacute;. V&amp;scaron;echny soubory jsou vymaz&amp;aacute;ny každ&amp;yacute;ch 30 minut. Tak&amp;eacute; můžete po konverzi smazat soubory.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_de" sv:type="String">
-              <sv:value>&lt;p&gt;Wir garantieren 100% Sicherheit und Datenschutz f&amp;uuml;r Ihre Dateien. Wir teilen keine Dateien mit irgendjemandem. Dateien, die automatisch hochgeladen wurden, werden alle 30 Minuten gel&amp;ouml;scht.&lt;/p&gt;
+              <sv:value>&lt;p&gt;Dieser kostenlose JPG-zu-PNG-Konverter ist absolut sicher und teilt Ihre Dateien nicht mit Drittsystemen. Alle Dateien werden alle 30 Minuten gel&amp;ouml;scht. Au&amp;szlig;erdem k&amp;ouml;nnen Sie Dateien nach der Konvertierung l&amp;ouml;schen.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_es" sv:type="String">
-              <sv:value>&lt;p&gt;Garantizamos el 100% de seguridad y privacidad en sus archivos. No compartimos archivos con nadie. Los archivos que se cargaron autom&amp;aacute;ticamente se eliminan cada 30 minutos.&lt;/p&gt;
+              <sv:value>&lt;p&gt;Este convertidor gratuito de JPG a PNG es totalmente seguro y no comparte sus archivos con sistemas de terceros. Todos los archivos se eliminan cada 30 minutos. Tambi&amp;eacute;n puede eliminar archivos despu&amp;eacute;s de la conversi&amp;oacute;n.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_fr" sv:type="String">
-              <sv:value>&lt;p&gt;Nous garantissons 100% de s&amp;eacute;curit&amp;eacute; et de confidentialit&amp;eacute; sur vos fichiers. Nous ne partageons aucun fichier avec quelqu&amp;#39;un. Les fichiers qui ont &amp;eacute;t&amp;eacute; t&amp;eacute;l&amp;eacute;charg&amp;eacute;s automatiquement sont supprim&amp;eacute;s toutes les 30 minutes.&lt;/p&gt;
+              <sv:value>&lt;p&gt;Ce convertisseur gratuit de JPG en PNG est totalement s&amp;ucirc;r et ne partage pas vos fichiers avec les syst&amp;egrave;mes tiers. Tous les fichiers sont supprim&amp;eacute;s toutes les 30 minutes. En outre, vous &amp;ecirc;tes autoris&amp;eacute; &amp;agrave; supprimer des fichiers apr&amp;egrave;s la conversion.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_hr" sv:type="String">
-              <sv:value>&lt;p&gt;Jamčimo 100% sigurnosti i privatnosti na datotekama. Ne dijelimo datoteke s nikim. Automatski prenesene datoteke bri&amp;scaron;u se svakih 30 minuta.&lt;/p&gt;
+              <sv:value>&lt;p&gt;Ovaj besplatni JPG to PNG pretvarač je potpuno siguran i ne dijeli va&amp;scaron;e datoteke s trećim dijelovima sustava. Sve datoteke se bri&amp;scaron;u svakih 30 minuta. Također možete izbrisati datoteke nakon konverzije.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_in" sv:type="String">
-              <sv:value>&lt;p&gt;Kami menjamin keamanan 100% dan privasi pada file Anda. Kami tidak berbagi file dengan siapa pun. File yang telah diunggah secara otomatis akan dihapus setiap 30 menit.&lt;/p&gt;
+              <sv:value>&lt;p&gt;Ini gratis JPG untuk PNG converter benar-benar aman dan tidak berbagi file Anda dengan sistem bagian ketiga. Semua file dihapus setiap 30 menit. Anda juga diperbolehkan untuk menghapus file setelah konversi.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_it" sv:type="String">
-              <sv:value>&lt;p&gt;Garantiamo sicurezza e privacy al 100% sui tuoi file. Non condividiamo file con nessuno. I file che sono stati caricati automaticamente vengono cancellati ogni 30 minuti.&lt;/p&gt;
+              <sv:value>&lt;p&gt;Questo convertitore gratuito da JPG a PNG &amp;egrave; totalmente sicuro e non condivide i tuoi file con sistemi di terze parti. Tutti i file vengono cancellati ogni 30 minuti. Inoltre, &amp;egrave; consentito eliminare i file dopo la conversione.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_ja" sv:type="String">
-              <sv:value>&lt;p&gt;私たちはあなたのファイルに100％のセキュリティとプライバシーを保証します。 私たちは誰とでもファイルを共有しません。 自動的にアップロードされたファイルは30分ごとに削除されます。&lt;/p&gt;
+              <sv:value>&lt;p&gt;この無料のJPG to PNGコンバータは完全に安全で、第三者のシステムとファイルを共有しません。 すべてのファイルは30分ごとに削除されます。 また、変換後にファイルを削除することもできます。&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_ko" sv:type="String">
-              <sv:value>&lt;p&gt;우리는 귀하의 파일에 대해 100 % 보안 및 개인 정보를 보장합니다. 우리는 누구와도 파일을 공유하지 않습니다. 자동으로 업로드 된 파일은 30 분마다 삭제됩니다.&lt;/p&gt;
+              <sv:value>&lt;p&gt;이 무료 JPG PNG로 변환기는 완전히 안전하고 제 3 자 시스템과 파일을 공유하지 마십시오. 모든 파일은 30 분마다 삭제됩니다. 또한 변환 후 파일을 삭제할 수 있습니다.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_lt" sv:type="String">
-              <sv:value>&lt;p&gt;Mes garantuojame 100% saugumą ir privatumą jūsų bylose. Mes nesidalijame failais niekam. Failai, kurie buvo įkelti automati&amp;scaron;kai, i&amp;scaron;trinami kas 30 minučių.&lt;/p&gt;
+              <sv:value>&lt;p&gt;&amp;Scaron;is nemokamas JPG į PNG konverteris yra visi&amp;scaron;kai saugus ir nesidalija failais su trečiosios sistemos sistemomis. Visi failai yra i&amp;scaron;trinami kas 30 minučių. Taip pat galite pa&amp;scaron;alinti failus po konversijos.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_nl" sv:type="String">
-              <sv:value>&lt;p&gt;We garanderen 100% beveiliging en privacy op uw bestanden. We delen geen bestanden met iemand. Bestanden die automatisch zijn ge&amp;uuml;pload, worden elke 30 minuten verwijderd.&lt;/p&gt;
+              <sv:value>&lt;p&gt;Deze gratis JPG naar PNG-converter is volkomen veilig en deelt uw bestanden niet met systemen van derden. Alle bestanden worden elke 30 minuten verwijderd. Ook mag u bestanden na de conversie verwijderen.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_no" sv:type="String">
-              <sv:value>&lt;p&gt;Vi garanterer 100% sikkerhet og personvern p&amp;aring; filene dine. Vi deler ikke filer med noen. Filer som er lastet opp automatisk, slettes hvert 30. minutt.&lt;/p&gt;
+              <sv:value>&lt;p&gt;Denne gratis JPG til PNG konverter er helt trygg og deler ikke filene dine med tredjeparts systemer. Alle filer slettes hvert 30. minutt. Du har ogs&amp;aring; lov til &amp;aring; slette filer etter konvertering.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_pt" sv:type="String">
-              <sv:value>&lt;p&gt;N&amp;oacute;s garantimos 100% de seguran&amp;ccedil;a e privacidade em seus arquivos. N&amp;oacute;s n&amp;atilde;o compartilhamos arquivos com ningu&amp;eacute;m. Os arquivos que foram carregados automaticamente s&amp;atilde;o exclu&amp;iacute;dos a cada 30 minutos.&lt;/p&gt;
+              <sv:value>&lt;p&gt;Este conversor JPG gratuito para PNG &amp;eacute; totalmente seguro e n&amp;atilde;o compartilha seus arquivos com sistemas de terceira parte. Todos os arquivos s&amp;atilde;o exclu&amp;iacute;dos a cada 30 minutos. Al&amp;eacute;m disso, voc&amp;ecirc; pode excluir arquivos ap&amp;oacute;s a convers&amp;atilde;o.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_ru" sv:type="String">
-              <sv:value>&lt;p&gt;Мы гарантируем 100% безопасность и конфиденциальность ваших файлов. Мы ни с кем не обмениваемся файлами. Файлы, которые были загружены автоматически, удаляются каждые 30 минут.&lt;/p&gt;
+              <sv:value>&lt;p&gt;Этот бесплатный конвертер JPG в PNG полностью безопасен и не делит ваши файлы с системами третьей части. Все файлы удаляются каждые 30 минут. Также вы можете удалять файлы после преобразования.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_sk" sv:type="String">
-              <sv:value>&lt;p&gt;Zaručujeme 100% bezpečnosť a ochranu va&amp;scaron;ich s&amp;uacute;borov. S nami nie s&amp;uacute; zdieľan&amp;eacute; s&amp;uacute;bory. S&amp;uacute;bory, ktor&amp;eacute; boli odovzdan&amp;eacute; automaticky, sa odstr&amp;aacute;nia každ&amp;yacute;ch 30 min&amp;uacute;t.&lt;/p&gt;
+              <sv:value>&lt;p&gt;Tento bezplatn&amp;yacute; prevodn&amp;iacute;k form&amp;aacute;tu JPG na PNG je &amp;uacute;plne bezpečn&amp;yacute; a nes&amp;uacute;hlas&amp;iacute;te so svojimi s&amp;uacute;bormi so syst&amp;eacute;mami tretej časti. V&amp;scaron;etky s&amp;uacute;bory sa vymaž&amp;uacute; každ&amp;yacute;ch 30 min&amp;uacute;t. Po konverzii m&amp;ocirc;žete tiež odstr&amp;aacute;niť s&amp;uacute;bory.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_sq" sv:type="String">
-              <sv:value>&lt;p&gt;Ne garantojm&amp;euml; 100% t&amp;euml; siguris&amp;euml; dhe privat&amp;euml;sis&amp;euml; n&amp;euml; skedar&amp;euml;t tuaj. Ne nuk i ndajm&amp;euml; skedar&amp;euml;t me ask&amp;euml;nd. Dosjet t&amp;euml; cilat jan&amp;euml; ngarkuar automatikisht fshihen &amp;ccedil;do 30 minuta.&lt;/p&gt;
+              <sv:value>&lt;p&gt;Ky konvertim falas JPG me PNG &amp;euml;sht&amp;euml; krejt&amp;euml;sisht i sigurt dhe mos i ndani skedar&amp;euml;t tuaj me sisteme t&amp;euml; tret&amp;euml;she. T&amp;euml; gjitha dosjet fshihen &amp;ccedil;do 30 minuta. Gjithashtu ju lejohet t&amp;euml; fshini skedar&amp;euml;t pas konvertimit.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_sv" sv:type="String">
-              <sv:value>&lt;p&gt;Vi garanterar 100% s&amp;auml;kerhet och integritet p&amp;aring; dina filer. Vi delar inte filer med n&amp;aring;gon. Filer som har laddats upp automatiskt raderas var 30: e minut.&lt;/p&gt;
+              <sv:value>&lt;p&gt;Denna gratis JPG till PNG-omvandlare &amp;auml;r helt s&amp;auml;ker och delar inte dina filer med tredje parts system. Alla filer raderas var 30: e minut. Du f&amp;aring;r ocks&amp;aring; ta bort filer efter konvertering.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_th" sv:type="String">
-              <sv:value>&lt;p&gt;เรารับประกันความปลอดภัย 100% และความเป็นส่วนตัวในไฟล์ของคุณ เราไม่แชร์ไฟล์กับใคร ไฟล์ที่ถูกอัปโหลดโดยอัตโนมัติจะถูกลบทุกๆ 30 นาที&lt;/p&gt;
+              <sv:value>&lt;p&gt;ตัวแปลง JPG ไปเป็น PNG ฟรีนี้ปลอดภัยอย่างสมบูรณ์และไม่แชร์ไฟล์ของคุณกับระบบส่วนที่สาม ไฟล์ทั้งหมดจะถูกลบทุกๆ 30 นาที นอกจากนี้คุณยังได้รับอนุญาตให้ลบไฟล์หลังจากการแปลง&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_tr" sv:type="String">
-              <sv:value>&lt;p&gt;Dosyalarınızda% 100 g&amp;uuml;venlik ve gizlilik garanti ederiz. Dosyaları kimseyle paylaşmıyoruz. Otomatik olarak y&amp;uuml;klenen dosyalar her 30 dakikada bir silinir.&lt;/p&gt;
+              <sv:value>&lt;p&gt;Bu &amp;uuml;cretsiz JPG PNG d&amp;ouml;n&amp;uuml;şt&amp;uuml;r&amp;uuml;c&amp;uuml; tamamen g&amp;uuml;venlidir ve &amp;uuml;&amp;ccedil;&amp;uuml;nc&amp;uuml; parti sistemler ile dosyalarınızı paylaşmayın. T&amp;uuml;m dosyalar her 30 dakikada bir silinir. Ayrıca d&amp;ouml;n&amp;uuml;şt&amp;uuml;rmeden sonra dosyaları silmenize izin verilir.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_vi" sv:type="String">
-              <sv:value>&lt;p&gt;Ch&amp;uacute;ng t&amp;ocirc;i đảm bảo 100% an ninh v&amp;agrave; ri&amp;ecirc;ng tư tr&amp;ecirc;n c&amp;aacute;c tệp của bạn. Ch&amp;uacute;ng t&amp;ocirc;i kh&amp;ocirc;ng chia sẻ tệp với bất kỳ ai. C&amp;aacute;c tệp đ&amp;atilde; được tải l&amp;ecirc;n tự động sẽ bị x&amp;oacute;a sau mỗi 30 ph&amp;uacute;t.&lt;/p&gt;
+              <sv:value>&lt;p&gt;Bộ chuyển đổi JPG sang PNG miễn ph&amp;iacute; n&amp;agrave;y ho&amp;agrave;n to&amp;agrave;n an to&amp;agrave;n v&amp;agrave; kh&amp;ocirc;ng chia sẻ tệp của bạn với c&amp;aacute;c hệ thống phần thứ ba. Tất cả c&amp;aacute;c tệp đều bị x&amp;oacute;a mỗi 30 ph&amp;uacute;t. Ngo&amp;agrave;i ra bạn được ph&amp;eacute;p x&amp;oacute;a c&amp;aacute;c tập tin sau khi chuyển đổi.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="threeCols" sv:type="Boolean">
               <sv:value>true</sv:value>
             </sv:property>
             <sv:property sv:name="title" sv:type="String">
-              <sv:value>We keep your files in privacy</sv:value>
+              <sv:value>Convert JPG to PNG safety</sv:value>
             </sv:property>
             <sv:property sv:name="title_ar" sv:type="String">
-              <sv:value>نحن نحافظ على الملفات الخاصة بك في الخصوصية</sv:value>
+              <sv:value>تحويل جبغ إلى ينغ السلامة</sv:value>
             </sv:property>
             <sv:property sv:name="title_cs" sv:type="String">
-              <sv:value>Vaše soubory uchováváme v soukromí</sv:value>
+              <sv:value>Převést JPG na PNG bezpečnost</sv:value>
             </sv:property>
             <sv:property sv:name="title_de" sv:type="String">
-              <sv:value>Wir bewahren Ihre Dateien in Privatsphäre</sv:value>
+              <sv:value>Konvertieren Sie JPG in PNG Sicherheit</sv:value>
             </sv:property>
             <sv:property sv:name="title_es" sv:type="String">
-              <sv:value>Mantenemos tus archivos en privacidad</sv:value>
+              <sv:value>Convierte JPG a seguridad PNG</sv:value>
             </sv:property>
             <sv:property sv:name="title_fr" sv:type="String">
-              <sv:value>Nous gardons vos fichiers en toute confidentialité</sv:value>
+              <sv:value>Convertir JPG en PNG sécurité</sv:value>
             </sv:property>
             <sv:property sv:name="title_hr" sv:type="String">
-              <sv:value>Vaše datoteke čuvamo u privatnosti</sv:value>
+              <sv:value>Pretvori JPG u PNG sigurnost</sv:value>
             </sv:property>
             <sv:property sv:name="title_in" sv:type="String">
-              <sv:value>Kami menyimpan file Anda dalam privasi</sv:value>
+              <sv:value>Mengkonversi JPG ke keamanan PNG</sv:value>
             </sv:property>
             <sv:property sv:name="title_it" sv:type="String">
-              <sv:value>Manteniamo i tuoi file nella privacy</sv:value>
+              <sv:value>Converti JPG in sicurezza PNG</sv:value>
             </sv:property>
             <sv:property sv:name="title_ja" sv:type="String">
-              <sv:value>私たちはあなたのファイルをプライバシーに保ちます</sv:value>
+              <sv:value>JPGをPNG安全に変換する</sv:value>
             </sv:property>
             <sv:property sv:name="title_ko" sv:type="String">
-              <sv:value>우리는 귀하의 파일을 개인 정보로 보호합니다.</sv:value>
+              <sv:value>JPG를 PNG 안전으로 변환</sv:value>
             </sv:property>
             <sv:property sv:name="title_lt" sv:type="String">
-              <sv:value>Mes saugome jūsų failus privatumo</sv:value>
+              <sv:value>Konvertuoti JPG į PNG saugumą</sv:value>
             </sv:property>
             <sv:property sv:name="title_nl" sv:type="String">
-              <sv:value>We bewaren uw bestanden in privacy</sv:value>
+              <sv:value>JPG converteren naar PNG-veiligheid</sv:value>
             </sv:property>
             <sv:property sv:name="title_no" sv:type="String">
-              <sv:value>Vi beholder filene dine i personvern</sv:value>
+              <sv:value>Konverter JPG til PNG-sikkerhet</sv:value>
             </sv:property>
             <sv:property sv:name="title_pt" sv:type="String">
-              <sv:value>Nós mantemos seus arquivos em privacidade</sv:value>
+              <sv:value>Converta JPG para a segurança PNG</sv:value>
             </sv:property>
             <sv:property sv:name="title_ru" sv:type="String">
-              <sv:value>Мы сохраняем ваши файлы в конфиденциальности</sv:value>
+              <sv:value>Преобразование JPG в PNG</sv:value>
             </sv:property>
             <sv:property sv:name="title_sk" sv:type="String">
-              <sv:value>Vaše súbory uchovávame v súkromí</sv:value>
+              <sv:value>Prevedenie JPG na PNG bezpečnosť</sv:value>
             </sv:property>
             <sv:property sv:name="title_sq" sv:type="String">
-              <sv:value>Ne mbajmë skedarët tuaj në fshehtësi</sv:value>
+              <sv:value>Convert JPG në PNG sigurisë</sv:value>
             </sv:property>
             <sv:property sv:name="title_sv" sv:type="String">
-              <sv:value>Vi behåller dina filer i sekretess</sv:value>
+              <sv:value>Konvertera JPG till PNG-säkerhet</sv:value>
             </sv:property>
             <sv:property sv:name="title_th" sv:type="String">
-              <sv:value>เราเก็บไฟล์ของคุณอย่างเป็นส่วนตัว</sv:value>
+              <sv:value>แปลงความปลอดภัยของ JPG เป็น PNG</sv:value>
             </sv:property>
             <sv:property sv:name="title_tr" sv:type="String">
-              <sv:value>Dosyalarınızı gizlilik içinde tutuyoruz</sv:value>
+              <sv:value>JPG'yi PNG güvenliğine dönüştürme</sv:value>
             </sv:property>
             <sv:property sv:name="title_vi" sv:type="String">
-              <sv:value>Chúng tôi giữ riêng tư tệp của bạn</sv:value>
+              <sv:value>Chuyển đổi JPG sang PNG an toàn</sv:value>
             </sv:property>
           </sv:node>
           <sv:node sv:name="01">
@@ -3528,7 +3528,7 @@
               <sv:value>58fcdc69-98c1-4b44-b34e-3eff22a24f96</sv:value>
             </sv:property>
             <sv:property sv:name="materialIcon" sv:type="String">
-              <sv:value>mdi-trending-up</sv:value>
+              <sv:value>mdi-lightbulb-on-outline</sv:value>
             </sv:property>
             <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
               <sv:value>false</sv:value>
@@ -3546,7 +3546,7 @@
               <sv:value>superuser</sv:value>
             </sv:property>
             <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-              <sv:value>2018-01-29T23:34:47.180+01:00</sv:value>
+              <sv:value>2018-03-07T05:05:51.685-05:00</sv:value>
             </sv:property>
             <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
               <sv:value>superuser</sv:value>
@@ -3555,161 +3555,161 @@
               <sv:value>convertow-templates:components/teasers/weDoTeaser</sv:value>
             </sv:property>
             <sv:property sv:name="text" sv:type="String">
-              <sv:value>&lt;p&gt;We didn&amp;#39;t make any restrictions about how many times you have used this or any other tool on this website. You can use it as many times as you need.&lt;/p&gt;
+              <sv:value>&lt;p&gt;JPG to PNG is made for free usage. You can use it as many times as you need. There is no limitations for this convertor. Enjoy at your fast conversion.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_ar" sv:type="String">
-              <sv:value>&lt;p&gt;لم نضع أي قيود حول عدد المرات التي كنت قد استخدمت هذا أو أي أداة أخرى على هذا الموقع. يمكنك استخدامه عدة مرات كما تحتاج.&lt;/p&gt;
+              <sv:value>&lt;p&gt;يتم إنشاء جبغ إلى ينغ للاستخدام المجاني. يمكنك استخدامه عدة مرات كما تحتاج. ليس هناك قيود لهذا المحول. استمتع في تحويل سريع.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_cs" sv:type="String">
-              <sv:value>&lt;p&gt;Neudělali jsme ž&amp;aacute;dn&amp;eacute; omezen&amp;iacute;, kolikr&amp;aacute;t jste na tomto webu použili tento nebo jin&amp;yacute; n&amp;aacute;stroj. Můžete jej použ&amp;iacute;vat tolikr&amp;aacute;t, kolik potřebujete.&lt;/p&gt;
+              <sv:value>&lt;p&gt;JPG to PNG je k dispozici zdarma. Můžete jej použ&amp;iacute;vat tolikr&amp;aacute;t, kolik potřebujete. Pro tento konvertor neexistuj&amp;iacute; ž&amp;aacute;dn&amp;aacute; omezen&amp;iacute;. Užijte si při rychl&amp;eacute; konverzi.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_de" sv:type="String">
-              <sv:value>&lt;p&gt;Wir haben keine Einschr&amp;auml;nkungen dahingehend gemacht, wie oft Sie dieses oder ein anderes Tool auf dieser Website verwendet haben. Sie k&amp;ouml;nnen es so oft verwenden wie Sie m&amp;ouml;chten.&lt;/p&gt;
+              <sv:value>&lt;p&gt;JPG zu PNG ist f&amp;uuml;r die freie Nutzung gemacht. Sie k&amp;ouml;nnen es so oft verwenden wie Sie m&amp;ouml;chten. F&amp;uuml;r diesen Konverter gibt es keine Einschr&amp;auml;nkungen. Genie&amp;szlig;en Sie Ihre schnelle Konvertierung.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_es" sv:type="String">
-              <sv:value>&lt;p&gt;No hicimos ninguna restricci&amp;oacute;n sobre cu&amp;aacute;ntas veces ha usado esta o cualquier otra herramienta en este sitio web. Puedes usarlo tantas veces como necesites.&lt;/p&gt;
+              <sv:value>&lt;p&gt;JPG a PNG est&amp;aacute; hecho para uso gratuito. Puedes usarlo tantas veces como necesites. No hay limitaciones para este convertidor. Disfruta en tu conversi&amp;oacute;n r&amp;aacute;pida.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_fr" sv:type="String">
-              <sv:value>&lt;p&gt;Nous n&amp;#39;avons fait aucune restriction sur le nombre de fois que vous avez utilis&amp;eacute; cet outil ou tout autre outil sur ce site. Vous pouvez l&amp;#39;utiliser autant de fois que n&amp;eacute;cessaire.&lt;/p&gt;
+              <sv:value>&lt;p&gt;JPG en PNG est fait pour un usage gratuit. Vous pouvez l&amp;#39;utiliser autant de fois que n&amp;eacute;cessaire. Il n&amp;#39;y a pas de limitations pour ce convertisseur. Profitez de votre conversion rapide.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_hr" sv:type="String">
-              <sv:value>&lt;p&gt;Nismo napravili nikakva ograničenja koliko ste puta koristili ovaj ili bilo koji drugi alat na ovoj web stranici. Možete ga koristiti onoliko puta koliko vam treba.&lt;/p&gt;
+              <sv:value>&lt;p&gt;JPG u PNG napravljen je za besplatno kori&amp;scaron;tenje. Možete ga koristiti onoliko puta koliko vam treba. Nema ograničenja za ovaj pretvarač. Uživajte u brzoj konverziji.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_in" sv:type="String">
-              <sv:value>&lt;p&gt;Kami tidak membuat batasan berapa kali Anda menggunakan alat ini atau alat lainnya di situs ini. Anda bisa menggunakannya sebanyak yang Anda butuhkan.&lt;/p&gt;
+              <sv:value>&lt;p&gt;JPG ke PNG dibuat untuk penggunaan gratis. Anda bisa menggunakannya sebanyak yang Anda butuhkan. Tidak ada batasan untuk konverter ini. Nikmati di konversi cepat Anda.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_it" sv:type="String">
-              <sv:value>&lt;p&gt;Non abbiamo introdotto restrizioni sul numero di volte in cui hai utilizzato questo o altri strumenti su questo sito web. Puoi usarlo tutte le volte che ti servono.&lt;/p&gt;
+              <sv:value>&lt;p&gt;JPG to PNG &amp;egrave; realizzato per l&amp;#39;uso gratuito. Puoi usarlo tutte le volte che ti servono. Non ci sono limiti per questo convertitore. Goditi la tua conversione veloce.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_ja" sv:type="String">
-              <sv:value>&lt;p&gt;このウェブサイトでこのツールやその他のツールを何回使用したかについては、何の制限も受けませんでした。 必要なだけ何度でも使用できます。&lt;/p&gt;
+              <sv:value>&lt;p&gt;JPGからPNGは無料で使用できます。 必要なだけ何度でも使用できます。 このコンバータには制限はありません。 あなたの速い変換でお楽しみください。&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_ko" sv:type="String">
-              <sv:value>&lt;p&gt;이 웹 사이트에서이 툴이나 다른 툴을 몇 번이나 사용했는지에 대해서는 아무런 제한을 두지 않았습니다. 필요한만큼 여러 번 사용할 수 있습니다.&lt;/p&gt;
+              <sv:value>&lt;p&gt;PNG로 JPG는 무료 사용을 위해 만들어집니다. 필요한만큼 여러 번 사용할 수 있습니다. 이 컨버터에는 아무런 제한이 없습니다. 빠른 전환으로 즐기십시오.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_lt" sv:type="String">
-              <sv:value>&lt;p&gt;Nebuvo jokių apribojimų dėl to, kiek kartų jūs naudojate &amp;scaron;į ar bet kurį kitą įrankį &amp;scaron;ioje svetainėje. Galite jį naudoti tiek kartų, kiek reikia.&lt;/p&gt;
+              <sv:value>&lt;p&gt;JPG į PNG yra nemokamai naudojamas. Galite jį naudoti tiek kartų, kiek reikia. &amp;Scaron;io konverterio nėra jokių apribojimų. Mėgaukitės greitu konversija.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_nl" sv:type="String">
-              <sv:value>&lt;p&gt;We hebben geen beperkingen opgelegd over hoe vaak u deze of een andere tool op deze website hebt gebruikt. Je kunt het zo vaak gebruiken als je nodig hebt.&lt;/p&gt;
+              <sv:value>&lt;p&gt;JPG naar PNG is gemaakt voor gratis gebruik. Je kunt het zo vaak gebruiken als je nodig hebt. Er zijn geen beperkingen voor deze convertor. Geniet van je snelle conversie.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_no" sv:type="String">
-              <sv:value>&lt;p&gt;Vi gjorde ingen restriksjoner p&amp;aring; hvor mange ganger du har brukt dette eller andre verkt&amp;oslash;y p&amp;aring; denne nettsiden. Du kan bruke den s&amp;aring; mange ganger du trenger.&lt;/p&gt;
+              <sv:value>&lt;p&gt;JPG til PNG er laget for gratis bruk. Du kan bruke den s&amp;aring; mange ganger du trenger. Det er ingen begrensninger for denne omformeren. Nyt ved din raske konvertering.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_pt" sv:type="String">
-              <sv:value>&lt;p&gt;N&amp;oacute;s n&amp;atilde;o fizemos nenhuma restri&amp;ccedil;&amp;atilde;o sobre quantas vezes voc&amp;ecirc; usou isso ou qualquer outra ferramenta neste site. Voc&amp;ecirc; pode us&amp;aacute;-lo quantas vezes voc&amp;ecirc; precisa.&lt;/p&gt;
+              <sv:value>&lt;p&gt;O JPG para PNG &amp;eacute; feito para uso gratuito. Voc&amp;ecirc; pode us&amp;aacute;-lo quantas vezes voc&amp;ecirc; precisa. N&amp;atilde;o h&amp;aacute; limita&amp;ccedil;&amp;otilde;es para este conversor. Aproveite a sua r&amp;aacute;pida convers&amp;atilde;o.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_ru" sv:type="String">
-              <sv:value>&lt;p&gt;Мы не делали никаких ограничений относительно того, сколько раз вы использовали этот или любой другой инструмент на этом веб-сайте. Вы можете использовать его столько раз, сколько вам нужно.&lt;/p&gt;
+              <sv:value>&lt;p&gt;JPG для PNG производится для бесплатного использования. Вы можете использовать его столько раз, сколько вам нужно. Для этого преобразователя нет ограничений. Наслаждайтесь быстрым преобразованием.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_sk" sv:type="String">
-              <sv:value>&lt;p&gt;Neustanovili sme žiadne obmedzenia t&amp;yacute;kaj&amp;uacute;ce sa toho, koľkokr&amp;aacute;t ste na tomto webe použ&amp;iacute;vali tento alebo in&amp;yacute; n&amp;aacute;stroj. M&amp;ocirc;žete ho použiť toľkokr&amp;aacute;t, koľko potrebujete.&lt;/p&gt;
+              <sv:value>&lt;p&gt;JPG na PNG je určen&amp;yacute; na bezplatn&amp;eacute; použitie. M&amp;ocirc;žete ho použiť toľkokr&amp;aacute;t, koľko potrebujete. Pre tento konvertor nie s&amp;uacute; žiadne obmedzenia. Vychutnajte si r&amp;yacute;chlu konverziu.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_sq" sv:type="String">
-              <sv:value>&lt;p&gt;Ne nuk b&amp;euml;m&amp;euml; asnj&amp;euml; kufizim p&amp;euml;r sa her&amp;euml; keni p&amp;euml;rdorur k&amp;euml;t&amp;euml; ose ndonj&amp;euml; mjet tjet&amp;euml;r n&amp;euml; k&amp;euml;t&amp;euml; faqe interneti. Ju mund ta p&amp;euml;rdorni at&amp;euml; sa her&amp;euml; q&amp;euml; keni nevoj&amp;euml;.&lt;/p&gt;
+              <sv:value>&lt;p&gt;JPG p&amp;euml;r PNG &amp;euml;sht&amp;euml; b&amp;euml;r&amp;euml; p&amp;euml;r p&amp;euml;rdorim falas. Ju mund ta p&amp;euml;rdorni at&amp;euml; sa her&amp;euml; q&amp;euml; keni nevoj&amp;euml;. Nuk ka kufizime p&amp;euml;r k&amp;euml;t&amp;euml; konvertues. G&amp;euml;zoni n&amp;euml; konvertimin tuaj t&amp;euml; shpejt&amp;euml;.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_sv" sv:type="String">
-              <sv:value>&lt;p&gt;Vi gjorde inga begr&amp;auml;nsningar om hur m&amp;aring;nga g&amp;aring;nger du har anv&amp;auml;nt detta eller n&amp;aring;got annat verktyg p&amp;aring; denna webbplats. Du kan anv&amp;auml;nda den s&amp;aring; m&amp;aring;nga g&amp;aring;nger som du beh&amp;ouml;ver.&lt;/p&gt;
+              <sv:value>&lt;p&gt;JPG till PNG &amp;auml;r gjord f&amp;ouml;r fri anv&amp;auml;ndning. Du kan anv&amp;auml;nda den s&amp;aring; m&amp;aring;nga g&amp;aring;nger som du beh&amp;ouml;ver. Det finns inga begr&amp;auml;nsningar f&amp;ouml;r denna omvandlare. Njut av din snabba omvandling.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_th" sv:type="String">
-              <sv:value>&lt;p&gt;เราไม่ได้กำหนดข้อ จำกัด เกี่ยวกับจำนวนครั้งที่คุณใช้เครื่องมือนี้หรือเครื่องมืออื่นใดในเว็บไซต์นี้ คุณสามารถใช้งานได้หลายครั้งเท่าที่คุณต้องการ&lt;/p&gt;
+              <sv:value>&lt;p&gt;JPG to PNG ทำขึ้นเพื่อการใช้งานฟรี คุณสามารถใช้งานได้หลายครั้งเท่าที่คุณต้องการ ไม่มีข้อ จำกัด สำหรับตัวแปลงนี้ เพลิดเพลินไปกับการแปลงที่รวดเร็วของคุณ&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_tr" sv:type="String">
-              <sv:value>&lt;p&gt;Bu web sitesinde bu veya başka herhangi bir aracı ka&amp;ccedil; kere kullandığınızı kısıtlamadık. İstediğiniz kadar kullanabilirsiniz.&lt;/p&gt;
+              <sv:value>&lt;p&gt;PNG i&amp;ccedil;in JPG, &amp;uuml;cretsiz kullanım i&amp;ccedil;in hazırlanmıştır. İstediğiniz kadar kullanabilirsiniz. Bu &amp;ccedil;evirici i&amp;ccedil;in herhangi bir sınırlama yoktur. Hızlı d&amp;ouml;n&amp;uuml;ş&amp;uuml;m&amp;uuml;n&amp;uuml;z&amp;uuml;n keyfini &amp;ccedil;ıkarın.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_vi" sv:type="String">
-              <sv:value>&lt;p&gt;Ch&amp;uacute;ng t&amp;ocirc;i đ&amp;atilde; kh&amp;ocirc;ng thực hiện bất kỳ hạn chế n&amp;agrave;o về việc bạn đ&amp;atilde; sử dụng c&amp;ocirc;ng cụ n&amp;agrave;y hoặc bất kỳ c&amp;ocirc;ng cụ n&amp;agrave;o kh&amp;aacute;c tr&amp;ecirc;n trang web n&amp;agrave;y bao nhi&amp;ecirc;u lần. Bạn c&amp;oacute; thể sử dụng n&amp;oacute; nhiều lần như bạn cần.&lt;/p&gt;
+              <sv:value>&lt;p&gt;JPG sang PNG được thực hiện để sử dụng miễn ph&amp;iacute;. Bạn c&amp;oacute; thể sử dụng n&amp;oacute; nhiều lần như bạn cần. Kh&amp;ocirc;ng c&amp;oacute; giới hạn đối với tr&amp;igrave;nh chuyển đổi n&amp;agrave;y. Thưởng thức khi bạn chuyển đổi nhanh.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="threeCols" sv:type="Boolean">
               <sv:value>true</sv:value>
             </sv:property>
             <sv:property sv:name="title" sv:type="String">
-              <sv:value>Reusable converter</sv:value>
+              <sv:value>Convert JPG to PNG free</sv:value>
             </sv:property>
             <sv:property sv:name="title_ar" sv:type="String">
-              <sv:value>محول قابل لإعادة الاستخدام</sv:value>
+              <sv:value>تحويل جبغ إلى ينغ مجانا</sv:value>
             </sv:property>
             <sv:property sv:name="title_cs" sv:type="String">
-              <sv:value>Opakovaně použitelný konvertor</sv:value>
+              <sv:value>Převést JPG na PNG zdarma</sv:value>
             </sv:property>
             <sv:property sv:name="title_de" sv:type="String">
-              <sv:value>Wiederverwendbarer Konverter</sv:value>
+              <sv:value>Konvertieren Sie JPG in PNG frei</sv:value>
             </sv:property>
             <sv:property sv:name="title_es" sv:type="String">
-              <sv:value>Convertidor reutilizable</sv:value>
+              <sv:value>Convierte JPG a PNG gratis</sv:value>
             </sv:property>
             <sv:property sv:name="title_fr" sv:type="String">
-              <sv:value>Convertisseur réutilisable</sv:value>
+              <sv:value>Convertir JPG en PNG gratuitement</sv:value>
             </sv:property>
             <sv:property sv:name="title_hr" sv:type="String">
-              <sv:value>Ponovno upotrebljivi pretvarač</sv:value>
+              <sv:value>Pretvori JPG u PNG besplatno</sv:value>
             </sv:property>
             <sv:property sv:name="title_in" sv:type="String">
-              <sv:value>Konverter dapat digunakan kembali</sv:value>
+              <sv:value>Mengkonversi JPG ke PNG gratis</sv:value>
             </sv:property>
             <sv:property sv:name="title_it" sv:type="String">
-              <sv:value>Convertitore riutilizzabile</sv:value>
+              <sv:value>Converti JPG in PNG gratis</sv:value>
             </sv:property>
             <sv:property sv:name="title_ja" sv:type="String">
-              <sv:value>再利用可能なコンバータ</sv:value>
+              <sv:value>JPGをPNGに変換する</sv:value>
             </sv:property>
             <sv:property sv:name="title_ko" sv:type="String">
-              <sv:value>재사용 가능한 변환기</sv:value>
+              <sv:value>JPG를 PNG로 무료로 변환</sv:value>
             </sv:property>
             <sv:property sv:name="title_lt" sv:type="String">
-              <sv:value>Daugkartinio naudojimo konverteris</sv:value>
+              <sv:value>Konvertuoti JPG į PNG nemokamai</sv:value>
             </sv:property>
             <sv:property sv:name="title_nl" sv:type="String">
-              <sv:value>Herbruikbare converter</sv:value>
+              <sv:value>JPG converteren naar PNG gratis</sv:value>
             </sv:property>
             <sv:property sv:name="title_no" sv:type="String">
-              <sv:value>Gjenbrukbar omformer</sv:value>
+              <sv:value>Konverter JPG til PNG gratis</sv:value>
             </sv:property>
             <sv:property sv:name="title_pt" sv:type="String">
-              <sv:value>Conversor reutilizável</sv:value>
+              <sv:value>Converta JPG para PNG grátis</sv:value>
             </sv:property>
             <sv:property sv:name="title_ru" sv:type="String">
-              <sv:value>Многоразовый конвертер</sv:value>
+              <sv:value>Конвертировать JPG в PNG бесплатно</sv:value>
             </sv:property>
             <sv:property sv:name="title_sk" sv:type="String">
-              <sv:value>Opätovne použiteľný prevodník</sv:value>
+              <sv:value>Previesť JPG na PNG zadarmo</sv:value>
             </sv:property>
             <sv:property sv:name="title_sq" sv:type="String">
-              <sv:value>Konvertues i ripërdorshëm</sv:value>
+              <sv:value>Convert JPG në PNG falas</sv:value>
             </sv:property>
             <sv:property sv:name="title_sv" sv:type="String">
-              <sv:value>Återanvändbar omvandlare</sv:value>
+              <sv:value>Konvertera JPG till PNG gratis</sv:value>
             </sv:property>
             <sv:property sv:name="title_th" sv:type="String">
-              <sv:value>ตัวแปลงแบบใช้ซ้ำได้</sv:value>
+              <sv:value>แปลง JPG เป็น PNG ฟรี</sv:value>
             </sv:property>
             <sv:property sv:name="title_tr" sv:type="String">
-              <sv:value>Tekrar kullanılabilir dönüştürücü</sv:value>
+              <sv:value>JPG'yi PNG'ya dönüştürme özgürlüğü</sv:value>
             </sv:property>
             <sv:property sv:name="title_vi" sv:type="String">
-              <sv:value>Bộ chuyển đổi có thể tái sử dụng</sv:value>
+              <sv:value>Chuyển JPG sang PNG miễn phí</sv:value>
             </sv:property>
           </sv:node>
         </sv:node>
@@ -4104,7 +4104,7 @@
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-      <sv:value>2018-02-23T01:09:43.154+01:00</sv:value>
+      <sv:value>2018-03-08T05:37:56.262-05:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
       <sv:value>superuser</sv:value>
@@ -4324,7 +4324,7 @@
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-        <sv:value>2018-01-30T00:16:20.994+01:00</sv:value>
+        <sv:value>2018-03-08T05:37:56.262-05:00</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
         <sv:value>superuser</sv:value>
@@ -4533,7 +4533,7 @@
           <sv:value>superuser</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-          <sv:value>2018-01-30T00:16:20.994+01:00</sv:value>
+          <sv:value>2018-03-08T05:37:56.262-05:00</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
           <sv:value>superuser</sv:value>
@@ -4564,7 +4564,7 @@
             <sv:value>superuser</sv:value>
           </sv:property>
           <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-            <sv:value>2018-01-30T00:16:20.994+01:00</sv:value>
+            <sv:value>2018-03-08T05:37:56.262-05:00</sv:value>
           </sv:property>
           <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
             <sv:value>superuser</sv:value>
@@ -4595,7 +4595,7 @@
               <sv:value>superuser</sv:value>
             </sv:property>
             <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-              <sv:value>2018-01-30T00:16:20.994+01:00</sv:value>
+              <sv:value>2018-03-08T05:27:17.736-05:00</sv:value>
             </sv:property>
             <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
               <sv:value>superuser</sv:value>
@@ -4604,7 +4604,7 @@
               <sv:value>convertow-templates:components/teasers/weDoTeaser</sv:value>
             </sv:property>
             <sv:property sv:name="text" sv:type="String">
-              <sv:value>&lt;p&gt;Drag and drop your PDF file you want to convert. Once you receive message that file is uploaded you can click &amp;quot;Convert&amp;quot; button to start with conversion. At the end by pressing &amp;quot;Download&amp;quot; button you will get your results&lt;/p&gt;
+              <sv:value>&lt;p&gt;Drag and drop your PNG file you want to convert. Once you receive message that file is uploaded you can click &amp;quot;Convert&amp;quot; button to start with conversion. At the end by pressing &amp;quot;Download&amp;quot; button you will get your results&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_ar" sv:type="String">
@@ -4612,83 +4612,83 @@
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_cs" sv:type="String">
-              <sv:value>&lt;p&gt;Přet&amp;aacute;hněte soubor PDF, kter&amp;yacute; chcete přev&amp;eacute;st. Jakmile obdrž&amp;iacute;te zpr&amp;aacute;vu o nahr&amp;aacute;n&amp;iacute; souboru, můžete kliknut&amp;iacute;m na tlač&amp;iacute;tko &amp;quot;Přev&amp;eacute;st&amp;quot; zač&amp;iacute;t konverzi. Nakonec stisknut&amp;iacute;m tlač&amp;iacute;tka &amp;quot;St&amp;aacute;hnout&amp;quot; z&amp;iacute;sk&amp;aacute;te sv&amp;eacute; v&amp;yacute;sledky&lt;/p&gt;
+              <sv:value>&lt;p&gt;Přet&amp;aacute;hněte soubor PNG, kter&amp;yacute; chcete přev&amp;eacute;st. Jakmile obdrž&amp;iacute;te zpr&amp;aacute;vu o nahr&amp;aacute;n&amp;iacute; souboru, můžete kliknut&amp;iacute;m na tlač&amp;iacute;tko &amp;quot;Přev&amp;eacute;st&amp;quot; zač&amp;iacute;t konverzi. Nakonec stisknut&amp;iacute;m tlač&amp;iacute;tka &amp;quot;St&amp;aacute;hnout&amp;quot; z&amp;iacute;sk&amp;aacute;te sv&amp;eacute; v&amp;yacute;sledky&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_de" sv:type="String">
-              <sv:value>&lt;p&gt;Ziehen Sie Ihre PDF-Datei, die Sie konvertieren m&amp;ouml;chten, per Drag &amp;amp; Drop. Sobald Sie die Nachricht erhalten, dass die Datei hochgeladen wurde, k&amp;ouml;nnen Sie auf &amp;quot;Konvertieren&amp;quot; klicken, um mit der Konvertierung zu beginnen. Am Ende durch Dr&amp;uuml;cken der Schaltfl&amp;auml;che &amp;quot;Download&amp;quot; erhalten Sie Ihre Ergebnisse&lt;/p&gt;
+              <sv:value>&lt;p&gt;Ziehen Sie Ihre PNG-Datei, die Sie konvertieren m&amp;ouml;chten, per Drag &amp;amp; Drop. Sobald Sie die Nachricht erhalten, dass die Datei hochgeladen wurde, k&amp;ouml;nnen Sie auf &amp;quot;Konvertieren&amp;quot; klicken, um mit der Konvertierung zu beginnen. Am Ende durch Dr&amp;uuml;cken der Schaltfl&amp;auml;che &amp;quot;Download&amp;quot; erhalten Sie Ihre Ergebnisse&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_es" sv:type="String">
-              <sv:value>&lt;p&gt;Arrastre y suelte su archivo PDF que desea convertir. Una vez que reciba el mensaje de que el archivo est&amp;aacute; cargado, puede hacer clic en el bot&amp;oacute;n &amp;quot;Convertir&amp;quot; para comenzar con la conversi&amp;oacute;n. Al final, al presionar el bot&amp;oacute;n &amp;quot;Descargar&amp;quot; obtendr&amp;aacute;s los resultados&lt;/p&gt;
+              <sv:value>&lt;p&gt;Arrastre y suelte su archivo PNG que desea convertir. Una vez que reciba el mensaje de que el archivo est&amp;aacute; cargado, puede hacer clic en el bot&amp;oacute;n &amp;quot;Convertir&amp;quot; para comenzar con la conversi&amp;oacute;n. Al final, al presionar el bot&amp;oacute;n &amp;quot;Descargar&amp;quot; obtendr&amp;aacute;s los resultados&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_fr" sv:type="String">
-              <sv:value>&lt;p&gt;Glissez et d&amp;eacute;posez votre fichier PDF que vous souhaitez convertir. Une fois que vous recevez le message que le fichier est t&amp;eacute;l&amp;eacute;charg&amp;eacute;, vous pouvez cliquer sur le bouton &amp;quot;Convertir&amp;quot; pour commencer la conversion. &amp;Agrave; la fin en appuyant sur le bouton &amp;quot;T&amp;eacute;l&amp;eacute;charger&amp;quot;, vous obtiendrez vos r&amp;eacute;sultats&lt;/p&gt;
+              <sv:value>&lt;p&gt;Glissez et d&amp;eacute;posez votre fichier PNG que vous souhaitez convertir. Une fois que vous recevez le message que le fichier est t&amp;eacute;l&amp;eacute;charg&amp;eacute;, vous pouvez cliquer sur le bouton &amp;quot;Convertir&amp;quot; pour commencer la conversion. &amp;Agrave; la fin en appuyant sur le bouton &amp;quot;T&amp;eacute;l&amp;eacute;charger&amp;quot;, vous obtiendrez vos r&amp;eacute;sultats&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_hr" sv:type="String">
-              <sv:value>&lt;p&gt;Povucite i ispustite PDF datoteku koju želite pretvoriti. Kada primite poruku da je datoteka prenesena, možete kliknuti gumb &amp;quot;Pretvori&amp;quot; da biste započeli s konverzijom. Na kraju pritiskom gumba &amp;quot;Preuzimanje&amp;quot; dobit ćete rezultate&lt;/p&gt;
+              <sv:value>&lt;p&gt;Povucite i ispustite PNG datoteku koju želite pretvoriti. Kada primite poruku da je datoteka prenesena, možete kliknuti gumb &amp;quot;Pretvori&amp;quot; da biste započeli s konverzijom. Na kraju pritiskom gumba &amp;quot;Preuzimanje&amp;quot; dobit ćete rezultate&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_in" sv:type="String">
-              <sv:value>&lt;p&gt;Seret dan lepaskan file PDF yang ingin Anda ubah. Setelah Anda menerima pesan bahwa file diunggah, Anda bisa mengklik tombol &amp;quot;Convert&amp;quot; untuk memulai dengan konversi. Pada akhirnya dengan menekan tombol &amp;quot;Download&amp;quot; Anda akan mendapatkan hasilnya&lt;/p&gt;
+              <sv:value>&lt;p&gt;Seret dan lepaskan file PNG yang ingin Anda ubah. Setelah Anda menerima pesan bahwa file diunggah, Anda bisa mengklik tombol &amp;quot;Convert&amp;quot; untuk memulai dengan konversi. Pada akhirnya dengan menekan tombol &amp;quot;Download&amp;quot; Anda akan mendapatkan hasilnya&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_it" sv:type="String">
-              <sv:value>&lt;p&gt;Trascina e rilascia il file PDF che desideri convertire. Una volta ricevuto il messaggio che il file &amp;egrave; stato caricato, puoi fare clic sul pulsante &amp;quot;Converti&amp;quot; per iniziare con la conversione. Alla fine, premendo il pulsante &amp;quot;Download&amp;quot; otterrai i risultati&lt;/p&gt;
+              <sv:value>&lt;p&gt;Trascina e rilascia il file PNG che desideri convertire. Una volta ricevuto il messaggio che il file &amp;egrave; stato caricato, puoi fare clic sul pulsante &amp;quot;Converti&amp;quot; per iniziare con la conversione. Alla fine, premendo il pulsante &amp;quot;Download&amp;quot; otterrai i risultati&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_ja" sv:type="String">
-              <sv:value>&lt;p&gt;変換したいPDFファイルをドラッグアンドドロップします。 ファイルがアップロードされたというメッセージを受け取ったら、「変換」ボタンをクリックして変換を開始できます。 最後に「ダウンロード」ボタンを押すと結果が表示されます&lt;/p&gt;
+              <sv:value>&lt;p&gt;変換したいPNGファイルをドラッグアンドドロップします。 ファイルがアップロードされたというメッセージを受け取ったら、「変換」ボタンをクリックして変換を開始できます。 最後に「ダウンロード」ボタンを押すと結果が表示されます&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_ko" sv:type="String">
-              <sv:value>&lt;p&gt;변환하려는 PDF 파일을 드래그 앤 드롭하십시오. 파일이 업로드되었다는 메시지를 받으면 &amp;quot;변환&amp;quot;버튼을 클릭하여 변환으로 시작할 수 있습니다. 끝에 &amp;quot;다운로드&amp;quot;버튼을 누르면 결과를 얻을 것입니다&lt;/p&gt;
+              <sv:value>&lt;p&gt;변환하려는 PNG파일을 드래그 앤 드롭하십시오. 파일이 업로드되었다는 메시지를 받으면 &amp;quot;변환&amp;quot;버튼을 클릭하여 변환으로 시작할 수 있습니다. 끝에 &amp;quot;다운로드&amp;quot;버튼을 누르면 결과를 얻을 것입니다&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_lt" sv:type="String">
-              <sv:value>&lt;p&gt;Nuvilkite PDF failą, kurį norite konvertuoti. Gavęs prane&amp;scaron;imą, kad failas yra įkeltas, galite spustelėti mygtuką &amp;quot;Konvertuoti&amp;quot;, kad būtų pradėtas konversija. Paspaudę mygtuką &amp;quot;Atsisiųsti&amp;quot;, jūs gausite savo rezultatus&lt;/p&gt;
+              <sv:value>&lt;p&gt;Nuvilkite PNG failą, kurį norite konvertuoti. Gavęs prane&amp;scaron;imą, kad failas yra įkeltas, galite spustelėti mygtuką &amp;quot;Konvertuoti&amp;quot;, kad būtų pradėtas konversija. Paspaudę mygtuką &amp;quot;Atsisiųsti&amp;quot;, jūs gausite savo rezultatus&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_nl" sv:type="String">
-              <sv:value>&lt;p&gt;Versleep je PDF-bestand dat je wilt converteren. Zodra u het bericht ontvangt dat het bestand is ge&amp;uuml;pload, kunt u klikken op de knop &amp;#39;Converteren&amp;#39; om te beginnen met de conversie. Aan het einde door op de knop &amp;quot;Download&amp;quot; te klikken, krijgt u uw resultaten&lt;/p&gt;
+              <sv:value>&lt;p&gt;Versleep je PNG-bestand dat je wilt converteren. Zodra u het bericht ontvangt dat het bestand is ge&amp;uuml;pload, kunt u klikken op de knop &amp;#39;Converteren&amp;#39; om te beginnen met de conversie. Aan het einde door op de knop &amp;quot;Download&amp;quot; te klikken, krijgt u uw resultaten&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_no" sv:type="String">
-              <sv:value>&lt;p&gt;Dra og slipp din PDF-fil du vil konvertere. N&amp;aring;r du mottar melding om at filen er lastet opp, kan du klikke p&amp;aring; &amp;quot;Konverter&amp;quot; -knappen for &amp;aring; starte med konvertering. P&amp;aring; slutten ved &amp;aring; trykke p&amp;aring; &amp;quot;Last ned&amp;quot; -knappen f&amp;aring;r du resultatene dine&lt;/p&gt;
+              <sv:value>&lt;p&gt;Dra og slipp din PNG-fil du vil konvertere. N&amp;aring;r du mottar melding om at filen er lastet opp, kan du klikke p&amp;aring; &amp;quot;Konverter&amp;quot; -knappen for &amp;aring; starte med konvertering. P&amp;aring; slutten ved &amp;aring; trykke p&amp;aring; &amp;quot;Last ned&amp;quot; -knappen f&amp;aring;r du resultatene dine&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_pt" sv:type="String">
-              <sv:value>&lt;p&gt;Arraste e solte seu arquivo PDF que deseja converter. Uma vez que voc&amp;ecirc; recebe a mensagem, o arquivo &amp;eacute; carregado, voc&amp;ecirc; pode clicar no bot&amp;atilde;o &amp;quot;Converter&amp;quot; para come&amp;ccedil;ar com a convers&amp;atilde;o. No final, pressionando o bot&amp;atilde;o &amp;quot;Download&amp;quot; voc&amp;ecirc; receber&amp;aacute; seus resultados&lt;/p&gt;
+              <sv:value>&lt;p&gt;Arraste e solte seu arquivo PNG que deseja converter. Uma vez que voc&amp;ecirc; recebe a mensagem, o arquivo &amp;eacute; carregado, voc&amp;ecirc; pode clicar no bot&amp;atilde;o &amp;quot;Converter&amp;quot; para come&amp;ccedil;ar com a convers&amp;atilde;o. No final, pressionando o bot&amp;atilde;o &amp;quot;Download&amp;quot; voc&amp;ecirc; receber&amp;aacute; seus resultados&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_ru" sv:type="String">
-              <sv:value>&lt;p&gt;Перетащите файл PDF, который вы хотите преобразовать. Как только вы получите сообщение о том, что файл загружен, вы можете нажать кнопку &amp;laquo;Конвертировать&amp;raquo;, чтобы начать с преобразования. В конце, нажав кнопку &amp;laquo;Загрузить&amp;raquo;, вы получите свои результаты&lt;/p&gt;
+              <sv:value>&lt;p&gt;Перетащите файл PNG, который вы хотите преобразовать. Как только вы получите сообщение о том, что файл загружен, вы можете нажать кнопку &amp;laquo;Конвертировать&amp;raquo;, чтобы начать с преобразования. В конце, нажав кнопку &amp;laquo;Загрузить&amp;raquo;, вы получите свои результаты&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_sk" sv:type="String">
-              <sv:value>&lt;p&gt;Pretiahnite a presuňte s&amp;uacute;bor PDF, ktor&amp;yacute; chcete previesť. Akon&amp;aacute;hle dostanete spr&amp;aacute;vu, že je s&amp;uacute;bor nahrat&amp;yacute;, m&amp;ocirc;žete klikn&amp;uacute;ť na tlačidlo &amp;quot;Previesť&amp;quot; a začať konverziou. Na konci stlačen&amp;iacute;m tlačidla &amp;quot;Stiahnuť&amp;quot; z&amp;iacute;skate svoje v&amp;yacute;sledky&lt;/p&gt;
+              <sv:value>&lt;p&gt;Pretiahnite a presuňte s&amp;uacute;bor PNG, ktor&amp;yacute; chcete previesť. Akon&amp;aacute;hle dostanete spr&amp;aacute;vu, že je s&amp;uacute;bor nahrat&amp;yacute;, m&amp;ocirc;žete klikn&amp;uacute;ť na tlačidlo &amp;quot;Previesť&amp;quot; a začať konverziou. Na konci stlačen&amp;iacute;m tlačidla &amp;quot;Stiahnuť&amp;quot; z&amp;iacute;skate svoje v&amp;yacute;sledky&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_sq" sv:type="String">
-              <sv:value>&lt;p&gt;Zvarrisni dhe hiqni skedarin tuaj PDF q&amp;euml; doni t&amp;euml; konvertohet. Pasi t&amp;euml; keni marr&amp;euml; mesazhin q&amp;euml; skedari &amp;euml;sht&amp;euml; i ngarkuar ju mund t&amp;euml; klikoni butonin &amp;quot;Convert&amp;quot; p&amp;euml;r t&amp;euml; filluar me konvertimin. N&amp;euml; fund duke shtypur butonin &amp;quot;Download&amp;quot; ju do t&amp;euml; merrni rezultatet tuaja&lt;/p&gt;
+              <sv:value>&lt;p&gt;Zvarrisni dhe hiqni skedarin tuaj PNG q&amp;euml; doni t&amp;euml; konvertohet. Pasi t&amp;euml; keni marr&amp;euml; mesazhin q&amp;euml; skedari &amp;euml;sht&amp;euml; i ngarkuar ju mund t&amp;euml; klikoni butonin &amp;quot;Convert&amp;quot; p&amp;euml;r t&amp;euml; filluar me konvertimin. N&amp;euml; fund duke shtypur butonin &amp;quot;Download&amp;quot; ju do t&amp;euml; merrni rezultatet tuaja&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_sv" sv:type="String">
-              <sv:value>&lt;p&gt;Dra och sl&amp;auml;pp din PDF-fil som du vill konvertera. N&amp;auml;r du har f&amp;aring;tt ett meddelande om att filen har laddats upp kan du klicka p&amp;aring; knappen &amp;quot;Konvertera&amp;quot; f&amp;ouml;r att b&amp;ouml;rja med konvertering. I slutet genom att trycka p&amp;aring; &amp;quot;Download&amp;quot; knappen f&amp;aring;r du dina resultat&lt;/p&gt;
+              <sv:value>&lt;p&gt;Dra och sl&amp;auml;pp din PNG-fil som du vill konvertera. N&amp;auml;r du har f&amp;aring;tt ett meddelande om att filen har laddats upp kan du klicka p&amp;aring; knappen &amp;quot;Konvertera&amp;quot; f&amp;ouml;r att b&amp;ouml;rja med konvertering. I slutet genom att trycka p&amp;aring; &amp;quot;Download&amp;quot; knappen f&amp;aring;r du dina resultat&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_th" sv:type="String">
-              <sv:value>&lt;p&gt;ลากและวางไฟล์ PDF ที่คุณต้องการแปลง เมื่อได้รับข้อความว่าอัปโหลดไฟล์แล้วคุณสามารถคลิกปุ่ม &amp;quot;แปลง&amp;quot; เพื่อเริ่มต้นการแปลง ในตอนท้ายโดยการกดปุ่ม &amp;quot;Download&amp;quot; คุณจะได้ผลลัพธ์&lt;/p&gt;
+              <sv:value>&lt;p&gt;ลากและวางไฟล์ PNG ที่คุณต้องการแปลง เมื่อได้รับข้อความว่าอัปโหลดไฟล์แล้วคุณสามารถคลิกปุ่ม &amp;quot;แปลง&amp;quot; เพื่อเริ่มต้นการแปลง ในตอนท้ายโดยการกดปุ่ม &amp;quot;Download&amp;quot; คุณจะได้ผลลัพธ์&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_tr" sv:type="String">
-              <sv:value>&lt;p&gt;S&amp;uuml;r&amp;uuml;kleyip PDF dosyanızı d&amp;ouml;n&amp;uuml;şt&amp;uuml;rmek istediğinizde bırakın. Dosyanın y&amp;uuml;klendiğine dair bir mesaj aldıktan sonra, d&amp;ouml;n&amp;uuml;ş&amp;uuml;mle başlamak i&amp;ccedil;in &amp;quot;D&amp;ouml;n&amp;uuml;şt&amp;uuml;r&amp;quot; d&amp;uuml;ğmesini tıklayabilirsiniz. Sonunda &amp;quot;İndir&amp;quot; d&amp;uuml;ğmesine basarak sonu&amp;ccedil;larınızı alacaksınız.&lt;/p&gt;
+              <sv:value>&lt;p&gt;S&amp;uuml;r&amp;uuml;kleyip PNG dosyanızı d&amp;ouml;n&amp;uuml;şt&amp;uuml;rmek istediğinizde bırakın. Dosyanın y&amp;uuml;klendiğine dair bir mesaj aldıktan sonra, d&amp;ouml;n&amp;uuml;ş&amp;uuml;mle başlamak i&amp;ccedil;in &amp;quot;D&amp;ouml;n&amp;uuml;şt&amp;uuml;r&amp;quot; d&amp;uuml;ğmesini tıklayabilirsiniz. Sonunda &amp;quot;İndir&amp;quot; d&amp;uuml;ğmesine basarak sonu&amp;ccedil;larınızı alacaksınız.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_vi" sv:type="String">
-              <sv:value>&lt;p&gt;K&amp;eacute;o v&amp;agrave; thả tệp PDF bạn muốn chuyển đổi. Một khi bạn nhận được th&amp;ocirc;ng b&amp;aacute;o rằng tập tin được tải l&amp;ecirc;n, bạn c&amp;oacute; thể nhấp v&amp;agrave;o n&amp;uacute;t &amp;quot;Chuyển đổi&amp;quot; để bắt đầu chuyển đổi. Cuối c&amp;ugrave;ng bằng c&amp;aacute;ch nhấn n&amp;uacute;t &amp;quot;Download&amp;quot;, bạn sẽ nhận được kết quả&lt;/p&gt;
+              <sv:value>&lt;p&gt;K&amp;eacute;o v&amp;agrave; thả tệp PNG bạn muốn chuyển đổi. Một khi bạn nhận được th&amp;ocirc;ng b&amp;aacute;o rằng tập tin được tải l&amp;ecirc;n, bạn c&amp;oacute; thể nhấp v&amp;agrave;o n&amp;uacute;t &amp;quot;Chuyển đổi&amp;quot; để bắt đầu chuyển đổi. Cuối c&amp;ugrave;ng bằng c&amp;aacute;ch nhấn n&amp;uacute;t &amp;quot;Download&amp;quot;, bạn sẽ nhận được kết quả&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="threeCols" sv:type="Boolean">
@@ -4787,7 +4787,7 @@
               <sv:value>superuser</sv:value>
             </sv:property>
             <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-              <sv:value>2018-01-30T00:02:56.615+01:00</sv:value>
+              <sv:value>2018-03-08T05:37:56.262-05:00</sv:value>
             </sv:property>
             <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
               <sv:value>superuser</sv:value>
@@ -4796,161 +4796,161 @@
               <sv:value>convertow-templates:components/teasers/weDoTeaser</sv:value>
             </sv:property>
             <sv:property sv:name="text" sv:type="String">
-              <sv:value>&lt;p&gt;We guarantee 100% security and privacy on your files. We do not share files with anyone. Files which has been uploaded automatically are deleted every 30 minutes.&lt;/p&gt;
+              <sv:value>&lt;p&gt;PNG to JPG convertor is made for free use. There is not any limitations for this version of the tool. You will get the best conversion for free.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_ar" sv:type="String">
-              <sv:value>&lt;p&gt;ونحن نضمن 100٪ الأمن والخصوصية على الملفات الخاصة بك. نحن لا نشارك الملفات مع أي شخص. يتم حذف الملفات التي تم تحميلها تلقائيا كل 30 دقيقة.&lt;/p&gt;
+              <sv:value>&lt;p&gt;ينغ لتحويل جبغ يرصد للاستخدام المجاني. ليس هناك أي قيود على هذا الإصدار من الأداة. سوف تحصل على أفضل تحويل مجانا.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_cs" sv:type="String">
-              <sv:value>&lt;p&gt;Zaručujeme 100% zabezpečen&amp;iacute; a soukrom&amp;iacute; va&amp;scaron;ich souborů. Soubory s nik&amp;yacute;m nesd&amp;iacute;l&amp;iacute;me. Soubory, kter&amp;eacute; byly nahr&amp;aacute;ny automaticky, jsou vymaz&amp;aacute;ny každ&amp;yacute;ch 30 minut.&lt;/p&gt;
+              <sv:value>&lt;p&gt;Převodn&amp;iacute;k PNG do form&amp;aacute;tu JPG je vytvořen pro bezplatn&amp;eacute; použit&amp;iacute;. Pro tuto verzi n&amp;aacute;stroje nejsou ž&amp;aacute;dn&amp;eacute; omezen&amp;iacute;. Z&amp;iacute;sk&amp;aacute;te nejlep&amp;scaron;&amp;iacute; konverzi zdarma.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_de" sv:type="String">
-              <sv:value>&lt;p&gt;Wir garantieren 100% Sicherheit und Datenschutz f&amp;uuml;r Ihre Dateien. Wir teilen keine Dateien mit irgendjemandem. Dateien, die automatisch hochgeladen wurden, werden alle 30 Minuten gel&amp;ouml;scht.&lt;/p&gt;
+              <sv:value>&lt;p&gt;PNG zu JPG Konverter ist zur freien Verwendung gemacht. F&amp;uuml;r diese Version des Tools gibt es keine Einschr&amp;auml;nkungen. Sie erhalten die beste Konvertierung kostenlos.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_es" sv:type="String">
-              <sv:value>&lt;p&gt;Garantizamos el 100% de seguridad y privacidad en sus archivos. No compartimos archivos con nadie. Los archivos que se cargaron autom&amp;aacute;ticamente se eliminan cada 30 minutos.&lt;/p&gt;
+              <sv:value>&lt;p&gt;El convertidor PNG a JPG est&amp;aacute; hecho para uso gratuito. No hay limitaciones para esta versi&amp;oacute;n de la herramienta. Obtendr&amp;aacute; la mejor conversi&amp;oacute;n de forma gratuita.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_fr" sv:type="String">
-              <sv:value>&lt;p&gt;Nous garantissons 100% de s&amp;eacute;curit&amp;eacute; et de confidentialit&amp;eacute; sur vos fichiers. Nous ne partageons aucun fichier avec quelqu&amp;#39;un. Les fichiers qui ont &amp;eacute;t&amp;eacute; t&amp;eacute;l&amp;eacute;charg&amp;eacute;s automatiquement sont supprim&amp;eacute;s toutes les 30 minutes.&lt;/p&gt;
+              <sv:value>&lt;p&gt;Convertisseur PNG en JPG est fait pour une utilisation gratuite. Il n&amp;#39;y a aucune limitation pour cette version de l&amp;#39;outil. Vous obtiendrez la meilleure conversion gratuitement.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_hr" sv:type="String">
-              <sv:value>&lt;p&gt;Jamčimo 100% sigurnosti i privatnosti na datotekama. Ne dijelimo datoteke s nikim. Automatski prenesene datoteke bri&amp;scaron;u se svakih 30 minuta.&lt;/p&gt;
+              <sv:value>&lt;p&gt;PNG u JPG&amp;nbsp; pretvarač je napravljen za besplatno kori&amp;scaron;tenje. Nema ograničenja za ovu verziju alata. Besplatno ćete dobiti najbolju konverziju.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_in" sv:type="String">
-              <sv:value>&lt;p&gt;Kami menjamin keamanan 100% dan privasi pada file Anda. Kami tidak berbagi file dengan siapa pun. File yang telah diunggah secara otomatis akan dihapus setiap 30 menit.&lt;/p&gt;
+              <sv:value>&lt;p&gt;Konverter PNG ke JPG dibuat untuk penggunaan gratis. Tidak ada batasan untuk versi alat ini. Anda akan mendapatkan konversi terbaik secara gratis.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_it" sv:type="String">
-              <sv:value>&lt;p&gt;Garantiamo sicurezza e privacy al 100% sui tuoi file. Non condividiamo file con nessuno. I file che sono stati caricati automaticamente vengono cancellati ogni 30 minuti.&lt;/p&gt;
+              <sv:value>&lt;p&gt;Il convertitore da PNG a JPG &amp;egrave; realizzato per uso gratuito. Non ci sono limitazioni per questa versione dello strumento. Otterrai la migliore conversione gratuitamente.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_ja" sv:type="String">
-              <sv:value>&lt;p&gt;私たちはあなたのファイルに100％のセキュリティとプライバシーを保証します。 私たちは誰とでもファイルを共有しません。 自動的にアップロードされたファイルは30分ごとに削除されます。&lt;/p&gt;
+              <sv:value>&lt;p&gt;PNG to JPGコンバータは無料で使用できます。 このバージョンのツールには制限はありません。 あなたは無料で最高の変換を得るでしょう。&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_ko" sv:type="String">
-              <sv:value>&lt;p&gt;우리는 귀하의 파일에 대해 100 % 보안 및 개인 정보를 보장합니다. 우리는 누구와도 파일을 공유하지 않습니다. 자동으로 업로드 된 파일은 30 분마다 삭제됩니다.&lt;/p&gt;
+              <sv:value>&lt;p&gt;PNG to JPG 변환기는 무료로 사용할 수 있습니다. 이 도구 버전에는 아무런 제한이 없습니다. 당신은 무료로 최고의 전환을 얻을 것이다.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_lt" sv:type="String">
-              <sv:value>&lt;p&gt;Mes garantuojame 100% saugumą ir privatumą jūsų bylose. Mes nesidalijame failais niekam. Failai, kurie buvo įkelti automati&amp;scaron;kai, i&amp;scaron;trinami kas 30 minučių.&lt;/p&gt;
+              <sv:value>&lt;p&gt;PNG į JPG konverteris yra nemokamai naudojamas. &amp;Scaron;ios priemonės versijoje nėra jokių apribojimų. Gaukite geriausią konversiją nemokamai.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_nl" sv:type="String">
-              <sv:value>&lt;p&gt;We garanderen 100% beveiliging en privacy op uw bestanden. We delen geen bestanden met iemand. Bestanden die automatisch zijn ge&amp;uuml;pload, worden elke 30 minuten verwijderd.&lt;/p&gt;
+              <sv:value>&lt;p&gt;PNG naar JPG converter is gemaakt voor gratis gebruik. Er zijn geen beperkingen voor deze versie van de tool. Je krijgt de beste conversie gratis.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_no" sv:type="String">
-              <sv:value>&lt;p&gt;Vi garanterer 100% sikkerhet og personvern p&amp;aring; filene dine. Vi deler ikke filer med noen. Filer som er lastet opp automatisk, slettes hvert 30. minutt.&lt;/p&gt;
+              <sv:value>&lt;p&gt;PNG til JPG omformer er laget for fri bruk. Det er ingen begrensninger for denne versjonen av verkt&amp;oslash;yet. Du vil f&amp;aring; den beste konverteringen gratis.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_pt" sv:type="String">
-              <sv:value>&lt;p&gt;N&amp;oacute;s garantimos 100% de seguran&amp;ccedil;a e privacidade em seus arquivos. N&amp;oacute;s n&amp;atilde;o compartilhamos arquivos com ningu&amp;eacute;m. Os arquivos que foram carregados automaticamente s&amp;atilde;o exclu&amp;iacute;dos a cada 30 minutos.&lt;/p&gt;
+              <sv:value>&lt;p&gt;O conversor PNG para JPG &amp;eacute; feito para uso gratuito. N&amp;atilde;o existe nenhuma limita&amp;ccedil;&amp;atilde;o para esta vers&amp;atilde;o da ferramenta. Voc&amp;ecirc; obter&amp;aacute; a melhor convers&amp;atilde;o de gra&amp;ccedil;a.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_ru" sv:type="String">
-              <sv:value>&lt;p&gt;Мы гарантируем 100% безопасность и конфиденциальность ваших файлов. Мы ни с кем не обмениваемся файлами. Файлы, которые были загружены автоматически, удаляются каждые 30 минут.&lt;/p&gt;
+              <sv:value>&lt;p&gt;Конвертер PNG в JPG предназначен для бесплатного использования. Для этой версии инструмента нет никаких ограничений. Вы получите лучшее конвертирование бесплатно.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_sk" sv:type="String">
-              <sv:value>&lt;p&gt;Zaručujeme 100% bezpečnosť a ochranu va&amp;scaron;ich s&amp;uacute;borov. S nami nie s&amp;uacute; zdieľan&amp;eacute; s&amp;uacute;bory. S&amp;uacute;bory, ktor&amp;eacute; boli odovzdan&amp;eacute; automaticky, sa odstr&amp;aacute;nia každ&amp;yacute;ch 30 min&amp;uacute;t.&lt;/p&gt;
+              <sv:value>&lt;p&gt;PNG na JPG konvertor je pre voľn&amp;eacute; použitie. Pre t&amp;uacute;to verziu n&amp;aacute;stroja nie s&amp;uacute; žiadne obmedzenia. Najlep&amp;scaron;iu konverziu z&amp;iacute;skate zadarmo.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_sq" sv:type="String">
-              <sv:value>&lt;p&gt;Ne garantojm&amp;euml; 100% t&amp;euml; siguris&amp;euml; dhe privat&amp;euml;sis&amp;euml; n&amp;euml; skedar&amp;euml;t tuaj. Ne nuk i ndajm&amp;euml; skedar&amp;euml;t me ask&amp;euml;nd. Dosjet t&amp;euml; cilat jan&amp;euml; ngarkuar automatikisht fshihen &amp;ccedil;do 30 minuta.&lt;/p&gt;
+              <sv:value>&lt;p&gt;PNG n&amp;euml; JPG konvertim &amp;euml;sht&amp;euml; b&amp;euml;r&amp;euml; p&amp;euml;r p&amp;euml;rdorim t&amp;euml; lir&amp;euml;. Nuk ka kufizime p&amp;euml;r k&amp;euml;t&amp;euml; version t&amp;euml; mjetit. Ju do t&amp;euml; merrni konvertimin m&amp;euml; t&amp;euml; mir&amp;euml; falas.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_sv" sv:type="String">
-              <sv:value>&lt;p&gt;Vi garanterar 100% s&amp;auml;kerhet och integritet p&amp;aring; dina filer. Vi delar inte filer med n&amp;aring;gon. Filer som har laddats upp automatiskt raderas var 30: e minut.&lt;/p&gt;
+              <sv:value>&lt;p&gt;PNG till JPG-omvandlare &amp;auml;r gjord f&amp;ouml;r fri anv&amp;auml;ndning. Det finns inga begr&amp;auml;nsningar f&amp;ouml;r den h&amp;auml;r versionen av verktyget. Du f&amp;aring;r b&amp;auml;sta konverteringen gratis.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_th" sv:type="String">
-              <sv:value>&lt;p&gt;เรารับประกันความปลอดภัย 100% และความเป็นส่วนตัวในไฟล์ของคุณ เราไม่แชร์ไฟล์กับใคร ไฟล์ที่ถูกอัปโหลดโดยอัตโนมัติจะถูกลบทุกๆ 30 นาที&lt;/p&gt;
+              <sv:value>&lt;p&gt;แปลง PNG เป็น JPG ทำขึ้นเพื่อใช้งานฟรี เครื่องมือนี้ไม่มีข้อ จำกัด ใด ๆ คุณจะได้รับ Conversion ที่ดีที่สุดฟรี&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_tr" sv:type="String">
-              <sv:value>&lt;p&gt;Dosyalarınızda% 100 g&amp;uuml;venlik ve gizlilik garanti ederiz. Dosyaları kimseyle paylaşmıyoruz. Otomatik olarak y&amp;uuml;klenen dosyalar her 30 dakikada bir silinir.&lt;/p&gt;
+              <sv:value>&lt;p&gt;PNG&amp;#39;yu JPG&amp;#39;e d&amp;ouml;n&amp;uuml;şt&amp;uuml;r&amp;uuml;c&amp;uuml; &amp;uuml;cretsiz kullanım i&amp;ccedil;in yapılır. Aracın bu s&amp;uuml;r&amp;uuml;m&amp;uuml; i&amp;ccedil;in herhangi bir sınırlama yoktur. En iyi d&amp;ouml;n&amp;uuml;ş&amp;uuml;m&amp;uuml; &amp;uuml;cretsiz yapabilirsiniz.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_vi" sv:type="String">
-              <sv:value>&lt;p&gt;Ch&amp;uacute;ng t&amp;ocirc;i đảm bảo 100% an ninh v&amp;agrave; ri&amp;ecirc;ng tư tr&amp;ecirc;n c&amp;aacute;c tệp của bạn. Ch&amp;uacute;ng t&amp;ocirc;i kh&amp;ocirc;ng chia sẻ tệp với bất kỳ ai. C&amp;aacute;c tệp đ&amp;atilde; được tải l&amp;ecirc;n tự động sẽ bị x&amp;oacute;a sau mỗi 30 ph&amp;uacute;t.&lt;/p&gt;
+              <sv:value>&lt;p&gt;Bộ chuyển đổi PNG sang JPG được sử dụng miễn ph&amp;iacute;. Kh&amp;ocirc;ng c&amp;oacute; bất kỳ hạn chế n&amp;agrave;o đối với phi&amp;ecirc;n bản n&amp;agrave;y của c&amp;ocirc;ng cụ. Bạn sẽ c&amp;oacute; được chuyển đổi tốt nhất miễn ph&amp;iacute;.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="threeCols" sv:type="Boolean">
               <sv:value>true</sv:value>
             </sv:property>
             <sv:property sv:name="title" sv:type="String">
-              <sv:value>We keep your files in privacy</sv:value>
+              <sv:value>Convert PNG to JPG free</sv:value>
             </sv:property>
             <sv:property sv:name="title_ar" sv:type="String">
-              <sv:value>نحن نحافظ على الملفات الخاصة بك في الخصوصية</sv:value>
+              <sv:value>تحويل ينغ إلى جبغ مجانا</sv:value>
             </sv:property>
             <sv:property sv:name="title_cs" sv:type="String">
-              <sv:value>Vaše soubory uchováváme v soukromí</sv:value>
+              <sv:value>Převést PNG na JPG zdarma</sv:value>
             </sv:property>
             <sv:property sv:name="title_de" sv:type="String">
-              <sv:value>Wir bewahren Ihre Dateien in Privatsphäre</sv:value>
+              <sv:value>Konvertieren von PNG in JPG kostenlos</sv:value>
             </sv:property>
             <sv:property sv:name="title_es" sv:type="String">
-              <sv:value>Mantenemos tus archivos en privacidad</sv:value>
+              <sv:value>Convierte PNG a JPG gratis</sv:value>
             </sv:property>
             <sv:property sv:name="title_fr" sv:type="String">
-              <sv:value>Nous gardons vos fichiers en toute confidentialité</sv:value>
+              <sv:value>Convertir PNG en JPG gratuitement</sv:value>
             </sv:property>
             <sv:property sv:name="title_hr" sv:type="String">
-              <sv:value>Vaše datoteke čuvamo u privatnosti</sv:value>
+              <sv:value>Pretvori PNG u JPG besplatno</sv:value>
             </sv:property>
             <sv:property sv:name="title_in" sv:type="String">
-              <sv:value>Kami menyimpan file Anda dalam privasi</sv:value>
+              <sv:value>Mengkonversi PNG ke JPG gratis</sv:value>
             </sv:property>
             <sv:property sv:name="title_it" sv:type="String">
-              <sv:value>Manteniamo i tuoi file nella privacy</sv:value>
+              <sv:value>Converti PNG in JPG gratis</sv:value>
             </sv:property>
             <sv:property sv:name="title_ja" sv:type="String">
-              <sv:value>私たちはあなたのファイルをプライバシーに保ちます</sv:value>
+              <sv:value>PNGをJPGに無料で変換する</sv:value>
             </sv:property>
             <sv:property sv:name="title_ko" sv:type="String">
-              <sv:value>우리는 귀하의 파일을 개인 정보로 보호합니다.</sv:value>
+              <sv:value>PNG를 JPG로 무료로 변환</sv:value>
             </sv:property>
             <sv:property sv:name="title_lt" sv:type="String">
-              <sv:value>Mes saugome jūsų failus privatumo</sv:value>
+              <sv:value>Konvertuoti PNG į JPG nemokamai</sv:value>
             </sv:property>
             <sv:property sv:name="title_nl" sv:type="String">
-              <sv:value>We bewaren uw bestanden in privacy</sv:value>
+              <sv:value>Converteer PNG naar JPG gratis</sv:value>
             </sv:property>
             <sv:property sv:name="title_no" sv:type="String">
-              <sv:value>Vi beholder filene dine i personvern</sv:value>
+              <sv:value>Konverter PNG til JPG gratis</sv:value>
             </sv:property>
             <sv:property sv:name="title_pt" sv:type="String">
-              <sv:value>Nós mantemos seus arquivos em privacidade</sv:value>
+              <sv:value>Converta PNG para JPG grátis</sv:value>
             </sv:property>
             <sv:property sv:name="title_ru" sv:type="String">
-              <sv:value>Мы сохраняем ваши файлы в конфиденциальности</sv:value>
+              <sv:value>Конвертировать PNG в JPG бесплатно</sv:value>
             </sv:property>
             <sv:property sv:name="title_sk" sv:type="String">
-              <sv:value>Vaše súbory uchovávame v súkromí</sv:value>
+              <sv:value>Previesť PNG na JPG zadarmo</sv:value>
             </sv:property>
             <sv:property sv:name="title_sq" sv:type="String">
-              <sv:value>Ne mbajmë skedarët tuaj në fshehtësi</sv:value>
+              <sv:value>Convert PNG në JPG falas</sv:value>
             </sv:property>
             <sv:property sv:name="title_sv" sv:type="String">
-              <sv:value>Vi behåller dina filer i sekretess</sv:value>
+              <sv:value>Konvertera PNG till JPG gratis</sv:value>
             </sv:property>
             <sv:property sv:name="title_th" sv:type="String">
-              <sv:value>เราเก็บไฟล์ของคุณอย่างเป็นส่วนตัว</sv:value>
+              <sv:value>แปลง PNG เป็น JPG ฟรี</sv:value>
             </sv:property>
             <sv:property sv:name="title_tr" sv:type="String">
-              <sv:value>Dosyalarınızı gizlilik içinde tutuyoruz</sv:value>
+              <sv:value>PNG'yu JPG'e dönüştürme Ücretsiz</sv:value>
             </sv:property>
             <sv:property sv:name="title_vi" sv:type="String">
-              <sv:value>Chúng tôi giữ riêng tư tệp của bạn</sv:value>
+              <sv:value>Chuyển đổi PNG sang JPG miễn phí</sv:value>
             </sv:property>
           </sv:node>
           <sv:node sv:name="01">
@@ -5540,7 +5540,7 @@
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-      <sv:value>2018-02-23T01:10:08.589+01:00</sv:value>
+      <sv:value>2018-03-08T16:09:52.666-05:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
       <sv:value>superuser</sv:value>
@@ -5760,7 +5760,7 @@
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-        <sv:value>2018-01-30T00:34:56.186+01:00</sv:value>
+        <sv:value>2018-03-08T16:09:52.666-05:00</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
         <sv:value>superuser</sv:value>
@@ -5969,7 +5969,7 @@
           <sv:value>superuser</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-          <sv:value>2018-01-29T23:39:24.324+01:00</sv:value>
+          <sv:value>2018-03-08T16:09:52.666-05:00</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
           <sv:value>superuser</sv:value>
@@ -6000,7 +6000,7 @@
             <sv:value>superuser</sv:value>
           </sv:property>
           <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-            <sv:value>2018-01-29T23:39:24.324+01:00</sv:value>
+            <sv:value>2018-03-08T16:09:52.666-05:00</sv:value>
           </sv:property>
           <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
             <sv:value>superuser</sv:value>
@@ -6031,7 +6031,7 @@
               <sv:value>superuser</sv:value>
             </sv:property>
             <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-              <sv:value>2018-01-29T23:39:24.324+01:00</sv:value>
+              <sv:value>2018-03-08T15:58:47.392-05:00</sv:value>
             </sv:property>
             <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
               <sv:value>superuser</sv:value>
@@ -6131,70 +6131,70 @@
               <sv:value>true</sv:value>
             </sv:property>
             <sv:property sv:name="title" sv:type="String">
-              <sv:value>How to convert JPG to PNG</sv:value>
+              <sv:value>How to convert PDF to PNG</sv:value>
             </sv:property>
             <sv:property sv:name="title_ar" sv:type="String">
-              <sv:value>كيفية تحويل جبغ إلى ينغ</sv:value>
+              <sv:value>كيفية تحويل قوات الدفاع الشعبي إلى بابوا نيو غينيا</sv:value>
             </sv:property>
             <sv:property sv:name="title_cs" sv:type="String">
-              <sv:value>Jak převést JPG na PNG</sv:value>
+              <sv:value>Jak převést PDF do formátu PNG</sv:value>
             </sv:property>
             <sv:property sv:name="title_de" sv:type="String">
-              <sv:value>Wie konvertiert man JPG zu PNG</sv:value>
+              <sv:value>Wie man PDF nach PNG konvertiert</sv:value>
             </sv:property>
             <sv:property sv:name="title_es" sv:type="String">
-              <sv:value>Cómo convertir JPG a PNG</sv:value>
+              <sv:value>Cómo convertir PDF a PNG</sv:value>
             </sv:property>
             <sv:property sv:name="title_fr" sv:type="String">
-              <sv:value>Comment convertir JPG en PNG</sv:value>
+              <sv:value>Comment convertir PDF en PNG</sv:value>
             </sv:property>
             <sv:property sv:name="title_hr" sv:type="String">
-              <sv:value>Kako pretvoriti JPG u PNG</sv:value>
+              <sv:value>Kako pretvoriti PDF u PNG</sv:value>
             </sv:property>
             <sv:property sv:name="title_in" sv:type="String">
-              <sv:value>Bagaimana mengkonversi JPG ke PNG</sv:value>
+              <sv:value>Bagaimana mengkonversi PDF ke PNG</sv:value>
             </sv:property>
             <sv:property sv:name="title_it" sv:type="String">
-              <sv:value>Come convertire JPG in PNG</sv:value>
+              <sv:value>Come convertire PDF in PNG</sv:value>
             </sv:property>
             <sv:property sv:name="title_ja" sv:type="String">
-              <sv:value>JPGをPNGに変換する方法</sv:value>
+              <sv:value>PDFをPNGに変換する方法</sv:value>
             </sv:property>
             <sv:property sv:name="title_ko" sv:type="String">
-              <sv:value>JPG를 PNG로 변환하는 방법</sv:value>
+              <sv:value>PDF를 PNG로 변환하는 방법</sv:value>
             </sv:property>
             <sv:property sv:name="title_lt" sv:type="String">
-              <sv:value>Kaip konvertuoti JPG į PNG</sv:value>
+              <sv:value>Kaip konvertuoti PDF į PNG</sv:value>
             </sv:property>
             <sv:property sv:name="title_nl" sv:type="String">
-              <sv:value>Hoe JPG naar PNG te converteren</sv:value>
+              <sv:value>Hoe PDF naar PNG te converteren</sv:value>
             </sv:property>
             <sv:property sv:name="title_no" sv:type="String">
-              <sv:value>Slik konverterer du JPG til PNG</sv:value>
+              <sv:value>Hvordan konvertere PDF til PNG</sv:value>
             </sv:property>
             <sv:property sv:name="title_pt" sv:type="String">
-              <sv:value>Como converter JPG para PNG</sv:value>
+              <sv:value>Como converter PDF para PNG</sv:value>
             </sv:property>
             <sv:property sv:name="title_ru" sv:type="String">
-              <sv:value>Как конвертировать JPG в PNG</sv:value>
+              <sv:value>Как конвертировать PDF в PNG</sv:value>
             </sv:property>
             <sv:property sv:name="title_sk" sv:type="String">
-              <sv:value>Ako previesť JPG do PNG</sv:value>
+              <sv:value>Ako previesť PDF do formátu PNG</sv:value>
             </sv:property>
             <sv:property sv:name="title_sq" sv:type="String">
-              <sv:value>Si të konvertohet JPG në PNG</sv:value>
+              <sv:value>Si të konvertohet PDF në PNG</sv:value>
             </sv:property>
             <sv:property sv:name="title_sv" sv:type="String">
-              <sv:value>Hur konverterar du JPG till PNG</sv:value>
+              <sv:value>Hur konverterar PDF till PNG</sv:value>
             </sv:property>
             <sv:property sv:name="title_th" sv:type="String">
-              <sv:value>วิธีแปลง JPG เป็น PNG</sv:value>
+              <sv:value>วิธีการแปลงไฟล์ PDF เป็น PNG</sv:value>
             </sv:property>
             <sv:property sv:name="title_tr" sv:type="String">
-              <sv:value>JPG'yi PNG'ye dönüştürme</sv:value>
+              <sv:value>PDF'yi PNG'ye dönüştürme</sv:value>
             </sv:property>
             <sv:property sv:name="title_vi" sv:type="String">
-              <sv:value>Làm thế nào để chuyển JPG sang PNG</sv:value>
+              <sv:value>Làm thế nào để chuyển đổi PDF sang PNG</sv:value>
             </sv:property>
           </sv:node>
           <sv:node sv:name="00">
@@ -6223,7 +6223,7 @@
               <sv:value>superuser</sv:value>
             </sv:property>
             <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-              <sv:value>2018-01-29T22:55:26.563+01:00</sv:value>
+              <sv:value>2018-03-08T16:09:52.666-05:00</sv:value>
             </sv:property>
             <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
               <sv:value>superuser</sv:value>
@@ -6232,161 +6232,161 @@
               <sv:value>convertow-templates:components/teasers/weDoTeaser</sv:value>
             </sv:property>
             <sv:property sv:name="text" sv:type="String">
-              <sv:value>&lt;p&gt;We guarantee 100% security and privacy on your files. We do not share files with anyone. Files which has been uploaded automatically are deleted every 30 minutes.&lt;/p&gt;
+              <sv:value>&lt;p&gt;This online converter is made for free use. You can use it as many times as you need to convert free PDF file to PNG image format.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_ar" sv:type="String">
-              <sv:value>&lt;p&gt;ونحن نضمن 100٪ الأمن والخصوصية على الملفات الخاصة بك. نحن لا نشارك الملفات مع أي شخص. يتم حذف الملفات التي تم تحميلها تلقائيا كل 30 دقيقة.&lt;/p&gt;
+              <sv:value>&lt;p&gt;هذا المحول على الانترنت مصنوع للاستخدام المجاني. يمكنك استخدامه عدة مرات حتى تحتاج إلى تحويل ملف PDF إلى تنسيق صورة PNG.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_cs" sv:type="String">
-              <sv:value>&lt;p&gt;Zaručujeme 100% zabezpečen&amp;iacute; a soukrom&amp;iacute; va&amp;scaron;ich souborů. Soubory s nik&amp;yacute;m nesd&amp;iacute;l&amp;iacute;me. Soubory, kter&amp;eacute; byly nahr&amp;aacute;ny automaticky, jsou vymaz&amp;aacute;ny každ&amp;yacute;ch 30 minut.&lt;/p&gt;
+              <sv:value>&lt;p&gt;Tento online převodn&amp;iacute;k je určen k bezplatn&amp;eacute;mu použit&amp;iacute;. Můžete jej použ&amp;iacute;t tolikr&amp;aacute;t, kolikr&amp;aacute;t potřebujete k převodu voln&amp;eacute;ho souboru PDF do form&amp;aacute;tu PNG.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_de" sv:type="String">
-              <sv:value>&lt;p&gt;Wir garantieren 100% Sicherheit und Datenschutz f&amp;uuml;r Ihre Dateien. Wir teilen keine Dateien mit irgendjemandem. Dateien, die automatisch hochgeladen wurden, werden alle 30 Minuten gel&amp;ouml;scht.&lt;/p&gt;
+              <sv:value>&lt;p&gt;Dieser Online-Konverter ist zur freien Verwendung gedacht. Sie k&amp;ouml;nnen es so oft verwenden, wie Sie kostenlose PDF-Datei in PNG-Bildformat konvertieren m&amp;uuml;ssen.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_es" sv:type="String">
-              <sv:value>&lt;p&gt;Garantizamos el 100% de seguridad y privacidad en sus archivos. No compartimos archivos con nadie. Los archivos que se cargaron autom&amp;aacute;ticamente se eliminan cada 30 minutos.&lt;/p&gt;
+              <sv:value>&lt;p&gt;Este convertidor en l&amp;iacute;nea est&amp;aacute; hecho para uso gratuito. Puede usarlo tantas veces como necesite para convertir un archivo PDF gratuito a formato de imagen PNG.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_fr" sv:type="String">
-              <sv:value>&lt;p&gt;Nous garantissons 100% de s&amp;eacute;curit&amp;eacute; et de confidentialit&amp;eacute; sur vos fichiers. Nous ne partageons aucun fichier avec quelqu&amp;#39;un. Les fichiers qui ont &amp;eacute;t&amp;eacute; t&amp;eacute;l&amp;eacute;charg&amp;eacute;s automatiquement sont supprim&amp;eacute;s toutes les 30 minutes.&lt;/p&gt;
+              <sv:value>&lt;p&gt;Ce convertisseur en ligne est fait pour une utilisation gratuite. Vous pouvez l&amp;#39;utiliser autant de fois que n&amp;eacute;cessaire pour convertir un fichier PDF gratuit au format d&amp;#39;image PNG.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_hr" sv:type="String">
-              <sv:value>&lt;p&gt;Jamčimo 100% sigurnosti i privatnosti na datotekama. Ne dijelimo datoteke s nikim. Automatski prenesene datoteke bri&amp;scaron;u se svakih 30 minuta.&lt;/p&gt;
+              <sv:value>&lt;p&gt;Ovaj online pretvarač je napravljen za besplatno kori&amp;scaron;tenje. Možete ga koristiti onoliko puta koliko trebate pretvoriti besplatnu PDF datoteku u PNG format slike.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_in" sv:type="String">
-              <sv:value>&lt;p&gt;Kami menjamin keamanan 100% dan privasi pada file Anda. Kami tidak berbagi file dengan siapa pun. File yang telah diunggah secara otomatis akan dihapus setiap 30 menit.&lt;/p&gt;
+              <sv:value>&lt;p&gt;Konverter online ini dibuat untuk penggunaan gratis. Anda dapat menggunakannya sebanyak yang Anda perlukan untuk mengonversi file PDF gratis ke format gambar PNG.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_it" sv:type="String">
-              <sv:value>&lt;p&gt;Garantiamo sicurezza e privacy al 100% sui tuoi file. Non condividiamo file con nessuno. I file che sono stati caricati automaticamente vengono cancellati ogni 30 minuti.&lt;/p&gt;
+              <sv:value>&lt;p&gt;Questo convertitore online &amp;egrave; fatto per uso gratuito. &amp;Egrave; possibile utilizzarlo tutte le volte che &amp;egrave; necessario per convertire file PDF gratuito in formato immagine PNG.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_ja" sv:type="String">
-              <sv:value>&lt;p&gt;私たちはあなたのファイルに100％のセキュリティとプライバシーを保証します。 私たちは誰とでもファイルを共有しません。 自動的にアップロードされたファイルは30分ごとに削除されます。&lt;/p&gt;
+              <sv:value>&lt;p&gt;このオンラインコンバータは無料で使用できます。 無料のPDFファイルをPNG形式に変換するのに必要な回数だけ使用できます。&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_ko" sv:type="String">
-              <sv:value>&lt;p&gt;우리는 귀하의 파일에 대해 100 % 보안 및 개인 정보를 보장합니다. 우리는 누구와도 파일을 공유하지 않습니다. 자동으로 업로드 된 파일은 30 분마다 삭제됩니다.&lt;/p&gt;
+              <sv:value>&lt;p&gt;이 온라인 변환기는 무료로 제공됩니다. 무료 PDF 파일을 PNG 이미지 형식으로 변환하는 데 필요한만큼 여러 번 사용할 수 있습니다.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_lt" sv:type="String">
-              <sv:value>&lt;p&gt;Mes garantuojame 100% saugumą ir privatumą jūsų bylose. Mes nesidalijame failais niekam. Failai, kurie buvo įkelti automati&amp;scaron;kai, i&amp;scaron;trinami kas 30 minučių.&lt;/p&gt;
+              <sv:value>&lt;p&gt;&amp;Scaron;is internetinis konverteris yra skirtas nemokamai naudoti. Galite naudoti jį tiek kartų, kiek reikia, norint konvertuoti nemokamą PDF failą į PNG vaizdo formatą.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_nl" sv:type="String">
-              <sv:value>&lt;p&gt;We garanderen 100% beveiliging en privacy op uw bestanden. We delen geen bestanden met iemand. Bestanden die automatisch zijn ge&amp;uuml;pload, worden elke 30 minuten verwijderd.&lt;/p&gt;
+              <sv:value>&lt;p&gt;Deze online converter is gemaakt voor gratis gebruik. Je kunt het zo vaak gebruiken als je nodig hebt om een gratis PDF-bestand naar een PNG-afbeelding te converteren.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_no" sv:type="String">
-              <sv:value>&lt;p&gt;Vi garanterer 100% sikkerhet og personvern p&amp;aring; filene dine. Vi deler ikke filer med noen. Filer som er lastet opp automatisk, slettes hvert 30. minutt.&lt;/p&gt;
+              <sv:value>&lt;p&gt;Denne online-omformeren er laget for fri bruk. Du kan bruke den s&amp;aring; mange ganger som du trenger for &amp;aring; konvertere gratis PDF-fil til PNG-bildeformat.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_pt" sv:type="String">
-              <sv:value>&lt;p&gt;N&amp;oacute;s garantimos 100% de seguran&amp;ccedil;a e privacidade em seus arquivos. N&amp;oacute;s n&amp;atilde;o compartilhamos arquivos com ningu&amp;eacute;m. Os arquivos que foram carregados automaticamente s&amp;atilde;o exclu&amp;iacute;dos a cada 30 minutos.&lt;/p&gt;
+              <sv:value>&lt;p&gt;Este conversor on-line &amp;eacute; feito para uso gratuito. Voc&amp;ecirc; pode us&amp;aacute;-lo tantas vezes como voc&amp;ecirc; precisa converter o arquivo PDF gratuito para o formato de imagem PNG.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_ru" sv:type="String">
-              <sv:value>&lt;p&gt;Мы гарантируем 100% безопасность и конфиденциальность ваших файлов. Мы ни с кем не обмениваемся файлами. Файлы, которые были загружены автоматически, удаляются каждые 30 минут.&lt;/p&gt;
+              <sv:value>&lt;p&gt;Этот онлайн-конвертер предназначен для бесплатного использования. Вы можете использовать его столько раз, сколько вам нужно для преобразования бесплатного PDF-файла в формат изображения PNG.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_sk" sv:type="String">
-              <sv:value>&lt;p&gt;Zaručujeme 100% bezpečnosť a ochranu va&amp;scaron;ich s&amp;uacute;borov. S nami nie s&amp;uacute; zdieľan&amp;eacute; s&amp;uacute;bory. S&amp;uacute;bory, ktor&amp;eacute; boli odovzdan&amp;eacute; automaticky, sa odstr&amp;aacute;nia každ&amp;yacute;ch 30 min&amp;uacute;t.&lt;/p&gt;
+              <sv:value>&lt;p&gt;Tento online konvertor je určen&amp;yacute; na bezplatn&amp;eacute; použitie. M&amp;ocirc;žete ho použiť toľkokr&amp;aacute;t, koľkokr&amp;aacute;t potrebujete na prevod voľn&amp;eacute;ho s&amp;uacute;boru PDF do form&amp;aacute;tu PNG.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_sq" sv:type="String">
-              <sv:value>&lt;p&gt;Ne garantojm&amp;euml; 100% t&amp;euml; siguris&amp;euml; dhe privat&amp;euml;sis&amp;euml; n&amp;euml; skedar&amp;euml;t tuaj. Ne nuk i ndajm&amp;euml; skedar&amp;euml;t me ask&amp;euml;nd. Dosjet t&amp;euml; cilat jan&amp;euml; ngarkuar automatikisht fshihen &amp;ccedil;do 30 minuta.&lt;/p&gt;
+              <sv:value>&lt;p&gt;Ky konvertues n&amp;euml; internet &amp;euml;sht&amp;euml; b&amp;euml;r&amp;euml; falas p&amp;euml;r p&amp;euml;rdorim. Ju mund ta p&amp;euml;rdorni at&amp;euml; sa her&amp;euml; q&amp;euml; keni nevoj&amp;euml; p&amp;euml;r t&amp;euml; kthyer skedarin pa pages&amp;euml; PDF n&amp;euml; formatin e imazhit PNG.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_sv" sv:type="String">
-              <sv:value>&lt;p&gt;Vi garanterar 100% s&amp;auml;kerhet och integritet p&amp;aring; dina filer. Vi delar inte filer med n&amp;aring;gon. Filer som har laddats upp automatiskt raderas var 30: e minut.&lt;/p&gt;
+              <sv:value>&lt;p&gt;Denna online-omvandlare &amp;auml;r gjord f&amp;ouml;r fri anv&amp;auml;ndning. Du kan anv&amp;auml;nda den s&amp;aring; m&amp;aring;nga g&amp;aring;nger som du beh&amp;ouml;ver konvertera gratis PDF-fil till PNG-bildformat.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_th" sv:type="String">
-              <sv:value>&lt;p&gt;เรารับประกันความปลอดภัย 100% และความเป็นส่วนตัวในไฟล์ของคุณ เราไม่แชร์ไฟล์กับใคร ไฟล์ที่ถูกอัปโหลดโดยอัตโนมัติจะถูกลบทุกๆ 30 นาที&lt;/p&gt;
+              <sv:value>&lt;p&gt;ตัวแปลงข้อมูลออนไลน์นี้ทำขึ้นเพื่อใช้งานฟรี คุณสามารถใช้งานได้หลายครั้งตามที่คุณต้องการเพื่อแปลงไฟล์ PDF ฟรีเป็นรูปแบบไฟล์ PNG&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_tr" sv:type="String">
-              <sv:value>&lt;p&gt;Dosyalarınızda% 100 g&amp;uuml;venlik ve gizlilik garanti ederiz. Dosyaları kimseyle paylaşmıyoruz. Otomatik olarak y&amp;uuml;klenen dosyalar her 30 dakikada bir silinir.&lt;/p&gt;
+              <sv:value>&lt;p&gt;Bu &amp;ccedil;evrimi&amp;ccedil;i &amp;ccedil;evirici &amp;uuml;cretsiz kullanım i&amp;ccedil;in &amp;uuml;retilmiştir. &amp;Uuml;cretsiz PDF dosyasını PNG g&amp;ouml;r&amp;uuml;nt&amp;uuml; formatına d&amp;ouml;n&amp;uuml;şt&amp;uuml;rmek i&amp;ccedil;in ihtiyacınız olduğu kadar &amp;ccedil;ok kullanabilirsiniz.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_vi" sv:type="String">
-              <sv:value>&lt;p&gt;Ch&amp;uacute;ng t&amp;ocirc;i đảm bảo 100% an ninh v&amp;agrave; ri&amp;ecirc;ng tư tr&amp;ecirc;n c&amp;aacute;c tệp của bạn. Ch&amp;uacute;ng t&amp;ocirc;i kh&amp;ocirc;ng chia sẻ tệp với bất kỳ ai. C&amp;aacute;c tệp đ&amp;atilde; được tải l&amp;ecirc;n tự động sẽ bị x&amp;oacute;a sau mỗi 30 ph&amp;uacute;t.&lt;/p&gt;
+              <sv:value>&lt;p&gt;Bộ chuyển đổi trực tuyến n&amp;agrave;y được sử dụng miễn ph&amp;iacute;. Bạn c&amp;oacute; thể sử dụng n&amp;oacute; nhiều lần như bạn cần để chuyển đổi file PDF miễn ph&amp;iacute; sang định dạng h&amp;igrave;nh ảnh PNG.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="threeCols" sv:type="Boolean">
               <sv:value>true</sv:value>
             </sv:property>
             <sv:property sv:name="title" sv:type="String">
-              <sv:value>We keep your files in privacy</sv:value>
+              <sv:value>Convert PDF to PNG free</sv:value>
             </sv:property>
             <sv:property sv:name="title_ar" sv:type="String">
-              <sv:value>نحن نحافظ على الملفات الخاصة بك في الخصوصية</sv:value>
+              <sv:value>تحويل قوات الدفاع الشعبي إلى بابوا نيو غينيا مجانا</sv:value>
             </sv:property>
             <sv:property sv:name="title_cs" sv:type="String">
-              <sv:value>Vaše soubory uchováváme v soukromí</sv:value>
+              <sv:value>Převést PDF na PNG zdarma</sv:value>
             </sv:property>
             <sv:property sv:name="title_de" sv:type="String">
-              <sv:value>Wir bewahren Ihre Dateien in Privatsphäre</sv:value>
+              <sv:value>Konvertieren von PDF in PNG-frei</sv:value>
             </sv:property>
             <sv:property sv:name="title_es" sv:type="String">
-              <sv:value>Mantenemos tus archivos en privacidad</sv:value>
+              <sv:value>Convierte PDF a PNG gratis</sv:value>
             </sv:property>
             <sv:property sv:name="title_fr" sv:type="String">
-              <sv:value>Nous gardons vos fichiers en toute confidentialité</sv:value>
+              <sv:value>Convertir PDF en PNG gratuitement</sv:value>
             </sv:property>
             <sv:property sv:name="title_hr" sv:type="String">
-              <sv:value>Vaše datoteke čuvamo u privatnosti</sv:value>
+              <sv:value>Pretvoriti PDF u PNG besplatno</sv:value>
             </sv:property>
             <sv:property sv:name="title_in" sv:type="String">
-              <sv:value>Kami menyimpan file Anda dalam privasi</sv:value>
+              <sv:value>Mengkonversi PDF ke PNG gratis</sv:value>
             </sv:property>
             <sv:property sv:name="title_it" sv:type="String">
-              <sv:value>Manteniamo i tuoi file nella privacy</sv:value>
+              <sv:value>Converti PDF in PNG gratis</sv:value>
             </sv:property>
             <sv:property sv:name="title_ja" sv:type="String">
-              <sv:value>私たちはあなたのファイルをプライバシーに保ちます</sv:value>
+              <sv:value>PDFをPNGに変換する</sv:value>
             </sv:property>
             <sv:property sv:name="title_ko" sv:type="String">
-              <sv:value>우리는 귀하의 파일을 개인 정보로 보호합니다.</sv:value>
+              <sv:value>PDF를 PNG로 무료로 변환</sv:value>
             </sv:property>
             <sv:property sv:name="title_lt" sv:type="String">
-              <sv:value>Mes saugome jūsų failus privatumo</sv:value>
+              <sv:value>Konvertuoti PDF į PNG nemokamai</sv:value>
             </sv:property>
             <sv:property sv:name="title_nl" sv:type="String">
-              <sv:value>We bewaren uw bestanden in privacy</sv:value>
+              <sv:value>Converteer PDF naar PNG gratis</sv:value>
             </sv:property>
             <sv:property sv:name="title_no" sv:type="String">
-              <sv:value>Vi beholder filene dine i personvern</sv:value>
+              <sv:value>Konverter PDF til PNG gratis</sv:value>
             </sv:property>
             <sv:property sv:name="title_pt" sv:type="String">
-              <sv:value>Nós mantemos seus arquivos em privacidade</sv:value>
+              <sv:value>Converta PDF para PNG grátis</sv:value>
             </sv:property>
             <sv:property sv:name="title_ru" sv:type="String">
-              <sv:value>Мы сохраняем ваши файлы в конфиденциальности</sv:value>
+              <sv:value>Конвертировать PDF в PNG бесплатно</sv:value>
             </sv:property>
             <sv:property sv:name="title_sk" sv:type="String">
-              <sv:value>Vaše súbory uchovávame v súkromí</sv:value>
+              <sv:value>Previesť PDF do PNG zadarmo</sv:value>
             </sv:property>
             <sv:property sv:name="title_sq" sv:type="String">
-              <sv:value>Ne mbajmë skedarët tuaj në fshehtësi</sv:value>
+              <sv:value>Convert PDF në PNG falas</sv:value>
             </sv:property>
             <sv:property sv:name="title_sv" sv:type="String">
-              <sv:value>Vi behåller dina filer i sekretess</sv:value>
+              <sv:value>Konvertera PDF till PNG gratis</sv:value>
             </sv:property>
             <sv:property sv:name="title_th" sv:type="String">
-              <sv:value>เราเก็บไฟล์ของคุณอย่างเป็นส่วนตัว</sv:value>
+              <sv:value>แปลงไฟล์ PDF เป็น PNG ฟรี</sv:value>
             </sv:property>
             <sv:property sv:name="title_tr" sv:type="String">
-              <sv:value>Dosyalarınızı gizlilik içinde tutuyoruz</sv:value>
+              <sv:value>PDF'yi PNG'ye dönüştürme</sv:value>
             </sv:property>
             <sv:property sv:name="title_vi" sv:type="String">
-              <sv:value>Chúng tôi giữ riêng tư tệp của bạn</sv:value>
+              <sv:value>Chuyển đổi PDF sang PNG miễn phí</sv:value>
             </sv:property>
           </sv:node>
           <sv:node sv:name="01">
@@ -6977,7 +6977,7 @@
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-      <sv:value>2018-02-23T01:10:24.657+01:00</sv:value>
+      <sv:value>2018-03-08T16:59:00.306-05:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
       <sv:value>superuser</sv:value>
@@ -7197,7 +7197,7 @@
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-        <sv:value>2018-01-30T21:34:03.500+01:00</sv:value>
+        <sv:value>2018-03-08T16:59:00.306-05:00</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
         <sv:value>superuser</sv:value>
@@ -7397,7 +7397,7 @@
           <sv:value>superuser</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-          <sv:value>2018-01-29T00:28:52.518+01:00</sv:value>
+          <sv:value>2018-03-08T16:59:00.306-05:00</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
           <sv:value>superuser</sv:value>
@@ -7419,7 +7419,7 @@
             <sv:value>superuser</sv:value>
           </sv:property>
           <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-            <sv:value>2018-01-29T00:28:52.518+01:00</sv:value>
+            <sv:value>2018-03-08T16:59:00.306-05:00</sv:value>
           </sv:property>
           <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
             <sv:value>superuser</sv:value>
@@ -7624,7 +7624,7 @@
               <sv:value>superuser</sv:value>
             </sv:property>
             <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-              <sv:value>2018-01-29T00:23:11.536+01:00</sv:value>
+              <sv:value>2018-03-08T16:59:00.306-05:00</sv:value>
             </sv:property>
             <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
               <sv:value>superuser</sv:value>
@@ -7633,161 +7633,161 @@
               <sv:value>convertow-templates:components/teasers/weDoTeaser</sv:value>
             </sv:property>
             <sv:property sv:name="text" sv:type="String">
-              <sv:value>&lt;p&gt;We guarantee 100% security and privacy on your files. We do not share files with anyone. Files which has been uploaded automatically are deleted every 30 minutes.&lt;/p&gt;
+              <sv:value>&lt;p&gt;We made this tool for free use. There is no limitations and any changes of quality of results. Simply follow instructions and enjoy in your conversion.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_ar" sv:type="String">
-              <sv:value>&lt;p&gt;ونحن نضمن 100٪ الأمن والخصوصية على الملفات الخاصة بك. نحن لا نشارك الملفات مع أي شخص. يتم حذف الملفات التي تم تحميلها تلقائيا كل 30 دقيقة.&lt;/p&gt;
+              <sv:value>&lt;p&gt;لقد صنعنا هذه الأداة للاستخدام المجاني. لا توجد قيود وأي تغييرات في جودة النتائج. ما عليك سوى اتباع التعليمات والاستمتاع في التحويل الخاص بك.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_cs" sv:type="String">
-              <sv:value>&lt;p&gt;Zaručujeme 100% zabezpečen&amp;iacute; a soukrom&amp;iacute; va&amp;scaron;ich souborů. Soubory s nik&amp;yacute;m nesd&amp;iacute;l&amp;iacute;me. Soubory, kter&amp;eacute; byly nahr&amp;aacute;ny automaticky, jsou vymaz&amp;aacute;ny každ&amp;yacute;ch 30 minut.&lt;/p&gt;
+              <sv:value>&lt;p&gt;Tento n&amp;aacute;stroj jsme použili k bezplatn&amp;eacute;mu použit&amp;iacute;. Neexistuj&amp;iacute; ž&amp;aacute;dn&amp;aacute; omezen&amp;iacute; a jak&amp;aacute;koli změna kvality v&amp;yacute;sledků. Jednodu&amp;scaron;e postupujte podle pokynů a vychutnejte si konverzi.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_de" sv:type="String">
-              <sv:value>&lt;p&gt;Wir garantieren 100% Sicherheit und Datenschutz f&amp;uuml;r Ihre Dateien. Wir teilen keine Dateien mit irgendjemandem. Dateien, die automatisch hochgeladen wurden, werden alle 30 Minuten gel&amp;ouml;scht.&lt;/p&gt;
+              <sv:value>&lt;p&gt;Wir haben dieses Tool zur freien Verf&amp;uuml;gung gestellt. Es gibt keine Einschr&amp;auml;nkungen und keine &amp;Auml;nderungen der Qualit&amp;auml;t der Ergebnisse. Folgen Sie einfach den Anweisungen und genie&amp;szlig;en Sie Ihre Konvertierung.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_es" sv:type="String">
-              <sv:value>&lt;p&gt;Garantizamos el 100% de seguridad y privacidad en sus archivos. No compartimos archivos con nadie. Los archivos que se cargaron autom&amp;aacute;ticamente se eliminan cada 30 minutos.&lt;/p&gt;
+              <sv:value>&lt;p&gt;Hicimos esta herramienta para uso gratuito. No hay limitaciones ni cambios en la calidad de los resultados. Simplemente sigue las instrucciones y disfruta en tu conversi&amp;oacute;n.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_fr" sv:type="String">
-              <sv:value>&lt;p&gt;Nous garantissons 100% de s&amp;eacute;curit&amp;eacute; et de confidentialit&amp;eacute; sur vos fichiers. Nous ne partageons aucun fichier avec quelqu&amp;#39;un. Les fichiers qui ont &amp;eacute;t&amp;eacute; t&amp;eacute;l&amp;eacute;charg&amp;eacute;s automatiquement sont supprim&amp;eacute;s toutes les 30 minutes.&lt;/p&gt;
+              <sv:value>&lt;p&gt;Nous avons fait cet outil pour une utilisation gratuite. Il n&amp;#39;y a aucune limitation et aucun changement de qualit&amp;eacute; des r&amp;eacute;sultats. Suivez simplement les instructions et profitez de votre conversion.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_hr" sv:type="String">
-              <sv:value>&lt;p&gt;Jamčimo 100% sigurnosti i privatnosti na datotekama. Ne dijelimo datoteke s nikim. Automatski prenesene datoteke bri&amp;scaron;u se svakih 30 minuta.&lt;/p&gt;
+              <sv:value>&lt;p&gt;Ovaj alat smo napravili za besplatno kori&amp;scaron;tenje. Ne postoje ograničenja i sve promjene kvalitete rezultata. Jednostavno slijedite upute i uživajte u konverziji.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_in" sv:type="String">
-              <sv:value>&lt;p&gt;Kami menjamin keamanan 100% dan privasi pada file Anda. Kami tidak berbagi file dengan siapa pun. File yang telah diunggah secara otomatis akan dihapus setiap 30 menit.&lt;/p&gt;
+              <sv:value>&lt;p&gt;Kami membuat alat ini untuk penggunaan gratis. Tidak ada batasan dan setiap perubahan kualitas hasil. Cukup ikuti petunjuk dan nikmati dalam konversi Anda.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_it" sv:type="String">
-              <sv:value>&lt;p&gt;Garantiamo sicurezza e privacy al 100% sui tuoi file. Non condividiamo file con nessuno. I file che sono stati caricati automaticamente vengono cancellati ogni 30 minuti.&lt;/p&gt;
+              <sv:value>&lt;p&gt;Abbiamo creato questo strumento gratuitamente. Non ci sono limitazioni e nessun cambiamento di qualit&amp;agrave; dei risultati. Segui semplicemente le istruzioni e goditi la conversione.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_ja" sv:type="String">
-              <sv:value>&lt;p&gt;私たちはあなたのファイルに100％のセキュリティとプライバシーを保証します。 私たちは誰とでもファイルを共有しません。 自動的にアップロードされたファイルは30分ごとに削除されます。&lt;/p&gt;
+              <sv:value>&lt;p&gt;私たちはこのツールを無料で使用しました。 結果の品質の制限や変更はありません。 指示に従って、コンバージョンを楽しむだけです。&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_ko" sv:type="String">
-              <sv:value>&lt;p&gt;우리는 귀하의 파일에 대해 100 % 보안 및 개인 정보를 보장합니다. 우리는 누구와도 파일을 공유하지 않습니다. 자동으로 업로드 된 파일은 30 분마다 삭제됩니다.&lt;/p&gt;
+              <sv:value>&lt;p&gt;우리는이 도구를 무료로 사용할 수 있도록 만들었습니다. 결과의 품질에 대한 제한이나 변경 사항은 없습니다. 지침을 따르고 전환을 즐기십시오.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_lt" sv:type="String">
-              <sv:value>&lt;p&gt;Mes garantuojame 100% saugumą ir privatumą jūsų bylose. Mes nesidalijame failais niekam. Failai, kurie buvo įkelti automati&amp;scaron;kai, i&amp;scaron;trinami kas 30 minučių.&lt;/p&gt;
+              <sv:value>&lt;p&gt;Mes padarėme &amp;scaron;į įrankį nemokamai. Nėra jokių apribojimų ir kokių nors rezultatų kokybės pokyčių. Tiesiog sekite instrukcijas ir mėgaukitės konversija.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_nl" sv:type="String">
-              <sv:value>&lt;p&gt;We garanderen 100% beveiliging en privacy op uw bestanden. We delen geen bestanden met iemand. Bestanden die automatisch zijn ge&amp;uuml;pload, worden elke 30 minuten verwijderd.&lt;/p&gt;
+              <sv:value>&lt;p&gt;We hebben deze tool voor gratis gebruik gemaakt. Er zijn geen beperkingen en wijzigingen in de kwaliteit van de resultaten. Volg eenvoudig de instructies en geniet van uw conversie.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_no" sv:type="String">
-              <sv:value>&lt;p&gt;Vi garanterer 100% sikkerhet og personvern p&amp;aring; filene dine. Vi deler ikke filer med noen. Filer som er lastet opp automatisk, slettes hvert 30. minutt.&lt;/p&gt;
+              <sv:value>&lt;p&gt;Vi laget dette verkt&amp;oslash;yet for fri bruk. Det er ingen begrensninger og endringer i kvaliteten p&amp;aring; resultatene. Bare f&amp;oslash;lg instruksjonene og nyt deg i konvertering.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_pt" sv:type="String">
-              <sv:value>&lt;p&gt;N&amp;oacute;s garantimos 100% de seguran&amp;ccedil;a e privacidade em seus arquivos. N&amp;oacute;s n&amp;atilde;o compartilhamos arquivos com ningu&amp;eacute;m. Os arquivos que foram carregados automaticamente s&amp;atilde;o exclu&amp;iacute;dos a cada 30 minutos.&lt;/p&gt;
+              <sv:value>&lt;p&gt;Criamos esta ferramenta para uso gratuito. N&amp;atilde;o h&amp;aacute; limita&amp;ccedil;&amp;otilde;es e quaisquer altera&amp;ccedil;&amp;otilde;es de qualidade de resultados. Basta seguir as instru&amp;ccedil;&amp;otilde;es e aproveitar a sua convers&amp;atilde;o.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_ru" sv:type="String">
-              <sv:value>&lt;p&gt;Мы гарантируем 100% безопасность и конфиденциальность ваших файлов. Мы ни с кем не обмениваемся файлами. Файлы, которые были загружены автоматически, удаляются каждые 30 минут.&lt;/p&gt;
+              <sv:value>&lt;p&gt;Мы сделали этот инструмент для свободного использования. Нет никаких ограничений и никаких изменений качества результатов. Просто следуйте инструкциям и наслаждайтесь конверсией.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_sk" sv:type="String">
-              <sv:value>&lt;p&gt;Zaručujeme 100% bezpečnosť a ochranu va&amp;scaron;ich s&amp;uacute;borov. S nami nie s&amp;uacute; zdieľan&amp;eacute; s&amp;uacute;bory. S&amp;uacute;bory, ktor&amp;eacute; boli odovzdan&amp;eacute; automaticky, sa odstr&amp;aacute;nia každ&amp;yacute;ch 30 min&amp;uacute;t.&lt;/p&gt;
+              <sv:value>&lt;p&gt;Urobili sme tento n&amp;aacute;stroj na bezplatn&amp;eacute; použitie. Neexistuj&amp;uacute; žiadne obmedzenia a žiadne zmeny v kvalite v&amp;yacute;sledkov. Jednoducho sa riaďte pokynmi a vychutnajte si konverziu.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_sq" sv:type="String">
-              <sv:value>&lt;p&gt;Ne garantojm&amp;euml; 100% t&amp;euml; siguris&amp;euml; dhe privat&amp;euml;sis&amp;euml; n&amp;euml; skedar&amp;euml;t tuaj. Ne nuk i ndajm&amp;euml; skedar&amp;euml;t me ask&amp;euml;nd. Dosjet t&amp;euml; cilat jan&amp;euml; ngarkuar automatikisht fshihen &amp;ccedil;do 30 minuta.&lt;/p&gt;
+              <sv:value>&lt;p&gt;Ne e b&amp;euml;m&amp;euml; k&amp;euml;t&amp;euml; mjet p&amp;euml;r p&amp;euml;rdorim t&amp;euml; lir&amp;euml;. Nuk ka kufizime dhe ndonj&amp;euml; ndryshim n&amp;euml; cil&amp;euml;sin&amp;euml; e rezultateve. Thjesht ndiqni udh&amp;euml;zimet dhe k&amp;euml;naquni n&amp;euml; konvertimin tuaj.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_sv" sv:type="String">
-              <sv:value>&lt;p&gt;Vi garanterar 100% s&amp;auml;kerhet och integritet p&amp;aring; dina filer. Vi delar inte filer med n&amp;aring;gon. Filer som har laddats upp automatiskt raderas var 30: e minut.&lt;/p&gt;
+              <sv:value>&lt;p&gt;Vi har gjort det h&amp;auml;r verktyget f&amp;ouml;r fri anv&amp;auml;ndning. Det finns inga begr&amp;auml;nsningar och &amp;auml;ndringar av resultatkvaliteten. F&amp;ouml;lj bara instruktionerna och njut av din omvandling.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_th" sv:type="String">
-              <sv:value>&lt;p&gt;เรารับประกันความปลอดภัย 100% และความเป็นส่วนตัวในไฟล์ของคุณ เราไม่แชร์ไฟล์กับใคร ไฟล์ที่ถูกอัปโหลดโดยอัตโนมัติจะถูกลบทุกๆ 30 นาที&lt;/p&gt;
+              <sv:value>&lt;p&gt;เราได้ใช้เครื่องมือนี้เพื่อการใช้งานฟรี ไม่มีข้อ จำกัด และการเปลี่ยนแปลงใด ๆ เกี่ยวกับคุณภาพของผลลัพธ์ เพียงทำตามคำแนะนำและสนุกกับการแปลงของคุณ&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_tr" sv:type="String">
-              <sv:value>&lt;p&gt;Dosyalarınızda% 100 g&amp;uuml;venlik ve gizlilik garanti ederiz. Dosyaları kimseyle paylaşmıyoruz. Otomatik olarak y&amp;uuml;klenen dosyalar her 30 dakikada bir silinir.&lt;/p&gt;
+              <sv:value>&lt;p&gt;Bu aracı &amp;uuml;cretsiz kullanım i&amp;ccedil;in yaptık. Herhangi bir sınırlama ve sonu&amp;ccedil;ların kalite değişikliği yoktur. Basit&amp;ccedil;e talimatları izleyin ve d&amp;ouml;n&amp;uuml;ş&amp;uuml;m&amp;uuml;n&amp;uuml;zde keyfini &amp;ccedil;ıkarın.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="text_vi" sv:type="String">
-              <sv:value>&lt;p&gt;Ch&amp;uacute;ng t&amp;ocirc;i đảm bảo 100% an ninh v&amp;agrave; ri&amp;ecirc;ng tư tr&amp;ecirc;n c&amp;aacute;c tệp của bạn. Ch&amp;uacute;ng t&amp;ocirc;i kh&amp;ocirc;ng chia sẻ tệp với bất kỳ ai. C&amp;aacute;c tệp đ&amp;atilde; được tải l&amp;ecirc;n tự động sẽ bị x&amp;oacute;a sau mỗi 30 ph&amp;uacute;t.&lt;/p&gt;
+              <sv:value>&lt;p&gt;Ch&amp;uacute;ng t&amp;ocirc;i đ&amp;atilde; thực hiện c&amp;ocirc;ng cụ n&amp;agrave;y để sử dụng miễn ph&amp;iacute;. Kh&amp;ocirc;ng c&amp;oacute; bất kỳ hạn chế v&amp;agrave; bất kỳ thay đổi về chất lượng kết quả. Chỉ cần l&amp;agrave;m theo c&amp;aacute;c hướng dẫn v&amp;agrave; tận hưởng trong chuyển đổi của bạn.&lt;/p&gt;
 </sv:value>
             </sv:property>
             <sv:property sv:name="threeCols" sv:type="Boolean">
               <sv:value>true</sv:value>
             </sv:property>
             <sv:property sv:name="title" sv:type="String">
-              <sv:value>We keep your files in privacy</sv:value>
+              <sv:value>Convert PDF to JPG free</sv:value>
             </sv:property>
             <sv:property sv:name="title_ar" sv:type="String">
-              <sv:value>نحن نحافظ على الملفات الخاصة بك في الخصوصية</sv:value>
+              <sv:value>تحويل الشعبي إلى JPG مجانا</sv:value>
             </sv:property>
             <sv:property sv:name="title_cs" sv:type="String">
-              <sv:value>Vaše soubory uchováváme v soukromí</sv:value>
+              <sv:value>Převést PDF do JPG zdarma</sv:value>
             </sv:property>
             <sv:property sv:name="title_de" sv:type="String">
-              <sv:value>Wir bewahren Ihre Dateien in Privatsphäre</sv:value>
+              <sv:value>Konvertieren Sie PDF in JPG kostenlos</sv:value>
             </sv:property>
             <sv:property sv:name="title_es" sv:type="String">
-              <sv:value>Mantenemos tus archivos en privacidad</sv:value>
+              <sv:value>Convierte PDF a JPG gratis</sv:value>
             </sv:property>
             <sv:property sv:name="title_fr" sv:type="String">
-              <sv:value>Nous gardons vos fichiers en toute confidentialité</sv:value>
+              <sv:value>Conversion PDF en JPG gratuitement</sv:value>
             </sv:property>
             <sv:property sv:name="title_hr" sv:type="String">
-              <sv:value>Vaše datoteke čuvamo u privatnosti</sv:value>
+              <sv:value>Pretvorite PDF u JPG besplatno</sv:value>
             </sv:property>
             <sv:property sv:name="title_in" sv:type="String">
-              <sv:value>Kami menyimpan file Anda dalam privasi</sv:value>
+              <sv:value>Mengkonversi PDF ke JPG gratis</sv:value>
             </sv:property>
             <sv:property sv:name="title_it" sv:type="String">
-              <sv:value>Manteniamo i tuoi file nella privacy</sv:value>
+              <sv:value>Converti PDF in JPG gratis</sv:value>
             </sv:property>
             <sv:property sv:name="title_ja" sv:type="String">
-              <sv:value>私たちはあなたのファイルをプライバシーに保ちます</sv:value>
+              <sv:value>PDFをJPGに無料で変換</sv:value>
             </sv:property>
             <sv:property sv:name="title_ko" sv:type="String">
-              <sv:value>우리는 귀하의 파일을 개인 정보로 보호합니다.</sv:value>
+              <sv:value>PDF를 JPG로 무료로 변환</sv:value>
             </sv:property>
             <sv:property sv:name="title_lt" sv:type="String">
-              <sv:value>Mes saugome jūsų failus privatumo</sv:value>
+              <sv:value>Konvertuoti PDF į JPG nemokamai</sv:value>
             </sv:property>
             <sv:property sv:name="title_nl" sv:type="String">
-              <sv:value>We bewaren uw bestanden in privacy</sv:value>
+              <sv:value>Converteer PDF naar JPG gratis</sv:value>
             </sv:property>
             <sv:property sv:name="title_no" sv:type="String">
-              <sv:value>Vi beholder filene dine i personvern</sv:value>
+              <sv:value>Konverter PDF til JPG gratis</sv:value>
             </sv:property>
             <sv:property sv:name="title_pt" sv:type="String">
-              <sv:value>Nós mantemos seus arquivos em privacidade</sv:value>
+              <sv:value>Converta PDF para JPG grátis</sv:value>
             </sv:property>
             <sv:property sv:name="title_ru" sv:type="String">
-              <sv:value>Мы сохраняем ваши файлы в конфиденциальности</sv:value>
+              <sv:value>Конвертировать PDF в JPG бесплатно</sv:value>
             </sv:property>
             <sv:property sv:name="title_sk" sv:type="String">
-              <sv:value>Vaše súbory uchovávame v súkromí</sv:value>
+              <sv:value>Previesť PDF vo formáte JPG zadarmo</sv:value>
             </sv:property>
             <sv:property sv:name="title_sq" sv:type="String">
-              <sv:value>Ne mbajmë skedarët tuaj në fshehtësi</sv:value>
+              <sv:value>Convert PDF në JPG falas</sv:value>
             </sv:property>
             <sv:property sv:name="title_sv" sv:type="String">
-              <sv:value>Vi behåller dina filer i sekretess</sv:value>
+              <sv:value>Konvertera PDF till JPG gratis</sv:value>
             </sv:property>
             <sv:property sv:name="title_th" sv:type="String">
-              <sv:value>เราเก็บไฟล์ของคุณอย่างเป็นส่วนตัว</sv:value>
+              <sv:value>แปลงไฟล์ PDF เป็น JPG ฟรี</sv:value>
             </sv:property>
             <sv:property sv:name="title_tr" sv:type="String">
-              <sv:value>Dosyalarınızı gizlilik içinde tutuyoruz</sv:value>
+              <sv:value>PDF'yi JPG'ye dönüştürme</sv:value>
             </sv:property>
             <sv:property sv:name="title_vi" sv:type="String">
-              <sv:value>Chúng tôi giữ riêng tư tệp của bạn</sv:value>
+              <sv:value>Chuyển đổi PDF sang JPG miễn phí</sv:value>
             </sv:property>
           </sv:node>
           <sv:node sv:name="01">
@@ -9770,7 +9770,7 @@
       <sv:value>superuser</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-      <sv:value>2018-02-23T01:11:00.240+01:00</sv:value>
+      <sv:value>2018-03-08T17:05:25.947-05:00</sv:value>
     </sv:property>
     <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
       <sv:value>superuser</sv:value>
@@ -9990,7 +9990,7 @@
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-        <sv:value>2018-01-30T22:54:35.786+01:00</sv:value>
+        <sv:value>2018-03-08T17:05:25.947-05:00</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
         <sv:value>superuser</sv:value>
@@ -10199,7 +10199,7 @@
           <sv:value>superuser</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-          <sv:value>2018-01-30T21:38:16.641+01:00</sv:value>
+          <sv:value>2018-03-08T17:05:25.947-05:00</sv:value>
         </sv:property>
         <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
           <sv:value>superuser</sv:value>
@@ -10230,7 +10230,7 @@
             <sv:value>superuser</sv:value>
           </sv:property>
           <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-            <sv:value>2018-01-30T21:38:16.641+01:00</sv:value>
+            <sv:value>2018-03-08T17:05:25.947-05:00</sv:value>
           </sv:property>
           <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
             <sv:value>superuser</sv:value>
@@ -10453,7 +10453,7 @@
               <sv:value>superuser</sv:value>
             </sv:property>
             <sv:property sv:name="mgnl:lastModified" sv:type="Date">
-              <sv:value>2018-01-30T21:33:27.375+01:00</sv:value>
+              <sv:value>2018-03-08T17:05:25.947-05:00</sv:value>
             </sv:property>
             <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
               <sv:value>superuser</sv:value>
@@ -10553,70 +10553,70 @@
               <sv:value>true</sv:value>
             </sv:property>
             <sv:property sv:name="title" sv:type="String">
-              <sv:value>We keep your files in privacy</sv:value>
+              <sv:value>SVG to JPG online</sv:value>
             </sv:property>
             <sv:property sv:name="title_ar" sv:type="String">
-              <sv:value>نحن نحافظ على الملفات الخاصة بك في الخصوصية</sv:value>
+              <sv:value>svg إلى jpg عبر الإنترنت</sv:value>
             </sv:property>
             <sv:property sv:name="title_cs" sv:type="String">
-              <sv:value>Vaše soubory uchováváme v soukromí</sv:value>
+              <sv:value>SVG na JPG online</sv:value>
             </sv:property>
             <sv:property sv:name="title_de" sv:type="String">
-              <sv:value>Wir bewahren Ihre Dateien in Privatsphäre</sv:value>
+              <sv:value>SVG zu JPG online</sv:value>
             </sv:property>
             <sv:property sv:name="title_es" sv:type="String">
-              <sv:value>Mantenemos tus archivos en privacidad</sv:value>
+              <sv:value>SVG a JPG en línea</sv:value>
             </sv:property>
             <sv:property sv:name="title_fr" sv:type="String">
-              <sv:value>Nous gardons vos fichiers en toute confidentialité</sv:value>
+              <sv:value>SVG en JPG en ligne</sv:value>
             </sv:property>
             <sv:property sv:name="title_hr" sv:type="String">
-              <sv:value>Vaše datoteke čuvamo u privatnosti</sv:value>
+              <sv:value>SVG na JPG online</sv:value>
             </sv:property>
             <sv:property sv:name="title_in" sv:type="String">
-              <sv:value>Kami menyimpan file Anda dalam privasi</sv:value>
+              <sv:value>SVG ke JPG online</sv:value>
             </sv:property>
             <sv:property sv:name="title_it" sv:type="String">
-              <sv:value>Manteniamo i tuoi file nella privacy</sv:value>
+              <sv:value>Online da SVG a JPG</sv:value>
             </sv:property>
             <sv:property sv:name="title_ja" sv:type="String">
-              <sv:value>私たちはあなたのファイルをプライバシーに保ちます</sv:value>
+              <sv:value>SVGからJPGオンラインへ</sv:value>
             </sv:property>
             <sv:property sv:name="title_ko" sv:type="String">
-              <sv:value>우리는 귀하의 파일을 개인 정보로 보호합니다.</sv:value>
+              <sv:value>온라인으로 jpg로 svg</sv:value>
             </sv:property>
             <sv:property sv:name="title_lt" sv:type="String">
-              <sv:value>Mes saugome jūsų failus privatumo</sv:value>
+              <sv:value>SVG į JPG internete</sv:value>
             </sv:property>
             <sv:property sv:name="title_nl" sv:type="String">
-              <sv:value>We bewaren uw bestanden in privacy</sv:value>
+              <sv:value>SVG naar JPG online</sv:value>
             </sv:property>
             <sv:property sv:name="title_no" sv:type="String">
-              <sv:value>Vi beholder filene dine i personvern</sv:value>
+              <sv:value>SVG til JPG online</sv:value>
             </sv:property>
             <sv:property sv:name="title_pt" sv:type="String">
-              <sv:value>Nós mantemos seus arquivos em privacidade</sv:value>
+              <sv:value>SVG para JPG online</sv:value>
             </sv:property>
             <sv:property sv:name="title_ru" sv:type="String">
-              <sv:value>Мы сохраняем ваши файлы в конфиденциальности</sv:value>
+              <sv:value>SVG для JPG онлайн</sv:value>
             </sv:property>
             <sv:property sv:name="title_sk" sv:type="String">
-              <sv:value>Vaše súbory uchovávame v súkromí</sv:value>
+              <sv:value>SVG na JPG online</sv:value>
             </sv:property>
             <sv:property sv:name="title_sq" sv:type="String">
-              <sv:value>Ne mbajmë skedarët tuaj në fshehtësi</sv:value>
+              <sv:value>SVG në JPG online</sv:value>
             </sv:property>
             <sv:property sv:name="title_sv" sv:type="String">
-              <sv:value>Vi behåller dina filer i sekretess</sv:value>
+              <sv:value>SVG till JPG online</sv:value>
             </sv:property>
             <sv:property sv:name="title_th" sv:type="String">
-              <sv:value>เราเก็บไฟล์ของคุณอย่างเป็นส่วนตัว</sv:value>
+              <sv:value>SVG ไปยัง JPG แบบออนไลน์</sv:value>
             </sv:property>
             <sv:property sv:name="title_tr" sv:type="String">
-              <sv:value>Dosyalarınızı gizlilik içinde tutuyoruz</sv:value>
+              <sv:value>Çevrimiçi JPG'ye SVG</sv:value>
             </sv:property>
             <sv:property sv:name="title_vi" sv:type="String">
-              <sv:value>Chúng tôi giữ riêng tư tệp của bạn</sv:value>
+              <sv:value>SVG sang JPG trực tuyến</sv:value>
             </sv:property>
           </sv:node>
           <sv:node sv:name="01">

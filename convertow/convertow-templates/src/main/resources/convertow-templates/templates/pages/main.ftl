@@ -33,6 +33,7 @@
     var contextPath = "${ctx.contextPath!}";
     var fileName;
     $(document).ready(function(){
+        $(".rotate-form").hide();
 
         $(function() {
             $('.lazy').lazy();
@@ -46,7 +47,7 @@
 
             var password = $("#password").val();
             var retypepassword = $("#retypepassword").val();
-
+            var degrees = $("#degrees").val();
             /*url = restPath + $(".userID").val() +"&name=" + $(".fileName").val() +"&password=" + password;*/
 
             if( $("#protectPDF").length > 0 ){
@@ -68,6 +69,9 @@
                     $(".zip-archive").hide();
                 }
                 url = restPath + $(".userID").val() +"&name=" + $(".fileName").val() +"&password=" + password;
+            }
+            if( $("#rotatePDF").length > 0 ){
+                url = restPath + $(".userID").val() +"&name=" + $(".fileName").val() +"&degrees=" + degrees;
             }
 
             if ( canGo ){
@@ -101,6 +105,7 @@
                         $(".zip-archive").show();
                         $(".alert-info").hide();
                         $(".protect-form").hide();
+                        $(".rotate-form").hide();
 
                         var error = e.error;
 
@@ -192,6 +197,9 @@
                     if( $("#protectPDF").length > 0 ) {
                         $(".pdf-protect-error").hide();
                         $(".protect-form").show();
+                    }
+                    if( $("#rotatePDF").length > 0 ){
+                        $(".rotate-form").show();
                     }
                 }
             });

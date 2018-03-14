@@ -1,0 +1,3 @@
+templateScript: /convertow-rotate-pdf/templates/components/rotatePdf.ftl
+renderType: freemarker
+title: Rotate PDF

@@ -39,6 +39,8 @@ areas:
         id: convertow-unlock-pdf:components/unlockPdf
       notFound:
         id: convertow-templates:components/content/404
+      rotatePdf:
+        id: convertow-rotate-pdf:components/rotatePdf
   footer:
     editable: false
 title: Standard

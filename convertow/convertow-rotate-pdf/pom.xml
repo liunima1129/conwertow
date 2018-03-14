@@ -7,10 +7,10 @@
     <version>1.0-SNAPSHOT</version>
   </parent>
   <groupId>com.convertow</groupId>
-  <artifactId>convertow-templates</artifactId>
+  <artifactId>convertow-rotate-pdf</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
-  <name>convertow-templates Magnolia Module</name>
+  <name>convertow-rotate-pdf Magnolia Module</name>
   <!--
   <description>Please uncomment and fill in ...</description>
   -->
@@ -24,11 +24,6 @@
       <groupId>info.magnolia</groupId>
       <artifactId>magnolia-core</artifactId>
       <version>${magnoliaVersion}</version>
-    </dependency>
-    <dependency>
-      <groupId>info.magnolia.site</groupId>
-      <artifactId>magnolia-site-app</artifactId>
-      <version>1.0.7</version>
     </dependency>
     <dependency>
       <groupId>javax.servlet</groupId>
@@ -45,105 +40,89 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>info.magnolia.imaging</groupId>
-      <artifactId>magnolia-imaging</artifactId>
-      <version>3.4</version>
+      <groupId>com.convertow</groupId>
+      <artifactId>convertow-core</artifactId>
+      <version>1.0-SNAPSHOT</version>
     </dependency>
-
-    <!--DAM-->
+    <!--REST-->
     <dependency>
-      <groupId>info.magnolia.dam</groupId>
-      <artifactId>magnolia-dam-api</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>info.magnolia.dam</groupId>
-      <artifactId>magnolia-dam-app</artifactId>
+      <groupId>info.magnolia.rest</groupId>
+      <artifactId>magnolia-rest-services</artifactId>
+      <version>2.0.1</version>
     </dependency>
     <dependency>
-      <groupId>info.magnolia.dam</groupId>
-      <artifactId>magnolia-dam-compatibility</artifactId>
+      <groupId>info.magnolia.rest</groupId>
+      <artifactId>magnolia-rest-integration</artifactId>
+      <version>2.0.1</version>
     </dependency>
     <dependency>
-      <groupId>info.magnolia.dam</groupId>
-      <artifactId>magnolia-dam-core</artifactId>
+      <groupId>info.magnolia.rest</groupId>
+      <artifactId>magnolia-rest-content-delivery</artifactId>
+      <version>2.0.1</version>
     </dependency>
     <dependency>
-      <groupId>info.magnolia.dam</groupId>
-      <artifactId>magnolia-dam-jcr</artifactId>
+      <groupId>info.magnolia.rest</groupId>
+      <artifactId>magnolia-rest-tools</artifactId>
+      <version>2.0.1</version>
     </dependency>
     <dependency>
-      <groupId>info.magnolia.dam</groupId>
-      <artifactId>magnolia-dam-templating</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>info.magnolia.dam</groupId>
-      <artifactId>magnolia-dam-imaging</artifactId>
+      <groupId>com.itextpdf</groupId>
+      <artifactId>barcodes</artifactId>
+      <version>7.0.0</version>
+      <!-- barcodes depends on kernel -->
     </dependency>
 
     <dependency>
-      <groupId>com.convertow</groupId>
-      <artifactId>convertow-pdf-to-jpg</artifactId>
-      <version>1.0-SNAPSHOT</version>
+      <groupId>com.itextpdf</groupId>
+      <artifactId>font-asian</artifactId>
+      <version>7.0.0</version>
     </dependency>
+
     <dependency>
-      <groupId>com.convertow</groupId>
-      <artifactId>convertow-pdf-to-png</artifactId>
-      <version>1.0-SNAPSHOT</version>
+      <groupId>com.itextpdf</groupId>
+      <artifactId>forms</artifactId>
+      <version>7.0.0</version>
+      <!-- forms depends on kernel and layout -->
     </dependency>
+
     <dependency>
-      <groupId>com.convertow</groupId>
-      <artifactId>convertow-jpg-to-png</artifactId>
-      <version>1.0-SNAPSHOT</version>
+      <groupId>com.itextpdf</groupId>
+      <artifactId>hyph</artifactId>
+      <version>7.0.0</version>
     </dependency>
+
     <dependency>
-      <groupId>com.convertow</groupId>
-      <artifactId>convertow-png-to-jpg</artifactId>
-      <version>1.0-SNAPSHOT</version>
+      <groupId>com.itextpdf</groupId>
+      <artifactId>io</artifactId>
+      <version>7.0.0</version>
     </dependency>
+
     <dependency>
-      <groupId>com.convertow</groupId>
-      <artifactId>convertow-svg-to-png</artifactId>
-      <version>1.0-SNAPSHOT</version>
+      <groupId>com.itextpdf</groupId>
+      <artifactId>kernel</artifactId>
+      <version>7.0.0</version>
+      <!-- kernel depends on io -->
     </dependency>
+
     <dependency>
-      <groupId>com.convertow</groupId>
-      <artifactId>convertow-svg-to-jpg</artifactId>
-      <version>1.0-SNAPSHOT</version>
+      <groupId>com.itextpdf</groupId>
+      <artifactId>layout</artifactId>
+      <version>7.0.0</version>
+      <!-- layout depends on kernel -->
     </dependency>
+
     <dependency>
-      <groupId>com.convertow</groupId>
-      <artifactId>convertow-svg-to-tiff</artifactId>
-      <version>1.0-SNAPSHOT</version>
+      <groupId>com.itextpdf</groupId>
+      <artifactId>pdfa</artifactId>
+      <version>7.0.0</version>
+      <!-- pdfa depends on kernel -->
     </dependency>
+
     <dependency>
-      <groupId>com.convertow</groupId>
-      <artifactId>convertow-tiff-to-pdf</artifactId>
-      <version>1.0-SNAPSHOT</version>
-    </dependency>
-    <dependency>
-      <groupId>com.convertow</groupId>
-      <artifactId>convertow-tiff-to-jpg</artifactId>
-      <version>1.0-SNAPSHOT</version>
-    </dependency>
-    <dependency>
-      <groupId>com.convertow</groupId>
-      <artifactId>convertow-tiff-to-png</artifactId>
-      <version>1.0-SNAPSHOT</version>
-    </dependency>
-    <dependency>
-      <groupId>com.convertow</groupId>
-      <artifactId>convertow-protect-pdf</artifactId>
-      <version>1.0-SNAPSHOT</version>
-    </dependency>
-    <dependency>
-      <groupId>com.convertow</groupId>
-      <artifactId>convertow-unlock-pdf</artifactId>
-      <version>1.0-SNAPSHOT</version>
-    </dependency>
-    <dependency>
-      <groupId>com.convertow</groupId>
-      <artifactId>convertow-rotate-pdf</artifactId>
-      <version>1.0-SNAPSHOT</version>
+      <groupId>com.itextpdf</groupId>
+      <artifactId>sign</artifactId>
+      <version>7.0.0</version>
+      <!-- sign depends on kernel, layout and forms -->
     </dependency>
   </dependencies>
 
