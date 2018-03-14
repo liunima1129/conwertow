@@ -43,6 +43,8 @@ areas:
         id: convertow-rotate-pdf:components/rotatePdf
       pngToPdf:
         id: convertow-png-to-pdf:components/pngToPdf
+      jpgToPdf:
+        id: convertow-jpg-to-pdf:components/jpgToPdf
   footer:
     editable: false
 title: Standard

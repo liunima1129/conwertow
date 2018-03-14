@@ -322,5 +322,6 @@
     <module>convertow-unlock-pdf</module>
     <module>convertow-rotate-pdf</module>
     <module>convertow-png-to-pdf</module>
+    <module>convertow-jpg-to-pdf</module>
   </modules>
 </project>

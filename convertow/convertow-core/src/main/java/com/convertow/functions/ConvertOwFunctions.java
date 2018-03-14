@@ -1,7 +1,6 @@
 package com.convertow.functions;
 
-import com.itextpdf.text.BadElementException;
-import com.itextpdf.text.Image;
+import com.itextpdf.text.*;
 import com.itextpdf.text.pdf.PdfWriter;
 import com.sun.media.jai.codec.ImageCodec;
 import com.sun.media.jai.codec.ImageDecoder;
@@ -195,4 +194,70 @@ public class ConvertOwFunctions {
         return null;
     }
 
+    public static void imageToPdf(String filePath, OutputStream outputStream) throws IOException {
+        try {
+            Image image;
+            try {
+                image = Image.getInstance(filePath);
+            } catch (BadElementException bee) {
+                throw new IOException(bee);
+            }
+
+            //See http://stackoverflow.com/questions/1373035/how-do-i-scale-one-rectangle-to-the-maximum-size-possible-within-another-rectang
+            Rectangle A4 = PageSize.A4;
+
+            float scalePortrait = Math.min(A4.getWidth() / image.getWidth(),
+                    A4.getHeight() / image.getHeight());
+
+            float scaleLandscape = Math.min(A4.getHeight() / image.getWidth(),
+                    A4.getWidth() / image.getHeight());
+
+            // We try to occupy as much space as possible
+            // Sportrait = (w*scalePortrait) * (h*scalePortrait)
+            // Slandscape = (w*scaleLandscape) * (h*scaleLandscape)
+
+            // therefore the bigger area is where we have bigger scale
+            boolean isLandscape = scaleLandscape > scalePortrait;
+
+            float w;
+            float h;
+            if (isLandscape) {
+                A4 = A4.rotate();
+                w = image.getWidth() * scaleLandscape;
+                h = image.getHeight() * scaleLandscape;
+            } else {
+                w = image.getWidth() * scalePortrait;
+                h = image.getHeight() * scalePortrait;
+            }
+
+            com.itextpdf.text.Document document = new com.itextpdf.text.Document(A4, 10, 10, 10, 10);
+
+            try {
+                PdfWriter.getInstance(document, outputStream);
+            } catch (DocumentException e) {
+                throw new IOException(e);
+            }
+            document.open();
+            try {
+                image.scaleAbsolute(w, h);
+                float posH = (A4.getHeight() - h) / 2;
+                float posW = (A4.getWidth() - w) / 2;
+
+                image.setAbsolutePosition(posW, posH);
+                image.setBorder(Image.NO_BORDER);
+                image.setBorderWidth(0);
+
+                try {
+                    document.newPage();
+                    document.add(image);
+                } catch (DocumentException de) {
+                    throw new IOException(de);
+                }
+            } finally {
+                document.close();
+            }
+        } finally {
+            outputStream.close();
+        }
+    }
 }
