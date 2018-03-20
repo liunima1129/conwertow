@@ -1,0 +1,3 @@
+templateScript: /convertow-bmp-to-png/templates/components/bmpToPng.ftl
+renderType: freemarker
+title: BMP to PNG

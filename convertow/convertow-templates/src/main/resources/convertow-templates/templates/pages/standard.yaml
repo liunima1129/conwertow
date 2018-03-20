@@ -49,6 +49,10 @@ areas:
         id: convertow-compress-pdf:components/compressPdf
       bmpToPdf:
         id: convertow-bmp-to-pdf:components/bmpToPdf
+      bmpToJpg:
+        id: convertow-bmp-to-jpg:components/bmpToJpg
+      bmpToPng:
+        id: convertow-bmp-to-png:components/bmpToPng
   footer:
     editable: false
 title: Standard
