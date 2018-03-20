@@ -323,6 +323,7 @@
     <module>convertow-rotate-pdf</module>
     <module>convertow-png-to-pdf</module>
     <module>convertow-jpg-to-pdf</module>
+    <module>convertow-compress-pdf</module>
     <module>convertow-bmp-to-pdf</module>
   </modules>
 </project>
