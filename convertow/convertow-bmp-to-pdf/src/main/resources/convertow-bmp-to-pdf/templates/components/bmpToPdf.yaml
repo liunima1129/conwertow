@@ -1,0 +1,3 @@
+templateScript: /convertow-bmp-to-pdf/templates/components/bmpToPdf.ftl
+renderType: freemarker
+title: BMP to PDF

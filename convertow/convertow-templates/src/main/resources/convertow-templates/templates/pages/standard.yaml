@@ -45,6 +45,8 @@ areas:
         id: convertow-png-to-pdf:components/pngToPdf
       jpgToPdf:
         id: convertow-jpg-to-pdf:components/jpgToPdf
+      bmpToPdf:
+        id: convertow-bmp-to-pdf:components/bmpToPdf
   footer:
     editable: false
 title: Standard
