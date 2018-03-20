@@ -1,0 +1,3 @@
+templateScript: /convertow-jpg-to-bmp/templates/components/jpgToBmp.ftl
+renderType: freemarker
+title: JPG to BMP

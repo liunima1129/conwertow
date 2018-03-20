@@ -328,5 +328,7 @@
     <module>convertow-bmp-to-jpg</module>
     <module>convertow-bmp-to-png</module>
     <module>convertow-pdf-to-bmp</module>
+    <module>convertow-jpg-to-bmp</module>
+    <module>convertow-png-to-bmp</module>
   </modules>
 </project>
