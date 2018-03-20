@@ -53,6 +53,8 @@ areas:
         id: convertow-bmp-to-jpg:components/bmpToJpg
       bmpToPng:
         id: convertow-bmp-to-png:components/bmpToPng
+      pdfToBmp:
+        id: convertow-pdf-to-bmp:components/pdfToBmp
   footer:
     editable: false
 title: Standard

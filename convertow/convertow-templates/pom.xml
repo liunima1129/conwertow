@@ -175,6 +175,11 @@
       <artifactId>convertow-bmp-to-png</artifactId>
       <version>1.0-SNAPSHOT</version>
     </dependency>
+    <dependency>
+      <groupId>com.convertow</groupId>
+      <artifactId>convertow-pdf-to-bmp</artifactId>
+      <version>1.0-SNAPSHOT</version>
+    </dependency>
   </dependencies>
 
   <build>
